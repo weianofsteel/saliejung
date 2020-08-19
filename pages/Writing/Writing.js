@@ -4,7 +4,9 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     title:{
-        color:"blue"
+        color:"blue",
+        fontFamily:"Asap",
+        fontSize:"60px"
     }
 }));
 

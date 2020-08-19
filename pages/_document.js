@@ -9,11 +9,15 @@ class MyDocument extends Document {
                 <Head>
                     <link
                         rel="stylesheet"
-                        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
                     />
                     <link
                         rel="stylesheet"
-                        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap"
+                    />
+                    <link 
+                        href="https://fonts.googleapis.com/css2?family=Asap&display=swap" 
+                        rel="stylesheet"
                     />
                 </Head>
                 <body>
