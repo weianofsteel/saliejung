@@ -60,7 +60,8 @@
 }
 
 .showcaseBox {
-    background-color: #F5F5F5;
+    /* background-color: #F5F5F5; */
+    background-color: yellow;
     height: 500px
 }
 
@@ -109,7 +110,6 @@
 
 .footerBlock2 {
     margin-top: 2%;
-    margin-bottom: 3%;
 }
 
 /* ./component/Home/Footer.js */
