@@ -5,20 +5,6 @@
     margin-right: 6%
 }
 
-.title {
-    font-family: 'Roboto Slab';
-    font-size: 32px
-}
-
-.menuBar {
-    display: inline;
-}
-
-.link {
-    margin-left: 20px;
-    font-size:22px
-}
-
 .buttonViewAllProjects {
     font-family: 'Roboto';
     font-size: 22px;
@@ -38,6 +24,24 @@
 }
 
 /* ./pages/index.js */
+
+/* ./component/Home/Header.js */
+
+.title {
+    font-family: 'Roboto Slab';
+    font-size: 32px
+}
+
+.menuBar {
+    display: inline;
+}
+
+.link {
+    margin-left: 20px;
+    font-size:22px
+}
+
+/* ./component/Home/Header.js */
 
 /* ./component/Home/Banner.js */
 

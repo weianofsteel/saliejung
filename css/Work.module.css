@@ -1,0 +1,29 @@
+
+.main {
+    margin-left: 6%;
+    margin-right: 6%
+}
+
+.title {
+    font-family: 'Roboto Slab';
+}
+
+/* ./component/Work/Showcase.js */
+
+.showcaseBlock {
+    margin-top: 1%
+}
+
+.showcaseBox {
+    background-color: #F5F5F5;
+    height: 500px
+}
+
+/* ./component/Work/Showcase.js */
+
+.footer {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    border-top: 1px solid #1F1F1F;
+}
