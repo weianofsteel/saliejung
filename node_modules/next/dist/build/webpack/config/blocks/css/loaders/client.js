@@ -9,5 +9,6 @@ var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parent
 // Each style tag should be placed right before our
 // anchor. By inserting before and not after, we do not
 // need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement);}}}:{loader:_miniCssExtractPlugin.default.loader,options:{publicPath:`${assetPrefix}/_next/`}};}
+parentNode.insertBefore(element,anchorElement);}}}:{// @ts-ignore: TODO: remove when webpack 5 is stable
+loader:_miniCssExtractPlugin.default.loader,options:{publicPath:`${assetPrefix}/_next/`}};}
 //# sourceMappingURL=client.js.map

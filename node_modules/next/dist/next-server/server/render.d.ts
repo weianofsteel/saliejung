@@ -3,8 +3,8 @@ import { IncomingMessage, ServerResponse } from 'http';
 import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
 import { __ApiPreviewProps } from './api-utils';
-import { LoadComponentsReturnType } from './load-components';
 import { FontManifest } from './font-utils';
+import { LoadComponentsReturnType } from './load-components';
 export declare type RenderOptsPartial = {
     buildId: string;
     canonicalBase: string;

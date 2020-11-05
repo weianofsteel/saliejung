@@ -11,8 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "next": "^9.5.2",
+    "next-google-fonts": "^1.2.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-google-recaptcha-v3": "^1.5.2"
   }
 }

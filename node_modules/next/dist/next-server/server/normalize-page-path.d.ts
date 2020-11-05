@@ -1,3 +1,2 @@
-export declare function normalizePathSep(path: string): string;
+export { normalizePathSep, denormalizePagePath } from './denormalize-page-path';
 export declare function normalizePagePath(page: string): string;
-export declare function denormalizePagePath(page: string): string;

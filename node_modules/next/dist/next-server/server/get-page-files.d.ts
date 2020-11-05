@@ -1,12 +1,12 @@
 export declare type BuildManifest = {
-    devFiles: string[];
-    ampDevFiles: string[];
-    polyfillFiles: string[];
-    lowPriorityFiles: string[];
+    devFiles: readonly string[];
+    ampDevFiles: readonly string[];
+    polyfillFiles: readonly string[];
+    lowPriorityFiles: readonly string[];
     pages: {
-        '/_app': string[];
-        [page: string]: string[];
+        '/_app': readonly string[];
+        [page: string]: readonly string[];
     };
-    ampFirstPages: string[];
+    ampFirstPages: readonly string[];
 };
-export declare function getPageFiles(buildManifest: BuildManifest, page: string): string[];
+export declare function getPageFiles(buildManifest: BuildManifest, page: string): readonly string[];

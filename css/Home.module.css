@@ -1,0 +1,115 @@
+/* ./pages/index.js */
+
+.main1 {
+    margin-left: 6%;
+    margin-right: 6%
+}
+
+.title {
+    font-family: 'Roboto Slab';
+    font-size: 32px
+}
+
+.menuBar {
+    display: inline;
+}
+
+.link {
+    margin-left: 20px;
+    font-size:22px
+}
+
+.buttonViewAllProjects {
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: #8F8F8F;
+    font-weight: 300
+}
+
+.main2 {
+    background-color: #F5F5F5;
+}
+
+.main3 {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    border-top: 1px solid #1F1F1F;
+}
+
+/* ./pages/index.js */
+
+/* ./component/Home/Banner.js */
+
+.banner {
+    font-family: 'Roboto Slab';
+    font-size: 40px
+}
+
+.banner2 {
+    font-family: 'Roboto';
+    font-size: 18px
+}
+
+/* ./component/Home/Banner.js */
+
+/* ./component/Home/Showcase.js */
+
+.showcaseBlock {
+    margin-top: 1%
+}
+
+.showcaseBox {
+    background-color: #F5F5F5;
+    height: 500px
+}
+
+/* ./component/Home/Showcase.js */
+
+/* ./component/Home/Writings.js */
+
+.writingsTitle {
+    font-size: 76px;
+}
+
+.articleBlock {
+    border-top: 1px solid #B8B8B8;
+    padding-left: 0;
+    padding-right: 0;
+    color: #1F1F1F;
+    font-size: 36px;
+}
+
+.imageBlock {
+    background-color: #FFFFFF;
+    height: 400px
+}
+
+/* ./component/Home/Writings.js */
+
+/* ./component/Home/Funfacts.js */
+
+.funFactsTitle {
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+}
+
+.buttonKnowMoreAboutMe {
+    text-align: center;
+}
+
+/* ./component/Home/Funfacts.js */
+
+/* ./component/Home/Footer.js */
+
+.footerBlock {
+    padding-top: 3%;
+}
+
+.footerBlock2 {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+/* ./component/Home/Footer.js */

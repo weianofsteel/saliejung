@@ -7,6 +7,9 @@
 a {
     font-family: 'Work Sans', sans-serif;
 }
-/* .title{
+.title{
     font-family: 'Work Sans', sans-serif;
-} */
+    color:"blue";
+    font-family:"Inter";
+    font-size:"60px"
+}

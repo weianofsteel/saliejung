@@ -11,7 +11,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */ // This file is based on https://github.com/developit/mitt/blob/v1.1.3/src/index.js
 // It's been edited for the needs of this script
 // See the LICENSE at the top of the file
-function mitt(){const all=Object.create(null);return{on(type,handler){;(all[type]||(all[type]=[])).push(handler);},off(type,handler){if(all[type]){// tslint:disable-next-line:no-bitwise
-all[type].splice(all[type].indexOf(handler)>>>0,1);}},emit(type,...evts){// eslint-disable-next-line array-callback-return
+function mitt(){const all=Object.create(null);return{on(type,handler){;(all[type]||(all[type]=[])).push(handler);},off(type,handler){if(all[type]){all[type].splice(all[type].indexOf(handler)>>>0,1);}},emit(type,...evts){// eslint-disable-next-line array-callback-return
 ;(all[type]||[]).slice().map(handler=>{handler(...evts);});}};}
 //# sourceMappingURL=mitt.js.map

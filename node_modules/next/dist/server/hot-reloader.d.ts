@@ -2,6 +2,7 @@
 import { IncomingMessage, ServerResponse } from 'http';
 import { UrlObject } from 'url';
 import { __ApiPreviewProps } from '../next-server/server/api-utils';
+import { Rewrite } from '../lib/load-custom-routes';
 export declare function renderScriptError(res: ServerResponse, error: Error, { verbose }?: {
     verbose?: boolean | undefined;
 }): Promise<void>;
@@ -21,11 +22,13 @@ export default class HotReloader {
     private onDemandEntries;
     private previewProps;
     private watcher;
-    constructor(dir: string, { config, pagesDir, buildId, previewProps, }: {
+    private rewrites;
+    constructor(dir: string, { config, pagesDir, buildId, previewProps, rewrites, }: {
         config: object;
         pagesDir: string;
         buildId: string;
         previewProps: __ApiPreviewProps;
+        rewrites: Rewrite[];
     });
     run(req: IncomingMessage, res: ServerResponse, parsedUrl: UrlObject): Promise<{
         finished?: true;
@@ -35,6 +38,6 @@ export default class HotReloader {
     start(): Promise<void>;
     stop(): Promise<void>;
     getCompilationErrors(page: string): Promise<any[]>;
-    private send;
+    send(action?: string, ...args: any[]): void;
     ensurePage(page: string): Promise<any>;
 }

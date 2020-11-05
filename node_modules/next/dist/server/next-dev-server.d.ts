@@ -11,6 +11,7 @@ export default class DevServer extends Server {
     private webpackWatcher?;
     private hotReloader?;
     private isCustomServer;
+    protected sortedRoutes?: string[];
     protected staticPathsWorker: import('jest-worker').default & {
         loadStaticPaths: typeof import('./static-paths-worker').loadStaticPaths;
     };

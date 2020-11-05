@@ -7,6 +7,11 @@ export declare type OriginProps = {
     nonce?: string;
     crossOrigin?: string;
 };
+declare type DocumentFiles = {
+    sharedFiles: readonly string[];
+    pageFiles: readonly string[];
+    allFiles: readonly string[];
+};
 /**
  * `Document` component handles the initial `document` markup and renders only on the server side.
  * Commonly used for implementing server side rendering for `css-in-js` libraries.
@@ -29,9 +34,9 @@ export declare class Head extends Component<OriginProps & React.DetailedHTMLProp
         crossOrigin: PropTypes.Requireable<string>;
     };
     context: React.ContextType<typeof DocumentComponentContext>;
-    getCssLinks(): JSX.Element[] | null;
+    getCssLinks(files: DocumentFiles): JSX.Element[] | null;
     getPreloadDynamicChunks(): (JSX.Element | null)[];
-    getPreloadMainLinks(): JSX.Element[] | null;
+    getPreloadMainLinks(files: DocumentFiles): JSX.Element[] | null;
     makeStylesheetInert(node: ReactNode): ReactNode;
     render(): JSX.Element;
 }
@@ -44,8 +49,8 @@ export declare class NextScript extends Component<OriginProps> {
     };
     context: React.ContextType<typeof DocumentComponentContext>;
     static safariNomoduleFix: string;
-    getDynamicChunks(): (JSX.Element | null)[];
-    getScripts(): JSX.Element[];
+    getDynamicChunks(files: DocumentFiles): (JSX.Element | null)[];
+    getScripts(files: DocumentFiles): JSX.Element[];
     getPolyfillScripts(): JSX.Element[];
     static getInlineScriptSource(documentProps: DocumentProps): string;
     render(): JSX.Element | null;

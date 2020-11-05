@@ -1,7 +1,6 @@
 /// <reference types="node" />
 import { IncomingMessage, ServerResponse } from 'http';
 import { UrlWithParsedQuery } from 'url';
-import { ParsedUrlQuery } from 'querystring';
 export declare const route: (path: string) => (pathname: string | null | undefined, params?: any) => any;
 export declare type Params = {
     [param: string]: any;
@@ -28,10 +27,6 @@ export declare type DynamicRoutes = Array<{
     match: RouteMatch;
 }>;
 export declare type PageChecker = (pathname: string) => Promise<boolean>;
-export declare const prepareDestination: (destination: string, params: Params, query: ParsedUrlQuery, appendParamsToQuery: boolean, basePath: string) => {
-    newUrl: string;
-    parsedDestination: UrlWithParsedQuery;
-};
 export default class Router {
     basePath: string;
     headers: Route[];

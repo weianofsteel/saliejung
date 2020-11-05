@@ -21,4 +21,5 @@ export declare type PrerenderManifest = {
     };
     preview: __ApiPreviewProps;
 };
-export default function build(dir: string, conf?: null, reactProductionProfiling?: boolean): Promise<void>;
+export default function build(dir: string, conf?: null, reactProductionProfiling?: boolean, debugOutput?: boolean): Promise<void>;
+export declare type ClientSsgManifest = Set<string>;

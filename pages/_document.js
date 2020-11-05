@@ -7,18 +7,18 @@ class MyDocument extends Document {
         return(
             <Html>
                 <Head>
-                    <link
-                        rel="stylesheet"
-                        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
-                    />
-                    <link
-                        rel="stylesheet"
-                        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap"
-                    />
                     <link 
-                        href="https://fonts.googleapis.com/css2?family=Asap&display=swap" 
-                        rel="stylesheet"
-                    />
+                        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" 
+                        rel="stylesheet">
+                    </link>
+                    <link 
+                        href="https://fonts.googleapis.com/css2?family=Anton&display=swap" 
+                        rel="stylesheet">
+                    </link>
+                    <link 
+                        href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" 
+                        rel="stylesheet">
+                    </link>
                 </Head>
                 <body>
                     <Main />
