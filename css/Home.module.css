@@ -103,6 +103,30 @@
     text-align: center;
 }
 
+.funFactsContent {
+    font-size: 18px;
+}
+
+.galleryBlock1 {
+    background-color: rgb(255, 77, 77);
+    height: 350px
+}
+
+.galleryBlock2 {
+    background-color: rgb(255, 153, 102);
+    height: 350px
+}
+
+.galleryBlock3 {
+    background-color: rgb(255, 235, 153);
+    height: 350px
+}
+
+.galleryBlock4 {
+    background-color: rgb(179, 255, 179);
+    height: 350px
+}
+
 /* ./component/Home/Funfacts.js */
 
 /* ./component/Home/Footer.js */
@@ -113,6 +137,18 @@
 
 .footerBlock2 {
     margin-top: 2%;
+}
+
+.footerTitle {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 
 /* ./component/Home/Footer.js */

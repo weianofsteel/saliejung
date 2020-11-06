@@ -1,4 +1,36 @@
 
+.main {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10%
+}
+
+.title {
+    font-size: 76px;
+    font-family: 'Roboto Slab';
+}
+
+/* ./component/Writing/Article.js */
+
+.writingsTitle {
+    font-size: 76px;
+}
+
+.articleBlock {
+    border-top: 1px solid #B8B8B8;
+    padding-left: 0;
+    padding-right: 0;
+    color: #1F1F1F;
+    font-size: 36px;
+}
+
+.imageBlock {
+    background-color: #FFFFFF;
+    height: 400px
+}
+
+/* ./component/Writing/Article.js */
+
 .footer {
     margin-left: 6%;
     margin-right: 6%;

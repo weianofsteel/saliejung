@@ -1,7 +1,67 @@
 
+.main {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 10%
+}
+
+.title {
+    font-size: 76px;
+    font-family: 'Roboto Slab';
+}
+
 .footer {
     margin-left: 6%;
     margin-right: 6%;
-    margin-top: 6%;
+    margin-top: 15%;
     border-top: 1px solid #1F1F1F;
 }
+
+/* ./component/About/Aboutme.js */
+
+.aboutme {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.resumeButton {
+    color: #8F8F8F;
+    font-size: 22px;
+}
+
+/* ./component/About/Aboutme.js */
+
+/* ./component/About/Gallery.js */
+
+.imageBlock {
+    background-color: #ECECEC;
+    height: 300px
+}
+
+/* ./component/About/Gallery.js */
+
+/* ./component/About/Experience.js */
+
+.experienceTitle {
+    font-size: 25px;
+    font-family: 'Roboto Slab';
+    text-align: left;
+    border-bottom: 1px solid #1F1F1F;
+    line-height: 4rem;
+}
+
+.jobTitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.jobDetail {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+/* ./component/About/Experience.js */

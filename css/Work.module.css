@@ -1,11 +1,14 @@
 
 .main {
     margin-left: 6%;
-    margin-right: 6%
+    margin-right: 6%;
+    margin-top: 10%
 }
 
 .title {
     font-family: 'Roboto Slab';
+    font-size: 72px;
+    font-weight: 400;
 }
 
 /* ./component/Work/Showcase.js */
@@ -20,6 +23,14 @@
 }
 
 /* ./component/Work/Showcase.js */
+
+/* ./pages/Work/Agoda-flights/index.js */
+
+.header {
+    background-color: #F5F5F5;
+}
+
+/* ./pages/Work/Agoda-flights/index.js */
 
 .footer {
     margin-left: 6%;

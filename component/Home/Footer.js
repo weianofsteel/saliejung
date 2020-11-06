@@ -12,7 +12,7 @@ export const Footer = () => {
             
             <Grid container spacing={1} className={styles.footerBlock}>
                 <Grid item xs={7}>
-                    <div>
+                    <div className={styles.footerTitle}>
                         Salie ShengJung Chien --- Product Designer
                     </div>
                 </Grid>
@@ -47,12 +47,12 @@ export const Footer = () => {
 
             <Grid container spacing={1} className={styles.footerBlock2}>
                 <Grid item xs={12}>
-                    <span>
+                    <span className={styles.copyright}>
                         Designed by Chien ShengJung © 2020 all rights reserve 
                     </span>
                 </Grid>
                 <Grid item xs={12}>
-                    <span>
+                    <span className={styles.copyright}>
                         Developed by Wang WeiAn
                     </span>
                 </Grid>
