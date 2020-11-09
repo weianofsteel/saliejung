@@ -22,7 +22,7 @@ class Article extends React.Component {
                     <Grid item xs={5} className={styles.articleBlock} style={{paddingTop:20}}>
                         <span>
                             <Link
-                                href='/'
+                                href='/Writing/Article01'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                             >
                                 An exciting adventure for a new designer at Agoda
