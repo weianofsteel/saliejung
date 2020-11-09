@@ -6,11 +6,11 @@ export const Gallery = () => {
     return(
         <React.Fragment>
             
-            <Grid container spacing={3}>
+            <Grid container spacing={2}>
                 
                 <Grid item xs={6}>
                     
-                    <Grid container spacing={3} style={{paddingTop:"20%"}}>
+                    <Grid container spacing={2} style={{paddingTop:"20%"}}>
                         <Grid item xs={12}>
                             <div className={styles.imageBlock}></div>
                         </Grid>
@@ -23,7 +23,7 @@ export const Gallery = () => {
 
                 <Grid item xs={6}>
 
-                    <Grid container spacing={3} style={{paddingTop:"-20%"}}>
+                    <Grid container spacing={2} style={{paddingTop:"-20%"}}>
                         <Grid item xs={12}>
                             <div className={styles.imageBlock}></div>
                         </Grid>
