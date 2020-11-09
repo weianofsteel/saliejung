@@ -1,0 +1,118 @@
+import React from 'react';
+import Grid from '@material-ui/core/Grid';
+import styles from '../../css/Writing.module.css';
+import TextField from '@material-ui/core/TextField';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import IconButton from '@material-ui/core/IconButton';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+
+class Secure extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            password: "",
+            errorMessage: "",
+            isPass: false
+        }
+
+        this.handleChange = this.handleChange.bind(this);
+        this.setStateByName = this.setStateByName.bind(this);
+        this.recursiveReplaceValueByName = this.recursiveReplaceValueByName.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(e,callBack,nullValue=null) {
+        const {value, name} = e.target;
+        if (typeof callBack !=="function"){
+            callBack = function() {}
+        }
+        this.setStateByName(name, value!==""?value:null, callBack);
+    }
+
+    setStateByName(name, value, callBack) {
+        this.setState(function(prevState) {
+            return this.recursiveReplaceValueByName(name, prevState, value);
+        },callBack)
+    }
+
+    recursiveReplaceValueByName(name,object,value)
+    {
+        var keysArr = name.replace(/\[/g,".").replace(/\]/g,"").split(".");
+
+        var target = object;
+
+        for (var i = 0; i < keysArr.length; i++){
+            let key = keysArr[i];
+            if (!target.hasOwnProperty(key)){
+                return object;
+            }
+
+            if (i == keysArr.length - 1) {
+                target[key] = value;
+            }
+
+            target = target[key];
+        }
+
+        return object;
+    }
+
+    handleSubmit() {
+        if(this.state.password == '20180801'){
+            this.setState({
+                password: "",
+                isPass: true,
+                errorMessage: ""
+            })
+        } else {
+            this.setState({errorMessage: 'Enter Correct Password'})
+        }
+    }
+
+    render(){
+        return(
+            <React.Fragment>
+
+                <div className={styles.main}>
+                    
+                    <span className={styles.title}>
+                        Secure area
+                    </span>
+                    <br/>
+                    <br/>
+                    <span className={styles.description}>
+                        Please ask the password for permission.
+                    </span>
+
+                    <Grid container className={styles.password}>
+                        <Grid item xs={3}>
+                            <TextField 
+                                id="password" 
+                                label="Enter password" 
+                                variant="outlined"
+                                name="password"
+                                value={this.state.password}
+                                onChange={this.handleChange}
+                                helperText={this.state.errorMessage} 
+                                style={{width:"100%"}}
+                                InputProps={{
+                                    endAdornment: (
+                                      <InputAdornment>
+                                        <IconButton onClick={this.handleSubmit}>
+                                          <ArrowForwardIcon />
+                                        </IconButton>
+                                      </InputAdornment>
+                                    )
+                                }}
+                            />
+                        </Grid>
+                    </Grid>
+
+                </div>
+            
+            </React.Fragment>
+        )
+    }
+}
+
+export default Secure;

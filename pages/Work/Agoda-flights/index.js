@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import { Header } from '../../../component/Home/Header.js';
 import { Footer } from '../../../component/Home/Footer.js';
 import styles from '../../../css/Work.module.css';
+import Secure from '../../../component/Work/Secure.js';
 
 class AgodaFlights extends React.Component {
     constructor(props){
@@ -18,6 +19,10 @@ class AgodaFlights extends React.Component {
                 
                 <div className={styles.header}>
                     <Header/>
+                </div>
+
+                <div>
+                    <Secure/>
                 </div>
 
                 <div className={styles.footer}>

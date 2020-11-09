@@ -22,6 +22,11 @@
     height: 500px
 }
 
+.agodaLogo {
+    margin-top: 25%;
+    margin-left: 30%
+}
+
 /* ./component/Work/Showcase.js */
 
 /* ./pages/Work/Agoda-flights/index.js */
