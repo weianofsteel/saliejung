@@ -85,7 +85,134 @@
     color: #1F1F1F;
 }
 
+.dotLine {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.designHighlight {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #8F8F8F;
+}
+
+.designHighlightTitle {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #1F1F1F;
+}
+
+.designHighlightContent {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+.gallery1 {
+    background-color: #F5F5F5;
+}
+
+.imgDescription {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1F1F1F;
+}
+
+.reflection {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #1F1F1F;
+    text-align: center;
+}
+
+.dotAlign {
+    text-align: center;
+}
+
+.scrollDown {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8F8F8F;
+    text-align: center;
+}
+
 /* ./component/Work/AgodaFlights.js */
+
+/* ./component/Work/Progress01.js */
+
+.progressMain {
+    background-color: #F5F5F5;
+}
+
+.progressTitle1 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+.progressTitle2 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #1F1F1F;
+}
+
+.competitiveAnalysisTitle1 {
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #8F8F8F;
+}
+
+.competitiveAnalysisTitle2 {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #1F1F1F;
+}
+
+.competitiveAnalysisContent {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+.imgDescription2 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1F1F1F;
+}
+
+.researchTitle {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #1F1F1F;
+}
+
+/* ./component/Work/Progress01.js */
 
 /* ./component/Writing/Secure.js */
 

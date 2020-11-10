@@ -13,3 +13,17 @@ a {
     font-family:"Inter";
     font-size:"60px"
 }
+
+.MuiFormHelperText-root {
+    color: red !important;
+    font-size: 1rem !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: #1f1f1f !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused
+.MuiOutlinedInput-notchedOutline {
+    border-color: #1f1f1f !important;
+}

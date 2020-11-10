@@ -14,10 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Resume": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Resume.js"
     ],
     "/Work/Agoda-flights": [
       "static/chunks/main.js",
