@@ -4,8 +4,9 @@ import { Header } from '../../../component/Home/Header.js';
 import { Footer } from '../../../component/Home/Footer.js';
 import styles from '../../../css/Work.module.css';
 import Secure from '../../../component/Work/Secure.js';
+import flights01 from '../../../public/flights01.png';
 
-class AgodaFlights extends React.Component {
+class Page extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -16,10 +17,6 @@ class AgodaFlights extends React.Component {
     render(){
         return(
             <React.Fragment>
-                
-                <div className={styles.header}>
-                    <Header/>
-                </div>
 
                 <div>
                     <Secure/>
@@ -34,4 +31,7 @@ class AgodaFlights extends React.Component {
     }
 }
 
-export default AgodaFlights;
+export default Page;
+
+
+ 

@@ -1,10 +1,12 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import styles from '../../css/Writing.module.css';
+import styles from '../../css/Work.module.css';
 import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { AgodaFlights } from './AgodaFlights.js';
+import { Header } from '../../component/Home/Header.js';
 
 class Secure extends React.Component {
     constructor(props){
@@ -73,42 +75,71 @@ class Secure extends React.Component {
         return(
             <React.Fragment>
 
-                <div className={styles.main}>
-                    
-                    <span className={styles.title}>
-                        Secure area
-                    </span>
-                    <br/>
-                    <br/>
-                    <span className={styles.description}>
-                        Please ask the password for permission.
-                    </span>
+                
+                {this.state.isPass == false?
 
-                    <Grid container className={styles.password}>
-                        <Grid item xs={3}>
-                            <TextField 
-                                id="password" 
-                                label="Enter password" 
-                                variant="outlined"
-                                name="password"
-                                value={this.state.password}
-                                onChange={this.handleChange}
-                                helperText={this.state.errorMessage} 
-                                style={{width:"100%"}}
-                                InputProps={{
-                                    endAdornment: (
-                                      <InputAdornment>
-                                        <IconButton onClick={this.handleSubmit}>
-                                          <ArrowForwardIcon />
-                                        </IconButton>
-                                      </InputAdornment>
-                                    )
-                                }}
-                            />
-                        </Grid>
-                    </Grid>
+                    <React.Fragment>    
+                        <div>
+                            <Header/>
+                        </div>
 
-                </div>
+                        <div className={styles.main}>
+                            
+                            <span className={styles.title}>
+                                Secure area
+                            </span>
+                            <br/>
+                            <br/>
+                            <span className={styles.description}>
+                                Please ask the password for permission.
+                            </span>
+
+                            <Grid container className={styles.password}>
+                                <Grid item xs={3}>
+                                    <TextField 
+                                        id="password" 
+                                        label="Enter password" 
+                                        variant="outlined"
+                                        name="password"
+                                        value={this.state.password}
+                                        onChange={this.handleChange}
+                                        onKeyDown={(e)=>{
+                                            if(e.keyCode === 13){
+                                                this.handleSubmit();
+                                            }
+                                        }}
+                                        helperText={this.state.errorMessage} 
+                                        style={{width:"100%"}}
+                                        InputProps={{
+                                            endAdornment: (
+                                            <InputAdornment>
+                                                <IconButton onClick={this.handleSubmit}>
+                                                    <ArrowForwardIcon />
+                                                </IconButton>
+                                            </InputAdornment>
+                                            )
+                                        }}
+                                    />
+                                </Grid>
+                            </Grid>
+
+                        </div>
+                    </React.Fragment>: ""
+                }
+
+                {this.state.isPass == true?
+                
+                    <React.Fragment>
+                        <div  className={styles.header}>
+                            <Header/>
+                        </div>
+                        
+                        <div>
+                            <AgodaFlights/>
+                        </div>
+                    </React.Fragment>
+            
+                :""}
             
             </React.Fragment>
         )

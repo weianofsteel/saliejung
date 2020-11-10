@@ -29,10 +29,86 @@
 
 /* ./component/Work/Showcase.js */
 
+/* ./component/Work/AgodaFlights.js */
+
+.title2 {
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title3 {
+    font-family: 'Roboto Slab';
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    line-height: 60px
+}
+
+.title4 {
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.article {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.content {
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.contentTitle {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8F8F8F;
+}
+
+.contentDetail {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #1F1F1F;
+}
+
+/* ./component/Work/AgodaFlights.js */
+
+/* ./component/Writing/Secure.js */
+
+.description {
+    font-size: 14px; 
+ }
+ 
+.password {
+    margin-top: 5%;
+    margin-bottom: 15%
+}
+ 
+ /* ./component/Writing/Secure.js */
+
 /* ./pages/Work/Agoda-flights/index.js */
 
 .header {
     background-color: #F5F5F5;
+}
+
+.img01 {
+    background-color: #F5F5F5;
+    padding-top: 2%;
 }
 
 /* ./pages/Work/Agoda-flights/index.js */
