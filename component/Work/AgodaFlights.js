@@ -8,7 +8,10 @@ import flights04 from '../../public/flights04.png';
 import flights05 from '../../public/flights05.png';
 import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
-
+import { Process02 } from './Process02.js';
+import { Process03 } from './Process03.js';
+import Button from '@material-ui/core/Button';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 export const AgodaFlights = () => {
 
@@ -303,6 +306,30 @@ export const AgodaFlights = () => {
 
             <div>
                 <Process01/>
+            </div>
+
+            <div>
+                <Process02/>
+            </div>
+
+            <div>
+                <Process03/>
+            </div>
+
+            <div style={{marginTop:'8%', paddingBottom:'3%'}}>
+                <Grid container>
+                    <Grid item xs={5}></Grid>
+                    <Grid item xs={2} style={{textAlign:'center'}}>
+                        <Button
+                            endIcon={<ArrowForwardIcon/>}
+                        >
+                            <span className={styles.scrollDown}>
+                                next project
+                            </span>
+                        </Button>
+                    </Grid>
+                    <Grid item xs={5}></Grid>
+                </Grid>
             </div>
             
         </React.Fragment>

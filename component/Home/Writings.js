@@ -3,6 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
 import Link from '@material-ui/core/Link';
 import TouchAppIcon from '@material-ui/icons/TouchApp';
+import writing01 from '../../public/writings/writing01.png';
+import writing02 from '../../public/writings/writing02.png';
 
 export const Writings = () => {
     return(
@@ -62,8 +64,18 @@ export const Writings = () => {
 
             <Grid container spacing={1} style={{paddingTop:"5%", paddingBottom:"6%"}}>
                 <Grid item xs={2}></Grid>
-                <Grid item xs={4} className={styles.imageBlock} style={{marginRight:"1%"}}></Grid>
-                <Grid item xs={4} className={styles.imageBlock} style={{marginLeft:"1%"}}></Grid>
+                <Grid item xs={4} className={styles.imageBlock} style={{marginRight:"1%"}}>
+                    <img 
+                        src={writing01}
+                        style={{width:'100%', height:'100%'}}
+                    />
+                </Grid>
+                <Grid item xs={4} className={styles.imageBlock} style={{marginLeft:"1%"}}>
+                    <img 
+                        src={writing02}
+                        style={{width:'100%', height:'100%'}}
+                    />
+                </Grid>
                 <Grid item xs={2}></Grid>
             </Grid>
 

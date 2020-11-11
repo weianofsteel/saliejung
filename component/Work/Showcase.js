@@ -14,7 +14,7 @@ export const Showcase = () => {
                 <Grid item xs={5}>
                     <div className={styles.showcaseBox}>
                         <Link href='/Work/Agoda-flights'>
-                            <img src={agoda} className={styles.agodaLogo}/>
+                            <img src={agoda} className={styles.img}/>
                         </Link>
                     </div>
                 </Grid>
