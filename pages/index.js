@@ -8,8 +8,19 @@ import { Header } from '../component/Home/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { useEffect } from 'react';
 
 const Index = () => {
+    
+    const [scroll, setScroll] = React.useState(0);
+
+    useEffect(()=>{
+        if(window !== undefined){
+            setScroll(window.scrollY);
+        }
+    })
+
     return(
         <React.Fragment>
         
@@ -33,6 +44,16 @@ const Index = () => {
 
             {/* banner */}
 
+
+            <Grid container spacing={1} style={{marginTop:"2%"}}>
+            <Grid item xs={11}></Grid>
+            <Grid item xs={1}>
+            <Button style={{position:'fixed'}} onClick={()=>{console.log(scroll, 999)}}>
+                <ExpandLessIcon fontSize='large' style={{fontSize:'50px'}}/>
+            </Button>
+            </Grid>
+            </Grid>
+
             {/* showcase */}
 
                 <Grid container spacing={1} style={{marginTop:"12%"}}>
@@ -46,7 +67,9 @@ const Index = () => {
                  <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
                     <Grid item xs={5}></Grid>
                     <Grid item xs={2}>
-                        <Button href="/Work">
+                        <Button 
+                            href="/Work"
+                        >
                             <span className={styles.buttonViewAllProjects}>VIEW ALL PROJECTS</span>
                         </Button>
                     </Grid>

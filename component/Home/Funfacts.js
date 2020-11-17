@@ -107,6 +107,7 @@ class Funfacts extends React.Component {
                             size="large"
                             href="/"
                             style={{fontSize:"22px", color:"#8F8F8F"}}
+                            onClick={()=>{console.log(window.scrollY, 999)}}
                         >
                             <span style={{fontFamily:"Roboto"}}>KNOW MORE ABOUT ME</span>
                         </Button>
@@ -120,25 +121,21 @@ class Funfacts extends React.Component {
                         <Grid item xs={8}>
                             <Grid container spacing={1} style={{marginTop:"2%"}}>
                                 <Grid item xs={3}>
-                                    {/* <div className={styles.galleryBlock1}></div> */}
                                     <div>
                                         <img src={photo10} style={{width:"100%"}}/>
                                     </div>
                                 </Grid>
                                 <Grid item xs={3}>
-                                    {/* <div className={styles.galleryBlock2}></div> */}
                                     <div>
                                         <img src={photo5} style={{width:"100%"}}/>
                                     </div>
                                 </Grid>
                                 <Grid item xs={3}>
-                                    {/* <div className={styles.galleryBlock3}></div> */}
                                     <div>
                                         <img src={photo8} style={{width:"100%"}}/>
                                     </div>
                                 </Grid>
                                 <Grid item xs={3}>
-                                    {/* <div className={styles.galleryBlock4}></div> */}
                                     <div>
                                         <img src={photo3} style={{width:"100%"}}/>
                                     </div>

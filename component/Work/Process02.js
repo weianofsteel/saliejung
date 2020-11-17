@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import dot from '../../public/dot.png';
 import process06 from '../../public/agoda-flights/process06.png';
 import process07 from '../../public/agoda-flights/process07.png';
 import process08 from '../../public/agoda-flights/process08.png';
@@ -189,18 +188,6 @@ export const Process02 = () => {
                     <Grid item xs={3}></Grid>
                 </Grid>
 
-                {/* <Grid container style={{marginTop:'3%'}}>
-                    <Grid item xs={2}></Grid>
-                    <Grid item xs={8}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
-                            <img
-                                src={process11}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
-                    </Grid>
-                    <Grid item xs={2}></Grid>
-                </Grid> */}
                 <div>
                     <Carousel2/>
                 </div>
