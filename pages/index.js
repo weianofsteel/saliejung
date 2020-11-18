@@ -8,18 +8,16 @@ import { Header } from '../component/Home/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { Scrollup } from '../component/Public/Scrollup';
 import { useEffect } from 'react';
 
 const Index = () => {
-    
-    const [scroll, setScroll] = React.useState(0);
 
-    useEffect(()=>{
-        if(window !== undefined){
-            setScroll(window.scrollY);
+    const handleScrolltoTop = () => {
+        if(window !== undefined) {
+            window.scrollTo({top: 0, behavior: 'smooth'})
         }
-    })
+    }
 
     return(
         <React.Fragment>
@@ -44,15 +42,11 @@ const Index = () => {
 
             {/* banner */}
 
-
-            <Grid container spacing={1} style={{marginTop:"2%"}}>
-            <Grid item xs={11}></Grid>
-            <Grid item xs={1}>
-            <Button style={{position:'fixed'}} onClick={()=>{console.log(scroll, 999)}}>
-                <ExpandLessIcon fontSize='large' style={{fontSize:'50px'}}/>
-            </Button>
-            </Grid>
-            </Grid>
+                <div style={{paddingTop:'10%'}}>
+                    <Scrollup
+                        handleScrolltoTop={handleScrolltoTop}
+                    />
+                </div>
 
             {/* showcase */}
 

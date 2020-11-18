@@ -107,7 +107,6 @@ class Funfacts extends React.Component {
                             size="large"
                             href="/"
                             style={{fontSize:"22px", color:"#8F8F8F"}}
-                            onClick={()=>{console.log(window.scrollY, 999)}}
                         >
                             <span style={{fontFamily:"Roboto"}}>KNOW MORE ABOUT ME</span>
                         </Button>
