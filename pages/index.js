@@ -38,15 +38,15 @@ const Index = () => {
                     <div>
                         <Banner/>
                     </div>
-                </Grid>
+            
+                    <div style={{paddingTop:'20%',marginLeft:'80%',position:'fixed'}}>
+                        <Scrollup
+                            handleScrolltoTop={handleScrolltoTop}
+                        />
+                    </div>
+                </Grid>    
 
             {/* banner */}
-
-                <div style={{paddingTop:'10%'}}>
-                    <Scrollup
-                        handleScrolltoTop={handleScrolltoTop}
-                    />
-                </div>
 
             {/* showcase */}
 

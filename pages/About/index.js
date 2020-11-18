@@ -6,9 +6,16 @@ import { Footer } from '../../component/Home/Footer.js';
 import { Aboutme } from '../../component/About/Aboutme.js';
 import { Gallery } from '../../component/About/Gallery.js';
 import { Experience } from '../../component/About/Experience.js';
-
+import { Scrollup } from '../../component/Public/Scrollup';
 
 const About = () => {
+
+    const handleScrolltoTop = () => {
+        if(window !== undefined) {
+            window.scrollTo({top: 0, behavior: 'smooth'})
+        }
+    }
+
     return(
         <React.Fragment>
             
@@ -19,6 +26,12 @@ const About = () => {
             <div className={styles.main}>
                 
                 <span className={styles.title}>Hi!</span>
+
+                <div style={{paddingTop:'5%',marginLeft:'80%',position:'fixed'}}>
+                    <Scrollup
+                        handleScrolltoTop={handleScrolltoTop}
+                    />
+                </div>
 
                 <Grid container spacing={1} style={{marginTop:"3%"}}>
                     
