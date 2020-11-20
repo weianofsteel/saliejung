@@ -4,6 +4,7 @@ import styles from '../../css/Work.module.css';
 import agoda from '../../public/agoda-logo.png';
 import Link from '@material-ui/core/Link';
 import work07 from '../../public/work/work07.png';
+import showcase01 from '../../public/showcase/showcase01.png';
 
 
 export const Showcase = () => {
@@ -20,7 +21,9 @@ export const Showcase = () => {
                     </div>
                 </Grid>
                 <Grid item xs={7} style={{paddingLeft:"1%"}}>
-                    <div className={styles.showcaseBox}></div>
+                    <div className={styles.showcaseBox}>
+                        <img src={showcase01} className={styles.img}/>
+                    </div>
                 </Grid>     
             </Grid>
             
