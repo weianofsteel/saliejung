@@ -59,6 +59,15 @@ class Funfacts extends React.Component {
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8}>
                         <p className={styles.funFactsContent}>
+                            Work abroad is not my plan initially, but travel abroad does. During the
+                            transition period in 2018, I spent a month traveling in #Kyoto, which 
+                            is my favorite city (so far) and took an 8-hour bus to #Tokyo to stay 
+                            another week. I love exploring the world and also my home country 
+                            #Taiwan, where nature is easily accessible. When I was at college, I 
+                            applied for the travel & experience program to work as a #RideOperator 
+                            in an amusement park in Pennsylvania, the U.S.A. And now I just moved 
+                            to #Bangkok for 1.5 years, the adventure keeps moving on...
+                            
                             The story behind the name “saliejung” -  “salie” is my french name, “jung” is part of
                             the character of my Chinese name. I love how it combines & pronounce together, so 
                             that’s it. During the transfer period in 2018, I’ve  
