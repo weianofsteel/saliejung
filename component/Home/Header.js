@@ -6,15 +6,31 @@ import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Drawer from '@material-ui/core/Drawer';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        color:'#8F8F8F',
+        marginLeft: '20px',
+        fontSize:'22px',
+        letterSpacing: '2%',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});
 
 export const Header = () => {
+    
+    const classes = useStyles();
+
     return(
         <React.Fragment>
             
             <div className={styles.main1}>
                 <Grid container spacing={2} style={{marginTop: "10px"}}>
                     <Grid item xs={2}>
-                        <Link href='/' style={{color:'#1F1F1F'}}><span className={styles.title}>Saliejung</span></Link>
+                        <Link href='/' underline='none' style={{color:'#1F1F1F'}}><span className={styles.title}>Saliejung</span></Link>
                     </Grid>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={2}></Grid>
@@ -23,22 +39,22 @@ export const Header = () => {
                     <Hidden mdDown>
                         <Grid item xs={1} className={styles.menuBar}>
                             <span className={styles.link}>
-                                <Link href="/Work" style={{color:'#8F8F8F'}}>Work</Link>
+                                <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
                             </span>
                         </Grid>
                         <Grid item xs={1} className={styles.menuBar}>
                             <span className={styles.link}>
-                                <Link href="/Writing" style={{color:'#8F8F8F'}}>Writing</Link>
+                                <Link href="/Writing" underline='none' className={classes.link}>WRITING</Link>
                             </span>
                         </Grid>
                         <Grid item xs={1}>
                             <span className={styles.link}>
-                                <Link href="/About" style={{color:'#8F8F8F'}}>About</Link>
+                                <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
                             </span>
                         </Grid>
                         <Grid item xs={1}>    
                             <span className={styles.link}>
-                                <Link href="/Resume" style={{color:'#8F8F8F'}}>Resume</Link>
+                                <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
                             </span>
                         </Grid>
                     </Hidden>
@@ -63,6 +79,19 @@ export const Header = () => {
                 </Grid>
             </div>
 
+        </React.Fragment>
+    )
+}
+
+export const ViewButton = () => {
+
+    const classes = useStyles();
+
+    return(
+        <React.Fragment>
+            <span className={styles.link}>
+                <Link href="/Work" underline='none' className={classes.link}>VIEW ALL PROJECTS</Link>
+            </span>
         </React.Fragment>
     )
 }
