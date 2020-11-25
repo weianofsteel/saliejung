@@ -21,6 +21,7 @@ class Funfacts extends React.Component {
         this.handleOnMouseEnter2 = this.handleOnMouseEnter2.bind(this);
         this.handleOnMouseEnter3 = this.handleOnMouseEnter3.bind(this);
         this.handleOnMouseEnter4 = this.handleOnMouseEnter4.bind(this);
+        this.handleOnMouseEnter5 = this.handleOnMouseEnter5.bind(this);
     }
 
     handleOnMouseEnter1(){
@@ -43,6 +44,10 @@ class Funfacts extends React.Component {
         this.setState({galleryState: 4})
     }
 
+    handleOnMouseEnter5(){
+        this.setState({galleryState: 5})
+    }
+
     render() {
         return(
             <React.Fragment>
@@ -60,50 +65,44 @@ class Funfacts extends React.Component {
                     <Grid item xs={8}>
                         <p className={styles.funFactsContent}>
                             Work abroad is not my plan initially, but travel abroad does. During the
-                            transition period in 2018, I spent a month traveling in #Kyoto, which 
-                            is my favorite city (so far) and took an 8-hour bus to #Tokyo to stay 
-                            another week. I love exploring the world and also my home country 
-                            #Taiwan, where nature is easily accessible. When I was at college, I 
-                            applied for the travel & experience program to work as a #RideOperator 
-                            in an amusement park in Pennsylvania, the U.S.A. And now I just moved 
-                            to #Bangkok for 1.5 years, the adventure keeps moving on...
-                            
-                            The story behind the name “saliejung” -  “salie” is my french name, “jung” is part of
-                            the character of my Chinese name. I love how it combines & pronounce together, so 
-                            that’s it. During the transfer period in 2018, I’ve  
+                            transition period in 2018, I spent a month traveling in 
                             <span 
                                 onMouseEnter={this.handleOnMouseEnter1}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
-                                    &nbsp;#freelanced&nbsp;
+                                    &nbsp;#Kyoto&nbsp;
                             </span> 
-                            with #acer for two 
-                            campaign projects running in the European area. Back then, I spent 1-month traveling
-                            in 
+                            , which is my favorite city (so far) and took an 8-hour bus to 
                             <span 
                                 onMouseEnter={this.handleOnMouseEnter2}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
-                                    &nbsp;#Kyoto&nbsp;
-                            </span> 
-                            , which is my favorite city (so far). I love exploring the world and my 
-                            home 
+                                    &nbsp;#Tokyo&nbsp;
+                            </span>  
+                            to stay another week. I love exploring the world and also my home country 
                             <span 
                                 onMouseEnter={this.handleOnMouseEnter3}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
                                     &nbsp;#Taiwan&nbsp;
                             </span>
-                             where you can’t stop exploring nature. The most interesting fact about 
-                            me is that I’ve been a 
+                            , where nature is easily accessible. When I was at college, I 
+                            applied for the travel & experience program to work as a
                             <span 
                                 onMouseEnter={this.handleOnMouseEnter4}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
-                                    &nbsp;#ride operator&nbsp;
+                                    &nbsp;#RideOperator&nbsp;
                             </span>
-                             at a roller coaster when I joined the travel & 
-                            experience program at college in the U.S.A.
+                            in an amusement park in Pennsylvania, the U.S.A. And now I just moved 
+                            to 
+                            <span 
+                                onMouseEnter={this.handleOnMouseEnter4}
+                                onMouseLeave={this.handleOnMouseLeave}
+                            >
+                                    &nbsp;#Bangkok&nbsp;
+                            </span>
+                            for 1.5 years, the adventure keeps moving on...
                         </p>
                     </Grid>
                     <Grid item xs={2}></Grid>
@@ -112,13 +111,6 @@ class Funfacts extends React.Component {
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
                     <Grid item xs={5}></Grid>
                     <Grid item xs={2} className={styles.buttonKnowMoreAboutMe}>
-                        {/* <Button 
-                            size="large"
-                            href="/"
-                            style={{fontSize:"22px", color:"#8F8F8F"}}
-                        >
-                            <span style={{fontFamily:"Roboto"}}>KNOW MORE ABOUT ME</span>
-                        </Button> */}
                         <a href='/About' className={styles.viewLink}>KNOW MORE ABOUT ME</a>
                     </Grid>
                     <Grid item xs={5}></Grid>
@@ -199,6 +191,18 @@ class Funfacts extends React.Component {
                         <Grid item xs={3}></Grid>
                         <Grid item xs={6}>
                             {/* <div className={styles.galleryBlock4}></div> */}
+                            <div>
+                                <img src={photo3} style={{width:"100%"}}/>
+                            </div>
+                        </Grid>
+                        <Grid item xs={3}></Grid>
+                    </Grid>
+                :""}
+
+                {this.state.galleryState == 5 ? 
+                    <Grid container spacing={1} style={{marginTop:"2%"}}>
+                        <Grid item xs={3}></Grid>
+                        <Grid item xs={6}>
                             <div>
                                 <img src={photo3} style={{width:"100%"}}/>
                             </div>
