@@ -5,7 +5,6 @@ import { Showcase } from '../component/Home/Showcase.js';
 import { Writings } from '../component/Home/Writings.js';
 import { Footer } from '../component/Home/Footer.js';
 import { Header } from '../component/Home/Header.js';
-import { ViewButton } from '../component/Home/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
@@ -75,8 +74,8 @@ const Index = () => {
 
                  <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
                     <Grid item xs={5}></Grid>
-                    <Grid item xs={2}>
-                        <ViewButton/>
+                    <Grid item xs={2} style={{textAlign:'right'}}>
+                        <a href='/Work' className={styles.link}>VIEW ALL PROJECTS</a>
                     </Grid>
                     <Grid item xs={5}></Grid>
                 </Grid>

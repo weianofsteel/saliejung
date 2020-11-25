@@ -21,7 +21,7 @@ const useStyles = makeStyles({
 });
 
 export const Header = () => {
-    
+
     const classes = useStyles();
 
     return(
@@ -79,19 +79,6 @@ export const Header = () => {
                 </Grid>
             </div>
 
-        </React.Fragment>
-    )
-}
-
-export const ViewButton = () => {
-
-    const classes = useStyles();
-
-    return(
-        <React.Fragment>
-            <span className={styles.link}>
-                <Link href="/Work" underline='none' className={classes.link}>VIEW ALL PROJECTS</Link>
-            </span>
         </React.Fragment>
     )
 }
