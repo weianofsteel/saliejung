@@ -23,14 +23,14 @@
     border-top: 1px solid #1F1F1F;
 }
 
-.link {
+.viewLink {
     color:#8F8F8F;
     text-decoration: none;
     font-size: 22px;
     letter-spacing: 2%;
 }
 
-.link:hover {
+.viewLink:hover {
     color: black;
     font-size: 22px;
     letter-spacing: 2%;

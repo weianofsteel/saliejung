@@ -9,23 +9,8 @@ import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
 import { Scrollup } from '../component/Public/Scrollup';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles({
-    link: {
-        color:'#8F8F8F',
-        marginLeft: '20px',
-        fontSize:'22px',
-        letterSpacing: '2%',
-        "&:hover":{
-            color:'black'
-        }
-    }
-});
 
 const Index = () => {
-
-    const classes = useStyles();
     
     const handleScrolltoTop = () => {
         if(window !== undefined) {
@@ -75,7 +60,7 @@ const Index = () => {
                  <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
                     <Grid item xs={5}></Grid>
                     <Grid item xs={2} style={{textAlign:'right'}}>
-                        <a href='/Work' className={styles.link}>VIEW ALL PROJECTS</a>
+                        <a href='/Work' className={styles.viewLink}>VIEW ALL PROJECTS</a>
                     </Grid>
                     <Grid item xs={5}></Grid>
                 </Grid>

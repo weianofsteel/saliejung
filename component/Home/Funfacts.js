@@ -112,13 +112,14 @@ class Funfacts extends React.Component {
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
                     <Grid item xs={5}></Grid>
                     <Grid item xs={2} className={styles.buttonKnowMoreAboutMe}>
-                        <Button 
+                        {/* <Button 
                             size="large"
                             href="/"
                             style={{fontSize:"22px", color:"#8F8F8F"}}
                         >
                             <span style={{fontFamily:"Roboto"}}>KNOW MORE ABOUT ME</span>
-                        </Button>
+                        </Button> */}
+                        <a href='/About' className={styles.viewLink}>KNOW MORE ABOUT ME</a>
                     </Grid>
                     <Grid item xs={5}></Grid>
                 </Grid>
