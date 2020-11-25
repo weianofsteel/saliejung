@@ -76,11 +76,6 @@ const Index = () => {
                  <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
                     <Grid item xs={5}></Grid>
                     <Grid item xs={2}>
-                        {/* <Button 
-                            href="/Work"
-                        >
-                            <span className={styles.buttonViewAllProjects}>VIEW ALL PROJECTS</span>
-                        </Button> */}
                         <ViewButton/>
                     </Grid>
                     <Grid item xs={5}></Grid>

@@ -21,7 +21,7 @@ export const Showcase = () => {
                         />
                     </div>
                 </Grid>
-                <Grid item xs={7} style={{paddingLeft:"0.8%"}}>
+                <Grid item xs={7} style={{paddingLeft:"8px"}}>
                     <div className={styles.showcaseBox}>
                         <img src={showcase01} className={styles.img}/>
                     </div>
@@ -34,7 +34,7 @@ export const Showcase = () => {
                         <img src={showcase02} className={styles.img}/>
                     </div>
                 </Grid>
-                <Grid item xs={6} style={{paddingLeft:"0.8%"}}>
+                <Grid item xs={6} style={{paddingLeft:"8px"}}>
                     <div className={styles.showcaseBox}>
                         <img src={showcase03} className={styles.img}/>
                     </div>
@@ -47,7 +47,7 @@ export const Showcase = () => {
                         <img src={showcase04} className={styles.img}/>
                     </div>
                 </Grid>
-                <Grid item xs={5} style={{paddingLeft:"0.8%"}}>
+                <Grid item xs={5} style={{paddingLeft:"8px"}}>
                     <div className={styles.showcaseBox}>
                         <img src={showcase05} className={styles.img}/>
                     </div>
