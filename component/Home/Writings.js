@@ -16,7 +16,7 @@ export const Writings = () => {
                 <Grid item xs={2}></Grid>
                 <Grid item xs={4} style={{paddingLeft:0}}>
                     <span className={styles.writingsTitle}>
-                        <Link href="/Writing/Writing" style={{color:"black", fontFamily: 'Roboto Slab'}}>Writings</Link>
+                        Writings
                     </span>
                 </Grid>
                 <Grid item xs={4}></Grid>

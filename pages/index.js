@@ -58,11 +58,11 @@ const Index = () => {
             {/* view all projects */}
 
                  <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
-                    <Grid item xs={5}></Grid>
-                    <Grid item xs={2} style={{textAlign:'right'}}>
+                    <Grid item sm={3}></Grid>
+                    <Grid item xs={12} sm={6} style={{textAlign:'center'}}>
                         <a href='/Work' className={styles.viewLink}>VIEW ALL PROJECTS</a>
                     </Grid>
-                    <Grid item xs={5}></Grid>
+                    <Grid item md={3}></Grid>
                 </Grid>
 
             {/* view all projects */}

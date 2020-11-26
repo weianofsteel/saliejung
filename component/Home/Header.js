@@ -10,10 +10,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        letterSpacing:'2px',
         color:'#8F8F8F',
         marginLeft: '20px',
         fontSize:'22px',
-        letterSpacing: '2%',
         "&:hover":{
             color:'black'
         }
@@ -47,13 +49,13 @@ export const Header = () => {
                                 <Link href="/Writing" underline='none' className={classes.link}>WRITING</Link>
                             </span>
                         </Grid>
-                        <Grid item xs={1}>
-                            <span className={styles.link}>
+                        <Grid item xs={1} className={styles.menuBar}>
+                            <span className={styles.link2}>
                                 <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
                             </span>
                         </Grid>
-                        <Grid item xs={1}>    
-                            <span className={styles.link}>
+                        <Grid item xs={1} className={styles.menuBar}>    
+                            <span className={styles.link2}>
                                 <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
                             </span>
                         </Grid>

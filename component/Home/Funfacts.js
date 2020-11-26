@@ -67,6 +67,7 @@ class Funfacts extends React.Component {
                             Work abroad is not my plan initially, but travel abroad does. During the
                             transition period in 2018, I spent a month traveling in 
                             <span 
+                                style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleOnMouseEnter1}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
@@ -74,6 +75,7 @@ class Funfacts extends React.Component {
                             </span> 
                             , which is my favorite city (so far) and took an 8-hour bus to 
                             <span 
+                                style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleOnMouseEnter2}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
@@ -81,6 +83,7 @@ class Funfacts extends React.Component {
                             </span>  
                             to stay another week. I love exploring the world and also my home country 
                             <span 
+                                style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleOnMouseEnter3}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
@@ -89,6 +92,7 @@ class Funfacts extends React.Component {
                             , where nature is easily accessible. When I was at college, I 
                             applied for the travel & experience program to work as a
                             <span 
+                                style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleOnMouseEnter4}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >
@@ -97,6 +101,7 @@ class Funfacts extends React.Component {
                             in an amusement park in Pennsylvania, the U.S.A. And now I just moved 
                             to 
                             <span 
+                                style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleOnMouseEnter4}
                                 onMouseLeave={this.handleOnMouseLeave}
                             >

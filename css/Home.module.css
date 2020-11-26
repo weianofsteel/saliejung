@@ -24,16 +24,18 @@
 }
 
 .viewLink {
+    font-family: 'Roboto';
     color:#8F8F8F;
     text-decoration: none;
     font-size: 22px;
-    letter-spacing: 2%;
+    letter-spacing: 2px;
 }
 
 .viewLink:hover {
+    font-family: 'Roboto';
     color: black;
     font-size: 22px;
-    letter-spacing: 2%;
+    letter-spacing: 2px;
 }
 
 /* ./pages/index.js */
@@ -42,7 +44,7 @@
 
 .title {
     font-family: 'Roboto Slab';
-    font-size: 32px
+    font-size: 32px;
 }
 
 .menuBar {
@@ -50,8 +52,15 @@
 }
 
 .link {
+    margin-left: 5px;
+    font-size:22px;
+    text-decoration: none; 
+}
+
+.link2 {
     margin-left: 20px;
-    font-size:22px
+    font-size:22px;
+    text-decoration: none; 
 }
 
 /* ./component/Home/Header.js */
@@ -92,6 +101,9 @@
 
 .writingsTitle {
     font-size: 76px;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    line-height: 90px;
 }
 
 .articleBlock {
@@ -123,6 +135,9 @@
 
 .funFactsContent {
     font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .galleryBlock1 {
