@@ -17,7 +17,8 @@
     "next-google-fonts": "^1.2.1",
     "next-images": "^1.6.2",
     "react": "^16.13.1",
-    "react-auto-carousel": "^1.0.0",
+    "react-auto-carousel": "^1.4.2",
+    "react-customize-carousel": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-google-recaptcha": "^2.1.0",
     "react-google-recaptcha-v3": "^1.5.2"
