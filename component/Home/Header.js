@@ -12,13 +12,16 @@ const useStyles = makeStyles({
     link: {
         fontFamily:'Roboto',
         fontWeight:400,
-        letterSpacing:'2px',
+        letterSpacing:'1px',
+        marginLeft: '32px',
         color:'#8F8F8F',
-        marginLeft: '20px',
-        fontSize:'22px',
+        fontSize:'18px',
         "&:hover":{
             color:'black'
-        }
+        },
+    // menuBar: {
+    //     display: 'inline',
+    //     }
     }
 });
 
@@ -32,30 +35,24 @@ export const Header = () => {
             <div className={styles.main1}>
                 <Grid container spacing={2} style={{marginTop: "10px"}}>
                     <Grid item xs={2}>
-                        <Link href='/' underline='none' style={{color:'#1F1F1F'}}><span className={styles.title}>Saliejung</span></Link>
+                        <Link href='/' underline='none' style={{color:'#1F1F1F'}}><span className={styles.title}>saliejung</span></Link>
                     </Grid>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={2}></Grid>
                     
                     <Hidden mdDown>
-                        <Grid item xs={1} className={styles.menuBar}>
+                        <Grid item xs={4} className={styles.menuBar}>
                             <span className={styles.link}>
                                 <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
                             </span>
-                        </Grid>
-                        <Grid item xs={1} className={styles.menuBar}>
                             <span className={styles.link}>
-                                <Link href="/Writing" underline='none' className={classes.link}>WRITING</Link>
+                                <Link href="/Writing" underline='none' className={classes.link}>WRITINGS</Link>
                             </span>
-                        </Grid>
-                        <Grid item xs={1} className={styles.menuBar}>
-                            <span className={styles.link2}>
+                            <span className={styles.link}>
                                 <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
                             </span>
-                        </Grid>
-                        <Grid item xs={1} className={styles.menuBar}>    
-                            <span className={styles.link2}>
+                            <span className={styles.link}>
                                 <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
                             </span>
                         </Grid>
