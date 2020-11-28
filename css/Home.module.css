@@ -27,15 +27,15 @@
     font-family: 'Roboto';
     color:#8F8F8F;
     text-decoration: none;
-    font-size: 22px;
-    letter-spacing: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .viewLink:hover {
     font-family: 'Roboto';
     color: black;
-    font-size: 22px;
-    letter-spacing: 2px;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 /* ./pages/index.js */
