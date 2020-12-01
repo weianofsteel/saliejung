@@ -83,6 +83,12 @@
     height: 500px
 }
 
+.showcaseBox2 {
+    background-color: #1F1F1F 90%;
+    height: 500px;
+    z-index: 2;
+}
+
 .img {
     width: 100%;
     height: 100%;
