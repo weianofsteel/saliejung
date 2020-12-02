@@ -94,6 +94,28 @@
     height: 100%;
 }
 
+.titleOnHover {
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto';
+    line-height: 20px;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.title2OnHover {
+    font-size: 32px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    line-height: 44px;
+    text-align: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 /* ./component/Home/Showcase.js */
 
 /* ./component/Home/Writings.js */
