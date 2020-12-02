@@ -12,7 +12,7 @@ export const Footer = () => {
             
             <Grid container spacing={1} className={styles.footerBlock}>
                 <Grid item xs={7}>
-                    <div className={styles.footerTitle}>
+                    <div className={styles.footerTitle} style={{fontWeight:700}}>
                         Salie ShengJung Chien --- Product Designer
                     </div>
                 </Grid>
