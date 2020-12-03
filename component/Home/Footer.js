@@ -2,9 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
 import Button from '@material-ui/core/Button';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import ImportContactsIcon from '@material-ui/icons/ImportContacts';
+import Link from '@material-ui/core/Link';
 
 export const Footer = () => {
     return(
@@ -17,31 +15,35 @@ export const Footer = () => {
                     </div>
                 </Grid>
                 <Grid item xs={5}>
-                    <div>
+                    <div className={styles.footerLeftTitle}>
                         Open to new opportunities
                     </div>
-                    <br/>
-                    <Button 
+                    <Link 
                         href="/"
-                        startIcon={<MailOutlineIcon/>}
+                        underline='none'
+                        color='inherit'
+                        className={styles.footerLeftContent}
                     >
-                        GMAIL
-                    </Button>
+                        saliejung47@gmail.com
+                    </Link>
                     <br/>
                     <br/>
-                    <Button 
+                    <br/>
+                    <Link 
                         href="/"
-                        startIcon={<LinkedInIcon/>}
+                        color='inherit'
+                        className={styles.footerLeftContent}
                     >
                         LINKEDIN
-                    </Button>
+                    </Link>
                     <br/>
-                    <Button 
+                    <Link 
                         href="/"
-                        startIcon={<ImportContactsIcon/>}
+                        color='inherit'
+                        className={styles.footerLeftContent}
                     >
                         MEDIUM
-                    </Button>
+                    </Link>
                 </Grid>
             </Grid>
 

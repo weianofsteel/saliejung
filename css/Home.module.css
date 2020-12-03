@@ -199,13 +199,28 @@
     font-family: 'Roboto';
     font-weight: 700;
     line-height: 30px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.06rem;
 }
 
 .copyright {
     font-size: 12px;
     font-family: 'Roboto';
     font-weight: 400;
+    line-height: 16px;
+}
+
+.footerLeftTitle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footerLeftContent {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 /* ./component/Home/Footer.js */
