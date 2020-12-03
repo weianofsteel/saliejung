@@ -22,7 +22,7 @@ class Article extends React.Component {
                     <Grid item xs={5} className={styles.articleBlock} style={{paddingTop:20}}>
                         <span>
                             <Link
-                                href='/Writing/Article01'
+                                href='/Writing'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                             >
                                 An exciting adventure for a new designer at Agoda&ensp;
@@ -36,7 +36,7 @@ class Article extends React.Component {
                     <Grid item xs={5} className={styles.articleBlock} style={{paddingTop:20}}>
                         <span>
                             <Link
-                                href='/'
+                                href='/Writing'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                             >
                                 Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
