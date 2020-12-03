@@ -14,7 +14,11 @@ export const Scrollup = (props) => {
         }  
     })
 
-    const { handleScrolltoTop } = props;
+    const handleScrolltoTop = () => {
+        if(window !== undefined) {
+            window.scrollTo({top: 0, behavior: 'smooth'})
+        }
+    }
 
     return(
         <React.Fragment>

@@ -22,7 +22,6 @@ class Secure extends React.Component {
         this.setStateByName = this.setStateByName.bind(this);
         this.recursiveReplaceValueByName = this.recursiveReplaceValueByName.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.handleScrolltoTop = this.handleScrolltoTop.bind(this);
     }
 
     handleChange(e,callBack,nullValue=null) {
@@ -70,12 +69,6 @@ class Secure extends React.Component {
             })
         } else {
             this.setState({errorMessage: 'Enter Correct Password'})
-        }
-    }
-
-    handleScrolltoTop() {
-        if(window !== undefined) {
-            window.scrollTo({top: 0, behavior: 'smooth'})
         }
     }
 
@@ -143,9 +136,7 @@ class Secure extends React.Component {
                         </div>
 
                         <div style={{paddingTop:'30%',marginLeft:'80%',position:'fixed'}}>
-                            <Scrollup
-                                handleScrolltoTop={this.handleScrolltoTop}
-                            />
+                            <Scrollup/>
                         </div>
                         
                         <div>

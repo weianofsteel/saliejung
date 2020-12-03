@@ -8,15 +8,8 @@ import { Header } from '../component/Home/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
-// import { Scrollup } from '../component/Public/Scrollup';
 
 const Index = () => {
-    
-    // const handleScrolltoTop = () => {
-    //     if(window !== undefined) {
-    //         window.scrollTo({top: 0, behavior: 'smooth'})
-    //     }
-    // }
 
     return(
         <React.Fragment>
@@ -38,11 +31,6 @@ const Index = () => {
                         <Banner/>
                     </div>
             
-                    {/* <div style={{paddingTop:'20%',marginLeft:'80%',position:'fixed'}}>
-                        <Scrollup
-                            handleScrolltoTop={handleScrolltoTop}
-                        />
-                    </div> */}
                 </Grid>    
 
             {/* banner */}
