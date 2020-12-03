@@ -146,6 +146,8 @@
 
 .funFactsTitle {
     font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
     font-family: 'Roboto Slab';
     text-align: center;
 }
