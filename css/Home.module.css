@@ -133,11 +133,12 @@
     padding-right: 0;
     color: #1F1F1F;
     font-size: 36px;
+    height: 120%
 }
 
 .imageBlock {
-    background-color: #FFFFFF;
-    height: 400px
+    background-color: #F5F5F5;
+    height: 60%
 }
 
 /* ./component/Home/Writings.js */

@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
 import Link from '@material-ui/core/Link';
-import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+import CallMadeIcon from '@material-ui/icons/CallMade';
 import writing01 from '../../public/writings/writing01.png';
 import writing02 from '../../public/writings/writing02.png';
 
@@ -27,9 +27,10 @@ export const Writings = () => {
 
             {/* article */}
 
-            <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                <Grid item xs={2}></Grid>
-                <Grid item xs={4} className={styles.articleBlock} style={{marginRight:"1%",paddingTop:20}}>
+            <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
+                <Grid item xs={0} md={2}></Grid>
+                <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginRight:'1%',marginTop:'1%',paddingTop:20}}>
+                    <div style={{height:'15rem'}}>
                     <span>
                         <Link
                             href='/'
@@ -37,12 +38,20 @@ export const Writings = () => {
                         >
                             An exciting adventure for a new designer at Agoda&ensp;
                         </Link>
-                        <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                     </span>
                     <br/>
                     <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                    </div>
+                    <div className={styles.imageBlock}>
+                        <img 
+                            src={writing01}
+                            style={{width:'100%', height:'100%'}}
+                        />
+                    </div>
                 </Grid>
-                <Grid item xs={4} className={styles.articleBlock} style={{marginLeft:"1%",paddingTop:20}}>
+                <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
+                    <div style={{height:'15rem'}}>
                     <span>
                         <Link
                             href='/'
@@ -50,12 +59,19 @@ export const Writings = () => {
                         >
                             Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
                         </Link>
-                        <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                     </span>
                     <br/>
                     <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                    </div>
+                    <div className={styles.imageBlock}>
+                        <img 
+                            src={writing02}
+                            style={{width:'100%', height:'100%'}}
+                        />
+                    </div>
                 </Grid>
-                <Grid item xs={2}></Grid>
+                <Grid item xs={0} md={2}></Grid>
             </Grid>
 
             {/* article */}
@@ -64,18 +80,18 @@ export const Writings = () => {
 
             <Grid container spacing={1} style={{paddingTop:"5%", paddingBottom:"6%"}}>
                 <Grid item xs={2}></Grid>
-                <Grid item xs={4} className={styles.imageBlock} style={{marginRight:"1%"}}>
+                {/* <Grid item xs={4} className={styles.imageBlock} style={{marginRight:"1%"}}>
                     <img 
                         src={writing01}
                         style={{width:'100%', height:'100%'}}
                     />
-                </Grid>
-                <Grid item xs={4} className={styles.imageBlock} style={{marginLeft:"1%"}}>
+                </Grid> */}
+                {/* <Grid item xs={4} className={styles.imageBlock} style={{marginLeft:"1%"}}>
                     <img 
                         src={writing02}
                         style={{width:'100%', height:'100%'}}
                     />
-                </Grid>
+                </Grid> */}
                 <Grid item xs={2}></Grid>
             </Grid>
 
