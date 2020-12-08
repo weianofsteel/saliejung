@@ -26,6 +26,9 @@ const useStyles = makeStyles({
     },
     img1: {
         opacity:'10%'
+    },
+    showcaseBlock: {
+        marginTop: '0.3rem'
     }
 })
 
@@ -81,8 +84,8 @@ export const Showcase = () => {
     return(
         <React.Fragment>
             
-            <Grid container>
-                <Grid item xs={5}>
+            <Grid container spacing={1}>
+                <Grid item xs={12} md={5}>
                     <Link href='/' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box1===true?classes.imgBox:classes.imgBoxOnHover}
@@ -99,7 +102,7 @@ export const Showcase = () => {
                         </div>
                     </Link>
                 </Grid>
-                <Grid item xs={7} style={{paddingLeft:"8px"}}>
+                <Grid item xs={12} md={7}>
                     <Link href='/' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box2===true?classes.imgBox:classes.imgBoxOnHover}
@@ -118,8 +121,8 @@ export const Showcase = () => {
                 </Grid>     
             </Grid>
             
-            <Grid container className={styles.showcaseBlock}>
-                <Grid item xs={6}>
+            <Grid container className={classes.showcaseBlock} spacing={1}>
+                <Grid item xs={12} md={6}>
                     <Link href='/' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box3===true?classes.imgBox:classes.imgBoxOnHover}
@@ -136,7 +139,7 @@ export const Showcase = () => {
                         </div>
                     </Link>
                 </Grid>
-                <Grid item xs={6} style={{paddingLeft:"8px"}}>
+                <Grid item xs={12} md={6}>
                     <Link href='/' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box4===true?classes.imgBox:classes.imgBoxOnHover}
@@ -155,8 +158,8 @@ export const Showcase = () => {
                 </Grid>     
             </Grid>
 
-            <Grid container className={styles.showcaseBlock}>
-                <Grid item xs={7}>
+            <Grid container className={classes.showcaseBlock} spacing={1}>
+                <Grid item xs={12} md={7}>
                     <Link href='/' underline='none'>
                         <div 
                             className={box5===true?classes.imgBox:classes.imgBoxOnHover}
@@ -173,7 +176,7 @@ export const Showcase = () => {
                         </div>
                     </Link>
                 </Grid>
-                <Grid item xs={5} style={{paddingLeft:"8px"}}>
+                <Grid item xs={12} md={5}>
                     <Link href='/' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box6===true?classes.imgBox:classes.imgBoxOnHover}

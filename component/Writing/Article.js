@@ -2,7 +2,6 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Writing.module.css';
 import Link from '@material-ui/core/Link';
-// import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import CallMadeIcon from '@material-ui/icons/CallMade';
 
 class Article extends React.Component {
