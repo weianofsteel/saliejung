@@ -5,6 +5,7 @@ import Link from '@material-ui/core/Link';
 import CallMadeIcon from '@material-ui/icons/CallMade';
 import writing01 from '../../public/writings/writing01.png';
 import writing02 from '../../public/writings/writing02.png';
+import Hidden from '@material-ui/core/Hidden';
 
 export const Writings = () => {
     return(
@@ -12,16 +13,30 @@ export const Writings = () => {
             
             {/* title */}
 
-            <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                <Grid item xs={2}></Grid>
-                <Grid item xs={4} style={{paddingLeft:0}}>
-                    <span className={styles.writingsTitle}>
-                        Writings
-                    </span>
+            <Hidden smDown>
+                <Grid container spacing={1} style={{paddingTop:"6%"}}>
+                    <Grid item sm={2}></Grid>
+                    <Grid item sm={4} style={{paddingLeft:0}}>
+                        <span className={styles.writingsTitle}>
+                            Writings
+                        </span>
+                    </Grid>
+                    <Grid item sm={4}></Grid>
+                    <Grid item sm={2}></Grid>
                 </Grid>
-                <Grid item xs={4}></Grid>
-                <Grid item xs={2}></Grid>
-            </Grid>
+            </Hidden>
+            
+            <Hidden mdUp>
+                <Grid container spacing={1} style={{paddingTop:"6%"}}>
+                    <Grid item xs={3}></Grid>
+                    <Grid item xs={6} style={{textAlign:'center'}}>
+                        <span className={styles.writingsTitle}>
+                            Writings
+                        </span>
+                    </Grid>
+                    <Grid item xs={3}></Grid>
+                </Grid>
+            </Hidden>
 
             {/* title */}
 

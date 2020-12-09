@@ -15,7 +15,7 @@ class Article extends React.Component {
     render(){
         return(
             <React.Fragment>
-            
+                
                 {/* article */}
 
                 <Grid container spacing={1} style={{paddingTop:"6%"}}>
