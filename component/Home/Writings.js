@@ -28,13 +28,13 @@ export const Writings = () => {
             
             <Hidden mdUp>
                 <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item xs={3}></Grid>
-                    <Grid item xs={6} style={{textAlign:'center'}}>
+                    <Grid item xs={2}></Grid>
+                    <Grid item xs={8} style={{textAlign:'center'}}>
                         <span className={styles.writingsTitle}>
                             Writings
                         </span>
                     </Grid>
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={2}></Grid>
                 </Grid>
             </Hidden>
 
@@ -45,7 +45,7 @@ export const Writings = () => {
             <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
                 <Grid item xs={0} md={2}></Grid>
                 <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginRight:'1%',marginTop:'1%',paddingTop:20}}>
-                    <div style={{height:'15rem'}}>
+                    <div style={{height:'17rem'}}>
                     <span>
                         <Link
                             href='/'
@@ -66,7 +66,7 @@ export const Writings = () => {
                     </div>
                 </Grid>
                 <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
-                    <div style={{height:'15rem'}}>
+                    <div style={{height:'17rem'}}>
                     <span>
                         <Link
                             href='/'

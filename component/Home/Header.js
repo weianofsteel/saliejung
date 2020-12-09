@@ -59,7 +59,7 @@ export const Header = () => {
                         <Grid item xs={3}></Grid>
                         <Grid item xs={1}>
                             <IconButton>
-                                <MenuIcon/>
+                                <MenuIcon fontSize='large'/>
                             </IconButton>
                         </Grid>
                     </Hidden>

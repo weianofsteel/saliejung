@@ -9,12 +9,12 @@ export const Footer = () => {
         <React.Fragment>
             
             <Grid container spacing={1} className={styles.footerBlock}>
-                <Grid item xs={7}>
+                <Grid item xs={12} md={7}>
                     <div className={styles.footerTitle}>
                         Salie ShengJung Chien --- Product Designer
                     </div>
                 </Grid>
-                <Grid item xs={5}>
+                <Grid item xs={12} md={5}>
                     <div className={styles.footerLeftTitle}>
                         Open to new opportunities
                     </div>

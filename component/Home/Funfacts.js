@@ -53,11 +53,11 @@ class Funfacts extends React.Component {
             <React.Fragment>
             
                 <Grid container spacing={1} style={{marginTop:"6%"}}>
-                    <Grid item xs={5}></Grid>
-                    <Grid item xs={2}>
+                    <Grid item xs={3} xl={5}></Grid>
+                    <Grid item xs={6} xl={2}>
                         <h1 className={styles.funFactsTitle}>Fun Facts</h1>
                     </Grid>
-                    <Grid item xs={5}></Grid>
+                    <Grid item xs={3} xl={5}></Grid>
                 </Grid>
 
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
