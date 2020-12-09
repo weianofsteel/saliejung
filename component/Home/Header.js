@@ -7,6 +7,10 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Drawer from '@material-ui/core/Drawer';
 import { makeStyles } from '@material-ui/core/styles';
+import Divider from '@material-ui/core/Divider';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+import List from '@material-ui/core/List';
+import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
     link: {
@@ -25,6 +29,16 @@ const useStyles = makeStyles({
 export const Header = () => {
 
     const classes = useStyles();
+
+    const [ drawerOpen, setDrawerOpen ] = React.useState(false);
+
+    const handleDrawerOpen = () => {
+        setDrawerOpen(true);
+    }
+
+    const handleDrawerClose = () => {
+        setDrawerOpen(false);
+    }
 
     return(
         <React.Fragment>
@@ -58,7 +72,9 @@ export const Header = () => {
                     <Hidden lgUp>
                         <Grid item xs={3}></Grid>
                         <Grid item xs={1}>
-                            <IconButton>
+                            <IconButton
+                                onClick={handleDrawerOpen}
+                            >
                                 <MenuIcon fontSize='large'/>
                             </IconButton>
                         </Grid>
@@ -66,8 +82,48 @@ export const Header = () => {
 
                     {/* drawer */}
 
-                    <Drawer>
-                        
+                    <Drawer
+                        variant='persistent'
+                        anchor='right'
+                        open={drawerOpen}
+                    >
+                        <div>
+                           <IconButton
+                                onClick={handleDrawerClose}
+                           >
+                               <ChevronRightIcon/>
+                            </IconButton> 
+                        </div>
+                        <Divider/>
+                        <List>
+                            <div className={styles.drawerButton}>
+                                <span className={styles.link}>
+                                    <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
+                                </span>
+                            </div>
+                            <div className={styles.drawerButton}>
+                                <span className={styles.link}>
+                                    <Link href="/Writing" underline='none' className={classes.link}>WRITINGS</Link>
+                                </span>
+                            </div>
+                            <div className={styles.drawerButton}>
+                                <span className={styles.link}>
+                                    <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
+                                </span>
+                            </div>
+                            <div className={styles.drawerButton}>
+                                <span className={styles.link}>
+                                    <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
+                                </span>
+                            </div>
+                            {/* <Button
+                                href='/About'
+                                style={{textAlign:'center',width:'150%'}}
+                            >
+                                ABOUT
+                            </Button>
+                            <Button>RESUME</Button> */}
+                        </List>
                     </Drawer>
 
                     {/* drawer */}

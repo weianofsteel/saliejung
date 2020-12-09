@@ -56,6 +56,11 @@
     text-decoration: none; 
 }
 
+.drawerButton {
+    text-align: center;
+    width: 100%
+}
+
 /* ./component/Home/Header.js */
 
 /* ./component/Home/Banner.js */
