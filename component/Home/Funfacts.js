@@ -126,22 +126,32 @@ class Funfacts extends React.Component {
                         <Grid item xs={2}></Grid>
                         <Grid item xs={8}>
                             <Grid container spacing={1} style={{marginTop:"2%"}}>
-                                <Grid item xs={3}>
-                                    <div>
-                                        <img src={photo10} style={{width:"100%"}}/>
-                                    </div>
+                                <Grid item xs={12} md={4}>
+                                    <Grid container spacing={1}>
+                                        <Grid item xs={6}>
+                                            <div>
+                                                <img src={photo5} style={{width:"100%"}}/>
+                                            </div>
+                                            <div>
+                                                <img src={photo5} style={{width:"100%"}}/>
+                                            </div>
+                                        </Grid>
+                                        <Grid item xs={6}>
+                                            <div>
+                                                <img src={photo10} style={{width:"100%"}}/>
+                                            </div>
+                                            <div>
+                                                <img src={photo10} style={{width:"100%"}}/>
+                                            </div>
+                                        </Grid>
+                                    </Grid>
                                 </Grid>
-                                <Grid item xs={3}>
-                                    <div>
-                                        <img src={photo5} style={{width:"100%"}}/>
-                                    </div>
-                                </Grid>
-                                <Grid item xs={3}>
+                                <Grid item xs={12} md={4}>
                                     <div>
                                         <img src={photo8} style={{width:"100%"}}/>
                                     </div>
                                 </Grid>
-                                <Grid item xs={3}>
+                                <Grid item xs={12} md={4}>
                                     <div>
                                         <img src={photo3} style={{width:"100%"}}/>
                                     </div>
@@ -156,7 +166,6 @@ class Funfacts extends React.Component {
                     <Grid container spacing={1} style={{marginTop:"2%"}}>
                         <Grid item xs={3}></Grid>
                         <Grid item xs={6}>
-                            {/* <div className={styles.galleryBlock1}></div> */}
                             <div>
                                 <img src={photo10} style={{width:"100%"}}/>
                             </div>
@@ -169,7 +178,6 @@ class Funfacts extends React.Component {
                     <Grid container spacing={1} style={{marginTop:"2%"}}>
                         <Grid item xs={3}></Grid>
                         <Grid item xs={6}>
-                            {/* <div className={styles.galleryBlock2}></div> */}
                             <div>
                                 <img src={photo5} style={{width:"100%"}}/>
                             </div>
@@ -182,7 +190,6 @@ class Funfacts extends React.Component {
                     <Grid container spacing={1} style={{marginTop:"2%"}}>
                         <Grid item xs={3}></Grid>
                         <Grid item xs={6}>
-                            {/* <div className={styles.galleryBlock3}></div> */}
                             <div>
                                 <img src={photo8} style={{width:"100%"}}/>
                             </div>
@@ -195,7 +202,6 @@ class Funfacts extends React.Component {
                     <Grid container spacing={1} style={{marginTop:"2%"}}>
                         <Grid item xs={3}></Grid>
                         <Grid item xs={6}>
-                            {/* <div className={styles.galleryBlock4}></div> */}
                             <div>
                                 <img src={photo3} style={{width:"100%"}}/>
                             </div>

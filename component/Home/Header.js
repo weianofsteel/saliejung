@@ -10,7 +10,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import List from '@material-ui/core/List';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
     link: {
@@ -20,6 +19,18 @@ const useStyles = makeStyles({
         marginLeft: '32px',
         color:'#8F8F8F',
         fontSize:'18px',
+        "&:hover":{
+            color:'black'
+        }
+    },
+    drawerLink: {
+        fontFamily:'Roboto',
+        textAlign:'left',
+        fontWeight:400,
+        letterSpacing:'1px',
+        color:'#8F8F8F',
+        margin: 40,
+        fontSize:'22px',
         "&:hover":{
             color:'black'
         }
@@ -83,9 +94,10 @@ export const Header = () => {
                     {/* drawer */}
 
                     <Drawer
-                        variant='persistent'
+                        // variant='persistent'
                         anchor='right'
                         open={drawerOpen}
+                        className={classes.drawer}
                     >
                         <div>
                            <IconButton
@@ -98,22 +110,22 @@ export const Header = () => {
                         <List>
                             <div className={styles.drawerButton}>
                                 <span className={styles.link}>
-                                    <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
+                                    <Link href="/Work" underline='none' className={classes.drawerLink}>WORK</Link>
                                 </span>
                             </div>
                             <div className={styles.drawerButton}>
                                 <span className={styles.link}>
-                                    <Link href="/Writing" underline='none' className={classes.link}>WRITINGS</Link>
+                                    <Link href="/Writing" underline='none' className={classes.drawerLink}>WRITINGS</Link>
                                 </span>
                             </div>
                             <div className={styles.drawerButton}>
                                 <span className={styles.link}>
-                                    <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
+                                    <Link href="/About" underline='none' className={classes.drawerLink}>ABOUT</Link>
                                 </span>
                             </div>
                             <div className={styles.drawerButton}>
                                 <span className={styles.link}>
-                                    <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
+                                    <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
                                 </span>
                             </div>
                             {/* <Button

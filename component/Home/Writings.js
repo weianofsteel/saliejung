@@ -43,7 +43,7 @@ export const Writings = () => {
             {/* article */}
 
             <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
-                <Grid item xs={0} md={2}></Grid>
+                <Grid item xs={false} md={2}></Grid>
                 <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginRight:'1%',marginTop:'1%',paddingTop:20}}>
                     <div style={{height:'17rem'}}>
                     <span>
@@ -86,7 +86,7 @@ export const Writings = () => {
                         />
                     </div>
                 </Grid>
-                <Grid item xs={0} md={2}></Grid>
+                <Grid item xs={false} md={2}></Grid>
             </Grid>
 
             {/* article */}
