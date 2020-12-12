@@ -11,6 +11,8 @@ const Test = () => {
         <React.Fragment>
             <div>Carousel</div>
             <Typewriter
+                rotateSpeed={1500}
+                typeSpeed={150}
                 heading={'Typewriter'}
                 dataText={['ONE', 'TWOOOOOOOOOO', 'THREE', 'FOUR']}
             />

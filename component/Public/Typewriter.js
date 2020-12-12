@@ -41,18 +41,18 @@ class Typewriter extends React.Component {
 
   
     handleType() {
-      const { dataText } = this.props;
+      const { dataText, rotateSpeed, typeSpeed } = this.props;
       const { isDeleting, loopNum, text, typingSpeed } = this.state;
       const i = loopNum % dataText.length;
       const fullText = dataText[i];
   
       this.setState({
         text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
-        typingSpeed: isDeleting ? 150 : 150
+        typingSpeed: isDeleting ? (typeSpeed?typeSpeed:150) : 150
       });
   
       if (!isDeleting && text === fullText) {     
-        setTimeout(() => this.setState({ isDeleting: true }), 1500);   
+        setTimeout(() => this.setState({ isDeleting: true }), (rotateSpeed?rotateSpeed:500));   
       } else if (isDeleting && text === '') {
         this.setState({
           isDeleting: false,
