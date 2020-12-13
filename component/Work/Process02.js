@@ -16,8 +16,8 @@ export const Process02 = () => {
             <div className={styles.progressMain} style={{paddingTop:'3%'}}>
 
                 <Grid container>
-                    <Grid item xs={3}></Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={2} md={3}></Grid>
+                    <Grid item xs={8} md={6}>
                         <Grid container spacing={3} className={styles.content} style={{marginTop:'8%'}}>
                             <Grid item xs={12} style={{textAlign:'center'}}>
                                 <span className={styles.progressTitle1}>
@@ -36,12 +36,12 @@ export const Process02 = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={2} md={3}></Grid>
                 </Grid>
 
                 <Grid container style={{marginTop:'1%'}}>
-                    <Grid item xs={3}></Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={1} md={3}></Grid>
+                    <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
@@ -66,7 +66,7 @@ export const Process02 = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
                 <Grid container style={{marginTop:'3%'}}>
@@ -83,8 +83,8 @@ export const Process02 = () => {
                 </Grid>
 
                 <Grid container style={{marginTop:'3%'}}>
-                    <Grid item xs={3}></Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={1} md={3}></Grid>
+                    <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
@@ -110,7 +110,7 @@ export const Process02 = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
                 <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
@@ -159,8 +159,8 @@ export const Process02 = () => {
                 </div>
 
                 <Grid container style={{marginTop:'3%'}}>
-                    <Grid item xs={3}></Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={1} md={3}></Grid>
+                    <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
@@ -185,7 +185,7 @@ export const Process02 = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
                 <div>
