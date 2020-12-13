@@ -114,11 +114,11 @@ class Funfacts extends React.Component {
                 </Grid>
 
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
-                    <Grid item xs={5}></Grid>
-                    <Grid item xs={2} className={styles.buttonKnowMoreAboutMe}>
+                    <Grid item xs={3} md={4}></Grid>
+                    <Grid item xs={6} md={4} className={styles.buttonKnowMoreAboutMe}>
                         <a href='/About' className={styles.viewLink}>KNOW MORE ABOUT ME</a>
                     </Grid>
-                    <Grid item xs={5}></Grid>
+                    <Grid item xs={3} md={4}></Grid>
                 </Grid>
 
                 {this.state.galleryState == 0 ?
