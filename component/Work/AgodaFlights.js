@@ -19,37 +19,37 @@ export const AgodaFlights = () => {
         <React.Fragment>
             
             <Grid container className={styles.img01}>
-                <Grid item xs={5}></Grid>
-                <Grid item xs={2}>
+                <Grid item xs={2} md={4}></Grid>
+                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
                     <img src={flights01}/>
                 </Grid>
-                <Grid item xs={5}></Grid>
+                <Grid item xs={2} md={4}></Grid>
             </Grid>
             
             <Grid container style={{marginTop:"5%"}}>
-                <Grid item xs={5}></Grid>
-                <Grid item xs={2}>
+                <Grid item xs={3} md={5}></Grid>
+                <Grid item xs={6} md={2}>
                     <div className={styles.title2}>
                         Agoda Flights     
                     </div>
                 </Grid>     
-                <Grid item xs={5}></Grid>
+                <Grid item xs={3} md={5}></Grid>
             </Grid>
 
             <Grid container>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <h2 className={styles.title3}>
                         Complete your journey with seat selection    
                     </h2>
                     <h2 className={styles.title4}>§</h2>
                 </Grid>     
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
             
             <Grid container style={{marginTop:'5%'}}>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <p className={styles.article}>
                         <span style={{fontWeight:700}}>CONTEXT & CHALLENGE&nbsp;</span>
                         In early 2020, Agoda Flights has launched for six months achieving 1K daily 
@@ -64,12 +64,12 @@ export const AgodaFlights = () => {
                         perspective, we still consider the paid seats to accommodate the scenario afterward.
                     </p>
                 </Grid>     
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
             <Grid container style={{marginTop:'5%'}}>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <Grid container spacing={5} className={styles.content}>
                         <Grid item xs={4}>
                             <span className={styles.contentTitle}>Timeline</span>
@@ -94,7 +94,7 @@ export const AgodaFlights = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
             <Grid container style={{marginTop:'8%'}}>
@@ -108,8 +108,8 @@ export const AgodaFlights = () => {
             </Grid>
 
             <Grid container style={{marginTop:'8%'}}>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <Grid container spacing={3} className={styles.content}>
                         <Grid item xs={12}>
                             <span className={styles.designHighlight}>
@@ -134,7 +134,7 @@ export const AgodaFlights = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
             <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
@@ -171,8 +171,8 @@ export const AgodaFlights = () => {
             </div>
 
             <Grid container style={{marginTop:'8%'}}>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <Grid container spacing={3} className={styles.content}>
                         <Grid item xs={12}>
                             <span className={styles.designHighlight}>
@@ -195,12 +195,12 @@ export const AgodaFlights = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
             <Grid container style={{marginTop:'5%'}}>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
                     <div className={styles.gallery1} style={{height:'42rem'}}>
                         <img 
                             src={flights05}
@@ -212,14 +212,14 @@ export const AgodaFlights = () => {
                         Simple and slick to keep the users focus on decision making.
                     </span>
                 </Grid>
-                <Grid item xs={3}></Grid>
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
             <Grid container style={{marginTop:'8%'}}>
                 
-                <Grid item xs={3}></Grid>
+                <Grid item item xs={false} md={3}></Grid>
                 
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     
                     <Grid container spacing={3} className={styles.content}>
                         
@@ -290,18 +290,18 @@ export const AgodaFlights = () => {
 
                 </Grid>
 
-                <Grid item xs={3}></Grid>
+                <Grid item item xs={false} md={3}></Grid>
 
             </Grid>
 
             <Grid container style={{marginTop:'5%'}}>
-                <Grid item xs={5}></Grid>
-                <Grid item xs={2} style={{textAlign:'center'}}>
+                <Grid item xs={2} md={4}></Grid>
+                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
                     <span className={styles.scrollDown}>
                         scroll down to learn more
                     </span>
                 </Grid>
-                <Grid item xs={5}></Grid>
+                <Grid item xs={2} md={4}></Grid>
             </Grid>
 
             <div>
