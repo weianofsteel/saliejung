@@ -2,9 +2,9 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import flights01 from '../../public/flights01.png';
-import flights02 from '../../public/flights02.png';
-import flights03 from '../../public/flights03.png';
-import flights04 from '../../public/flights04.png';
+import flights02 from '../../public/agoda-flights/flights02.png';
+import flights03 from '../../public/agoda-flights/flights03.png';
+import flights04 from '../../public/agoda-flights/flights04.png';
 import flights05 from '../../public/flights05.png';
 import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
@@ -142,28 +142,28 @@ export const AgodaFlights = () => {
                     <Grid item xs={6}>
                         <Grid container spacing={1}>
                             <Grid item xs={12}>
-                                <div className={styles.gallery1} style={{height:'24rem'}}>
+                                <div className={styles.gallery1}>
                                     <img 
                                         src={flights02}
-                                        style={{marginTop:'4rem', marginLeft:'10rem'}}
+                                        style={{width:'100%'}}
                                     />
                                 </div>
                             </Grid>
                             <Grid item xs={12}>
-                                <div className={styles.gallery1} style={{height:'24rem'}}>
+                                <div className={styles.gallery1}>
                                     <img 
                                         src={flights04}
-                                        style={{marginTop:'2rem', marginLeft:'3rem', width:'90%', height:'80%'}}
+                                        style={{width:'100%'}}
                                     />
                                 </div>
                             </Grid>
                         </Grid>
                     </Grid>
                     <Grid item xs={6}>
-                        <div className={styles.gallery1} style={{height:'48.5rem'}}>
+                        <div className={styles.gallery1}>
                             <img
                                 src={flights03}
-                                style={{marginTop:'3.5rem', marginLeft:'15rem'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>
