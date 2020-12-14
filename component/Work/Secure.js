@@ -135,10 +135,6 @@ class Secure extends React.Component {
                             <Header/>
                         </div>
 
-                        {/* <div style={{paddingTop:'30%',marginLeft:'60%',position:'fixed'}}>
-                            <Scrollup/>
-                        </div> */}
-
                         <Grid container style={{position:'fixed'}}>
                             <Grid item xs={4} md={7}></Grid>
                             <Grid item xs={5} md={4}>
