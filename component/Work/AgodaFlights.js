@@ -160,7 +160,7 @@ export const AgodaFlights = () => {
                         </Grid>
                     </Grid>
                     <Grid item xs={6}>
-                        <div className={styles.gallery1}>
+                        <div className={styles.gallery1} style={{height:'100.15%'}}>
                             <img
                                 src={flights03}
                                 style={{width:'100%'}}
