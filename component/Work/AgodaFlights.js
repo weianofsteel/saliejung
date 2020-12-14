@@ -139,7 +139,7 @@ export const AgodaFlights = () => {
 
             <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
                 <Grid container spacing={1}>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                         <Grid container spacing={1}>
                             <Grid item xs={12}>
                                 <div className={styles.gallery1}>
@@ -159,7 +159,7 @@ export const AgodaFlights = () => {
                             </Grid>
                         </Grid>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                         <div className={styles.gallery1} style={{height:'100.15%'}}>
                             <img
                                 src={flights03}
