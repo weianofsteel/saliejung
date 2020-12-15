@@ -5,7 +5,7 @@ import flights01 from '../../public/flights01.png';
 import flights02 from '../../public/agoda-flights/flights02.png';
 import flights03 from '../../public/agoda-flights/flights03.png';
 import flights04 from '../../public/agoda-flights/flights04.png';
-import flights05 from '../../public/flights05.png';
+import flights05 from '../../public/agoda-flights/flights05.png';
 import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
 import { Process02 } from './Process02.js';
@@ -201,10 +201,10 @@ export const AgodaFlights = () => {
             <Grid container style={{marginTop:'5%'}}>
                 <Grid item xs={false} md={3}></Grid>
                 <Grid item xs={12} md={6}>
-                    <div className={styles.gallery1} style={{height:'42rem'}}>
+                    <div className={styles.gallery1}>
                         <img 
                             src={flights05}
-                            style={{marginTop:'2.5rem', marginLeft:'19rem'}}
+                            style={{width:'100%'}}
                         />
                     </div>
                     <br/>
