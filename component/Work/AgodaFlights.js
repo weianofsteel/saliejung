@@ -198,7 +198,7 @@ export const AgodaFlights = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
-            <Grid container style={{marginTop:'5%'}}>
+            <Grid container style={{marginTop:'5%'}} spacing={1}>
                 <Grid item xs={false} md={3}></Grid>
                 <Grid item xs={12} md={6}>
                     <div className={styles.gallery1}>
