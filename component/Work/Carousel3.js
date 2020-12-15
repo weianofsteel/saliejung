@@ -5,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import process12 from '../../public/agoda-flights/process12.png';
-import process02 from '../../public/process02.png';
+import process02 from '../../public/process/process02.png';
 
 export const Carousel3 = () => {
     

@@ -198,22 +198,24 @@ export const AgodaFlights = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
-            <Grid container style={{marginTop:'5%'}} spacing={1}>
-                <Grid item xs={false} md={3}></Grid>
-                <Grid item xs={12} md={6}>
-                    <div className={styles.gallery1}>
-                        <img 
-                            src={flights05}
-                            style={{width:'100%'}}
-                        />
-                    </div>
-                    <br/>
-                    <span className={styles.imgDescription}>
-                        Simple and slick to keep the users focus on decision making.
-                    </span>
+            <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
+                <Grid container style={{marginTop:'5%'}} spacing={1}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                        <div className={styles.gallery1}>
+                            <img 
+                                src={flights05}
+                                style={{width:'100%'}}
+                            />
+                        </div>
+                        <br/>
+                        <span className={styles.imgDescription}>
+                            Simple and slick to keep the users focus on decision making.
+                        </span>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
                 </Grid>
-                <Grid item xs={false} md={3}></Grid>
-            </Grid>
+            </div>
 
             <Grid container style={{marginTop:'8%'}}>
                 
