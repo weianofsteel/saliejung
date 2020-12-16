@@ -51,14 +51,15 @@ export const Carousel = () => {
                             />
                         </div>
                     </Grid>
+
                     <Grid item xs={false} md={2}></Grid>
                 </Grid>
                 </div>
             :''}
 
             <Grid container style={{marginTop:'2%'}}>
-                <Grid item xs={2}></Grid>
-                <Grid item xs={8}>
+                <Grid item xs={false} md={2}></Grid>
+                <Grid item xs={12} md={8}>
                     <Grid container>
                         <Grid item xs={3}>
                             <IconButton
@@ -99,7 +100,7 @@ export const Carousel = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={2}></Grid>
+                <Grid item xs={false} md={2}></Grid>
             </Grid>
 
         </React.Fragment>
