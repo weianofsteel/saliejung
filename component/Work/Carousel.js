@@ -57,7 +57,7 @@ export const Carousel = () => {
                 </div>
             :''}
 
-            <Grid container style={{marginTop:'2%'}}>
+            <Grid container style={{marginTop:'2%', paddingLeft:'4.5%', paddingRight:'4.5%'}}>
                 <Grid item xs={false} md={2}></Grid>
                 <Grid item xs={12} md={8}>
                     <Grid container>
@@ -66,7 +66,7 @@ export const Carousel = () => {
                                 onClick={handleCarouselLast}
                                 disabled={carousel==1?true:false}
                             >
-                                <ArrowBackIcon style={{fontSize:'2.5rem'}}/>
+                                <ArrowBackIcon style={{fontSize:'1.5rem'}}/>
                             </IconButton>
                         </Grid>
                             
@@ -95,7 +95,7 @@ export const Carousel = () => {
                                 onClick={handleCarouselNext}
                                 disabled={carousel==2?true:false}
                             >
-                                <ArrowForwardIcon style={{fontSize:'2.5rem'}}/>
+                                <ArrowForwardIcon style={{fontSize:'1.5rem'}}/>
                             </IconButton>
                         </Grid>
                     </Grid>
