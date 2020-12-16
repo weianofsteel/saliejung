@@ -1,9 +1,9 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import process03 from '../../public/process03.png';
-import process04 from '../../public/agoda-flights/process04.png';
-import process05 from '../../public/agoda-flights/process05.png';
+import process03 from '../../public/process/process03.png';
+import process04 from '../../public/process/process04.png';
+import process05 from '../../public/process/process05.png';
 import dot from '../../public/dot.png';
 import { Carousel } from './Carousel.js'
 
@@ -284,10 +284,10 @@ export const Process01 = () => {
                         
                         <Grid container className={styles.content}>
                             <Grid item xs={12}>
-                            <div style={{height:'25rem',width:'100%'}}>
+                            <div style={{width:'100%'}}>
                                 <img
                                     src={process03}
-                                    style={{width:'100%', height:'100%'}}
+                                    style={{width:'100%'}}
                                 />
                             </div>
                             </Grid>
@@ -520,10 +520,10 @@ export const Process01 = () => {
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={1} md={2}></Grid>
                     <Grid item xs={10} md={8}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
+                        <div style={{backgroundColor:'white'}}>
                             <img
                                 src={process04}
-                                style={{width:'100%', height:'100%'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>
@@ -573,10 +573,10 @@ export const Process01 = () => {
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={1} md={2}></Grid>
                     <Grid item xs={10} md={8}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
+                        <div style={{backgroundColor:'white'}}>
                             <img
                                 src={process05}
-                                style={{width:'100%', height:'100%'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>
