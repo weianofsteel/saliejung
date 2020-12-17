@@ -6,7 +6,6 @@ import process07 from '../../public/process/process07.png';
 import process08 from '../../public/process/process08.png';
 import process09 from '../../public/process/process09.png';
 import process10 from '../../public/process/process10.png';
-import process11 from '../../public/agoda-flights/process11.png';
 import { Carousel2 } from '../Work/Carousel2.js';
 
 export const Process02 = () => {
@@ -113,8 +112,8 @@ export const Process02 = () => {
                     <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
-                <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
-                    <Grid container spacing={5}>
+                <div style={{marginTop:'5%', marginLeft:'2%', marginRight:'2%'}}>
+                    <Grid container spacing={4}>
                         <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img src={process07}/>
