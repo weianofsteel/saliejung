@@ -1,11 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import process06 from '../../public/agoda-flights/process06.png';
-import process07 from '../../public/agoda-flights/process07.png';
-import process08 from '../../public/agoda-flights/process08.png';
-import process09 from '../../public/agoda-flights/process09.png';
-import process10 from '../../public/agoda-flights/process10.png';
+import process06 from '../../public/process/process06.png';
+import process07 from '../../public/process/process07.png';
+import process08 from '../../public/process/process08.png';
+import process09 from '../../public/process/process09.png';
+import process10 from '../../public/process/process10.png';
 import process11 from '../../public/agoda-flights/process11.png';
 import { Carousel2 } from '../Work/Carousel2.js';
 
@@ -72,10 +72,10 @@ export const Process02 = () => {
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
+                        <div style={{backgroundColor:'white'}}>
                             <img
                                 src={process06}
-                                style={{width:'100%', height:'100%'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>
@@ -114,8 +114,8 @@ export const Process02 = () => {
                 </Grid>
 
                 <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
-                    <Grid container spacing={1}>
-                        <Grid item xs={3} style={{paddingRight:'4rem', paddingLeft:'3rem'}}>
+                    <Grid container spacing={5}>
+                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img src={process07}/>
                             </div>
@@ -123,7 +123,7 @@ export const Process02 = () => {
                                 Condensed legend makes the widest displaying on the map.
                             </span>    
                         </Grid>
-                        <Grid item xs={3} style={{paddingRight:'4rem', paddingLeft:'3rem'}}>
+                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img
                                     src={process08}
@@ -133,7 +133,7 @@ export const Process02 = () => {
                                 Tab UI on the passenger selection might cause the problem for group travelers.
                             </span>
                         </Grid>
-                        <Grid item xs={3} style={{paddingRight:'4rem', paddingLeft:'3rem'}}>
+                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img
                                     src={process09}
@@ -144,7 +144,7 @@ export const Process02 = () => {
                                 the first glance.
                             </span>
                         </Grid>
-                        <Grid item xs={3} style={{paddingRight:'4rem', paddingLeft:'3rem'}}>
+                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img
                                     src={process10}
