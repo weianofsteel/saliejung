@@ -1,11 +1,14 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
+import process01 from '../../public/process/process01.png';
+import process02 from '../../public/process/process02.png';
 import process03 from '../../public/process/process03.png';
 import process04 from '../../public/process/process04.png';
 import process05 from '../../public/process/process05.png';
 import dot from '../../public/dot.png';
-import { Carousel } from './Carousel.js'
+// import { Carousel } from './Carousel.js'
+import { Carousel } from '..//Public/Carousel.js';
 
 export const Process01 = () => {
 
@@ -73,7 +76,12 @@ export const Process01 = () => {
                 </Grid>
 
                 <div>
-                    <Carousel/>
+                    <Carousel 
+                        img1={process01}
+                        img2={process02}
+                        caption1={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
+                        caption2={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
+                    />
                 </div>
 
                 <Grid container style={{marginTop:'2%'}}>
