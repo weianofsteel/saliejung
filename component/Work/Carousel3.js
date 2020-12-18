@@ -5,7 +5,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import process12 from '../../public/agoda-flights/process12.png';
-import process02 from '../../public/process/process02.png';
 
 export const Carousel3 = () => {
     
@@ -26,10 +25,10 @@ export const Carousel3 = () => {
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={3}></Grid>
                     <Grid item xs={6}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
+                        <div style={{backgroundColor:'white'}}>
                             <img
                                 src={process12}
-                                style={{width:'100%', height:'100%'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>
@@ -41,10 +40,10 @@ export const Carousel3 = () => {
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={3}></Grid>
                     <Grid item xs={6}>
-                        <div style={{backgroundColor:'white',height:'40rem'}}>
+                        <div style={{backgroundColor:'white'}}>
                             <img
                                 src={process12}
-                                style={{width:'100%', height:'100%'}}
+                                style={{width:'100%'}}
                             />
                         </div>
                     </Grid>

@@ -6,7 +6,8 @@ import process07 from '../../public/process/process07.png';
 import process08 from '../../public/process/process08.png';
 import process09 from '../../public/process/process09.png';
 import process10 from '../../public/process/process10.png';
-import { Carousel2 } from '../Work/Carousel2.js';
+import process11 from '../../public/process/process11.png';
+import { Carousel } from '../Public/Carousel';;
 
 export const Process02 = () => {
     return(
@@ -188,7 +189,12 @@ export const Process02 = () => {
                 </Grid>
 
                 <div>
-                    <Carousel2/>
+                    <Carousel
+                        img1={process11}
+                        img2={process11}
+                        caption1={'Compared to the initial flow, it came out to a more sophisticated flow after involved in the developer.'}
+                        caption2={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
+                    />
                 </div>
 
             </div>

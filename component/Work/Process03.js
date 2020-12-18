@@ -1,7 +1,8 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import { Carousel3 } from './Carousel3.js';
+import { Carousel } from '../Public/Carousel.js';
+import process12 from '../../public/agoda-flights/process12.png';
 
 export const Process03 = () => {
     return(
@@ -66,7 +67,12 @@ export const Process03 = () => {
                 </Grid>
 
                 <div>
-                    <Carousel3/>
+                    <Carousel
+                        img1={process12}
+                        img2={process12}
+                        caption1={'A completed excel to list down all the CMS across the platforms waiting for translation.'}
+                        caption2={'A completed excel to list down all the CMS across the platforms waiting for translation.'}
+                    />
                 </div>
 
                 <Grid container style={{marginTop:'3%'}}>

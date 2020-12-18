@@ -7,8 +7,7 @@ import process03 from '../../public/process/process03.png';
 import process04 from '../../public/process/process04.png';
 import process05 from '../../public/process/process05.png';
 import dot from '../../public/dot.png';
-// import { Carousel } from './Carousel.js'
-import { Carousel } from '..//Public/Carousel.js';
+import { Carousel } from '../Public/Carousel.js';
 
 export const Process01 = () => {
 
