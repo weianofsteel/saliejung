@@ -1,15 +1,16 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
+import agoda from '../../public/agoda-logo.png';
 
-export const AgodaFlights = () => {
+export const AgodaDesign = () => {
     return(
         <React.Fragment>
 
             <Grid container className={styles.img01}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    <img src={flights01}/>
+                    <img src={agoda}/>
                 </Grid>
                 <Grid item xs={2} md={4}></Grid>
             </Grid>

@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import { Header } from '../../../component/Home/Header.js';
 import { Footer } from '../../../component/Home/Footer.js';
 import styles from '../../../css/Work.module.css';
+import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';
 
 const Page = () => {
 
@@ -11,6 +12,10 @@ const Page = () => {
 
             <div>
                 <Header/>
+            </div>
+
+            <div>
+                <AgodaDesign/>
             </div>
 
             <div className={styles.footer}>
