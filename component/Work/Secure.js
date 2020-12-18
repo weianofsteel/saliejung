@@ -96,7 +96,7 @@ class Secure extends React.Component {
                             </span>
 
                             <Grid container className={styles.password}>
-                                <Grid item xs={5} md={3}>
+                                <Grid item xs={6} md={3}>
                                     <TextField 
                                         id="password" 
                                         label="Enter password" 
