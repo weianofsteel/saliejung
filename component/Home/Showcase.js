@@ -86,7 +86,7 @@ export const Showcase = () => {
             
             <Grid container spacing={1}>
                 <Grid item xs={12} md={5}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Agoda-design' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box1===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox1On}
@@ -103,7 +103,7 @@ export const Showcase = () => {
                     </Link>
                 </Grid>
                 <Grid item xs={12} md={7}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Agoda-flights' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box2===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox2On}
