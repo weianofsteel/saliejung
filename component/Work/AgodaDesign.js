@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import agoda from '../../public/agoda-logo.png';
+import flights01 from '../../public/flights01.png';
 
 export const AgodaDesign = () => {
     return(
