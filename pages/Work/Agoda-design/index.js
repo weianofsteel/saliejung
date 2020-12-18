@@ -10,7 +10,7 @@ const Page = () => {
     return(
         <React.Fragment>
 
-            <div>
+            <div className={styles.header}>
                 <Header/>
             </div>
 

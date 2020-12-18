@@ -10,8 +10,8 @@ export const AgodaDesign = () => {
 
             <Grid container className={styles.img01}>
                 <Grid item xs={2} md={4}></Grid>
-                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    <img src={agoda}/>
+                <Grid item xs={8} md={4} style={{textAlign:'center', height:'31rem'}}>
+                    <img src={agoda} style={{marginTop:'30%'}}/>
                 </Grid>
                 <Grid item xs={2} md={4}></Grid>
             </Grid>
@@ -24,6 +24,17 @@ export const AgodaDesign = () => {
                     </div>
                 </Grid>     
                 <Grid item xs={3} md={5}></Grid>
+            </Grid>
+
+            <Grid container>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <h2 className={styles.title3}>
+                        An exciting adventure in the travel industry    
+                    </h2>
+                    <h2 className={styles.title4}>§</h2>
+                </Grid>     
+                <Grid item xs={false} md={3}></Grid>
             </Grid>
 
         </React.Fragment>
