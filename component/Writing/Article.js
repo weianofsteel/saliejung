@@ -21,7 +21,7 @@ class Article extends React.Component {
                 {/* article */}
 
                 <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item xs={5} className={styles.articleBlock} style={{paddingTop:20}}>
+                    <Grid item xs={12} md={5} className={styles.articleBlock} style={{paddingTop:20}}>
                         <div style={{height:'17rem'}}>
                             <span>
                                 <Link
@@ -42,8 +42,8 @@ class Article extends React.Component {
                             />
                         </div>
                     </Grid>
-                    <Grid item xs={2}></Grid>
-                    <Grid item xs={5} className={styles.articleBlock} style={{paddingTop:20}}>
+                    <Grid item xs={false} md={2}></Grid>
+                    <Grid item xs={12} md={5} className={styles.articleBlock} style={{paddingTop:20}}>
                         <div style={{height:'17rem'}}>
                             <span>
                                 <Link

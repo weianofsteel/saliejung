@@ -24,7 +24,7 @@ const useStyles = makeStyles({
         }
     },
     drawerLink: {
-        fontFamily:'Roboto Slab',
+        fontFamily:'Roboto',
         textAlign:'left',
         fontWeight:400,
         letterSpacing:'1px',
