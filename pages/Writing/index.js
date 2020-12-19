@@ -15,7 +15,7 @@ const Writing = () => {
                         <Header/> 
                     </div>
 
-                    <div className={styles.main}>
+                    <div className={styles.main} style={{overflow:'hidden'}}>
                         
                         <span className={styles.title}>
                             Writings

@@ -81,8 +81,8 @@ export const Header = () => {
                     </Hidden>
 
                     <Hidden lgUp>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={1}>
+                        <Grid item xs={2} sm={3}></Grid>
+                        <Grid item xs={2} sm={1}>
                             <IconButton
                                 onClick={handleDrawerOpen}
                             >
@@ -98,6 +98,7 @@ export const Header = () => {
                         anchor='right'
                         open={drawerOpen}
                         className={classes.drawer}
+                        style={{textAlign:'left'}}
                     >
                         <div>
                            <IconButton
