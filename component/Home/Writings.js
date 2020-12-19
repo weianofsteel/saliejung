@@ -27,10 +27,10 @@ export const Writings = () => {
             </Hidden>
             
             <Hidden mdUp>
-                <Grid container spacing={1} style={{paddingTop:"6%"}}>
+                <Grid container spacing={1} style={{paddingTop:"6%",textAlign:'center'}}>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8} style={{textAlign:'center'}}>
-                        <span className={styles.writingsTitle}>
+                        <span className={styles.writingsTitle2}>
                             Writings
                         </span>
                     </Grid>

@@ -7,6 +7,17 @@
 a {
     font-family: 'Work Sans', sans-serif;
 }
+
+html {
+    overflow-x:hidden;
+}
+
+body {
+    margin: 0 !important;
+    overflow-x:hidden;
+    max-width: 100%;
+}
+
 .title{
     font-family: 'Work Sans', sans-serif;
     color:"blue";

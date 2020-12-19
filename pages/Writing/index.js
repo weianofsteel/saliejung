@@ -8,27 +8,28 @@ const Writing = () => {
     
     return(
         <React.Fragment>
-            
-            <div style={{backgroundColor:"#E5E5E5"}}>
+            <div style={{backgroundColor:"#E5E5E5", margin:-10}}>
+                <div style={{backgroundColor:"#E5E5E5", margin:0}}>
 
-                <div>
-                <Header/> 
+                    <div>
+                        <Header/> 
+                    </div>
+
+                    <div className={styles.main}>
+                        
+                        <span className={styles.title}>
+                            Writings
+                        </span>
+
+                        <Article/>
+
+                    </div>
+
+                    <div className={styles.footer}>
+                        <Footer/>
+                    </div>
+
                 </div>
-
-                <div className={styles.main}>
-                    
-                    <span className={styles.title}>
-                        Writings
-                    </span>
-
-                    <Article/>
-
-                </div>
-
-                <div className={styles.footer}>
-                    <Footer/>
-                </div>
-
             </div>
 
         </React.Fragment>
