@@ -8,10 +8,6 @@ a {
     font-family: 'Work Sans', sans-serif;
 }
 
-html {
-    overflow-x:hidden;
-}
-
 body {
     margin: 0 !important;
     overflow-x:hidden;

@@ -24,7 +24,7 @@ const useStyles = makeStyles({
         }
     },
     drawerLink: {
-        fontFamily:'Roboto',
+        fontFamily:'Roboto Slab',
         textAlign:'left',
         fontWeight:400,
         letterSpacing:'1px',
@@ -128,13 +128,6 @@ export const Header = () => {
                                     <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
                                 </span>
                             </div>
-                            {/* <Button
-                                href='/About'
-                                style={{textAlign:'center',width:'150%'}}
-                            >
-                                ABOUT
-                            </Button>
-                            <Button>RESUME</Button> */}
                         </List>
                     </Drawer>
 
