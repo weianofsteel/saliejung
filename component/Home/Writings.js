@@ -13,30 +13,30 @@ export const Writings = () => {
             
             {/* title */}
 
-            <Hidden smDown>
+            {/* <Hidden smDown> */}
                 <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item sm={2}></Grid>
-                    <Grid item sm={4} style={{paddingLeft:0}}>
+                    <Grid item xs={false} md={2}></Grid>
+                    <Grid item xs={12} md={4} style={{paddingLeft:0}}>
                         <span className={styles.writingsTitle}>
                             Writings
                         </span>
                     </Grid>
-                    <Grid item sm={4}></Grid>
-                    <Grid item sm={2}></Grid>
+                    <Grid item xs={false} md={4}></Grid>
+                    <Grid item xs={false} md={2}></Grid>
                 </Grid>
-            </Hidden>
+            {/* </Hidden> */}
             
-            <Hidden mdUp>
+            {/* <Hidden mdUp>
                 <Grid container spacing={1} style={{paddingTop:"6%",textAlign:'center'}}>
                     <Grid item xs={2}></Grid>
-                    <Grid item xs={8} style={{textAlign:'center'}}>
+                    <Grid item xs={8} style={{textAlign:'left'}}>
                         <span className={styles.writingsTitle2}>
                             Writings
                         </span>
                     </Grid>
                     <Grid item xs={2}></Grid>
                 </Grid>
-            </Hidden>
+            </Hidden> */}
 
             {/* title */}
 
