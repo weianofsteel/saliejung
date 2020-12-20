@@ -2,19 +2,32 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import agoda from '../../public/agoda-logo.png';
+import Hidden from '@material-ui/core/Hidden';
 
 export const AgodaDesign = () => {
     return(
         <React.Fragment>
 
-            <Grid container className={styles.img01}>
-                <Grid item xs={2} md={4}></Grid>
-                <Grid item xs={8} md={4} style={{textAlign:'center', height:'31rem'}}>
-                    <img src={agoda} style={{marginTop:'30%'}}/>
+            <Hidden xsDown>
+                <Grid container className={styles.img01}>
+                    <Grid item xs={2} md={4}></Grid>
+                    <Grid item xs={8} md={4} style={{textAlign:'center', height:'30rem'}}>
+                        <img src={agoda} style={{marginTop:'30%'}}/>
+                    </Grid>
+                    <Grid item xs={2} md={4}></Grid>
                 </Grid>
-                <Grid item xs={2} md={4}></Grid>
-            </Grid>
-            
+            </Hidden>
+
+            <Hidden smUp>
+                <Grid container className={styles.img01}>
+                    <Grid item xs={2}></Grid>
+                    <Grid item xs={8} style={{textAlign:'center', height:'18rem'}}>
+                        <img src={agoda} style={{marginTop:'25%',width:'80%'}}/>
+                    </Grid>
+                    <Grid item xs={2}></Grid>
+                </Grid>
+            </Hidden>
+
             <Grid container style={{marginTop:"5%"}}>
                 <Grid item xs={3} md={5}></Grid>
                 <Grid item xs={6} md={2}>

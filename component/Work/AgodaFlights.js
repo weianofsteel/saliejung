@@ -12,6 +12,7 @@ import { Process02 } from './Process02.js';
 import { Process03 } from './Process03.js';
 import Button from '@material-ui/core/Button';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import Hidden from '@material-ui/core/Hidden';
 
 export const AgodaFlights = () => {
 
@@ -19,13 +20,13 @@ export const AgodaFlights = () => {
         <React.Fragment>
             
             <Grid container className={styles.img01}>
-                <Grid item xs={2} md={4}></Grid>
-                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    <img src={flights01}/>
+                <Grid item xs={1} sm={4}></Grid>
+                <Grid item xs={10} sm={4} style={{textAlign:'center'}}>
+                    <img src={flights01} style={{width:'80%'}} className={styles.flights01}/>
                 </Grid>
-                <Grid item xs={2} md={4}></Grid>
+                <Grid item xs={1} sm={4}></Grid>
             </Grid>
-            
+
             <Grid container style={{marginTop:"5%"}}>
                 <Grid item xs={3} md={5}></Grid>
                 <Grid item xs={6} md={2}>
