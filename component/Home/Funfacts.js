@@ -53,11 +53,11 @@ class Funfacts extends React.Component {
             <React.Fragment>
             
                 <Grid container spacing={1} style={{marginTop:"6%"}}>
-                    <Grid item xs={3} xl={5}></Grid>
-                    <Grid item xs={6} xl={2}>
+                    <Grid item xs={1} sm={2} xl={5}></Grid>
+                    <Grid item xs={10} sm={8} xl={2}>
                         <h1 className={styles.funFactsTitle}>Fun Facts</h1>
                     </Grid>
-                    <Grid item xs={3} xl={5}></Grid>
+                    <Grid item xs={10} sm={2} xl={5}></Grid>
                 </Grid>
 
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
@@ -114,11 +114,11 @@ class Funfacts extends React.Component {
                 </Grid>
 
                 <Grid container spacing={1} style={{marginTop:"2%"}}>
-                    <Grid item xs={3} md={4}></Grid>
-                    <Grid item xs={6} md={4} className={styles.buttonKnowMoreAboutMe}>
+                    <Grid item xs={2} md={4}></Grid>
+                    <Grid item xs={8} md={4} className={styles.buttonKnowMoreAboutMe}>
                         <a href='/About' className={styles.viewLink}>KNOW MORE ABOUT ME</a>
                     </Grid>
-                    <Grid item xs={3} md={4}></Grid>
+                    <Grid item xs={2} md={4}></Grid>
                 </Grid>
 
                 {this.state.galleryState == 0 ?
