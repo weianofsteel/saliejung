@@ -24,47 +24,52 @@ export const Experience = () => {
 
             <Grid container spacing={1} style={{marginTop:"5%"}}>
                 
-                <Grid item xs={5}>
-                    <span className={styles.jobTitle}>Tenten Digital Agency</span>
+                <Grid item xs={12}>
+                    <span className={styles.jobTitle}>Freelance Web Designer</span>
                 </Grid>
 
-                <Grid item xs={2}></Grid>
+                <Grid item xs={12}>
+                    <p className={styles.jobtDetail}>July 2018 - Present</p>
+                </Grid>
+            </Grid>
 
-                <Grid item xs={5}>
-                    <p className={styles.jobtDetail}>Web Designer</p>
+            <Grid container spacing={1} style={{marginTop:"5%"}}>
+                
+                <Grid item xs={12}>
+                    <span className={styles.jobTitle}>Web Designer</span>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <p className={styles.jobtDetail}>Tenten Digital Agency | Taipei</p>
                     <p className={styles.jobtDetail}>September 2016 - July 2018</p>
                 </Grid>
             </Grid>
 
             <Grid container spacing={1} style={{marginTop:"5%"}}>
                 
-                <Grid item xs={5}>
-                    <span className={styles.jobTitle}></span>
+                <Grid item xs={12}>
+                    <span className={styles.jobTitle}>Design Intern</span>
                 </Grid>
 
-                <Grid item xs={2}></Grid>
-
-                <Grid item xs={5}>
-                    <p className={styles.jobtDetail}>Design Intern</p>
-                    <p className={styles.jobtDetail}>June 2016 - August 2016</p>
+                <Grid item xs={12}>
+                    <p className={styles.jobtDetail}>Tenten Digital Agency | Taipei</p>
+                    <p className={styles.jobtDetail}>June 2016 - September 2016</p>
                 </Grid>
             </Grid>
 
             <Grid container spacing={1} style={{marginTop:"5%"}}>
                 
-                <Grid item xs={5}>
-                    <span className={styles.jobTitle}>VidaOrange.com</span>
+                <Grid item xs={12}>
+                    <span className={styles.jobTitle}>Social Media Editor</span>
                 </Grid>
 
-                <Grid item xs={2}></Grid>
-
-                <Grid item xs={5}>
-                    <p className={styles.jobtDetail}>Social Media Editor</p>
+                <Grid item xs={12}>
+                    <p className={styles.jobtDetail}>Fusion Medium Inc. | Taipei</p>
                     <p className={styles.jobtDetail}>June 2015 - May 2016</p>
                 </Grid>
             </Grid>
 
-            <div className={styles.experienceTitle} style={{marginTop:"25%"}}>
+            <div className={styles.experienceTitle} style={{marginTop:"5%"}}>
                 <span>Education</span>
             </div>
 
@@ -74,7 +79,7 @@ export const Experience = () => {
                 <p className={styles.jobtDetail}>2011 - 2015</p>    
             </div>
 
-            <div className={styles.experienceTitle} style={{marginTop:"25%"}}>
+            <div className={styles.experienceTitle} style={{marginTop:"5%"}}>
                 <span>Contact</span>
             </div>
 
