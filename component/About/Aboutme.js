@@ -8,7 +8,7 @@ export const Aboutme = () => {
     return(
         <React.Fragment>
             
-            <div>
+            <div style={{marginTop:'8%'}}>
                <p className={styles.aboutme}>
                     I learned a lot from discussing with colleagues and clients, they taught me many things 
                     beyond my imagination and broaden my point of view. Gradually, I established my own 

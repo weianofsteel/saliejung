@@ -17,24 +17,25 @@ const About = () => {
             </div>
 
             <div className={styles.main}>
-                
-                <span className={styles.title}>Hi!</span>
 
                 <Grid container spacing={1} style={{marginTop:"3%"}}>
                     
-                    <Grid item xs={4}>
+                    <Grid item xs={3}></Grid>
+                    
+                    <Grid item xs={6}>
+                        <span className={styles.title}>Hello World.</span>
                         <Aboutme/>
                     </Grid>
                     
-                    <Grid item xs={2}></Grid>
+                    <Grid item xs={3}></Grid>
                     
-                    <Grid item xs={6}>
+                    {/* <Grid item xs={6}>
                         <Gallery/>
-                    </Grid>
+                    </Grid> */}
 
                 </Grid>
 
-                <Grid container spacing={1} style={{marginTop:"3%"}}>
+                <Grid container spacing={1} style={{marginTop:"6%"}}>
 
                     <Grid item xs={4}>
                         <Experience/>
