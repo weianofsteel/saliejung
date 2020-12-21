@@ -28,18 +28,18 @@ const About = () => {
                     </Grid>
                     
                     <Grid item xs={3}></Grid>
-                    
-                    {/* <Grid item xs={6}>
-                        <Gallery/>
-                    </Grid> */}
 
                 </Grid>
 
-                <Grid container spacing={1} style={{marginTop:"6%"}}>
+                <Grid container spacing={1} style={{marginTop:"8%"}}>
 
-                    <Grid item xs={4}>
+                    <Grid item xs={3}></Grid>
+                    
+                    <Grid item xs={6}>
                         <Experience/>
                     </Grid>
+                    
+                    <Grid item xs={3}></Grid>
 
                 </Grid>
 

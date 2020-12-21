@@ -5,21 +5,19 @@ import styles from '../../css/About.module.css';
 export const Experience = () => {
     return(
         <React.Fragment>
-            
-            <div className={styles.experienceTitle} style={{marginTop:"-25%"}}>
-                <span>Experience</span>
-            </div>
 
-            <Grid container spacing={1} style={{marginTop:"5%"}}>
-                
-                <Grid item xs={5}>
-                    <span className={styles.jobTitle}>Agoda</span>
+            <Grid container spacing={1}>
+                <Grid item xs={12} style={{borderTop:'1px solid black'}}>
+                    <div className={styles.experienceTitle}>
+                        <span>Experience</span>
+                    </div>
+                </Grid>
+                <Grid item xs={12}>
+                    <span className={styles.jobTitle}>UX Designer</span>
                 </Grid>
 
-                <Grid item xs={2}></Grid>
-
-                <Grid item xs={5}>
-                    <p className={styles.jobtDetail}>UX Designer</p>
+                <Grid item xs={12}>
+                    <p className={styles.jobtDetail}>Agoda Services Co., Ltd. | Bangkok</p>
                     <p className={styles.jobtDetail}>June 2019 - present</p>
                 </Grid>
             </Grid>

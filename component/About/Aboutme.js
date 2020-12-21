@@ -59,7 +59,7 @@ export const Aboutme = () => {
 
             <br/><br/>
 
-            <div>
+            <div style={{marginTop:'5%'}}>
                 <Button
                     href='/Resume'
                     style={{color: '#8F8F8F',fontSize: '22px', fontFamily:'Roboto', fontWeight:400}}
