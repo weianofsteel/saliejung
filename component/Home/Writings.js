@@ -13,134 +13,120 @@ export const Writings = () => {
             
             {/* title */}
 
-            {/* <Hidden smDown> */}
-                <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item xs={1} md={2}></Grid>
-                    <Grid item xs={10} md={4} style={{paddingLeft:0}}>
-                        <span className={styles.writingsTitle}>
-                            Writings
-                        </span>
-                    </Grid>
-                    <Grid item xs={false} md={4}></Grid>
-                    <Grid item xs={false} md={2}></Grid>
+            <Grid container spacing={1} style={{paddingTop:"6%"}}>
+                <Grid item xs={1} md={2}></Grid>
+                <Grid item xs={10} md={4} style={{marginLeft:'-1rem'}}>
+                    <span className={styles.writingsTitle}>
+                        Writings
+                    </span>
                 </Grid>
-            {/* </Hidden> */}
-            
-            {/* <Hidden mdUp>
-                <Grid container spacing={1} style={{paddingTop:"6%",textAlign:'center'}}>
-                    <Grid item xs={2}></Grid>
-                    <Grid item xs={8} style={{textAlign:'left'}}>
-                        <span className={styles.writingsTitle2}>
-                            Writings
-                        </span>
-                    </Grid>
-                    <Grid item xs={2}></Grid>
-                </Grid>
-            </Hidden> */}
+                <Grid item xs={false} md={4}></Grid>
+                <Grid item xs={false} md={2}></Grid>
+            </Grid>
 
             {/* title */}
 
             {/* article */}
 
             <Hidden smDown>
-            <Grid container spacing={1} style={{paddingTop:"6%",wrap:'nowrap'}} spacing={5}>
-                <Grid md={2}></Grid>
-                <Grid md={4} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
-                    <div style={{height:'17rem'}}>
-                    <span>
-                        <Link
-                            href='/'
-                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                        >
-                            An exciting adventure for a new designer at Agoda&ensp;
-                        </Link>
-                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                    </span>
-                    <br/>
-                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
-                    </div>
-                    <div className={styles.imageBlock}>
-                        <img 
-                            src={writing01}
-                            style={{width:'100%', height:'100%'}}
-                        />
-                    </div>
+                <Grid container spacing={1} style={{paddingTop:"6%",wrap:'nowrap'}} spacing={8}>
+                    <Grid item md={2}></Grid>
+                    <Grid item md={4} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
+                        <div style={{height:'17rem'}}>
+                        <span>
+                            <Link
+                                href='/'
+                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            >
+                                An exciting adventure for a new designer at Agoda&ensp;
+                            </Link>
+                            <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        </span>
+                        <br/>
+                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                        </div>
+                        <div className={styles.imageBlock}>
+                            <img 
+                                src={writing01}
+                                style={{width:'100%', height:'100%'}}
+                            />
+                        </div>
+                    </Grid>
+                
+                    <Grid item md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
+                        <div style={{height:'17rem'}}>
+                        <span>
+                            <Link
+                                href='/'
+                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            >
+                                Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                            </Link>
+                            <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        </span>
+                        <br/>
+                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                        </div>
+                        <div className={styles.imageBlock}>
+                            <img 
+                                src={writing02}
+                                style={{width:'100%', height:'100%'}}
+                            />
+                        </div>
+                    </Grid>
+                    <Grid item md={2}></Grid>
                 </Grid>
-            
-                <Grid md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
-                    <div style={{height:'17rem'}}>
-                    <span>
-                        <Link
-                            href='/'
-                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                        >
-                            Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
-                        </Link>
-                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                    </span>
-                    <br/>
-                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
-                    </div>
-                    <div className={styles.imageBlock}>
-                        <img 
-                            src={writing02}
-                            style={{width:'100%', height:'100%'}}
-                        />
-                    </div>
-                </Grid>
-                <Grid item md={2}></Grid>
-            </Grid>
             </Hidden>
 
             <Hidden mdUp>
-            <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
-                <Grid xs={1}></Grid>
-                <Grid xs={10} className={styles.articleBlock} style={{paddingTop:20}}>
-                    <div style={{height:'17rem'}}>
-                    <span>
-                        <Link
-                            href='/'
-                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                        >
-                            An exciting adventure for a new designer at Agoda&ensp;
-                        </Link>
-                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                    </span>
-                    <br/>
-                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
-                    </div>
-                    <div className={styles.imageBlock}>
-                        <img 
-                            src={writing01}
-                            style={{width:'100%', height:'100%'}}
-                        />
-                    </div>
+                <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={2}>
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={10} className={styles.articleBlock} style={{paddingTop:20}}>
+                        <div style={{height:'17rem'}}>
+                        <span>
+                            <Link
+                                href='/'
+                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            >
+                                An exciting adventure for a new designer at Agoda&ensp;
+                            </Link>
+                            <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        </span>
+                        <br/>
+                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                        </div>
+                        <div className={styles.imageBlock}>
+                            <img 
+                                src={writing01}
+                                style={{width:'100%', height:'100%'}}
+                            />
+                        </div>
+                    </Grid>
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={10} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
+                        <div style={{height:'17rem'}}>
+                        <span>
+                            <Link
+                                href='/'
+                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            >
+                                Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                            </Link>
+                            <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                        </span>
+                        <br/>
+                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                        </div>
+                        <div className={styles.imageBlock}>
+                            <img 
+                                src={writing02}
+                                style={{width:'100%', height:'100%'}}
+                            />
+                        </div>
+                    </Grid>
+                    <Grid item xs={1}></Grid>
                 </Grid>
-                <Grid item xs={1}></Grid>
-                <Grid item xs={1}></Grid>
-                <Grid xs={10} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
-                    <div style={{height:'17rem'}}>
-                    <span>
-                        <Link
-                            href='/'
-                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                        >
-                            Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
-                        </Link>
-                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                    </span>
-                    <br/>
-                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
-                    </div>
-                    <div className={styles.imageBlock}>
-                        <img 
-                            src={writing02}
-                            style={{width:'100%', height:'100%'}}
-                        />
-                    </div>
-                </Grid>
-                <Grid item xs={1}></Grid>
-            </Grid>
             </Hidden>
 
             {/* article */}

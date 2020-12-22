@@ -128,10 +128,10 @@
 /* ./component/Home/Writings.js */
 
 .writingsTitle {
-    font-size: 76px;
+    font-size: 4.2rem;
     font-family: 'Roboto Slab';
     font-weight: 400;
-    line-height: 90px;
+    line-height: 5rem;
 }
 
 .writingsTitle2 {
