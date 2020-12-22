@@ -22,36 +22,36 @@ export const Carousel = (props) => {
 
             {carousel == 1?
                 <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
-                <Grid container style={{marginTop:'3%'}}>
-                    <Grid item xs={false} md={2}></Grid>
-                    <Grid item xs={12} md={8}>
-                        <div style={{backgroundColor:'white'}}>
-                            <img
-                                src={props.img1}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                    <Grid container style={{marginTop:'3%'}}>
+                        <Grid item xs={false} md={2}></Grid>
+                        <Grid item xs={12} md={8}>
+                            <div style={{backgroundColor:'white'}}>
+                                <img
+                                    src={props.img1}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Grid>
+                        <Grid item xs={false} md={2}></Grid>
                     </Grid>
-                    <Grid item xs={false} md={2}></Grid>
-                </Grid>
                 </div>
             :''}
 
             {carousel == 2?
                 <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
-                <Grid container style={{marginTop:'3%'}}>
-                    <Grid item xs={false} md={2}></Grid>
-                    <Grid item xs={12} md={8}>
-                        <div style={{backgroundColor:'white'}}>
-                            <img
-                                src={props.img2}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
-                    </Grid>
+                    <Grid container style={{marginTop:'3%'}}>
+                        <Grid item xs={false} md={2}></Grid>
+                        <Grid item xs={12} md={8}>
+                            <div style={{backgroundColor:'white'}}>
+                                <img
+                                    src={props.img2}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Grid>
 
-                    <Grid item xs={false} md={2}></Grid>
-                </Grid>
+                        <Grid item xs={false} md={2}></Grid>
+                    </Grid>
                 </div>
             :''}
 

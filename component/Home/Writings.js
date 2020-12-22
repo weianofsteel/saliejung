@@ -15,8 +15,8 @@ export const Writings = () => {
 
             {/* <Hidden smDown> */}
                 <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item xs={false} md={2}></Grid>
-                    <Grid item xs={12} md={4} style={{paddingLeft:0}}>
+                    <Grid item xs={1} md={2}></Grid>
+                    <Grid item xs={10} md={4} style={{paddingLeft:0}}>
                         <span className={styles.writingsTitle}>
                             Writings
                         </span>
@@ -42,9 +42,10 @@ export const Writings = () => {
 
             {/* article */}
 
-            <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
-                <Grid item xs={false} md={2}></Grid>
-                <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
+            <Hidden smDown>
+            <Grid container spacing={1} style={{paddingTop:"6%",wrap:'nowrap'}} spacing={5}>
+                <Grid md={2}></Grid>
+                <Grid md={4} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
                     <div style={{height:'17rem'}}>
                     <span>
                         <Link
@@ -65,7 +66,8 @@ export const Writings = () => {
                         />
                     </div>
                 </Grid>
-                <Grid item xs={12} md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
+            
+                <Grid md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
                     <div style={{height:'17rem'}}>
                     <span>
                         <Link
@@ -86,31 +88,66 @@ export const Writings = () => {
                         />
                     </div>
                 </Grid>
-                <Grid item xs={false} md={2}></Grid>
+                <Grid item md={2}></Grid>
             </Grid>
+            </Hidden>
+
+            <Hidden mdUp>
+            <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={5}>
+                <Grid xs={1}></Grid>
+                <Grid xs={10} className={styles.articleBlock} style={{paddingTop:20}}>
+                    <div style={{height:'17rem'}}>
+                    <span>
+                        <Link
+                            href='/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                        >
+                            An exciting adventure for a new designer at Agoda&ensp;
+                        </Link>
+                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                    </span>
+                    <br/>
+                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                    </div>
+                    <div className={styles.imageBlock}>
+                        <img 
+                            src={writing01}
+                            style={{width:'100%', height:'100%'}}
+                        />
+                    </div>
+                </Grid>
+                <Grid item xs={1}></Grid>
+                <Grid item xs={1}></Grid>
+                <Grid xs={10} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
+                    <div style={{height:'17rem'}}>
+                    <span>
+                        <Link
+                            href='/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                        >
+                            Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                        </Link>
+                        <CallMadeIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                    </span>
+                    <br/>
+                    <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                    </div>
+                    <div className={styles.imageBlock}>
+                        <img 
+                            src={writing02}
+                            style={{width:'100%', height:'100%'}}
+                        />
+                    </div>
+                </Grid>
+                <Grid item xs={1}></Grid>
+            </Grid>
+            </Hidden>
 
             {/* article */}
 
-            {/* image */}
-
             <Grid container spacing={1} style={{paddingTop:"5%", paddingBottom:"6%"}}>
-                <Grid item xs={2}></Grid>
-                {/* <Grid item xs={4} className={styles.imageBlock} style={{marginRight:"1%"}}>
-                    <img 
-                        src={writing01}
-                        style={{width:'100%', height:'100%'}}
-                    />
-                </Grid> */}
-                {/* <Grid item xs={4} className={styles.imageBlock} style={{marginLeft:"1%"}}>
-                    <img 
-                        src={writing02}
-                        style={{width:'100%', height:'100%'}}
-                    />
-                </Grid> */}
-                <Grid item xs={2}></Grid>
+            
             </Grid>
-
-            {/* image */}
 
         </React.Fragment>
     )

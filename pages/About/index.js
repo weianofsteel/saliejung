@@ -20,26 +20,26 @@ const About = () => {
 
                 <Grid container spacing={1} style={{marginTop:"3%"}}>
                     
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} sm={2} md={3}></Grid>
                     
-                    <Grid item xs={6}>
+                    <Grid item xs={10} sm={8} md={6}>
                         <span className={styles.title}>Hello World.</span>
                         <Aboutme/>
                     </Grid>
                     
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} sm={2} md={3}></Grid>
 
                 </Grid>
 
                 <Grid container spacing={1} style={{marginTop:"8%"}}>
 
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} sm={2} md={3}></Grid>
                     
-                    <Grid item xs={6}>
+                    <Grid item xs={10} sm={8} md={6}>
                         <Experience/>
                     </Grid>
                     
-                    <Grid item xs={3}></Grid>
+                    <Grid item xs={1} sm={2} md={3}></Grid>
 
                 </Grid>
 

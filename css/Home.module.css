@@ -14,8 +14,8 @@
 
 .main2 {
     background-color: #F5F5F5;
-    padding-left: 6%;
-    padding-right: 6%;
+    /* padding-left: 6%;
+    padding-right: 6%; */
 }
 
 .main3 {
@@ -147,7 +147,7 @@
     padding-right: 0;
     color: #1F1F1F;
     font-size: 2rem;
-    height: 100%
+    height: 100%;
 }
 
 .imageBlock {

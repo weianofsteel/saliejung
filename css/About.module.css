@@ -6,7 +6,7 @@
 }
 
 .title {
-    font-size: 76px;
+    font-size: 4rem;
     font-family: 'Roboto Slab';
 }
 
@@ -27,7 +27,7 @@
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Roboto';
     font-weight: 1000;
     line-height: 4rem;
