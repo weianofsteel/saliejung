@@ -12,7 +12,7 @@ export const AgodaDesign = () => {
                 <Grid container className={styles.img01}>
                     <Grid item xs={2} md={4}></Grid>
                     <Grid item xs={8} md={4} style={{textAlign:'center', height:'30rem'}}>
-                        <img src={agoda} style={{marginTop:'30%'}}/>
+                        <img src={agoda} style={{marginTop:'8rem'}}/>
                     </Grid>
                     <Grid item xs={2} md={4}></Grid>
                 </Grid>
@@ -21,8 +21,8 @@ export const AgodaDesign = () => {
             <Hidden smUp>
                 <Grid container className={styles.img01}>
                     <Grid item xs={2}></Grid>
-                    <Grid item xs={8} style={{textAlign:'center', height:'18rem'}}>
-                        <img src={agoda} style={{marginTop:'25%',width:'80%'}}/>
+                    <Grid item xs={8} style={{textAlign:'center', height:'21rem'}}>
+                        <img src={agoda} style={{marginTop:'4rem',width:'80%'}}/>
                     </Grid>
                     <Grid item xs={2}></Grid>
                 </Grid>

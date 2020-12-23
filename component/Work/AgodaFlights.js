@@ -22,7 +22,7 @@ export const AgodaFlights = () => {
             <Grid container className={styles.img01}>
                 <Grid item xs={1} sm={4}></Grid>
                 <Grid item xs={10} sm={4} style={{textAlign:'center'}}>
-                    <img src={flights01} style={{width:'80%'}} className={styles.flights01}/>
+                    <img src={flights01} style={{width:'60%'}} className={styles.flights01}/>
                 </Grid>
                 <Grid item xs={1} sm={4}></Grid>
             </Grid>
