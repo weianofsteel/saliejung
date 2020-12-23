@@ -15,7 +15,7 @@ export const Writings = () => {
 
             <Grid container spacing={1} style={{paddingTop:"6%"}}>
                 <Grid item xs={1} md={2}></Grid>
-                <Grid item xs={10} md={4} style={{marginLeft:'-1rem'}}>
+                <Grid item xs={10} md={4}>
                     <span className={styles.writingsTitle}>
                         Writings
                     </span>
