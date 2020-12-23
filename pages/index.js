@@ -78,7 +78,6 @@ const Index = () => {
             <div className={styles.main3}>
                 <Footer/>
             </div>
-            <div style={{marginTop:"4%"}}></div>
 
             {/* footer */}
 

@@ -59,6 +59,8 @@ export const Footer = () => {
                     </span>
                 </Grid>
             </Grid>
+
+            <Grid container style={{height:'3rem'}}></Grid>
         
         </React.Fragment>
     )
