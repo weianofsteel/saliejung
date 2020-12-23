@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/Work/Agoda-design": "pages/Work/Agoda-design.js",
   "/Work/Agoda-flights": "pages/Work/Agoda-flights.js",
   "/": "pages/index.js"
 }

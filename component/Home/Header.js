@@ -55,7 +55,7 @@ export const Header = () => {
         <React.Fragment>
             
             <div className={styles.main1}>
-                <Grid container spacing={2} style={{marginTop: "10px"}}>
+                <Grid container spacing={2} style={{paddingTop: "10px"}}>
                     <Grid item xs={2}>
                         <Link href='/' underline='none' style={{color:'#1F1F1F'}}><span className={styles.title}>saliejung</span></Link>
                     </Grid>
