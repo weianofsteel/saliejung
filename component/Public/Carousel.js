@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import styles from '../../css/Work.module.css';
+import styles from '../../css/Public.module.css';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
@@ -21,14 +21,14 @@ export const Carousel = (props) => {
         <React.Fragment>
 
             {carousel == 1?
-                <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
+                <div className={styles.carouselOuter}>
                     <Grid container style={{marginTop:'3%'}}>
                         <Grid item xs={false} md={2}></Grid>
                         <Grid item xs={12} md={8}>
                             <div style={{backgroundColor:'white'}}>
                                 <img
                                     src={props.img1}
-                                    style={{width:'100%', height:'100%'}}
+                                    className={styles.carouselImg}
                                 />
                             </div>
                         </Grid>
@@ -38,14 +38,14 @@ export const Carousel = (props) => {
             :''}
 
             {carousel == 2?
-                <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
+                <div className={styles.carouselOuter}>
                     <Grid container style={{marginTop:'3%'}}>
                         <Grid item xs={false} md={2}></Grid>
                         <Grid item xs={12} md={8}>
                             <div style={{backgroundColor:'white'}}>
                                 <img
                                     src={props.img2}
-                                    style={{width:'100%', height:'100%'}}
+                                    className={styles.carouselImg}
                                 />
                             </div>
                         </Grid>
@@ -55,7 +55,7 @@ export const Carousel = (props) => {
                 </div>
             :''}
 
-            <Grid container style={{marginTop:'2%', paddingLeft:'4.5%', paddingRight:'4.5%'}}>
+            <Grid container className={styles.captionContainer}>
                 <Grid item xs={false} md={2}></Grid>
                 <Grid item xs={12} md={8}>
                     <Grid container>
@@ -70,7 +70,7 @@ export const Carousel = (props) => {
                             
                         {carousel == 1?
                             <Grid item xs={6} style={{marginTop:'1.5%'}}>
-                                <span className={styles.imgDescription2}>
+                                <span className={styles.imgDescription}>
                                     {props.caption1}
                                 </span>
                             </Grid>
@@ -78,7 +78,7 @@ export const Carousel = (props) => {
 
                         {carousel == 2?        
                             <Grid item xs={6} style={{marginTop:'1.5%'}}>
-                                <span className={styles.imgDescription2}>
+                                <span className={styles.imgDescription}>
                                     {props.caption2}
                                 </span>
                             </Grid>
