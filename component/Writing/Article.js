@@ -67,16 +67,6 @@ class Article extends React.Component {
                 </Grid>
 
                 {/* article */}
-
-                {/* image */}
-
-                {/* <Grid container spacing={1} style={{paddingTop:"5%", paddingBottom:"6%"}}>
-                    <Grid item xs={5} className={styles.imageBlock}></Grid>
-                    <Grid item xs={2}></Grid>
-                    <Grid item xs={5} className={styles.imageBlock}></Grid>
-                </Grid> */}
-
-                {/* image */}
             
             </React.Fragment>
         )
