@@ -321,8 +321,8 @@ export const AgodaFlights = () => {
 
             <div style={{marginTop:'8%', paddingBottom:'3%'}}>
                 <Grid container>
-                    <Grid item xs={3} md={5}></Grid>
-                    <Grid item xs={6} md={2} style={{textAlign:'center'}}>
+                    <Grid item xs={1} md={4}></Grid>
+                    <Grid item xs={10} md={4} style={{textAlign:'center'}}>
                         <Button
                             endIcon={<ArrowForwardIcon/>}
                         >
@@ -331,7 +331,7 @@ export const AgodaFlights = () => {
                             </span>
                         </Button>
                     </Grid>
-                    <Grid item xs={3} md={5}></Grid>
+                    <Grid item xs={1} md={4}></Grid>
                 </Grid>
             </div>
             
