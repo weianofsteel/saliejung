@@ -8,78 +8,105 @@ import { Header } from '../component/Home/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';
+import { Drawer } from '../component/Public/Drawer.js';
 
 const Index = () => {
+
+    const [drawer, setDrawer] = React.useState(false);
+
+    const handleDrawerOpen = () => {
+        setDrawer(true);
+    }
+
+    const handleDrawerClose = () => {
+        setDrawer(false);
+    }
 
     return(
         <React.Fragment>
         
-            {/* title & menu */}
+            {drawer == false ?
+                <React.Fragment>
+                {/* title & menu */}
+                    
+                <div>
+                    <Header
+                        handleDrawerOpen={handleDrawerOpen}
+                    />
+                </div>            
+
+                {/* title & menu */}
+
+                <div className={styles.main1}>
+                    
+                {/* banner */}
+
+                    <Grid container spacing={1} style={{marginTop:"12%"}}>
+                        <div>
+                            <Banner/>
+                        </div>
                 
-            <div>
-                <Header/>
-            </div>            
+                    </Grid>    
 
-            {/* title & menu */}
+                {/* banner */}
 
-            <div className={styles.main1}>
-                
-            {/* banner */}
+                {/* showcase */}
 
-                <Grid container spacing={1} style={{marginTop:"12%"}}>
-                    <div>
-                        <Banner/>
-                    </div>
-            
-                </Grid>    
-
-            {/* banner */}
-
-            {/* showcase */}
-
-                <Grid container spacing={1} style={{marginTop:"12%"}}>
-                        <Showcase/>
-                </Grid>
-
-            {/* showcase */}
-
-            {/* view all projects */}
-
-                 <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
-                    <Grid item sm={3}></Grid>
-                    <Grid item xs={12} sm={6} style={{textAlign:'center'}}>
-                        <a href='/Work' className={styles.viewLink}>VIEW ALL PROJECTS</a>
+                    <Grid container spacing={1} style={{marginTop:"12%"}}>
+                            <Showcase/>
                     </Grid>
-                    <Grid item md={3}></Grid>
-                </Grid>
 
-            {/* view all projects */}
+                {/* showcase */}
 
-            </div>
+                {/* view all projects */}
 
-            {/* writings */}
+                    <Grid container spacing={1} style={{marginTop:"8%", marginBottom:"8%"}}>
+                        <Grid item sm={3}></Grid>
+                        <Grid item xs={12} sm={6} style={{textAlign:'center'}}>
+                            <a href='/Work' className={styles.viewLink}>VIEW ALL PROJECTS</a>
+                        </Grid>
+                        <Grid item md={3}></Grid>
+                    </Grid>
 
-            <div className={styles.main2}>
-                <Writings/>
-            </div>
+                {/* view all projects */}
 
-            {/* writings */}
+                </div>
 
-            {/* fun facts */}
+                {/* writings */}
 
-            <div>
-                <Funfacts/>
-            </div>
+                <div className={styles.main2}>
+                    <Writings/>
+                </div>
 
-            {/* fun facts */}
+                {/* writings */}
 
-            {/* footer */}
+                {/* fun facts */}
 
-            <div className={styles.main3}>
-                <Footer/>
-            </div>
+                <div>
+                    <Funfacts/>
+                </div>
 
-            {/* footer */}
+                {/* fun facts */}
+
+                {/* footer */}
+
+                <div className={styles.main3}>
+                    <Footer/>
+                </div>
+
+                {/* footer */}
+                </React.Fragment>
+            :''}
+            
+            {drawer == true ?
+                <React.Fragment>
+                    <div style={{backgroundColor:'#1f1f1f'}}>
+                    <Drawer
+                        handleDrawerClose={handleDrawerClose} 
+                    />
+                    </div>
+                </React.Fragment>
+            :''}
 
         </React.Fragment>
     )

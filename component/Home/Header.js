@@ -42,19 +42,23 @@ const useStyles = makeStyles({
     }
 });
 
-export const Header = () => {
+export const Header = (props) => {
 
     const classes = useStyles();
 
-    const [ drawerOpen, setDrawerOpen ] = React.useState(false);
+    // const [ drawerOpen, setDrawerOpen ] = React.useState(false);
 
-    const handleDrawerOpen = () => {
-        setDrawerOpen(true);
-    }
+    // const handleDrawerOpen = () => {
+    //     setDrawerOpen(true);
+    // }
 
-    const handleDrawerClose = () => {
-        setDrawerOpen(false);
-    }
+    // const handleDrawerClose = () => {
+    //     setDrawerOpen(false);
+    // }
+
+    const {
+        handleDrawerOpen
+    } = props;
 
     return(
         <React.Fragment>
@@ -98,7 +102,7 @@ export const Header = () => {
 
                     {/* drawer */}
 
-                    <Drawer
+                    {/* <Drawer
                         // variant='persistent'
                         anchor='top'
                         open={drawerOpen}
@@ -152,7 +156,7 @@ export const Header = () => {
                             </Grid>
                         </Grid>
 
-                    </Drawer>
+                    </Drawer> */}
 
                     {/* drawer */}
 

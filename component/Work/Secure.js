@@ -73,15 +73,21 @@ class Secure extends React.Component {
     }
 
     render(){
+        
+        const {
+            handleDrawerOpen
+        } = this.props;
+        
         return(
             <React.Fragment>
 
-                
                 {this.state.isPass == false?
 
                     <React.Fragment>    
                         <div>
-                            <Header/>
+                            <Header
+                                handleDrawerOpen={handleDrawerOpen}
+                            />
                         </div>
 
                         <div className={styles.main}>
@@ -132,7 +138,9 @@ class Secure extends React.Component {
                 
                     <React.Fragment>
                         <div  className={styles.header}>
-                            <Header/>
+                            <Header
+                                handleDrawerOpen={handleDrawerOpen}
+                            />
                         </div>
 
                         <Grid container style={{top:'70%',position:'fixed'}}>
