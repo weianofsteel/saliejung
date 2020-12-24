@@ -120,35 +120,38 @@ export const Header = () => {
                             </Grid>
                         </Grid>
                         
-                        <Grid container className={classes.drawerHeader}>
+                        <Grid container className={classes.drawerHeader} style={{marginTop:'4rem'}}>
                             <Grid item xs={4}>
                                 <span className={styles.link}>
                                     <Link href="/Work" underline='none' className={classes.drawerLink}>WORK</Link>
                                 </span>
                             </Grid>
                         </Grid>
-                        <List>
-                            <div className={styles.drawerButton}>
-                                <span className={styles.link}>
-                                    <Link href="/Work" underline='none' className={classes.drawerLink}>WORK</Link>
-                                </span>
-                            </div>
-                            <div className={styles.drawerButton}>
+
+                        <Grid container className={classes.drawerHeader}>
+                            <Grid item xs={4}>
                                 <span className={styles.link}>
                                     <Link href="/Writing" underline='none' className={classes.drawerLink}>WRITINGS</Link>
                                 </span>
-                            </div>
-                            <div className={styles.drawerButton}>
+                            </Grid>
+                        </Grid>
+
+                        <Grid container className={classes.drawerHeader}>
+                            <Grid item xs={4}>
                                 <span className={styles.link}>
                                     <Link href="/About" underline='none' className={classes.drawerLink}>ABOUT</Link>
                                 </span>
-                            </div>
-                            <div className={styles.drawerButton}>
+                            </Grid>
+                        </Grid>
+
+                        <Grid container className={classes.drawerHeader}>
+                            <Grid item xs={4}>
                                 <span className={styles.link}>
-                                    <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
+                                <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
                                 </span>
-                            </div>
-                        </List>
+                            </Grid>
+                        </Grid>
+
                     </Drawer>
 
                     {/* drawer */}
