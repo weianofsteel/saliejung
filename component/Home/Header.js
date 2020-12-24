@@ -10,6 +10,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import List from '@material-ui/core/List';
+import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles({
     link: {
@@ -29,11 +30,15 @@ const useStyles = makeStyles({
         fontWeight:400,
         letterSpacing:'1px',
         color:'#8F8F8F',
-        margin: 40,
         fontSize:'22px',
         "&:hover":{
             color:'black'
         }
+    },
+    drawerHeader: {
+        paddingLeft:'2rem',
+        paddingRight:'2rem',
+        marginTop:'3rem'
     }
 });
 
@@ -95,19 +100,33 @@ export const Header = () => {
 
                     <Drawer
                         // variant='persistent'
-                        anchor='right'
+                        anchor='top'
                         open={drawerOpen}
-                        className={classes.drawer}
                         style={{textAlign:'left'}}
                     >
-                        <div>
-                           <IconButton
-                                onClick={handleDrawerClose}
-                           >
-                               <ChevronRightIcon/>
-                            </IconButton> 
-                        </div>
-                        <Divider/>
+                        <Grid container className={classes.drawerHeader}>
+                            <Grid item xs={4}>
+                                <span className={styles.drawerTitle}>saliejung</span>
+                            </Grid>
+                            <Grid item xs={7}></Grid>
+                            <Grid item xs={1} style={{textAlign:'right'}}>
+                                <div>
+                                    <IconButton
+                                        onClick={handleDrawerClose}
+                                    >
+                                    <CloseIcon style={{color:'#B8B8B8'}}/>
+                                    </IconButton> 
+                                </div>
+                            </Grid>
+                        </Grid>
+                        
+                        <Grid container className={classes.drawerHeader}>
+                            <Grid item xs={4}>
+                                <span className={styles.link}>
+                                    <Link href="/Work" underline='none' className={classes.drawerLink}>WORK</Link>
+                                </span>
+                            </Grid>
+                        </Grid>
                         <List>
                             <div className={styles.drawerButton}>
                                 <span className={styles.link}>

@@ -49,6 +49,12 @@
     font-size: 32px;
 }
 
+.drawerTitle {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    color: white;
+}
+
 .menuBar {
     display: inline;
     text-align: right;
