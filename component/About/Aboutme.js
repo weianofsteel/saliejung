@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/About.module.css';
 import Button from '@material-ui/core/Button';
-import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+import CallMadeIcon from '@material-ui/icons/CallMade';
 
 export const Aboutme = () => {
     return(
@@ -63,7 +63,7 @@ export const Aboutme = () => {
                 <Button
                     href='/Resume'
                     style={{color: '#8F8F8F',fontSize: '22px', fontFamily:'Roboto', fontWeight:400}}
-                    endIcon={<OpenInNewIcon/>}
+                    endIcon={<CallMadeIcon/>}
                 >
                     VIEW RESUME
                 </Button>
