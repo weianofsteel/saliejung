@@ -50,7 +50,7 @@ export const Drawer = (props) => {
                     <span className={styles.drawerTitle}>saliejung</span>
                 </Grid>
                 <Grid item xs={7}></Grid>            
-                <Grid item xs={1} style={{textAlign:'right'}}>
+                <Grid item xs={1} style={{textAlign:'center'}}>
                     <div>
                         <IconButton
                             onClick={handleDrawerClose}

@@ -14,25 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
-    ],
     "/About": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/About.js"
-    ],
-    "/Resume": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Resume.js"
-    ],
-    "/Work": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Work.js"
     ],
     "/Writing": [
       "static/chunks/main.js",

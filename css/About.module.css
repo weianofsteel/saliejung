@@ -20,14 +20,14 @@
 /* ./component/About/Aboutme.js */
 
 .aboutme {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Roboto';
     font-weight: 400;
     line-height: 2rem;
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Roboto';
     font-weight: 1000;
     line-height: 4rem;

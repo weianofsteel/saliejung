@@ -69,9 +69,9 @@ const About = () => {
             {drawer == true ?
                 <React.Fragment>
                     <div style={{backgroundColor:'#1f1f1f'}}>
-                    <Drawer
-                        handleDrawerClose={handleDrawerClose} 
-                    />
+                        <Drawer
+                            handleDrawerClose={handleDrawerClose} 
+                        />
                     </div>
                 </React.Fragment>
             :''}
