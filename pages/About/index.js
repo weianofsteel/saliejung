@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../css/About.module.css';
 import Grid from '@material-ui/core/Grid';
-import { Header } from '../../component/Home/Header.js'; 
+import { Header } from '../../component/Public/Header.js'; 
 import { Footer } from '../../component/Home/Footer.js';
 import { Aboutme } from '../../component/About/Aboutme.js';
 import { Gallery } from '../../component/About/Gallery.js';

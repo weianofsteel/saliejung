@@ -1,6 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import { Header } from '../../../component/Home/Header.js';
+import { Header } from '../../../component/Public/Header.js';
 import { Footer } from '../../../component/Home/Footer.js';
 import styles from '../../../css/Work.module.css';
 import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';

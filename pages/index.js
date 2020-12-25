@@ -4,7 +4,7 @@ import { Banner } from '../component/Home/Banner.js';
 import { Showcase } from '../component/Home/Showcase.js';
 import { Writings } from '../component/Home/Writings.js';
 import { Footer } from '../component/Home/Footer.js';
-import { Header } from '../component/Home/Header.js';
+import { Header } from '../component/Public/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import Button from '@material-ui/core/Button';

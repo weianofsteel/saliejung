@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../css/Writing.module.css';
-import { Header } from '../../component/Home/Header.js'; 
+import { Header } from '../../component/Public/Header.js'; 
 import { Footer } from '../../component/Home/Footer.js';
 import Article from '../../component/Writing/Article.js';
 import { Drawer } from '../../component/Public/Drawer.js';

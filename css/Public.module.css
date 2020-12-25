@@ -48,6 +48,11 @@
 
 /* ./component/Public/Header.js */
 
+.main1 {
+    margin-left: 6%;
+    margin-right: 6%
+}
+
 .title {
     font-family: 'Roboto Slab';
     font-size: 32px;

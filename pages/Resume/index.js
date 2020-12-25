@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../css/Resume.module.css';
-import { Header } from '../../component/Home/Header.js'; 
+import { Header } from '../../component/Public/Header.js'; 
 import { Footer } from '../../component/Home/Footer.js';
 import { Drawer } from '../../component/Public/Drawer.js';
 

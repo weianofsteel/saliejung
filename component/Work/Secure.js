@@ -6,7 +6,7 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { AgodaFlights } from './AgodaFlights.js';
-import { Header } from '../../component/Home/Header.js';
+import { Header } from '../../component/Public/Header.js';
 import { Scrollup } from '../Public/Scrollup';
 
 class Secure extends React.Component {
