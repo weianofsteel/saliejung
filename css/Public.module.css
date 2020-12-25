@@ -45,3 +45,32 @@
 }
 
 /* ./component/Public/Drawer.js */
+
+/* ./component/Public/Header.js */
+
+.title {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+}
+
+.drawerTitle {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
+    color: white;
+}
+
+.menuBar {
+    display: inline;
+    text-align: right;
+}
+
+.link {
+    text-decoration: none; 
+}
+
+.drawerButton {
+    margin-top: 1.5rem;
+    width: 100%
+}
+
+/* ./component/Public/Header.js */
