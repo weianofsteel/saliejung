@@ -21,7 +21,7 @@ const Writing = () => {
         <React.Fragment>
             
             {drawer == false ?
-                <div style={{backgroundColor:"#E5E5E5", margin:-10}}>
+                <div style={{backgroundColor:"#E5E5E5"}}>
                     <div style={{backgroundColor:"#E5E5E5", margin:0}}>
 
                         <div>

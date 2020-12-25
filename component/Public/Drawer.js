@@ -30,8 +30,6 @@ const useStyles = makeStyles({
         }
     },
     drawerHeader: {
-        paddingLeft:'2rem',
-        paddingRight:'2rem',
         paddingTop:'3rem'
     }
 });
@@ -46,8 +44,8 @@ export const Drawer = (props) => {
 
     return(
         <React.Fragment>
-            <div style={{height:'100vh'}}>
-            <Grid container className={classes.drawerHeader}>
+            <div style={{height:'100vh', marginLeft:'6%', marginRight:'6%', paddingTop: "10px"}}>
+            <Grid container>
                 <Grid item xs={4}>
                     <span className={styles.drawerTitle}>saliejung</span>
                 </Grid>
