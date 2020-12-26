@@ -68,7 +68,7 @@ export const Header = (props) => {
                     <Grid item xs={2}></Grid>
                     
                     <Hidden mdDown>
-                        <Grid item xs={4} className={styles.menuBar}>
+                        <Grid item xs={4} className={styles.menuBar} style={{marginTop:'0.5rem'}}>
                             <span className={styles.link}>
                                 <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
                             </span>
