@@ -1,10 +1,38 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
-import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        letterSpacing:'1px',
+        lineHeight:'1.5rem',
+        color:'#8F8F8F',
+        fontSize:'1rem',
+        "&:hover":{
+            color:'black'
+        }
+    },
+    copyright: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        letterSpacing:'1px',
+        lineHeight:'1rem',
+        fontSize:'0.9rem',
+        color:'#8F8F8F',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});    
+
 export const Footer = () => {
+    
+    const classes = useStyles();
+    
     return(
         <React.Fragment>
             
@@ -29,19 +57,11 @@ export const Footer = () => {
                     <br/>
                     <br/>
                     <br/>
-                    <Link 
-                        href="/"
-                        color='inherit'
-                        className={styles.footerLeftContent}
-                    >
+                    <Link underline='none' className={classes.link}>
                         LINKEDIN
                     </Link>
                     <br/>
-                    <Link 
-                        href="/"
-                        color='inherit'
-                        className={styles.footerLeftContent}
-                    >
+                    <Link underline='none' className={classes.link}>
                         MEDIUM
                     </Link>
                 </Grid>
@@ -55,7 +75,7 @@ export const Footer = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <span className={styles.copyright}>
-                        Developed by Wang WeiAn
+                        Developed by <Link underline='none' className={classes.copyright}>Wang WeiAn</Link>
                     </span>
                 </Grid>
             </Grid>

@@ -231,7 +231,7 @@
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 0.9rem;
     font-family: 'Roboto';
     font-weight: 400;
     line-height: 16px;
@@ -240,14 +240,14 @@
 .footerLeftTitle {
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 24px;
 }
 
 .footerLeftContent {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20px;
 }
 
