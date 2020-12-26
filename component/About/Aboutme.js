@@ -1,10 +1,26 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Link from '@material-ui/core/Link';
 import styles from '../../css/About.module.css';
-import Button from '@material-ui/core/Button';
-import CallMadeIcon from '@material-ui/icons/CallMade';
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        letterSpacing:'1px',
+        color:'#8F8F8F',
+        fontSize:'1.1rem',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});    
 
 export const Aboutme = () => {
+
+    const classes = useStyles();
+
     return(
         <React.Fragment>
             
@@ -20,7 +36,9 @@ export const Aboutme = () => {
                      constantly.<br/><br/>
                     In the past few years, I have delivered various designs for 
                     clients from leading tech companies, startups, and design 
-                    agencies. Currently, I am a Product Designer at Agoda. I worked
+                    agencies. Currently, I am a Product Designer at 
+                     <Link underline='none' className={classes.link}> Agoda</Link>
+                    . I worked
                      on Agoda Flights for the next level after it launched in 
                      mid-2019 and curating a better experience for Hotels Pricing. 
                     At Agoda, I co-initiated a recruitment program and gave a 
@@ -52,21 +70,20 @@ export const Aboutme = () => {
                     Outside of work, I am traveling, watching movies, Netflix, 
                     eating cake, and cooking.
                     <br/><br/>
-                    You can follow me here - LinkedIn, Medium and Github
-                    or reach out by email - saliejung47@gmail.com
+                    --
+                    <br/><br/>
+                    You can follow me here - <Link underline='none' className={classes.link}>LinkedIn</Link>, <Link underline='none' className={classes.link}>Medium</Link> and <Link underline='none' className={classes.link}>Github</Link>
+                    <br/>
+                    or reach out by email - <Link underline='none' className={classes.link}>saliejung47@gmail.com</Link>
                </p>
             </div>
 
             <br/><br/>
 
             <div style={{marginTop:'5%'}}>
-                <Button
-                    href='/Resume'
-                    style={{color: '#8F8F8F',fontSize: '22px', fontFamily:'Roboto', fontWeight:400}}
-                    endIcon={<CallMadeIcon/>}
-                >
-                    VIEW RESUME
-                </Button>
+                <Link underline='none' className={classes.link}>
+                    VIEW RESUME <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-0.2rem'}}/>
+                </Link>
             </div>
 
         </React.Fragment>

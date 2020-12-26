@@ -46,7 +46,7 @@ const About = () => {
 
                         </Grid>
 
-                        <Grid container spacing={1} style={{marginTop:"8%"}}>
+                        {/* <Grid container spacing={1} style={{marginTop:"8%"}}>
 
                             <Grid item xs={1} sm={2} md={3}></Grid>
                             
@@ -56,7 +56,7 @@ const About = () => {
                             
                             <Grid item xs={1} sm={2} md={3}></Grid>
 
-                        </Grid>
+                        </Grid> */}
 
                     </div>
 
