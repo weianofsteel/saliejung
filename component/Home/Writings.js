@@ -6,8 +6,24 @@ import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import writing01 from '../../public/writings/writing01.png';
 import writing02 from '../../public/writings/writing02.png';
 import Hidden from '@material-ui/core/Hidden';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    title: {
+        color:'#1F1F1F', 
+        fontFamily: 'Roboto Slab', 
+        paddingBottom:'0.02rem', 
+        lineHight:'0.02rem',
+        "&:hover":{
+            borderBottom:'2px solid black'
+        }
+    }
+});
 
 export const Writings = () => {
+    
+    const classes = useStyles();
+    
     return(
         <React.Fragment>
             
@@ -37,8 +53,11 @@ export const Writings = () => {
                             <Link
                                 href='/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                                underline='none'
                             >
-                                An exciting adventure for a new designer at Agoda&ensp;
+                                <span className={classes.title}>
+                                    An exciting adventure for a new designer at Agoda&ensp;
+                                </span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
@@ -59,10 +78,13 @@ export const Writings = () => {
                             <Link
                                 href='/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                                underline='none'
                             >
-                                Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                <span className={classes.title}>
+                                    Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                </span>
+                                <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                             </Link>
-                            <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
                         <br/>
                         <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
@@ -87,8 +109,11 @@ export const Writings = () => {
                             <Link
                                 href='/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                                underline='none'
                             >
-                                An exciting adventure for a new designer at Agoda&ensp;
+                                <span className={classes.title}>
+                                    An exciting adventure for a new designer at Agoda&ensp;
+                                </span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
@@ -110,8 +135,11 @@ export const Writings = () => {
                             <Link
                                 href='/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                                underline='none'
                             >
-                                Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                <span className={classes.title}>
+                                    Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                </span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>

@@ -8,7 +8,6 @@ const useStyles = makeStyles({
     link: {
         fontFamily:'Roboto',
         fontWeight:400,
-        letterSpacing:'1px',
         lineHeight:'1.5rem',
         color:'#8F8F8F',
         fontSize:'1rem',
@@ -19,7 +18,6 @@ const useStyles = makeStyles({
     copyright: {
         fontFamily:'Roboto',
         fontWeight:400,
-        letterSpacing:'1px',
         lineHeight:'1rem',
         fontSize:'0.9rem',
         color:'#8F8F8F',
@@ -58,11 +56,11 @@ export const Footer = () => {
                     <br/>
                     <br/>
                     <Link underline='none' className={classes.link}>
-                        LINKEDIN
+                        Linkedin
                     </Link>
                     <br/>
                     <Link underline='none' className={classes.link}>
-                        MEDIUM
+                        Medium
                     </Link>
                 </Grid>
             </Grid>
