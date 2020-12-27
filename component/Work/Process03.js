@@ -40,7 +40,7 @@ export const Process03 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
-                                <span className={styles.competitiveAnalysisTitle1}>
+                                <span className={styles.designHighlight}>
                                     TECHNICAL REVIEW
                                 </span>
                             </Grid>
@@ -81,7 +81,7 @@ export const Process03 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
-                                <span className={styles.competitiveAnalysisTitle1}>
+                                <span className={styles.designHighlight}>
                                     OUTCOME
                                 </span>
                             </Grid>

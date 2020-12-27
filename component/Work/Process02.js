@@ -45,7 +45,7 @@ export const Process02 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
-                                <span className={styles.competitiveAnalysisTitle1}>
+                                <span className={styles.designHighlight}>
                                     PRELIMINARY EXPLORATIONS
                                 </span>
                             </Grid>
@@ -88,7 +88,7 @@ export const Process02 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
-                                <span className={styles.competitiveAnalysisTitle1}>
+                                <span className={styles.designHighlight}>
                                     DESIGN ITERATION
                                 </span>
                             </Grid>
@@ -164,7 +164,7 @@ export const Process02 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             
                             <Grid item xs={12} style={{marginTop:'10%'}}>
-                                <span className={styles.competitiveAnalysisTitle1}>
+                                <span className={styles.designHighlight}>
                                     FINAL DESIGN
                                 </span>
                             </Grid>
