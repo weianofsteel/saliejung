@@ -4,6 +4,7 @@ import styles from '../../css/Work.module.css';
 import agoda from '../../public/agoda-logo.png';
 import Hidden from '@material-ui/core/Hidden';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { Design01 } from './Design01.js';
 
 export const AgodaDesign = () => {
     return(
@@ -93,7 +94,7 @@ export const AgodaDesign = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
-            <Grid container style={{marginTop:'8%'}} className={styles.scrollDown}>
+            <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>
                     <span>
@@ -105,6 +106,10 @@ export const AgodaDesign = () => {
                     <ExpandMoreIcon/>
                 </Grid>
             </Grid>
+
+            <div>
+                <Design01/>
+            </div>
 
         </React.Fragment>
     )
