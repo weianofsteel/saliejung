@@ -75,9 +75,10 @@
 
 .article {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
+    letter-spacing: 0.03rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -89,7 +90,7 @@
 
 .contentTitle {
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     color: #8F8F8F;
@@ -97,7 +98,7 @@
 
 .contentDetail {
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     color: #1F1F1F;
@@ -160,9 +161,10 @@
 
 .scrollDown {
     font-family: 'Roboto';
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 1.1rem;
+    letter-spacing: 0.05rem;
     color: #8F8F8F;
     text-align: center;
 }
