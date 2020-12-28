@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import { Banner } from '../component/Home/Banner.js';
 import { Showcase } from '../component/Home/Showcase.js';
 import { Writings } from '../component/Home/Writings.js';
-import { Footer } from '../component/Home/Footer.js';
+import { Footer } from '../component/Public/Footer.js';
 import { Header } from '../component/Public/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';

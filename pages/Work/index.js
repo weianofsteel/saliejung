@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../css/Work.module.css';
 import { Header } from '../../component/Public/Header.js';
-import { Footer } from '../../component/Home/Footer.js';
+import { Footer } from '../../component/Public/Footer.js';
 import { Showcase } from '../../component/Work/Showcase.js';  
 import { Drawer } from '../../component/Public/Drawer.js';
 

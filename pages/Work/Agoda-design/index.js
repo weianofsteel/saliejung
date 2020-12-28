@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header } from '../../../component/Public/Header.js';
-import { Footer } from '../../../component/Home/Footer.js';
+import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
 import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
