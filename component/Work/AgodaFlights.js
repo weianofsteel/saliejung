@@ -318,22 +318,6 @@ export const AgodaFlights = () => {
             <div>
                 <Process03/>
             </div>
-
-            <div style={{marginTop:'8%', paddingBottom:'3%'}}>
-                <Grid container>
-                    <Grid item xs={1} md={4}></Grid>
-                    <Grid item xs={10} md={4} style={{textAlign:'center'}}>
-                        <Button
-                            endIcon={<ArrowForwardIcon/>}
-                        >
-                            <span className={styles.scrollDown}>
-                                next project
-                            </span>
-                        </Button>
-                    </Grid>
-                    <Grid item xs={1} md={4}></Grid>
-                </Grid>
-            </div>
             
         </React.Fragment>
     )

@@ -3,6 +3,7 @@ import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
 import Secure from '../../../component/Work/Secure.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
+import { BottomNavbar } from '../../../component/Public/BottomNavbar.js'; 
 
 const Page = () => {
 
@@ -25,6 +26,10 @@ const Page = () => {
                         <Secure
                             handleDrawerOpen={handleDrawerOpen}
                         />
+                    </div>
+
+                    <div style={{marginTop:'6%'}}>
+                        <BottomNavbar/>    
                     </div>
 
                     <div className={styles.footer}>
