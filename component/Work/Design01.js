@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import design01 from '../../public/agoda-design/design01.png';
 import design02 from '../../public/agoda-design/design02.png';
-import dot from '../../public/dot.png';
+import design03 from '../../public/agoda-design/design03.png';
 import { Carousel } from '../Public/Carousel.js';
 
 export const Design01 = () => {
@@ -26,7 +26,7 @@ export const Design01 = () => {
                     <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>
                             <Grid item xs={12}>
-                                <span className={styles.competitiveAnalysisTitle2}>
+                                <span className={styles.designTitle}>
                                     When I just joined Agoda
                                 </span>
                             </Grid>
@@ -60,7 +60,7 @@ export const Design01 = () => {
                     <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>
                             <Grid item xs={12}>
-                                <span className={styles.competitiveAnalysisTitle2}>
+                                <span className={styles.designTitle}>
                                     User interview with internal & external users
                                 </span>
                             </Grid>
@@ -87,6 +87,61 @@ export const Design01 = () => {
                         caption2={'By interviewing with the observation room, the interviewees are getting more comfortable to share their experience.'}
                     />
                 </div>
+
+                <Grid container style={{marginTop:'8%'}}>
+                    <Grid item xs={5}></Grid>
+                    <Grid item xs={2} style={{textAlign:'center'}}>
+                        <span className={styles.dotLine}>
+                            ·&nbsp;·&nbsp;·
+                        </span>
+                    </Grid>
+                    <Grid item xs={5}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'6%'}}>
+                    <Grid item xs={1} md={3}></Grid>
+                    <Grid item xs={10} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.designTitle}>
+                                    Internal workshop for brainstorming
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designContent}>
+                                    Some projects rely on technical constraints heavily, 
+                                    that is the time we get engineers to involve in the 
+                                    design process as early as possible. During the pandemic 
+                                    and WFH period, we even conducted the brainstorming 
+                                    workshop on the online tool to collect ideas, share 
+                                    insights, and vote for the excited one. Most of them have 
+                                    been include in the milestones by the product manager for 
+                                    the upcoming quarter.
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={1} md={3}></Grid>
+                </Grid>
+
+                <div>
+                    <Carousel 
+                        img1={design03}
+                        img2={design03}
+                        caption1={'It was effective to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
+                        caption2={'It was effective to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
+                    />
+                </div>
+
+                <Grid container style={{marginTop:'8%'}}>
+                    <Grid item xs={5}></Grid>
+                    <Grid item xs={2} style={{textAlign:'center'}}>
+                        <span className={styles.dotLine}>
+                            ·&nbsp;·&nbsp;·
+                        </span>
+                    </Grid>
+                    <Grid item xs={5}></Grid>
+                </Grid>
 
             </div>
 

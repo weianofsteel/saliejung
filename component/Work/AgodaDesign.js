@@ -5,6 +5,7 @@ import agoda from '../../public/agoda-logo.png';
 import Hidden from '@material-ui/core/Hidden';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Design01 } from './Design01.js';
+import { Design02 } from './Design02.js';
 
 export const AgodaDesign = () => {
     return(
@@ -109,6 +110,10 @@ export const AgodaDesign = () => {
 
             <div>
                 <Design01/>
+            </div>
+
+            <div>
+                <Design02/>
             </div>
 
         </React.Fragment>
