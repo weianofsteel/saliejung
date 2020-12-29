@@ -3,6 +3,7 @@ import Link from '@material-ui/core/Link';
 import styles from '../../css/About.module.css';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 import { makeStyles } from '@material-ui/core/styles';
+import aboutme from '../../public/about-img.png';
 
 const useStyles = makeStyles({
     link: {
@@ -84,6 +85,10 @@ export const Aboutme = () => {
                 <Link underline='none' className={classes.link}>
                     VIEW RESUME <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-0.2rem'}}/>
                 </Link>
+            </div>
+
+            <div style={{marginTop:'8%'}}>
+                <img src={aboutme}/>
             </div>
 
         </React.Fragment>
