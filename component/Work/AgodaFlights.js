@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
+import flightHeader from '../../public/agoda-flights/flight-header.png';
 import flights01 from '../../public/flights01.png';
 import flights02 from '../../public/agoda-flights/flights02.png';
 import flights03 from '../../public/agoda-flights/flights03.png';
@@ -10,9 +11,6 @@ import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
 import { Process02 } from './Process02.js';
 import { Process03 } from './Process03.js';
-import Button from '@material-ui/core/Button';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import Hidden from '@material-ui/core/Hidden';
 
 export const AgodaFlights = () => {
 
@@ -22,7 +20,7 @@ export const AgodaFlights = () => {
             <Grid container className={styles.img01}>
                 <Grid item xs={1} sm={4}></Grid>
                 <Grid item xs={10} sm={4} style={{textAlign:'center'}}>
-                    <img src={flights01} style={{width:'60%'}} className={styles.flights01}/>
+                    <img src={flights01} style={{width:'65%'}} className={styles.flights01}/>
                 </Grid>
                 <Grid item xs={1} sm={4}></Grid>
             </Grid>
