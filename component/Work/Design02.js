@@ -60,7 +60,7 @@ export const Design02 = () => {
                     <Grid item xs={5}></Grid>
                 </Grid>
 
-                <Grid container>
+                <Grid container style={{marginTop:'6%'}}>
                     <Grid item xs={1} md={3}></Grid>
                     <Grid item xs={10} md={6}>
                         <Grid container spacing={3} className={styles.content}>

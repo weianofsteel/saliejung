@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
-import Button from '@material-ui/core/Button';
 import photo5 from '../../public/5.jpeg';
 import photo3 from '../../public/3.jpeg';
 import photo8 from '../../public/8.jpeg';
@@ -13,39 +12,40 @@ class Funfacts extends React.Component {
         super(props);
         this.state = {
             galleryState: 0,
-            boxHeight: "300px"
+            boxHeight: '300px',
+            funFactImg: 0
         }
 
-        this.handleOnMouseEnter1 = this.handleOnMouseEnter1.bind(this);
-        this.handleOnMouseLeave = this.handleOnMouseLeave.bind(this);
-        this.handleOnMouseEnter2 = this.handleOnMouseEnter2.bind(this);
-        this.handleOnMouseEnter3 = this.handleOnMouseEnter3.bind(this);
-        this.handleOnMouseEnter4 = this.handleOnMouseEnter4.bind(this);
-        this.handleOnMouseEnter5 = this.handleOnMouseEnter5.bind(this);
+        this.handleFunFactImgEnter1 = this.handleFunFactImgEnter1.bind(this);
+        this.handleFunFactImgEnter2 = this.handleFunFactImgEnter2.bind(this);
+        this.handleFunFactImgEnter3 = this.handleFunFactImgEnter3.bind(this);
+        this.handleFunFactImgEnter4 = this.handleFunFactImgEnter4.bind(this);
+        this.handleFunFactImgEnter5 = this.handleFunFactImgEnter5.bind(this);
+        this.handleFunFactImgLeave = this.handleFunFactImgLeave.bind(this);
     }
 
-    handleOnMouseEnter1(){
-        this.setState({galleryState: 1})
+    handleFunFactImgEnter1() {
+        this.setState({funFactImg: 1});
     }
 
-    handleOnMouseLeave(){
-        this.setState({galleryState: 0})
+    handleFunFactImgEnter2(){
+        this.setState({funFactImg: 2})
     }
 
-    handleOnMouseEnter2(){
-        this.setState({galleryState: 2})
+    handleFunFactImgEnter3(){
+        this.setState({funFactImg: 3})
     }
 
-    handleOnMouseEnter3(){
-        this.setState({galleryState: 3})
+    handleFunFactImgEnter4(){
+        this.setState({funFactImg: 4})
     }
 
-    handleOnMouseEnter4(){
-        this.setState({galleryState: 4})
+    handleFunFactImgEnter5(){
+        this.setState({funFactImg: 5})
     }
 
-    handleOnMouseEnter5(){
-        this.setState({galleryState: 5})
+    handleFunFactImgLeave() {
+        this.setState({funFactImg: 0});
     }
 
     render() {
@@ -68,24 +68,24 @@ class Funfacts extends React.Component {
                             transition period in 2018, I spent a month traveling in 
                             <span 
                                 style={{color:'#8F8F8F'}}
-                                onMouseEnter={this.handleOnMouseEnter1}
-                                onMouseLeave={this.handleOnMouseLeave}
+                                onMouseEnter={this.handleFunFactImgEnter1}
+                                onMouseLeave={this.handleFunFactImgLeave}
                             >
                                     &nbsp;#Kyoto&nbsp;
                             </span> 
                             , which is my favorite city (so far) and took an 8-hour bus to 
                             <span 
                                 style={{color:'#8F8F8F'}}
-                                onMouseEnter={this.handleOnMouseEnter2}
-                                onMouseLeave={this.handleOnMouseLeave}
+                                onMouseEnter={this.handleFunFactImgEnter2}
+                                onMouseLeave={this.handleFunFactImgLeave}
                             >
                                     &nbsp;#Tokyo&nbsp;
                             </span>  
                             to stay another week. I love exploring the world and also my home country 
                             <span 
                                 style={{color:'#8F8F8F'}}
-                                onMouseEnter={this.handleOnMouseEnter3}
-                                onMouseLeave={this.handleOnMouseLeave}
+                                onMouseEnter={this.handleFunFactImgEnter3}
+                                onMouseLeave={this.handleFunFactImgLeave}
                             >
                                     &nbsp;#Taiwan&nbsp;
                             </span>
@@ -93,8 +93,8 @@ class Funfacts extends React.Component {
                             applied for the travel & experience program to work as a
                             <span 
                                 style={{color:'#8F8F8F'}}
-                                onMouseEnter={this.handleOnMouseEnter4}
-                                onMouseLeave={this.handleOnMouseLeave}
+                                onMouseEnter={this.handleFunFactImgEnter4}
+                                onMouseLeave={this.handleFunFactImgLeave}
                             >
                                     &nbsp;#RideOperator&nbsp;
                             </span>
@@ -102,8 +102,8 @@ class Funfacts extends React.Component {
                             to 
                             <span 
                                 style={{color:'#8F8F8F'}}
-                                onMouseEnter={this.handleOnMouseEnter4}
-                                onMouseLeave={this.handleOnMouseLeave}
+                                onMouseEnter={this.handleFunFactImgEnter5}
+                                onMouseLeave={this.handleFunFactImgLeave}
                             >
                                     &nbsp;#Bangkok&nbsp;
                             </span>
@@ -121,106 +121,44 @@ class Funfacts extends React.Component {
                     <Grid item xs={2} md={4}></Grid>
                 </Grid>
 
-                {this.state.galleryState == 0 ?
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={2}></Grid>
-                        <Grid item xs={8}>
-                            <Grid container spacing={1} style={{marginTop:"2%"}}>
-                                <Grid item xs={12} md={4}>
-                                    <Grid container spacing={1}>
-                                        <Grid item xs={6}>
-                                            <div>
-                                                <img src={photo5} style={{width:"100%"}}/>
-                                            </div>
-                                            <div>
-                                                <img src={photo5} style={{width:"100%"}}/>
-                                            </div>
-                                        </Grid>
-                                        <Grid item xs={6}>
-                                            <div>
-                                                <img src={photo10} style={{width:"100%"}}/>
-                                            </div>
-                                            <div>
-                                                <img src={photo10} style={{width:"100%"}}/>
-                                            </div>
-                                        </Grid>
+                <Grid container spacing={1} style={{marginTop:"2%"}}>
+                    <Grid item xs={2}></Grid>
+                    <Grid item xs={8}>
+                        <Grid container spacing={1} style={{marginTop:"2%"}}>
+                            <Grid item xs={12} md={4}>
+                                <Grid container spacing={1}>
+                                    <Grid item xs={6}>
+                                        <div className={this.state.funFactImg == 1?styles.funFactImgOnHover:styles.funFactImg}>
+                                            <img src={photo5} style={{width:"100%"}}/>
+                                        </div>
+                                        <div className={this.state.funFactImg == 2?styles.funFactImgOnHover:styles.funFactImg}>
+                                            <img src={photo5} style={{width:"100%"}}/>
+                                        </div>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <div className={this.state.funFactImg == 3?styles.funFactImgOnHover:styles.funFactImg}>
+                                            <img src={photo10} style={{width:"100%"}}/>
+                                        </div>
+                                        <div className={this.state.funFactImg == 4?styles.funFactImgOnHover:styles.funFactImg}>
+                                            <img src={photo10} style={{width:"100%"}}/>
+                                        </div>
                                     </Grid>
                                 </Grid>
-                                <Grid item xs={12} md={4}>
-                                    <div>
-                                        <img src={photo8} style={{width:"100%"}}/>
-                                    </div>
-                                </Grid>
-                                <Grid item xs={12} md={4}>
-                                    <div>
-                                        <img src={photo3} style={{width:"100%"}}/>
-                                    </div>
-                                </Grid>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <div className={this.state.funFactImg == 5?styles.funFactImgOnHover:styles.funFactImg}>
+                                    <img src={photo8} style={{width:"100%"}}/>
+                                </div>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <div className={this.state.funFactImg == 1?styles.funFacrImgOnHover:styles.funFactImg}>
+                                    <img src={photo3} style={{width:"100%"}}/>
+                                </div>
                             </Grid>
                         </Grid>
-                        <Grid item xs={2}></Grid>
-                    </Grid> : ""
-                }
-
-                {this.state.galleryState == 1 ? 
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={6}>
-                            <div>
-                                <img src={photo10} style={{width:"100%"}}/>
-                            </div>
-                        </Grid>
-                        <Grid item xs={3}></Grid>
                     </Grid>
-                :""}
-
-                {this.state.galleryState == 2 ? 
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={6}>
-                            <div>
-                                <img src={photo5} style={{width:"100%"}}/>
-                            </div>
-                        </Grid>
-                        <Grid item xs={3}></Grid>
-                    </Grid>
-                :""}
-
-                {this.state.galleryState == 3 ? 
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={6}>
-                            <div>
-                                <img src={photo8} style={{width:"100%"}}/>
-                            </div>
-                        </Grid>
-                        <Grid item xs={3}></Grid>
-                    </Grid>
-                :""}
-
-                {this.state.galleryState == 4 ? 
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={6}>
-                            <div>
-                                <img src={photo3} style={{width:"100%"}}/>
-                            </div>
-                        </Grid>
-                        <Grid item xs={3}></Grid>
-                    </Grid>
-                :""}
-
-                {this.state.galleryState == 5 ? 
-                    <Grid container spacing={1} style={{marginTop:"2%"}}>
-                        <Grid item xs={3}></Grid>
-                        <Grid item xs={6}>
-                            <div>
-                                <img src={photo3} style={{width:"100%"}}/>
-                            </div>
-                        </Grid>
-                        <Grid item xs={3}></Grid>
-                    </Grid>
-                :""}
+                    <Grid item xs={2}></Grid>
+                </Grid>
 
             </React.Fragment>
         )

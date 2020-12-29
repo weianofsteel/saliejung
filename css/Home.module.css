@@ -210,4 +210,15 @@
     height: 350px
 }
 
+.funFactImg {
+    width: 100%;
+    opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+.funFactImgOnHover {
+    width: 100%;
+    opacity: 1;
+}
+
 /* ./component/Home/Funfacts.js */
