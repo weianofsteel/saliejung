@@ -41,16 +41,6 @@ export const Header = (props) => {
 
     const classes = useStyles();
 
-    // const [ drawerOpen, setDrawerOpen ] = React.useState(false);
-
-    // const handleDrawerOpen = () => {
-    //     setDrawerOpen(true);
-    // }
-
-    // const handleDrawerClose = () => {
-    //     setDrawerOpen(false);
-    // }
-
     const {
         handleDrawerOpen
     } = props;
@@ -94,66 +84,6 @@ export const Header = (props) => {
                             </IconButton>
                         </Grid>
                     </Hidden>
-
-                    {/* drawer */}
-
-                    {/* <Drawer
-                        // variant='persistent'
-                        anchor='top'
-                        open={drawerOpen}
-                        style={{textAlign:'left'}}
-                    >
-                        <Grid container className={classes.drawerHeader}>
-                            <Grid item xs={4}>
-                                <span className={styles.drawerTitle}>saliejung</span>
-                            </Grid>
-                            <Grid item xs={7}></Grid>
-                            <Grid item xs={1} style={{textAlign:'right'}}>
-                                <div>
-                                    <IconButton
-                                        onClick={handleDrawerClose}
-                                    >
-                                    <CloseIcon style={{color:'#B8B8B8'}}/>
-                                    </IconButton> 
-                                </div>
-                            </Grid>
-                        </Grid>
-                        
-                        <Grid container className={classes.drawerHeader} style={{marginTop:'4rem'}}>
-                            <Grid item xs={4}>
-                                <span className={styles.link}>
-                                    <Link href="/Work" underline='none' className={classes.drawerLink}>WORK</Link>
-                                </span>
-                            </Grid>
-                        </Grid>
-
-                        <Grid container className={classes.drawerHeader}>
-                            <Grid item xs={4}>
-                                <span className={styles.link}>
-                                    <Link href="/Writing" underline='none' className={classes.drawerLink}>WRITINGS</Link>
-                                </span>
-                            </Grid>
-                        </Grid>
-
-                        <Grid container className={classes.drawerHeader}>
-                            <Grid item xs={4}>
-                                <span className={styles.link}>
-                                    <Link href="/About" underline='none' className={classes.drawerLink}>ABOUT</Link>
-                                </span>
-                            </Grid>
-                        </Grid>
-
-                        <Grid container className={classes.drawerHeader}>
-                            <Grid item xs={4}>
-                                <span className={styles.link}>
-                                <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
-                                </span>
-                            </Grid>
-                        </Grid>
-
-                    </Drawer> */}
-
-                    {/* drawer */}
 
                 </Grid>
             </div>

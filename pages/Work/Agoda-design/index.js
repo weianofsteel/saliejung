@@ -4,6 +4,7 @@ import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
 import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
+import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 
 const Page = () => {
 
@@ -30,6 +31,10 @@ const Page = () => {
 
                     <div>
                         <AgodaDesign/>
+                    </div>
+
+                    <div style={{marginTop:'6%'}}>
+                        <BottomNavbar/>    
                     </div>
 
                     <div className={styles.footer}>
