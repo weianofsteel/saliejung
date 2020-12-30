@@ -60,16 +60,16 @@ export const Header = (props) => {
                     <Hidden mdDown>
                         <Grid item xs={4} className={styles.menuBar} style={{marginTop:'0.5rem'}}>
                             <span className={styles.link}>
-                                <Link href="/Work" underline='none' className={classes.link}>WORK</Link>
+                                <Link href='/Work' underline='none' className={classes.link}>WORK</Link>
                             </span>
                             <span className={styles.link}>
-                                <Link href="/Writing" underline='none' className={classes.link}>WRITINGS</Link>
+                                <Link href='/Writing' underline='none' className={classes.link}>WRITINGS</Link>
                             </span>
                             <span className={styles.link}>
-                                <Link href="/About" underline='none' className={classes.link}>ABOUT</Link>
+                                <Link href='/About' underline='none' className={classes.link}>ABOUT</Link>
                             </span>
                             <span className={styles.link}>
-                                <Link href="/Resume" underline='none' className={classes.link}>RESUME</Link>
+                                <Link href='./SalieChien_Resume.pdf' target='_blank' rel='noopener' underline='none' className={classes.link}>RESUME</Link>
                             </span>
                         </Grid>
                     </Hidden>

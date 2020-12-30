@@ -88,7 +88,7 @@ export const Drawer = (props) => {
             <Grid container className={classes.drawerHeader}>
                 <Grid item xs={4}>
                     <span className={styles.link}>
-                        <Link href="/Resume" underline='none' className={classes.drawerLink}>RESUME</Link>
+                        <Link href='./SalieChien_Resume.pdf' target='_blank' rel='noopener' underline='none' className={classes.drawerLink}>RESUME</Link>
                     </span>
                 </Grid>
             </Grid>    
