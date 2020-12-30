@@ -2,9 +2,23 @@ import React, { useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    icon: {
+        fontSize:'4rem',
+        color:'#8F8F8F',
+        "&:hover":{
+            color:'#1F1F1F'
+        }
+    }
+});
+
 
 export const Scrollup = (props) => {
     
+    const classes = useStyles();
+
     const [scrollC, setScrollC] = React.useState(0);
 
     useEffect(()=>{
@@ -30,8 +44,9 @@ export const Scrollup = (props) => {
                     {scrollC > 400 ?
                         <Button 
                             onClick={handleScrolltoTop}
+                            style={{backgroundColor: 'transparent'}}
                         >
-                            <ExpandLessIcon style={{fontSize:'4rem'}}/>
+                            <ExpandLessIcon className={classes.icon}/>
                         </Button>:''
                     }
 

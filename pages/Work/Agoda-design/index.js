@@ -5,6 +5,8 @@ import styles from '../../../css/Work.module.css';
 import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
 import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
+import { Scrollup } from '../../../component/Public/Scrollup.js';
+import Grid from '@material-ui/core/Grid';
 
 const Page = () => {
 
@@ -28,6 +30,13 @@ const Page = () => {
                             handleDrawerOpen={handleDrawerOpen}
                         />
                     </div>
+
+                    <Grid container style={{top:'70%',position:'fixed'}}>
+                        <Grid item xs={4} md={7}></Grid>
+                        <Grid item xs={5} md={4}>
+                            <Scrollup/>
+                        </Grid>
+                    </Grid>
 
                     <div>
                         <AgodaDesign/>
