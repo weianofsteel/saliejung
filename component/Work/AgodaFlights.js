@@ -11,6 +11,7 @@ import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
 import { Process02 } from './Process02.js';
 import { Process03 } from './Process03.js';
+import { BottomNavbar} from '../Public/BottomNavbar.js';
 
 export const AgodaFlights = () => {
 
@@ -315,6 +316,10 @@ export const AgodaFlights = () => {
 
             <div>
                 <Process03/>
+            </div>
+
+            <div style={{marginTop:'6%'}}>
+                <BottomNavbar/>
             </div>
             
         </React.Fragment>
