@@ -98,9 +98,9 @@
 }
 
 .footerTitle {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: 'Roboto';
-    font-weight: 700;
+    font-weight: 990;
     line-height: 30px;
     letter-spacing: 0.06rem;
 }
@@ -114,9 +114,9 @@
 
 .footerLeftTitle {
     font-family: 'Roboto';
-    font-weight: 700;
+    font-weight: 990;
     font-size: 1rem;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .footerLeftContent {
