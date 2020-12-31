@@ -105,7 +105,6 @@ class Secure extends React.Component {
                                 <Grid item xs={10} sm={6} md={3}>
                                     <TextField 
                                         id="password" 
-                                        label="Enter password" 
                                         variant="outlined"
                                         name="password"
                                         value={this.state.password}
@@ -116,6 +115,7 @@ class Secure extends React.Component {
                                             }
                                         }}
                                         helperText={this.state.errorMessage} 
+                                        placeholder="Enter password"
                                         style={{width:"100%"}}
                                         InputProps={{
                                             endAdornment: (
@@ -126,6 +126,7 @@ class Secure extends React.Component {
                                             </InputAdornment>
                                             )
                                         }}
+                                        InputLabelProps={{shrink: false}}
                                     />
                                 </Grid>
                             </Grid>
