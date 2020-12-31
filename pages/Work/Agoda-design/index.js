@@ -31,9 +31,9 @@ const Page = () => {
                         />
                     </div>
 
-                    <Grid container style={{top:'70%',position:'fixed'}}>
-                        <Grid item xs={4} md={7}></Grid>
-                        <Grid item xs={5} md={4}>
+                    <Grid container style={{top:'90%',position:'fixed'}}>
+                        <Grid item xs={8} sm={9} md={9} lg={10} xl={10}></Grid>
+                        <Grid item xs={2} sm={2} md={2} lg={1} xl={1}>
                             <Scrollup/>
                         </Grid>
                     </Grid>

@@ -7,7 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { AgodaFlights } from './AgodaFlights.js';
 import { Header } from '../../component/Public/Header.js';
-import { Scrollup } from '../Public/Scrollup';
 
 class Secure extends React.Component {
     constructor(props){
@@ -143,13 +142,6 @@ class Secure extends React.Component {
                                 handleDrawerOpen={handleDrawerOpen}
                             />
                         </div>
-
-                        <Grid container style={{top:'70%',position:'fixed'}}>
-                            <Grid item xs={4} md={7}></Grid>
-                            <Grid item xs={5} md={4}>
-                                <Scrollup/>
-                            </Grid>
-                        </Grid>
                         
                         <div>
                             <AgodaFlights/>
