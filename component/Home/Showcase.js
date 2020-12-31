@@ -19,13 +19,13 @@ const useStyles = makeStyles({
     },
     imgBoxOnHover: {
         backgroundColor:'#1F1F1F',
-        opacity:'90%',
+        opacity:'100%',
         height: '30rem',
         width:'100%',
         overflow:'hidden'
     },
     img1: {
-        opacity:'10%'
+        opacity:'0%'
     },
     showcaseBlock: {
         marginTop: '0.3rem'
