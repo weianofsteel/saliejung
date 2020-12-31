@@ -1,17 +1,16 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import flightHeader from '../../public/agoda-flights/flight-header.png';
 import flights01 from '../../public/flights01.png';
 import flights02 from '../../public/agoda-flights/flights02.png';
 import flights03 from '../../public/agoda-flights/flights03.png';
 import flights04 from '../../public/agoda-flights/flights04.png';
-import flights05 from '../../public/agoda-flights/flights05.png';
 import dot from '../../public/dot.png';
 import { Process01 } from './Process01.js';
 import { Process02 } from './Process02.js';
 import { Process03 } from './Process03.js';
 import { BottomNavbar} from '../Public/BottomNavbar.js';
+import flightGif from '../../public/gif/flight.gif';
 
 export const AgodaFlights = () => {
 
@@ -204,7 +203,7 @@ export const AgodaFlights = () => {
                     <Grid item xs={12} md={6}>
                         <div className={styles.gallery1}>
                             <img 
-                                src={flights05}
+                                src={flightGif}
                                 style={{width:'100%'}}
                             />
                         </div>
