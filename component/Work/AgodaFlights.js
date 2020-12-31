@@ -50,7 +50,7 @@ export const AgodaFlights = () => {
                 <Grid item xs={false} md={3}></Grid>
                 <Grid item xs={12} md={6}>
                     <p className={styles.article}>
-                        <span style={{fontWeight:700}}>CONTEXT & CHALLENGE&nbsp;</span>
+                        <span style={{fontWeight:900, letterSpacing:'0.03rem'}}>CONTEXT & CHALLENGE&nbsp;&nbsp;</span>
                         In early 2020, Agoda Flights has launched for six months achieving 1K daily 
                         booking. We started transferring our focus from little enhancement to large-scale 
                         features, aiming to become a more mature product to fulfill all the customers' needs. 
