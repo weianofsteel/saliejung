@@ -45,6 +45,7 @@ export const Scrollup = (props) => {
                         <Button 
                             onClick={handleScrolltoTop}
                             style={{backgroundColor: 'transparent'}}
+                            disableRipple={true}
                         >
                             <ExpandLessIcon className={classes.icon}/>
                         </Button>:''
