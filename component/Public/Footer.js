@@ -55,11 +55,23 @@ export const Footer = () => {
                     <br/>
                     <br/>
                     <br/>
-                    <Link underline='none' className={classes.link}>
+                    <Link 
+                        href='https://www.linkedin.com/in/salie-chien/' 
+                        underline='none' 
+                        className={classes.link}
+                        target='_blank' 
+                        rel='noopener'
+                    >
                         Linkedin
                     </Link>
                     <br/>
-                    <Link underline='none' className={classes.link}>
+                    <Link 
+                        href='https://saliejung.medium.com/' 
+                        underline='none' 
+                        className={classes.link}
+                        target='_blank' 
+                        rel='noopener'
+                    >
                         Medium
                     </Link>
                 </Grid>
