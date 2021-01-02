@@ -24,7 +24,8 @@ const useStyles = makeStyles({
         opacity:'100%',
         height: '30rem',
         width:'100%',
-        overflow:'hidden'
+        overflow:'hidden',
+        transition: '.4s ease-in-out'
     },
     img1: {
         opacity:'0%'
@@ -105,8 +106,8 @@ export const Showcase = () => {
                 <Link href='/Work/Agoda-design' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box1===true?classes.imgBox:classes.imgBoxOnHover}
-                            onMouseEnter={()=>{setTimeout(handleBox1On, 500)}}
-                            onMouseLeave={()=>{setTimeout(handleMouseLeave,300)}}
+                            onMouseEnter={handleBox1On}
+                            onMouseLeave={handleMouseLeave}
                         >
                             <img src={agoda} className={box1===true?'':classes.img1} style={{marginTop:'10rem'}}/>
                             {box1===true?'':

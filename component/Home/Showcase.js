@@ -15,14 +15,15 @@ const useStyles = makeStyles({
         backgroundColor: '#F5F5F5',
         height: '30rem',
         width:'100%',
-        overflow:'hidden'
+        overflow:'hidden',
     },
     imgBoxOnHover: {
         backgroundColor:'#1F1F1F',
         opacity:'100%',
         height: '30rem',
         width:'100%',
-        overflow:'hidden'
+        overflow:'hidden',
+        transition: '.4s ease-in-out'
     },
     img1: {
         opacity:'0%'
