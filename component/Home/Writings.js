@@ -56,8 +56,9 @@ export const Writings = () => {
                                 underline='none'
                             >
                                 <span className={classes.title}>
-                                    An exciting adventure for a new designer at Agoda&ensp;
+                                    An exciting adventure for a new designer at Agoda
                                 </span>
+                                <span>&ensp;</span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
@@ -81,10 +82,11 @@ export const Writings = () => {
                                 underline='none'
                             >
                                 <span className={classes.title}>
-                                    Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                    Mentoring the Next Generation of Behavioral Designers in Thailand
                                 </span>
-                                <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                                <span>&ensp;</span>
                             </Link>
+                            <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
                         <br/>
                         <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
@@ -112,8 +114,9 @@ export const Writings = () => {
                                 underline='none'
                             >
                                 <span className={classes.title}>
-                                    An exciting adventure for a new designer at Agoda&ensp;
+                                    An exciting adventure for a new designer at Agoda
                                 </span>
+                                <span>&ensp;</span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>
@@ -138,8 +141,9 @@ export const Writings = () => {
                                 underline='none'
                             >
                                 <span className={classes.title}>
-                                    Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                    Mentoring the Next Generation of Behavioral Designers in Thailand
                                 </span>
+                                <span>&ensp;</span>
                             </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                         </span>

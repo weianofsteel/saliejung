@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900,500,400italic,500italic,700,700italic,300,300italic);
+
 /* ./component/Public/Carousel.js */
 
 .carouselOuter {
@@ -101,7 +103,7 @@
 .footerTitle {
     font-size: 1.2rem;
     font-family: 'Roboto';
-    font-weight: 990;
+    font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.06rem;
 }
@@ -115,7 +117,7 @@
 
 .footerLeftTitle {
     font-family: 'Roboto';
-    font-weight: 990;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 30px;
 }
