@@ -14,7 +14,7 @@ const useStyles = makeStyles({
         letterSpacing:'1px',
         marginLeft: '32px',
         color:'#8F8F8F',
-        fontSize:'18px',
+        fontSize:'1rem',
         "&:hover":{
             color:'black'
         }

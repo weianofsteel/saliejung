@@ -9,7 +9,6 @@ const useStyles = makeStyles({
     link: {
         fontFamily:'Roboto',
         fontWeight:400,
-        letterSpacing:'1px',
         color:'#8F8F8F',
         fontSize:'1.1rem',
         "&:hover":{
