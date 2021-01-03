@@ -87,7 +87,7 @@ export const Aboutme = () => {
             </div>
 
             <div style={{marginTop:'8%'}}>
-                <img src={aboutme}/>
+                <img src={aboutme} style={{width:'100%'}}/>
             </div>
 
         </React.Fragment>
