@@ -32,9 +32,10 @@
 /* ./component/Public/Drawer.js */
 
 .drawerTitle {
-    font-family: 'Roboto Slab';
-    font-size: 32px;
+    font-family: 'Rosario';
+    font-size: 1.5rem;
     color: white;
+    letter-spacing: 0.1rem;
 }
 
 .link {
@@ -57,15 +58,17 @@
 
 .title {
     font-family: 'Rosario';
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: #474747;
+    letter-spacing: 0.1rem;
 }
 
-.drawerTitle {
+/* .drawerTitle {
     font-family: 'Rosario';
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     color: white;
-}
+    letter-spacing: 0.1rem;
+} */
 
 .menuBar {
     display: inline;
