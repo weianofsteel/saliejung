@@ -36,8 +36,10 @@ export const Aboutme = () => {
                      constantly.<br/><br/>
                     In the past few years, I have delivered various designs for 
                     clients from leading tech companies, startups, and design 
-                    agencies. Currently, I am a Product Designer at 
-                     <Link underline='none' className={classes.link}> Agoda</Link>
+                    agencies. Currently, I am a Product Designer at&ensp; 
+                     <Link href='https://saliejung.vercel.app/Work/Agoda-design' underline='none' className={classes.link}> 
+                        Agoda
+                     </Link>
                     . I worked
                      on Agoda Flights for the next level after it launched in 
                      mid-2019 and curating a better experience for Hotels Pricing. 

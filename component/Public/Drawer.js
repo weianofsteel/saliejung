@@ -72,7 +72,7 @@ export const Drawer = (props) => {
             <Grid container className={classes.drawerHeader}>
                 <Grid item xs={4}>
                     <span className={styles.link}>
-                        <Link href="/Writing" underline='none' className={classes.drawerLink}>WRITINGS</Link>
+                        <Link href="/Writings" underline='none' className={classes.drawerLink}>WRITINGS</Link>
                     </span>
                 </Grid>
             </Grid>

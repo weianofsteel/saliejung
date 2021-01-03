@@ -24,7 +24,7 @@ const About = () => {
         <React.Fragment>
             
             {drawer == false ?
-                <React.Fragment>
+                <div style={{backgroundColor:'#F5F5F5'}}>
                     <div>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}
@@ -46,24 +46,12 @@ const About = () => {
 
                         </Grid>
 
-                        {/* <Grid container spacing={1} style={{marginTop:"8%"}}>
-
-                            <Grid item xs={1} sm={2} md={3}></Grid>
-                            
-                            <Grid item xs={10} sm={8} md={6}>
-                                <Experience/>
-                            </Grid>
-                            
-                            <Grid item xs={1} sm={2} md={3}></Grid>
-
-                        </Grid> */}
-
                     </div>
 
                     <div className={styles.footer}>
                         <Footer/>
                     </div>
-                </React.Fragment>
+                </div>
             :''}
 
             {drawer == true ?

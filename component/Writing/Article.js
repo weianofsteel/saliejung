@@ -16,6 +16,11 @@ const useStyles = makeStyles({
         "&:hover":{
             borderBottom:'2px solid black'
         }
+    },
+    titleBlock: {
+        height:'18rem', 
+        borderTop:'1px solid #B8B8B8', 
+        paddingTop:20
     }
 });
 
@@ -28,9 +33,9 @@ export const Article = () => {
                 
                 {/* article */}
 
-                <Grid container spacing={1} style={{paddingTop:"6%"}}>
-                    <Grid item xs={12} md={5} className={styles.articleBlock} style={{paddingTop:20}}>
-                        <div style={{height:'18rem'}}>
+                <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={3}>
+                    <Grid item xs={12} md={5} className={styles.articleBlock}>
+                        <div className={classes.titleBlock}>
                             <span>
                                 <Link
                                     href='/Writing'
@@ -53,9 +58,9 @@ export const Article = () => {
                             />
                         </div>
                     </Grid>
-                    <Grid item xs={false} md={2}></Grid>
-                    <Grid item xs={12} md={5} className={styles.articleBlock} style={{paddingTop:20}}>
-                        <div style={{height:'18rem'}}>
+                    <Grid item xs={false}></Grid>
+                    <Grid item xs={12} md={5} className={styles.articleBlock}>
+                        <div className={classes.titleBlock}>
                             <span>
                                 <Link
                                     href='/Writing'
