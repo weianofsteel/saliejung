@@ -52,7 +52,7 @@ export const Header = (props) => {
                 <Grid container spacing={2} style={{paddingTop: "10px"}}>
                     <Grid item xs={2}>
                         <Link href='/' underline='none' style={{color:'#1F1F1F'}}><span className={styles.title}>saliejung</span></Link>
-                    </Grid>
+                     </Grid>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={2}></Grid>

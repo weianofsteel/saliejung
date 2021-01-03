@@ -7,7 +7,7 @@ import Link from '@material-ui/core/Link';
 const useStyles = makeStyles({
     link: {
         fontFamily:'Roboto',
-        fontWeight:500,
+        fontWeight:400,
         lineHeight:'1.8rem',
         color:'#8F8F8F',
         fontSize:'1rem',
@@ -18,8 +18,8 @@ const useStyles = makeStyles({
     copyright: {
         fontFamily:'Roboto',
         fontWeight:400,
-        lineHeight:'1rem',
-        fontSize:'0.9rem',
+        lineHeight:'0.75rem',
+        fontSize:'0.75rem',
         color:'#8F8F8F',
         "&:hover":{
             color:'black'
