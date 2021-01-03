@@ -3,5 +3,7 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/Work": "pages/Work.js"
+  "/Work": "pages/Work.js",
+  "/Work/Agoda-design": "pages/Work/Agoda-design.js",
+  "/Writings": "pages/Writings.js"
 }
