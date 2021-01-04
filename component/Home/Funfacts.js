@@ -5,6 +5,12 @@ import photo5 from '../../public/5.jpeg';
 import photo3 from '../../public/3.jpeg';
 import photo8 from '../../public/8.jpeg';
 import photo10 from '../../public/10.jpeg';
+import funFact01 from '../../public/fun-fact/funFact01.png';
+import funFact02 from '../../public/fun-fact/funFact02.png';
+import funFact03 from '../../public/fun-fact/funFact03.png';
+import funFact04 from '../../public/fun-fact/funFact04.png';
+import funFact05 from '../../public/fun-fact/funFact05.png';
+import funFact06 from '../../public/fun-fact/funFact06.png';
 
 class Funfacts extends React.Component {
 
@@ -65,7 +71,7 @@ class Funfacts extends React.Component {
                     <Grid item xs={8}>
                         <p className={styles.funFactsContent}>
                             Work abroad is not my plan initially, but travel abroad does. During the
-                            transition period in 2018, I spent a month traveling in 
+                            transition period in 2018, I spent a month traveling in  
                             <span 
                                 style={{color:'#8F8F8F'}}
                                 onMouseEnter={this.handleFunFactImgEnter1}
@@ -129,30 +135,30 @@ class Funfacts extends React.Component {
                                 <Grid container spacing={1}>
                                     <Grid item xs={6}>
                                         <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                            <img src={photo5} style={{width:"100%"}}/>
+                                            <img src={funFact01} style={{width:"100%"}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 2 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                            <img src={photo5} style={{width:"100%"}}/>
+                                        <div className={this.state.funFactImg == 2 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1rem'}}>
+                                            <img src={funFact03} style={{width:"100%"}}/>
                                         </div>
                                     </Grid>
                                     <Grid item xs={6}>
                                         <div className={this.state.funFactImg == 3 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                            <img src={photo10} style={{width:"100%"}}/>
+                                            <img src={funFact02} style={{width:"100%"}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 4 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                            <img src={photo10} style={{width:"100%"}}/>
+                                        <div className={this.state.funFactImg == 4 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1rem'}}>
+                                            <img src={funFact04} style={{width:"100%"}}/>
                                         </div>
                                     </Grid>
                                 </Grid>
                             </Grid>
                             <Grid item xs={12} md={4}>
                                 <div className={this.state.funFactImg == 5 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                    <img src={photo8} style={{width:"100%"}}/>
+                                    <img src={funFact05} style={{width:"95%"}}/>
                                 </div>
                             </Grid>
                             <Grid item xs={12} md={4}>
                                 <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFacrImgOnHover:styles.funFactImg}>
-                                    <img src={photo3} style={{width:"100%"}}/>
+                                    <img src={funFact06} style={{width:"95%"}}/>
                                 </div>
                             </Grid>
                         </Grid>
