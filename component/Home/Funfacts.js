@@ -128,30 +128,30 @@ class Funfacts extends React.Component {
                             <Grid item xs={12} md={4}>
                                 <Grid container spacing={1}>
                                     <Grid item xs={6}>
-                                        <div className={this.state.funFactImg == 1?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                             <img src={photo5} style={{width:"100%"}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 2?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <div className={this.state.funFactImg == 2 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                             <img src={photo5} style={{width:"100%"}}/>
                                         </div>
                                     </Grid>
                                     <Grid item xs={6}>
-                                        <div className={this.state.funFactImg == 3?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <div className={this.state.funFactImg == 3 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                             <img src={photo10} style={{width:"100%"}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 4?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <div className={this.state.funFactImg == 4 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                             <img src={photo10} style={{width:"100%"}}/>
                                         </div>
                                     </Grid>
                                 </Grid>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <div className={this.state.funFactImg == 5?styles.funFactImgOnHover:styles.funFactImg}>
+                                <div className={this.state.funFactImg == 5 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                     <img src={photo8} style={{width:"100%"}}/>
                                 </div>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <div className={this.state.funFactImg == 1?styles.funFacrImgOnHover:styles.funFactImg}>
+                                <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFacrImgOnHover:styles.funFactImg}>
                                     <img src={photo3} style={{width:"100%"}}/>
                                 </div>
                             </Grid>
