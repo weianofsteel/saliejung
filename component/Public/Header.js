@@ -61,7 +61,7 @@ export const Header = (props) => {
         <React.Fragment>
             
             <div className={styles.main1}>
-                <Grid container spacing={2} style={{paddingTop: "10px"}}>
+                <Grid container spacing={2} style={{paddingTop: "1.5rem"}}>
                     <Grid item xs={2}>
                         <Link href='/' underline='none' style={{color:'#1F1F1F'}}>
                             <span className={styles.title}>saliejung</span>
@@ -72,7 +72,7 @@ export const Header = (props) => {
                     <Grid item xs={2}></Grid>
                     
                     <Hidden mdDown>
-                        <Grid item xs={4} className={styles.menuBar} style={{marginTop:'0.5rem'}}>
+                        <Grid item xs={4} className={styles.menuBar}>
                             <span className={styles.link}>
                                 <Link href='/Work' underline='none' className={router.pathname == '/Work'?classes.linkAnchor:classes.link}>
                                     WORK

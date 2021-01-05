@@ -74,7 +74,35 @@ export const Aboutme = () => {
                     <br/><br/>
                     --
                     <br/><br/>
-                    You can follow me here - <Link underline='none' className={classes.link}>LinkedIn</Link>, <Link underline='none' className={classes.link}>Medium</Link> and <Link underline='none' className={classes.link}>Github</Link>
+                    You can follow me here -&nbsp;
+                    <Link 
+                        href='https://www.linkedin.com/in/salie-chien/' 
+                        target='_blank' 
+                        rel='noopener'
+                        underline='none' 
+                        className={classes.link}
+                    >
+                        LinkedIn
+                    </Link>,&nbsp;
+                    <Link 
+                        href='https://saliejung.medium.com/' 
+                        target='_blank' 
+                        rel='noopener'
+                        underline='none' 
+                        className={classes.link}
+                    >
+                        Medium
+                    </Link> 
+                        &nbsp;and&nbsp;
+                    <Link 
+                        href='https://github.com/saliejung' 
+                        target='_blank' 
+                        rel='noopener'
+                        underline='none' 
+                        className={classes.link}
+                    >
+                        Github
+                    </Link>
                     <br/>
                     or reach out by email - <Link underline='none' className={classes.link}>saliejung47@gmail.com</Link>
                </p>
