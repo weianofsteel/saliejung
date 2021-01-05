@@ -44,14 +44,9 @@ export const Footer = () => {
                     <div className={styles.footerLeftTitle}>
                         Open to new opportunities
                     </div>
-                    <Link 
-                        href="/"
-                        underline='none'
-                        color='inherit'
-                        className={styles.footerLeftContent}
-                    >
+                    <span className={styles.footerLeftContent}>
                         saliejung47@gmail.com
-                    </Link>
+                    </span>
                     <br/>
                     <br/>
                     <br/>
