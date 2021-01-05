@@ -50,7 +50,7 @@ export const Aboutme = () => {
                     Agoda design team.
                 </p>
                 <h2 className={styles.subtitle}>
-                    Before knowing design
+                    BEFORE KNOWING DESIGN
                 </h2>
                 <p className={styles.aboutme}>
                     I was born and raised in Taipei, Taiwan, dreaming of becoming 
@@ -104,7 +104,7 @@ export const Aboutme = () => {
                         Github
                     </Link>
                     <br/>
-                    or reach out by email - <Link underline='none' className={classes.link}>saliejung47@gmail.com</Link>
+                    or reach out by email - saliejung47@gmail.com
                </p>
             </div>
 
