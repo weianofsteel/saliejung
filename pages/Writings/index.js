@@ -21,30 +21,29 @@ const Writings = () => {
         <React.Fragment>
             
             {drawer == false ?
-                <div style={{backgroundColor:"#F5F5F5"}}>
-                    <div style={{backgroundColor:"#E5E5E5", margin:0}}>
+        
+                <div style={{backgroundColor:"#F5F5F5", margin:0}}>
 
-                        <div>
-                            <Header
-                                handleDrawerOpen={handleDrawerOpen}
-                            /> 
-                        </div>
+                    <div>
+                        <Header
+                            handleDrawerOpen={handleDrawerOpen}
+                        /> 
+                    </div>
 
-                        <div className={styles.main} style={{overflow:'hidden'}}>
+                    <div className={styles.main} style={{overflow:'hidden'}}>
                             
-                            <span className={styles.title}>
-                                Writings
-                            </span>
+                        <span className={styles.title}>
+                            Writings
+                        </span>
 
-                            <Article/>
-
-                        </div>
-
-                        <div className={styles.footer}>
-                            <Footer/>
-                        </div>
+                        <Article/>
 
                     </div>
+  
+                    <div className={styles.footer}>
+                        <Footer/>
+                    </div>
+
                 </div>
             :''}
 
