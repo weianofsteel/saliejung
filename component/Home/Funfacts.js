@@ -1,16 +1,13 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Home.module.css';
-import photo5 from '../../public/5.jpeg';
-import photo3 from '../../public/3.jpeg';
-import photo8 from '../../public/8.jpeg';
-import photo10 from '../../public/10.jpeg';
 import funFact01 from '../../public/fun-fact/funFact01.png';
 import funFact02 from '../../public/fun-fact/funFact02.png';
 import funFact03 from '../../public/fun-fact/funFact03.png';
 import funFact04 from '../../public/fun-fact/funFact04.png';
 import funFact05 from '../../public/fun-fact/funFact05.png';
 import funFact06 from '../../public/fun-fact/funFact06.png';
+import Hidden from '@material-ui/core/Hidden';
 
 class Funfacts extends React.Component {
 
@@ -127,40 +124,57 @@ class Funfacts extends React.Component {
                     <Grid item xs={2} md={4}></Grid>
                 </Grid>
 
-                <Grid container spacing={1} style={{marginTop:"2%"}}>
+                <Grid container spacing={3} style={{marginTop:"2%"}}>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8}>
-                        <Grid container spacing={1} style={{marginTop:"2%"}}>
-                            <Grid item xs={12} md={4}>
-                                <Grid container spacing={1}>
+                        <Grid container spacing={3} style={{marginTop:"2%"}}>
+                            <Grid item xs={12} md={5}>
+                                <Grid container spacing={4}>
                                     <Grid item xs={6}>
                                         <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                            <img src={funFact01} style={{width:"100%"}}/>
+                                            <img src={funFact01} style={{width:'100%'}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 2 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1rem'}}>
-                                            <img src={funFact03} style={{width:"100%"}}/>
+                                        <div className={this.state.funFactImg == 2 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1.5rem'}}>
+                                            <img src={funFact03} style={{width:'100%'}}/>
                                         </div>
                                     </Grid>
                                     <Grid item xs={6}>
                                         <div className={this.state.funFactImg == 3 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
                                             <img src={funFact02} style={{width:"100%"}}/>
                                         </div>
-                                        <div className={this.state.funFactImg == 4 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1rem'}}>
+                                        <div className={this.state.funFactImg == 4 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg} style={{marginTop:'1.5rem'}}>
                                             <img src={funFact04} style={{width:"100%"}}/>
                                         </div>
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={12} md={4}>
-                                <div className={this.state.funFactImg == 5 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
-                                    <img src={funFact05} style={{width:"95%"}}/>
-                                </div>
-                            </Grid>
-                            <Grid item xs={12} md={4}>
-                                <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFacrImgOnHover:styles.funFactImg}>
-                                    <img src={funFact06} style={{width:"95%"}}/>
-                                </div>
-                            </Grid>
+                            
+                            <Hidden smDown>
+                                <Grid item xs={12} md={4} style={{textAlign:'center'}}>
+                                    <div className={this.state.funFactImg == 5 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <img src={funFact05} style={{width:'92%'}}/>
+                                    </div>
+                                </Grid>
+                                <Grid item xs={12} md={3}>
+                                    <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFacrImgOnHover:styles.funFactImg}>
+                                        <img src={funFact06} style={{width:'126%'}}/>
+                                    </div>
+                                </Grid>
+                            </Hidden>
+
+                            <Hidden mdUp>
+                                <Grid item xs={12} md={4}>
+                                    <div className={this.state.funFactImg == 5 || this.state.funFactImg == 0?styles.funFactImgOnHover:styles.funFactImg}>
+                                        <img src={funFact05} style={{width:'100%'}}/>
+                                    </div>
+                                </Grid>
+                                <Grid item xs={12} md={3}>
+                                    <div className={this.state.funFactImg == 1 || this.state.funFactImg == 0?styles.funFacrImgOnHover:styles.funFactImg}>
+                                        <img src={funFact06} style={{width:'100%'}}/>
+                                    </div>
+                                </Grid>
+                            </Hidden>
+
                         </Grid>
                     </Grid>
                     <Grid item xs={2}></Grid>
