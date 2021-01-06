@@ -4,6 +4,8 @@ import styles from '../../css/Work.module.css';
 import design01 from '../../public/agoda-design/design01.png';
 import design02 from '../../public/agoda-design/design02.png';
 import design03 from '../../public/agoda-design/design03.png';
+import design04 from '../../public/agoda-design/design04.png';
+import design05 from '../../public/agoda-design/design05.png';
 import { Carousel } from '../Public/Carousel.js';
 
 export const Design01 = () => {
@@ -82,9 +84,9 @@ export const Design01 = () => {
                 <div>
                     <Carousel 
                         img1={design02}
-                        img2={design02}
+                        img2={design03}
                         caption1={'By interviewing with the observation room, the interviewees are getting more comfortable to share their experience.'}
-                        caption2={'By interviewing with the observation room, the interviewees are getting more comfortable to share their experience.'}
+                        caption2={"During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."}
                     />
                 </div>
 
@@ -126,10 +128,10 @@ export const Design01 = () => {
 
                 <div>
                     <Carousel 
-                        img1={design03}
-                        img2={design03}
+                        img1={design04}
+                        img2={design05}
                         caption1={'It was effective to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
-                        caption2={'It was effective to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
+                        caption2={"During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."}
                     />
                 </div>
 

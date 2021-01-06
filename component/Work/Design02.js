@@ -1,9 +1,13 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import design04 from '../../public/agoda-design/design04.png';
-import design05 from '../../public/agoda-design/design05.png';
+import design06 from '../../public/agoda-design/design06.png';
+import design07 from '../../public/agoda-design/design07.png';
+import design08 from '../../public/agoda-design/design08.png';
+import design09 from '../../public/agoda-design/design09.png';
+import design10 from '../../public/agoda-design/design10.png';
 import { Carousel } from '../Public/Carousel.js';
+import { CarouselMultiple } from '../Public/CarouselMultiple.js';
 
 export const Design02 = () => {
 
@@ -45,7 +49,7 @@ export const Design02 = () => {
                 <Grid container style={{marginTop:'5%'}}>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8}>
-                        <img src={design04} style={{width:'100%'}}/>
+                        <img src={design06} style={{width:'100%'}}/>
                     </Grid>
                     <Grid item xs={2}></Grid>
                 </Grid>
@@ -101,11 +105,14 @@ export const Design02 = () => {
                 </Grid>
 
                 <div style={{paddingBottom:'8%'}}>
-                    <Carousel 
-                        img1={design05}
-                        img2={design05}
-                        caption1={'In the first batch we had two participants, one of them comes from a product management background, the other one is a visual designer.'}
-                        caption2={'In the first batch we had two participants, one of them comes from a product management background, the other one is a visual designer.'}
+                    <CarouselMultiple
+                        imgsrc={[design07, design08, design09, design10]}
+                        caption={[
+                            'I gave a speech to 20 students at TDC, talked about the working process, design projects, and culture in Agoda Design.',
+                            'In the first batch, we had two participants. One comes from a product management background, and the other one is a visual designer.',
+                            'We conducted the second batch of the program offline due to WFH policy',
+                            'I joined one class of the behavioral design by TDC, and participants in the exercises with the students.'
+                        ]}
                     />
                 </div>
 
