@@ -70,10 +70,10 @@ export const Design01 = () => {
                                 <span className={styles.designContent}>
                                     We conducted user labs when we have enough lead time and resources for some projects.
                                      With the help of our user researchers, we worked together to plan the discussion 
-                                    guide. In some sessions, we worked with the translator to make the interviewee more 
-                                    comfortable to describe their experience in their native language. As designers, we 
-                                    also conducted the user interview session by ourselves to collect initial feedback 
-                                    from internal users.
+                                     guide. In some sessions, we worked with the translator to make the interviewee more 
+                                     comfortable to describe their experience in their native language. As designers, 
+                                     we also conducted the user interview session ourselves to collect initial feedback 
+                                     from internal users.
                                 </span>
                             </Grid>
                         </Grid>
@@ -111,14 +111,11 @@ export const Design01 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designContent}>
-                                    Some projects rely on technical constraints heavily, 
-                                    that is the time we get engineers to involve in the 
-                                    design process as early as possible. During the pandemic 
-                                    and WFH period, we even conducted the brainstorming 
-                                    workshop on the online tool to collect ideas, share 
-                                    insights, and vote for the excited one. Most of them have 
-                                    been include in the milestones by the product manager for 
-                                    the upcoming quarter.
+                                    Some projects heavily rely on technical constraints, so we get engineers to involve 
+                                    in the design process as early as possible. During the pandemic and WFH period, we 
+                                    even conducted brainstorming by the online tool to collect ideas, share insights, 
+                                    and vote for the excited one. Most of them have been include in the milestones by 
+                                    the product manager for the upcoming quarter.
                                 </span>
                             </Grid>
                         </Grid>
@@ -130,7 +127,7 @@ export const Design01 = () => {
                     <Carousel 
                         img1={design04}
                         img2={design05}
-                        caption1={'It was effective to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
+                        caption1={'It was productive to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
                         caption2={"During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."}
                     />
                 </div>

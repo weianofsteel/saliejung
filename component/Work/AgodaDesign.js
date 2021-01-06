@@ -56,9 +56,9 @@ export const AgodaDesign = () => {
                 <Grid item xs={false} md={3}></Grid>
                 <Grid item xs={12} md={6}>
                     <p className={styles.article}>
-                        Joined the Agoda Design team is not only a career path but 
-                        also a life-changing experience for me. I want to share 
-                        some highlighting stories on this page.
+                        Joined the Agoda Design team is not only a career path but also a life-changing experience for 
+                        me. The opportunities to work with people from many different cultures is challenging but 
+                        engaging. Other than that, I want to share some memorable stories when I worked here. 
                         <br/>
                     </p>
                 </Grid>     
