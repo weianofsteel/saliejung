@@ -28,11 +28,11 @@
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     font-family: 'Roboto';
     font-weight: 700;
-    line-height: 4rem;
-    letter-spacing: 0.1rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.06rem;
 }
 
 .resumeButton {

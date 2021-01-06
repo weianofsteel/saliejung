@@ -10,7 +10,8 @@ const useStyles = makeStyles({
         fontFamily:'Roboto',
         fontWeight:400,
         color:'#8F8F8F',
-        fontSize:'1.1rem',
+        fontSize:'1rem',
+        letterSpacing:'1px',
         "&:hover":{
             color:'black'
         }
