@@ -37,7 +37,7 @@ export const Aboutme = () => {
                      constantly.<br/><br/>
                     In the past few years, I have delivered various designs for 
                     clients from leading tech companies, startups, and design 
-                    agencies. Currently, I am a Product Designer at&ensp; 
+                    agencies. Currently, I am a Product Designer at&nbsp; 
                      <Link href='https://saliejung.vercel.app/Work/Agoda-design' underline='none' className={classes.link}> 
                         Agoda
                      </Link>

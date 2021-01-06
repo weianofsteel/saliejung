@@ -26,25 +26,27 @@
 }
 
 .titleOnHover {
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
     font-weight: 700;
     font-family: 'Roboto';
     line-height: 20px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.5rem;
 }
 
 .title2OnHover {
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     font-weight: 400;
     font-family: 'Roboto Slab';
     line-height: 44px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 0;
 }
 
 /* ./component/Work/Showcase.js */
