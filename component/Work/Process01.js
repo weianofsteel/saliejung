@@ -76,10 +76,11 @@ export const Process01 = () => {
 
                 <div>
                     <Carousel 
-                        img1={process01}
-                        img2={process02}
-                        caption1={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
-                        caption2={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
+                        imgsrc={[process01,process02]}
+                        caption={[
+                            'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other products.',
+                            'From simple selection to specific assigning seats, there are many approaches to achieve the needs.'
+                        ]}
                     />
                 </div>
 

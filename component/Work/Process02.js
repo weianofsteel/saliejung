@@ -7,6 +7,7 @@ import process08 from '../../public/process/process08.png';
 import process09 from '../../public/process/process09.png';
 import process10 from '../../public/process/process10.png';
 import process11 from '../../public/process/process11.png';
+import process12 from '../../public/process/process12.png';
 import { Carousel } from '../Public/Carousel';;
 
 export const Process02 = () => {
@@ -190,10 +191,11 @@ export const Process02 = () => {
 
                 <div>
                     <Carousel
-                        img1={process11}
-                        img2={process11}
-                        caption1={'Compared to the initial flow, it came out to a more sophisticated flow after involved in the developer.'}
-                        caption2={'Noted the features across the process. Purple stands for fundamental function, yellow stands for the uncommon trait comparing to other competitors'}
+                        imgsrc={[process11,process12]}
+                        caption={[
+                            'We implemented the free selection when launched. Considering the paid option is coming later, it was critical to design the process with it in mind.',
+                            'Compared to the initial flow, it came out to a sophisticated flow with variations for different cases after involved in the engineers.'
+                        ]}
                     />
                 </div>
 

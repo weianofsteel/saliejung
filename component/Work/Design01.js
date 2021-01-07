@@ -82,11 +82,12 @@ export const Design01 = () => {
                 </Grid>
 
                 <div>
-                    <Carousel 
-                        img1={design02}
-                        img2={design03}
-                        caption1={'By interviewing with the observation room, the interviewees are getting more comfortable to share their experience.'}
-                        caption2={"During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."}
+                    <Carousel
+                        imgsrc={[design02, design03]}
+                        caption={[
+                            'By interviewing with the observation room, the interviewees are getting more comfortable to share their experience.',
+                            "During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."
+                        ]}
                     />
                 </div>
 
@@ -125,10 +126,11 @@ export const Design01 = () => {
 
                 <div>
                     <Carousel 
-                        img1={design04}
-                        img2={design05}
-                        caption1={'It was productive to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!'}
-                        caption2={"During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."}
+                        imgsrc={[design04,design05]}
+                        caption={[
+                            'It was productive to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!',
+                            "During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."
+                        ]}
                     />
                 </div>
 

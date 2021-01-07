@@ -7,7 +7,6 @@ import design08 from '../../public/agoda-design/design08.png';
 import design09 from '../../public/agoda-design/design09.png';
 import design10 from '../../public/agoda-design/design10.png';
 import { Carousel } from '../Public/Carousel.js';
-import { CarouselMultiple } from '../Public/CarouselMultiple.js';
 
 export const Design02 = () => {
 
@@ -94,7 +93,7 @@ export const Design02 = () => {
                 </Grid>
 
                 <div style={{paddingBottom:'8%'}}>
-                    <CarouselMultiple
+                    <Carousel
                         imgsrc={[design07, design08, design09, design10]}
                         caption={[
                             'I gave a speech to 20 students at TDC, talked about the working process, design projects, and culture in Agoda Design.',
