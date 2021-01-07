@@ -1,8 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import { Carousel } from '../Public/Carousel.js';
-import process12 from '../../public/agoda-flights/process12.png';
+import process13 from '../../public/process/process13.png';
 
 export const Process03 = () => {
     return(
@@ -65,15 +64,34 @@ export const Process03 = () => {
                     </Grid>
                     <Grid item xs={1} md={3}></Grid>
                 </Grid>
+                
+                <Grid container style={{marginTop:'3%'}}>
+                    <Grid item xs={1} md={2}></Grid>
+                    <Grid item xs={10} md={8}>
+                        <div style={{backgroundColor:'white'}}>
+                            <img
+                                src={process13}
+                                style={{width:'100%'}}
+                            />
+                        </div>
+                    </Grid>
+                    <Grid item xs={1} md={2}></Grid>
+                </Grid>
 
-                <div>
-                    <Carousel
-                        img1={process12}
-                        img2={process12}
-                        caption1={'A completed excel to list down all the CMS across the platforms waiting for translation.'}
-                        caption2={'A completed excel to list down all the CMS across the platforms waiting for translation.'}
-                    />
-                </div>
+                <Grid container style={{marginTop:'1%'}}>
+                    <Grid item xs={1} md={3}></Grid>
+                    <Grid item xs={10} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.imgDescription2}>
+                                    A completed excel to list down all the CMS across the 
+                                    platforms waiting for translation.
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={1} md={3}></Grid>
+                </Grid>
 
                 <Grid container style={{marginTop:'3%'}}>
                     <Grid item xs={1} md={3}></Grid>

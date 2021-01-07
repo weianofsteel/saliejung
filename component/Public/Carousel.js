@@ -22,11 +22,6 @@ export const Carousel = (props) => {
     
     const [carousel, setCarousel] = React.useState(0);
     
-    const {
-        imgsrc,
-        caption
-    } = props;
-    
     const handleCarouselNext = () => {
         if(carousel < imgsrc.length - 1){
             setCarousel(carousel + 1);
@@ -42,6 +37,11 @@ export const Carousel = (props) => {
             setCarousel(imgsrc.length - 1);
         }    
     }
+
+    const {
+        imgsrc,
+        caption
+    } = props;
     
     return(
         <React.Fragment>
