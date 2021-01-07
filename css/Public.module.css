@@ -21,7 +21,6 @@
 }
 
 .captionContainer {
-    margin-top: 2%; 
     padding-left: 4.5%;
     padding-right: 4.5%;
 }
@@ -69,11 +68,6 @@
 
 .link {
     text-decoration: none; 
-}
-
-.drawerButton {
-    margin-top: 1.5rem;
-    width: 100%
 }
 
 /* ./component/Public/Header.js */

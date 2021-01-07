@@ -4,17 +4,38 @@ import styles from '../../css/Public.module.css';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    icon: {
+        fontSize:'1.5rem',
+        color:'#8F8F8F',
+        "&:hover":{
+            color:'#1F1F1F'
+        }
+    }
+});
 
 export const CarouselMultiple = (props) => {
+    
+    const classes = useStyles();
     
     const [carousel, setCarousel] = React.useState(0);
     
     const handleCarouselNext = () => {
-        setCarousel(carousel + 1);
+        if(carousel < 3){
+            setCarousel(carousel + 1);
+        }else{
+            setCarousel(0);
+        }   
     }
 
     const handleCarouselLast = () => {
-        setCarousel(carousel - 1);
+        if(carousel > 0){
+            setCarousel(carousel - 1);
+        }else{
+            setCarousel(3);
+        }    
     }
 
     const {
@@ -40,20 +61,21 @@ export const CarouselMultiple = (props) => {
                     </Grid>
                 </div>
 
-                <Grid container className={styles.captionContainer}>
+                <Grid container className={styles.captionContainer} style={{marginTop:'1rem'}}>
                     <Grid item xs={false} md={2}></Grid>
                     <Grid item xs={12} md={8}>
                         <Grid container>
                             <Grid item xs={3}>
                                 <IconButton
                                     onClick={handleCarouselLast}
-                                    disabled={carousel==0?true:false}
+                                    style={{backgroundColor: 'transparent'}}
+                                    disableRipple={true}
                                 >
-                                    <ArrowBackIcon style={{fontSize:'1.5rem'}}/>
+                                    <ArrowBackIcon className={classes.icon}/>
                                 </IconButton>
                             </Grid>
                             
-                            <Grid item xs={6} style={{marginTop:'1.5%'}}>
+                            <Grid item xs={6}>
                                 <span className={styles.imgDescription}>
                                     {caption[carousel]}
                                 </span>
@@ -62,9 +84,10 @@ export const CarouselMultiple = (props) => {
                             <Grid item xs={3} style={{textAlign:'right'}}>
                                 <IconButton
                                     onClick={handleCarouselNext}
-                                    disabled={carousel==imgsrc.length-1?true:false}
+                                    style={{backgroundColor: 'transparent'}}
+                                    disableRipple={true}
                                 >
-                                    <ArrowForwardIcon style={{fontSize:'1.5rem'}}/>
+                                    <ArrowForwardIcon className={classes.icon}/>
                                 </IconButton>
                             </Grid>
                         </Grid>

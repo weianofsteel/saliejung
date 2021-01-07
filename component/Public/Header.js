@@ -6,7 +6,6 @@ import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
 import { useRouter } from 'next/router'
 
 const useStyles = makeStyles({
@@ -44,6 +43,17 @@ const useStyles = makeStyles({
         marginLeft: '32px',
         color:'black',
         fontSize:'1rem'
+    },
+    icon: {
+        fontSize:'1.5rem',
+        color:'#8F8F8F',
+        "&:hover":{
+            color:'#1F1F1F'
+        }
+    },
+    menuButton: {
+        paddingTop:'1rem',
+        textAlign:'center'
     }
 });
 
@@ -61,8 +71,8 @@ export const Header = (props) => {
         <React.Fragment>
             
             <div className={styles.main1}>
-                <Grid container spacing={2} style={{paddingTop: "1.5rem"}}>
-                    <Grid item xs={2}>
+                <Grid container spacing={2}>
+                    <Grid item xs={2} style={{paddingTop:'1.5rem'}}>
                         <Link href='/' underline='none' style={{color:'#1F1F1F'}}>
                             <span className={styles.title}>saliejung</span>
                         </Link>
@@ -72,7 +82,7 @@ export const Header = (props) => {
                     <Grid item xs={2}></Grid>
                     
                     <Hidden mdDown>
-                        <Grid item xs={4} className={styles.menuBar}>
+                        <Grid item xs={4} className={styles.menuBar} style={{paddingTop:'1.5rem'}}>
                             <span className={styles.link}>
                                 <Link href='/Work' underline='none' className={router.pathname == '/Work'?classes.linkAnchor:classes.link}>
                                     WORK
@@ -98,11 +108,13 @@ export const Header = (props) => {
 
                     <Hidden lgUp>
                         <Grid item xs={2} sm={3}></Grid>
-                        <Grid item xs={2} sm={1}>
+                        <Grid item xs={2} sm={1} className={classes.menuButton}>
                             <IconButton
                                 onClick={handleDrawerOpen}
+                                style={{backgroundColor: 'transparent'}}
+                                disableRipple={true}
                             >
-                                <MenuIcon fontSize='large'/>
+                                <MenuIcon className={classes.icon}/>
                             </IconButton>
                         </Grid>
                     </Hidden>
