@@ -24,6 +24,11 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/Work/Agoda-flights.js"
     ],
+    "/Writings": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Writings.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
