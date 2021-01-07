@@ -51,9 +51,11 @@ export const Writings = () => {
                         <div className={styles.articleContent}>
                         <span>
                             <Link
-                                href='/'
+                                href='https://careersatagoda.com/blog/new-designer-agoda-bangkok-relocation/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                                 underline='none'
+                                target='_blank' 
+                                rel='noopener'
                             >
                                 <span className={classes.title}>
                                     An exciting adventure for a new designer at Agoda
@@ -77,9 +79,11 @@ export const Writings = () => {
                         <div className={styles.articleContent}>
                         <span>
                             <Link
-                                href='/'
+                                href='https://careersatagoda.com/blog/mentoring-behavioral-designers-thailand-agoda/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                                 underline='none'
+                                target='_blank' 
+                                rel='noopener'
                             >
                                 <span className={classes.title}>
                                     Mentoring the Next Generation of Behavioral Designers in Thailand
@@ -109,9 +113,11 @@ export const Writings = () => {
                         <div style={{height:'17rem'}}>
                         <span>
                             <Link
-                                href='/'
+                                href='https://careersatagoda.com/blog/new-designer-agoda-bangkok-relocation/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                                 underline='none'
+                                target='_blank' 
+                                rel='noopener'
                             >
                                 <span className={classes.title}>
                                     An exciting adventure for a new designer at Agoda
@@ -136,9 +142,11 @@ export const Writings = () => {
                         <div style={{height:'17rem'}}>
                         <span>
                             <Link
-                                href='/'
+                                href='https://careersatagoda.com/blog/mentoring-behavioral-designers-thailand-agoda/'
                                 style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
                                 underline='none'
+                                target='_blank' 
+                                rel='noopener'
                             >
                                 <span className={classes.title}>
                                     Mentoring the Next Generation of Behavioral Designers in Thailand
