@@ -52,7 +52,7 @@ const useStyles = makeStyles({
         }
     },
     menuButton: {
-        paddingTop:'1rem',
+        paddingTop:'2.5rem',
         textAlign:'center'
     }
 });

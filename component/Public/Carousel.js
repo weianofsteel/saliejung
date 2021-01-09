@@ -50,7 +50,7 @@ export const Carousel = (props) => {
                     <Grid container style={{marginTop:'3%'}}>
                         <Grid item xs={false} md={2}></Grid>
                         <Grid item xs={12} md={8}>
-                            <div style={{backgroundColor:'white'}}>
+                            <div style={{backgroundColor:'#F5F5F5'}}>
                                 <img
                                     src={imgsrc[carousel]}
                                     className={styles.carouselImg}

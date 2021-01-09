@@ -45,7 +45,7 @@ export const Article = () => {
                                     rel='noopener'
                                 >
                                     <span className={classes.title}>
-                                        An exciting adventure for a new designer at Agoda&ensp;
+                                        An exciting adventure for a new designer at Agoda
                                     </span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                                 </Link>
@@ -72,7 +72,7 @@ export const Article = () => {
                                     rel='noopener'
                                 >
                                     <span className={classes.title}>
-                                        Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                                        Mentoring the Next Generation of Behavioral Designers in Thailand
                                     </span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                                 </Link>
