@@ -52,7 +52,7 @@ const useStyles = makeStyles({
         }
     },
     menuButton: {
-        paddingTop:'2.5rem',
+        paddingTop:'2rem',
         textAlign:'center'
     }
 });
@@ -111,7 +111,7 @@ export const Header = (props) => {
                         <Grid item xs={2} sm={1} className={classes.menuButton}>
                             <IconButton
                                 onClick={handleDrawerOpen}
-                                style={{backgroundColor: 'transparent'}}
+                                style={{backgroundColor: 'transparent', paddingTop:'1.2rem'}}
                                 disableRipple={true}
                             >
                                 <MenuIcon className={classes.icon}/>
