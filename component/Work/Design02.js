@@ -21,7 +21,7 @@ export const Design02 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             <Grid item xs={12}>
                                 <span className={styles.designTitle}>
-                                    Design System is everyone's responsibility
+                                    Design System is Everyone's Duty
                                 </span>
                             </Grid>
                             <Grid item xs={12}>

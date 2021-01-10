@@ -129,7 +129,7 @@ export const Design01 = () => {
                         imgsrc={[design04,design05]}
                         caption={[
                             'It was productive to conduct the brainstorming session online, that participants were involving to drag the post-it and write down their ideas. And so environment friendly!',
-                            "During the pandemic and WFH period, we even conducted the user interview by video call. It's harder to observe the users' behaviors and reactions."
+                            "We list down all the ideas and categorize them with themes and areas. The most important part is to score by design effort, dev effort, and value to figure out the priority."
                         ]}
                     />
                 </div>
