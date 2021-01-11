@@ -118,7 +118,7 @@ export const Process02 = () => {
                     <Grid container spacing={4}>
                         <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
-                                <img src={process07}/>
+                                <img src={process07} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
                                 Condensed legend makes the widest displaying on the map.
@@ -127,7 +127,7 @@ export const Process02 = () => {
                         <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
                             <div className={styles.gallery1}>
                                 <img
-                                    src={process08}
+                                    src={process08} 
                                 />
                             </div>
                             <span className={styles.imgDescription3}>

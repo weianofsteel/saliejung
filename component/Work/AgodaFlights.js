@@ -123,7 +123,7 @@ export const AgodaFlights = () => {
                         <Grid item xs={12}>
                             <span className={styles.designHighlightContent}>
                                 The experience of selecting seats involving a bunch of information, from 
-                                the flight segment, passenger types, seating restrictions & fare, and the 
+                                the flight segment, passenger types, seating restrictions & fare, and 
                                 facilities on the plane. It is critical to display all the information 
                                 clearly to help the customer making the decision based on the complexity of 
                                 their personal preference. Therefore, we aimed to surface the bare minimum 
@@ -180,16 +180,17 @@ export const AgodaFlights = () => {
                         </Grid>
                         <Grid item xs={12}>
                             <span className={styles.designHighlightTitle}>
-                                Directly interacting to make decisions with ease
+                                Directly Interaction to Help Make Decisions
                             </span>
                         </Grid>
                         <Grid item xs={12}>
                             <span className={styles.designHighlightContent}>
-                                While the customer is considering the seating between price, position, and 
-                                preference, it guides them better with fluent interaction and real-time 
-                                feedback. When it comes to group traveler and multiple slices, we designed 
-                                many details such as updating the subtotal, the attribute of seats and 
-                                zooming to help them complete the tasks faster.   
+                                While the customer considering the seating between price, 
+                                position, and preference, it guides them better with fluent 
+                                interaction and real-time feedback. When it comes to group 
+                                travelers and multiple slices, we designed many details such 
+                                as updating the subtotal, the attribute of seats, and zooming 
+                                to help them complete the tasks faster.  
                             </span>
                         </Grid>
                     </Grid>
@@ -239,11 +240,11 @@ export const AgodaFlights = () => {
                         <Grid item xs={12}>
                             <Grid container>
                                 <Grid item xs={1} className={styles.dotAlign}>
-                                    <img src={dot}/>
+                                    <img src={dot} />
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        Benchmarking helps (a lot) for introducing a new feature - Especially for 
+                                        <span style={{fontWeight: 700}}>Benchmarking helps (a lot) for introducing a new feature -</span> Especially for 
                                         the later progress, there are many little fine-tune needing a quick decision
                                         . When engineers were building it, I already shifted my focus to other 
                                         projects. It helps to recall the memory from a couple of screenshots and the 
@@ -260,11 +261,13 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        Benchmarking helps (a lot) for introducing a new feature - Especially for 
-                                        the later progress, there are many little fine-tune needing a quick decision
-                                        . When engineers were building it, I already shifted my focus to other 
-                                        projects. It helps to recall the memory from a couple of screenshots and the 
-                                        research summary.  
+                                        <span style={{fontWeight: 700}}>User interview to collect insights -</span> 
+                                        We rarely have the chance to conduct formal user 
+                                        interviews every time. For such a complex new feature 
+                                        like seat selection, it is undoubtedly helpful to 
+                                        collect insights across the users as much as possible. 
+                                        There are also convincing proofs to back up design 
+                                        decisions based on real user behavior.  
                                     </span>
                                 </Grid>
                             </Grid>
@@ -277,15 +280,66 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        Benchmarking helps (a lot) for introducing a new feature - Especially for 
-                                        the later progress, there are many little fine-tune needing a quick decision
-                                        . When engineers were building it, I already shifted my focus to other 
-                                        projects. It helps to recall the memory from a couple of screenshots and the 
-                                        research summary.  
+                                        <span style={{fontWeight: 700}}>QA engineers, the hidden figure -</span> 
+                                        The most satisfying experience I have for this project
+                                         is building a strong relationship with QA engineers. 
+                                         Seat selection is a large-scale project with many 
+                                         industry knowledge, business goal, and development 
+                                         restriction to consider. I was grateful for the QA 
+                                         engineers being a trusting member of the team. The most 
+                                         satisfying experience I have for this project is building 
+                                         a strong relationship with QA engineers. Seat selection is 
+                                         a large-scale project with many industry knowledge, business 
+                                         goal, and development restriction to consider. I was grateful 
+                                         for the QA engineers being a trusting member of the team.
                                     </span>
                                 </Grid>
                             </Grid>
                         </Grid>
+
+                        <Grid item xs={12}>
+                            <Grid container>
+                                <Grid item xs={1} className={styles.dotAlign}>
+                                    <img src={dot}/>
+                                </Grid>
+                                <Grid item xs={11}>
+                                    <span className={styles.designHighlightContent}>
+                                        <span style={{fontWeight: 700}}>Ask for feedback from the engineers -</span> 
+                                        For a more 
+                                        complex new feature, we need to design more feedback 
+                                        to smooth the experience. We think about micro 
+                                        animations to enhance this part to the users. 
+                                        Sometimes, ideas might fly too far away from the 
+                                        goal. I appreciated that our engineers are 
+                                        collaborated to join the design discussion and share 
+                                        feedback from the technical side. We save lots of 
+                                        time on delivering a too fancy solution then start 
+                                        over again. With team collaboration, we find a better 
+                                        balance between realistic, useful, and lovely 
+                                        solution.
+                                    </span>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Grid item xs={12}>
+                            <Grid container>
+                                <Grid item xs={1} className={styles.dotAlign}>
+                                    <img src={dot}/>
+                                </Grid>
+                                <Grid item xs={11}>
+                                    <span className={styles.designHighlightContent}>
+                                        <span style={{fontWeight: 700}}>User testing for enhancement -</span> 
+                                        When it was close to the later stage of the project, 
+                                        we started WFH due to COVID-19. Unfortunately, we 
+                                        were not getting the chance to conduct the user 
+                                        testing session, which I believe that it will be 
+                                        super helpful for iteration and future phase.
+                                    </span>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
 
                     </Grid>
 
