@@ -103,10 +103,11 @@ export const Process01 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    Since it's an entirely new feature, and we still have enough lead time. 
-                                    We decided to do the user interview to collect more insights from the 
-                                    users. The research plan, discussion guides, and all five sessions were 
-                                    all conducted by the designers. 
+                                    Since it was an entirely new feature, and we still have 
+                                    enough lead time. We decided to do the user interview to 
+                                    collect more insights from the real users. The research 
+                                    plan, discussion guides, and all five sessions were all 
+                                    conducted by the designers. 
                                 </span>
                             </Grid>
                         </Grid>
@@ -154,7 +155,7 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            What's travelers' intention to select a seat?
+                                            What is the intention to select a seat?
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -167,8 +168,7 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            What kind of information do travelers need to know when choosing the 
-                                            seats? 
+                                            What kind of information is not necessary to help travelers make decisions? 
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -208,8 +208,8 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            For those who didn't select seats during booking, would they 
-                                            choose in post-booking or online check-in?
+                                            For those not selecting seats during booking, would they 
+                                            choose it during post-booking or online check-in?
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -222,8 +222,8 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            At which point during the booking process would the customer 
-                                            prefer to select the seats?
+                                            At which point during the booking would the customer prefer to choose the 
+                                            seats?
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -301,9 +301,9 @@ export const Process01 = () => {
                             </Grid>
                             <Grid item xs={12} style={{marginLeft:'1%'}}>
                                 <span className={styles.imgDescription2}>
-                                    We interviewed by video call due to work-from-home policy when the 
-                                    COVID-19 hit. It is tricky to observe behavior outside of the screen 
-                                    since participants only shared the screen on the phone
+                                    We interviewed by video call due to work-from-home policy when 
+                                    the COVID-19 hit. It is tricky to observe behavior outside of 
+                                    the screen since participants only shared their mobile screen
                                 </span>
                             </Grid>
                         </Grid>
@@ -335,10 +335,9 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            If the seat map itself is clear enough on the information and 
-                                            UI, the participants won’t pay attention to the seat legend. 
-                                            However, it’s critical to explain different options if they 
-                                            want to check more details.
+                                            When the seat map is clear enough in terms of information and UI, the participants 
+                                            didn't pay attention to the seat legend. However, it is still critical to explain 
+                                            different options if they want to check more details.
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -351,10 +350,10 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            They all have precise preferences on seat selection: (1) Front 
-                                            (The very front of the available options) (2) Window/Aisle/ No 
-                                            middle (3) Legroom (4) Distance to the toilet/exit (especially 
-                                            for kids and elder)
+                                            They all have precise preferences on seat selection: (1) 
+                                            Front (The very front of the available options) (2) 
+                                            Window/Aisle/ No middle (3) Legroom (4) Distance to the 
+                                            toilet/exit (especially for kids and elder)
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -367,10 +366,10 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            The intention to choose seats during booking is the same for 
-                                            everyone: (1) If free (2) If travel with family (kids, parents) 
-                                            or friends (sit together) (3) Long-haul flights (3.5 hrs+) (4) 
-                                            Crowded flights
+                                            The intention to choose seats during booking is the same 
+                                            for everyone: (1) If free (2) If travel with family (kids, 
+                                            parents) or friends (sit together) (3) Long-haul flights 
+                                            (3.5 hrs+) (4) Crowded flights
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -416,8 +415,8 @@ export const Process01 = () => {
                                     </Grid>
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
-                                            When offering various options of seats, do clarify the 
-                                            difference or benefits of the seats
+                                            When offering various options of seats, do clarify the difference or benefits of 
+                                            the seats
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -498,7 +497,6 @@ export const Process01 = () => {
                                     <Grid item xs={11}>
                                         <span className={styles.collectInsightContent}>
                                             Allow users to choose seats after booked
-                                            Make sure we display clear feedback for loading
                                         </span>
                                     </Grid>
                                 </Grid>
@@ -545,11 +543,11 @@ export const Process01 = () => {
                             
                             <Grid item xs={12}>
                                 <span className={styles.imgDescription2}>
-                                    By features Audit, we organized the potential features in terms of 
-                                    frequency adoption (amount of people using them). Post-its in the dark 
-                                    blue area were the actions been used by the participants the most. We 
-                                    also categorized all the actions into implementation stages as a 
-                                    preliminary analysis.
+                                    By features audit, we organized the potential features in terms 
+                                    of frequency adoption (amount of people using them). Post-its in 
+                                    the dark blue area were the actions been used by the participants 
+                                    the most. We also categorized all the behaviors and insights into 
+                                    implementation stages as a preliminary analysis.
                                 </span>
                             </Grid>
                             
@@ -567,10 +565,11 @@ export const Process01 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    Considering the dependency on the supplier and the development effort, 
-                                    we're looking for the MVP version of the solution to reduce the risk 
-                                    for implementation. Hence, after the research phase, we broke down all 
-                                    the features and requirements into phased tasks.
+                                    Considering the dependency on the supplier and the development 
+                                    effort, we're looking for the MVP version of the solution to 
+                                    reduce the risk during implementation. Hence, after the research 
+                                    phase, we broke down all the features and requirements into phased 
+                                    tasks.
                                 </span>
                             </Grid>
                         </Grid>
@@ -598,8 +597,8 @@ export const Process01 = () => {
                             
                             <Grid item xs={12}>
                                 <span className={styles.imgDescription2}>
-                                    We listed out the potential design criteria and discussed with the 
-                                    product manager the scope of the project.
+                                    We listed out the potential design criteria and discussed the 
+                                    project scope with the product manager.
                                 </span>
                             </Grid>
                         </Grid>
