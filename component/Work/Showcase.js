@@ -144,7 +144,7 @@ export const Showcase = () => {
             
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12} md={6}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Kinjo' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box3===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox3On}
@@ -244,23 +244,7 @@ export const Showcase = () => {
                         </div>
                     </Link>
                 </Grid>
-                {/* <Grid item xs={12} md={6}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
-                        <div 
-                            className={box8===true?classes.imgBox:classes.imgBoxOnHover}
-                            onMouseEnter={handleBox8On}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            <img src={work08} className={box8===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
-                            {box8===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-24rem'}}>2017 • KINJO Jewelry • Web Design</p>
-                                    <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
-                                </React.Fragment>
-                            }
-                        </div>
-                    </Link>
-                </Grid>      */}
+               
             </Grid>
 
         </React.Fragment>
