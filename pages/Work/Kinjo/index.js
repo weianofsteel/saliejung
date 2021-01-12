@@ -6,6 +6,7 @@ import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
+import { Kinjo01 } from '../../../component/Work/Kinjo01';
 
 const Page = () => {
 
@@ -39,7 +40,7 @@ const Page = () => {
                     </Grid>
 
                     <div>
-                        
+                        <Kinjo01/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>
