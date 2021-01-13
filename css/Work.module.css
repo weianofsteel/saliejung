@@ -306,8 +306,9 @@
     padding-top: 2%;
 }
 
-.flights01 {
-    margin-bottom: 0;
+.bannerImg {
+    margin-bottom: -0.3rem;
+    width: 100%
 }
 
 /* ./pages/Work/Agoda-flights/index.js */

@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import kinjo from '../../public/showcase/showcase02.png';
+import kinjoHeader from '../../public/kinjo/kinjo-header.png';
 
 export const Kinjo01 = () => {
     
@@ -9,11 +9,11 @@ export const Kinjo01 = () => {
         <React.Fragment>
 
             <Grid container className={styles.img01}>
-                <Grid item xs={1} sm={4}></Grid>
-                <Grid item xs={10} sm={4} style={{textAlign:'center'}}>
-                    <img src={kinjo} style={{width:'100%'}} className={styles.flights01}/>
+                
+                <Grid item xs={12} style={{textAlign:'center'}}>
+                    <img src={kinjoHeader} className={styles.bannerImg}/>
                 </Grid>
-                <Grid item xs={1} sm={4}></Grid>
+                
             </Grid>
 
             <Grid container style={{marginTop:"5%"}}>

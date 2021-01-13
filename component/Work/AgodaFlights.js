@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import flights01 from '../../public/flights01.png';
 import flights02 from '../../public/agoda-flights/flights02.png';
 import flights03 from '../../public/agoda-flights/flights03.png';
 import flights04 from '../../public/agoda-flights/flights04.png';
@@ -11,6 +10,7 @@ import { Process02 } from './Process02.js';
 import { Process03 } from './Process03.js';
 import { BottomNavbar} from '../Public/BottomNavbar.js';
 import flightGif from '../../public/gif/flight.gif';
+import flightHeader from '../../public/agoda-flights/flight-header.png';
 
 export const AgodaFlights = () => {
 
@@ -18,11 +18,11 @@ export const AgodaFlights = () => {
         <React.Fragment>
             
             <Grid container className={styles.img01}>
-                <Grid item xs={1} sm={4}></Grid>
-                <Grid item xs={10} sm={4} style={{textAlign:'center'}}>
-                    <img src={flights01} style={{width:'65%'}} className={styles.flights01}/>
+                
+                <Grid item xs={12} style={{textAlign:'center'}}>
+                    <img src={flightHeader} className={styles.bannerImg}/>
                 </Grid>
-                <Grid item xs={1} sm={4}></Grid>
+                
             </Grid>
 
             <Grid container style={{marginTop:"5%"}}>
