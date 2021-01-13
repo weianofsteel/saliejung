@@ -11,11 +11,14 @@ import { Process03 } from './Process03.js';
 import { BottomNavbar} from '../Public/BottomNavbar.js';
 import flightGif from '../../public/gif/flight.gif';
 import flightHeader from '../../public/agoda-flights/flight-header.png';
+import { PageLoader } from '../Public/PageLoader.js';
 
 export const AgodaFlights = () => {
 
     return(
         <React.Fragment>
+            
+            <PageLoader/>
             
             <Grid container className={styles.img01}>
                 

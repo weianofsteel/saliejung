@@ -20,6 +20,7 @@
     "react-auto-carousel": "^1.4.2",
     "react-dom": "^16.13.1",
     "react-google-recaptcha": "^2.1.0",
-    "react-google-recaptcha-v3": "^1.5.2"
+    "react-google-recaptcha-v3": "^1.5.2",
+    "react-top-loading-bar": "^2.0.1"
   }
 }

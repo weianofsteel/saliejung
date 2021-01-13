@@ -7,6 +7,7 @@ import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Kinjo01 } from '../../../component/Work/Kinjo01';
+import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
 
@@ -26,6 +27,9 @@ const Page = () => {
 
             {drawer == false ?
                 <React.Fragment>
+                    
+                    <PageLoader/>
+                    
                     <div className={styles.header}>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}

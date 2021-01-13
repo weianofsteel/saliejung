@@ -4,6 +4,7 @@ import { Header } from '../../component/Public/Header.js';
 import { Footer } from '../../component/Public/Footer.js';
 import { Article } from '../../component/Writing/Article.js';
 import { Drawer } from '../../component/Public/Drawer.js';
+import { PageLoader } from '../../component/Public/PageLoader.js';
 
 const Writings = () => {
     
@@ -24,6 +25,8 @@ const Writings = () => {
         
                 <div style={{backgroundColor:"#F5F5F5", margin:0}}>
 
+                    <PageLoader/>
+                    
                     <div>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}

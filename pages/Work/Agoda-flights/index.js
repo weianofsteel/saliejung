@@ -5,6 +5,7 @@ import Secure from '../../../component/Work/Secure.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js'; 
 import Grid from '@material-ui/core/Grid';
+import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
 
@@ -23,6 +24,9 @@ const Page = () => {
 
             {drawer == false ?
                 <React.Fragment>
+                    
+                    <PageLoader/>
+                    
                     <div>
                         <Secure
                             handleDrawerOpen={handleDrawerOpen}

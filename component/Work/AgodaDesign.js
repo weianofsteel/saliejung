@@ -9,7 +9,7 @@ import { Design02 } from './Design02.js';
 export const AgodaDesign = () => {
     return(
         <React.Fragment>
-
+            
             <Grid container className={styles.img01}>
                 
                 <Grid item xs={12} style={{textAlign:'center'}}>
