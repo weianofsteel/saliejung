@@ -13,7 +13,8 @@ export const PageLoader = () => {
     <div>
       <LoadingBar
         color='#1F1F1F'
-        height={5}
+        height={3}
+        waitingTime={500}
         progress={progress}
         onLoaderFinished={() => setProgress(0)}
       />
