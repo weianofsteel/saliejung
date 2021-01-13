@@ -1,12 +1,12 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import design06 from '../../public/agoda-design/design06.png';
 import design07 from '../../public/agoda-design/design07.png';
 import design08 from '../../public/agoda-design/design08.png';
 import design09 from '../../public/agoda-design/design09.png';
 import design10 from '../../public/agoda-design/design10.png';
 import { Carousel } from '../Public/Carousel.js';
+import designGif from '../../public/gif/design.gif';
 
 export const Design02 = () => {
 
@@ -42,7 +42,7 @@ export const Design02 = () => {
                 <Grid container style={{marginTop:'5%'}}>
                     <Grid item xs={2}></Grid>
                     <Grid item xs={8}>
-                        <img src={design06} style={{width:'100%'}}/>
+                        <img src={designGif} style={{width:'100%'}}/>
                     </Grid>
                     <Grid item xs={2}></Grid>
                 </Grid>

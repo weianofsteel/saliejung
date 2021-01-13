@@ -4,5 +4,6 @@
   "/_error": "pages/_error.js",
   "/Work/Agoda-flights": "pages/Work/Agoda-flights.js",
   "/Writings": "pages/Writings.js",
-  "/Work": "pages/Work.js"
+  "/Work": "pages/Work.js",
+  "/Work/Agoda-design": "pages/Work/Agoda-design.js"
 }
