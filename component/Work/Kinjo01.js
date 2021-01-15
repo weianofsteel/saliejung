@@ -26,6 +26,14 @@ export const Kinjo01 = () => {
                 <Grid item xs={3} md={5}></Grid>
             </Grid>
 
+        
+            <Grid container>
+                <Grid item xs={3}></Grid>
+                <Grid item xs={6}>
+                </Grid>     
+                <Grid item xs={3}></Grid>
+            </Grid>
+
             <Grid container>
                 <Grid item xs={false} md={3}></Grid>
                 <Grid item xs={12} md={6}>

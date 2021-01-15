@@ -26,7 +26,7 @@ export const Scrollup = (props) => {
         function onScroll() {
             setScrollC(window.scrollY);
         }  
-    })
+    },[])
 
     const handleScrolltoTop = () => {
         if(window !== undefined) {
