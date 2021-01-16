@@ -19,10 +19,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/Work/Agoda-design.js"
     ],
-    "/Work/Kinjo": [
+    "/Work/Agoda-flights": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Kinjo.js"
+      "static/chunks/pages/Work/Agoda-flights.js"
     ],
     "/_app": [
       "static/chunks/main.js",
