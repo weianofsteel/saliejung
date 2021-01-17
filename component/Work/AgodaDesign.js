@@ -2,20 +2,12 @@ import React, { useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import agodaHeader from '../../public/agoda-design/design-header.png';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Design01 } from './Design01.js';
 import { Design02 } from './Design02.js';
-import Button from '@material-ui/core/Button';
 import { LearnMore } from '../Public/LearnMore.js'; 
 
 
 export const AgodaDesign = () => {
-
-    const handleAnchor = () => {
-        if(window !== undefined) {
-            window.scrollTo({top: 1490, behavior: 'smooth'})
-        }
-    }
     
     return(
         <React.Fragment>
@@ -95,15 +87,9 @@ export const AgodaDesign = () => {
             <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    {/* <span>
-                        LEARN MORE
-                    </span> */}
-                    <LearnMore scrollY={1490} />
+                    <LearnMore scrollY={1590} />
                 </Grid>
                 <Grid item xs={2} md={4}></Grid>
-                <Grid item xs={12} style={{textAlign:'center'}}>
-                    <ExpandMoreIcon/>
-                </Grid>
             </Grid>
 
             <div>

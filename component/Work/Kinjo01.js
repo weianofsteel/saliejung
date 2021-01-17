@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import kinjoHeader from '../../public/kinjo/kinjo-header.png';
+import { LearnMore } from '../Public/LearnMore.js';
 
 export const Kinjo01 = () => {
     
@@ -97,6 +98,24 @@ export const Kinjo01 = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'8%'}}>
+                <Grid item xs={5}></Grid>
+                <Grid item xs={2} style={{textAlign:'center'}}>
+                    <span className={styles.dotLine}>
+                        ·&nbsp;·&nbsp;·
+                    </span>
+                </Grid>
+                <Grid item xs={5}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
+                <Grid item xs={2} md={4}></Grid>
+                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
+                    <LearnMore scrollY={1590} />
+                </Grid>
+                <Grid item xs={2} md={4}></Grid>
             </Grid>
 
         </React.Fragment>

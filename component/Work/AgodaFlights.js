@@ -12,6 +12,7 @@ import { BottomNavbar} from '../Public/BottomNavbar.js';
 import flightGif from '../../public/gif/flight.gif';
 import flightHeader from '../../public/agoda-flights/flight-header.png';
 import { PageLoader } from '../Public/PageLoader.js';
+import { LearnMore } from '../Public/LearnMore.js'; 
 
 export const AgodaFlights = () => {
 
@@ -355,9 +356,7 @@ export const AgodaFlights = () => {
             <Grid container style={{marginTop:'5%'}}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    <span className={styles.scrollDown}>
-                        scroll down to learn more
-                    </span>
+                    <LearnMore scrollY={5800} />
                 </Grid>
                 <Grid item xs={2} md={4}></Grid>
             </Grid>
