@@ -204,8 +204,8 @@ export const AgodaFlights = () => {
 
             <div style={{marginTop:'5%', marginLeft:'6%', marginRight:'6%'}}>
                 <Grid container style={{marginTop:'5%'}} spacing={1}>
-                    <Grid item xs={false} md={3}></Grid>
-                    <Grid item xs={12} md={6}>
+                    <Grid item xs={false} md={2}></Grid>
+                    <Grid item xs={12} md={8}>
                         <div className={styles.gallery1}>
                             <img 
                                 src={flightGif}
@@ -217,7 +217,7 @@ export const AgodaFlights = () => {
                             Simple and slick to keep the users focus on decision making.
                         </span>
                     </Grid>
-                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={false} md={2}></Grid>
                 </Grid>
             </div>
 

@@ -14,15 +14,25 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work": [
+    "/": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/Work/Agoda-flights": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Agoda-flights.js"
     ],
     "/Work/Kinjo": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/Work/Kinjo.js"
+    ],
+    "/Writings": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Writings.js"
     ],
     "/_app": [
       "static/chunks/main.js",
