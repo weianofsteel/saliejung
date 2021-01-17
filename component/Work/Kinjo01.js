@@ -110,6 +110,77 @@ export const Kinjo01 = () => {
                 <Grid item xs={5}></Grid>
             </Grid>
 
+            <Grid container style={{marginTop:'8%'}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container spacing={3} className={styles.content}>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlight}>
+                                DESIGN HIGHLIGHT
+                            </span>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightTitle}>
+                                Treat Every Movement Gently and Carefully
+                            </span>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightContent}>
+                                To create the elegance and classic of the brand image, we carefully 
+                                select the serif font for English characters and use high-end 
+                                photography. Other than that, we spent more effort on tweaking the 
+                                animation with engineers. These subtle details might be hard to 
+                                notice, and customers naturally enjoy the experience.
+                            </span>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'8%'}}>
+                <Grid item xs={5}></Grid>
+                <Grid item xs={2} style={{textAlign:'center'}}>
+                    <span className={styles.dotLine}>
+                        ·&nbsp;·&nbsp;·
+                    </span>
+                </Grid>
+                <Grid item xs={5}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'8%'}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container spacing={3} className={styles.content}>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlight}>
+                                DESIGN HIGHLIGHT
+                            </span>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightTitle}>
+                                A Well-define Design Guideline to Highly Improve the Working Process
+                            </span>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightContent}>
+                                We created a complete guideline for KINJO. For every color, we define 
+                                clearly the usages and even codename using for developers. For 
+                                typography, every kind of heading, paragraph, and even spec for RWD are 
+                                well defined. 
+                                Our developers were satisfied by the system we built, makes them start a 
+                                project more quickly than before. There is no need to ask designers, again 
+                                and again. For designers, we can also define this fundamental guideline fast 
+                                in the future.
+                                It is not only a guideline for the website, which could be easily applied to 
+                                the marketing material using widely across the different funnel.
+                            </span>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
             <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>

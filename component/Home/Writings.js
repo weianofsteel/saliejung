@@ -30,8 +30,12 @@ export const Writings = () => {
 
     const [hover, setHover] = React.useState(0);
     
-    const handleHoverOn = () => {
+    const handleHoverOn1 = () => {
         setHover(1);
+    }
+
+    const handleHoverOn2 = () => {
+        setHover(2);
     }
 
     const handleHoverOff = () => {
@@ -68,12 +72,12 @@ export const Writings = () => {
                             underline='none'
                             target='_blank' 
                             rel='noopener'
-                            onMouseEnter={handleHoverOn}
+                            onMouseEnter={handleHoverOn1}
                             onMouseLeave={handleHoverOff}
                         >
                             <div className={styles.articleContent}>
                             <span>
-                                <span className={hover==0?classes.title:classes.titleOnHover}>
+                                <span className={hover==1?classes.titleOnHover:classes.title}>
                                     An exciting adventure for a new designer at Agoda
                                 </span>
                                 <span>&ensp;</span>
@@ -98,12 +102,12 @@ export const Writings = () => {
                             underline='none'
                             target='_blank' 
                             rel='noopener'
-                            onMouseEnter={handleHoverOn}
+                            onMouseEnter={handleHoverOn2}
                             onMouseLeave={handleHoverOff}
                         >
                             <div className={styles.articleContent}>
                             <span>
-                            <span className={hover==0?classes.title:classes.titleOnHover}>
+                            <span className={hover==2?classes.titleOnHover:classes.title}>
                                     Mentoring the Next Generation of Behavioral Designers in Thailand
                                 </span>
                                 <span>&ensp;</span>
@@ -134,10 +138,12 @@ export const Writings = () => {
                             underline='none'
                             target='_blank' 
                             rel='noopener'
+                            onMouseEnter={handleHoverOn1}
+                            onMouseLeave={handleHoverOff}
                         >
                             <div style={{height:'17rem'}}>
                             <span>
-                            <span className={classes.title}>
+                            <span className={hover==1?classes.titleOnHover:classes.title}>
                                 An exciting adventure for a new designer at Agoda
                                 </span>
                                 <span>&ensp;</span>
@@ -163,10 +169,12 @@ export const Writings = () => {
                             underline='none'
                             target='_blank' 
                             rel='noopener'
+                            onMouseEnter={handleHoverOn2}
+                            onMouseLeave={handleHoverOff}
                         >
                             <div style={{height:'17rem'}}>
                             <span>
-                                    <span className={classes.title}>
+                                    <span className={hover==2?classes.titleOnHover:classes.title}>
                                         Mentoring the Next Generation of Behavioral Designers in Thailand
                                     </span>
                                     <span>&ensp;</span>
