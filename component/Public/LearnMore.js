@@ -3,10 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import Grid from '@material-ui/core/Grid';
-import {Animated} from "react-animated-css";
-// import styles from '../../css/Public.module.css';
-import { bounce } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
+import styles from '../../css/Public.module.css';
 
 const useStyles = makeStyles({
    button: {
@@ -30,31 +27,34 @@ export const LearnMore = (props) => {
     
     const classes = useStyles();
 
+    const [coordinate, setCoordinate] = React.useState(0);
+
+    useEffect(()=>{
+        if(window !== undefined) {
+            window.addEventListener("scroll", onScroll);
+            function onScroll() {
+            setCoordinate(window.scrollY);
+            }  
+        }
+    },[])
+
     const handleAnchor = () => {
         if(window !== undefined) {
-            window.scrollTo({top: scrollY, behavior: 'smooth'})
-        }
-    }
-
-    const { scrollY } = props;
-
-    const styles = {
-        bounce: {
-            animation: 'x 1s',
-            animationName: Radium.keyframes(bounce, 'bounce')
+            window.scrollTo({top: coordinate + 600, behavior: 'smooth'})
         }
     }
     
     return(
-        // <Animated animationIn="bounce" isVisible={true}>
-
+       
+        <React.Fragment>
+            
             <Button
                 className={classes.button}
                 onClick={handleAnchor}
                 disableRipple={true}
                 style={{backgroundColor: 'transparent'}}
             >
-                <Grid container style={styles.bounce}>
+                <Grid container className={styles.ball}>
                     <Grid item xs={12}>
                         <span>Learn More</span>
                     </Grid>
@@ -64,6 +64,6 @@ export const LearnMore = (props) => {
                 </Grid> 
             </Button>
 
-        // </Animated>
+        </React.Fragment>
     )
 }

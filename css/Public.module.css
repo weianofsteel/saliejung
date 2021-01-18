@@ -119,3 +119,28 @@
 }
 
 /* ./component/Public/Footer.js */
+
+/* ./component/Public/LearnMore.js */
+
+.ball {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+  }
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+
+/* ./component/Public/LearnMore.js */
