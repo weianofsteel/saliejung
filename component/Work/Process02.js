@@ -53,16 +53,17 @@ export const Process02 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Early concepts to gather feedback and direction
+                                    Early Concepts to Gather Feedback and Direction
                                 </span>
                             </Grid>
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    The interface might be the most challenging part of this project. For 
-                                    mobile, it is even harder to display so much information on the little 
-                                    tiny screen. In the beginning, I focused on the info structure and the 
-                                    overall flow.
+                                    The interface might be the most challenging part 
+                                    of this project. For mobile, it is even harder 
+                                    to display so much information on the little 
+                                    tiny screen. In the beginning, I focused on the 
+                                    info structure and the overall flow.
                                 </span>
                             </Grid>
                         </Grid>
@@ -102,10 +103,15 @@ export const Process02 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    After confirming the flow, I put more effort into the exploration of 
-                                    the selection process. There are flight segments, passenger selection, 
-                                    seat legend, seat map, and the price update. We were looking for an 
-                                    approach to make the displaying more efficient, and explain clear on 
+                                    After confirming the flow, I put more effort 
+                                    into the exploration of the selection process. 
+                                    There are&nbsp; 
+                                    <span style={{fontWeight:700}}>
+                                        flight segments, passenger selection, 
+                                    seat legend, seat map, and the price update. 
+                                    </span>&nbsp;
+                                    We were looking for an approach to make the 
+                                    display more delightful and explain clear on 
                                     what's the current state of the process.
                                 </span>
                             </Grid>
@@ -131,7 +137,7 @@ export const Process02 = () => {
                                 />
                             </div>
                             <span className={styles.imgDescription3}>
-                                Tab UI on the passenger selection might cause the problem for group travelers.
+                                Tab UI on the passenger selection might cause the problem for group travelers
                             </span>
                         </Grid>
                         <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
@@ -141,8 +147,7 @@ export const Process02 = () => {
                                 />
                             </div>
                             <span className={styles.imgDescription3}>
-                                The different state of passenger selection button is hard to recognize at 
-                                the first glance.
+                                The different state of passenger selection button is hard to recognize at first glance.
                             </span>
                         </Grid>
                         <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
@@ -152,8 +157,7 @@ export const Process02 = () => {
                                 />
                             </div>
                             <span className={styles.imgDescription3}>
-                                Showing initial for the selected seating might not be familiar to 
-                                non-English speaker countries.
+                                Showing initial for the selected seating might not be familiar to non-English speaker countries.
                             </span>
                         </Grid>
                     </Grid>
@@ -172,16 +176,18 @@ export const Process02 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Free seats for launch and the next phase
+                                    Free Seats for Launch and the Next Phase
                                 </span>
                             </Grid>
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    Based on the timeline and the development effort, we did compromise to 
-                                    simplify the process as much as possible. The most challenging part 
-                                    must be the worst case for multiple segments and multiple stops flight, 
-                                    the design also should be scalable to the paid options. 
+                                    Based on the timeline and the development effort, 
+                                    we did compromise to simplify the process as much 
+                                    as possible. The most challenging part must be the 
+                                    worst case for multiple segments and multiple stops 
+                                    flight. The design also should be scalable to the 
+                                    paid options. 
                                 </span>
                             </Grid>
                         </Grid>

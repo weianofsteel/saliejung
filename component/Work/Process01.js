@@ -543,11 +543,13 @@ export const Process01 = () => {
                             
                             <Grid item xs={12}>
                                 <span className={styles.imgDescription2}>
-                                    By features audit, we organized the potential features in terms 
-                                    of frequency adoption (amount of people using them). Post-its in 
-                                    the dark blue area were the actions been used by the participants 
-                                    the most. We also categorized all the behaviors and insights into 
-                                    implementation stages as a preliminary analysis.
+                                    By features audit, we organized the potential 
+                                    features in terms of frequency adoption (amount 
+                                    of people using them). Post-its in the dark blue 
+                                    area were the actions been used by the 
+                                    participants the most. We also categorized all 
+                                    the behaviors and insights into implementation 
+                                    stages as a preliminary analysis.
                                 </span>
                             </Grid>
                             
@@ -559,17 +561,18 @@ export const Process01 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Define the bare minimum of product
+                                    Define the Bare Minimum of the Project
                                 </span>
                             </Grid>
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    Considering the dependency on the supplier and the development 
-                                    effort, we're looking for the MVP version of the solution to 
-                                    reduce the risk during implementation. Hence, after the research 
-                                    phase, we broke down all the features and requirements into phased 
-                                    tasks.
+                                    Considering the dependency on the supplier and 
+                                    the development effort, we're looking for the 
+                                    MVP version of the solution to reduce the risk 
+                                    during implementation. Hence, after the research 
+                                    phase, we broke down all the features and 
+                                    requirements into phased tasks.
                                 </span>
                             </Grid>
                         </Grid>
@@ -597,8 +600,9 @@ export const Process01 = () => {
                             
                             <Grid item xs={12}>
                                 <span className={styles.imgDescription2}>
-                                    We listed out the potential design criteria and discussed the 
-                                    project scope with the product manager.
+                                    We listed out the potential design criteria and 
+                                    discussed the project scope with the product 
+                                    manager.
                                 </span>
                             </Grid>
                         </Grid>
