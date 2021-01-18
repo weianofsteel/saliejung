@@ -41,14 +41,14 @@ export const Scrollup = (props) => {
                 
                 <Grid item xs={1}>
                     
-                    {scrollC > 400 ?
+                    {scrollC > 400 &&
                         <Button 
                             onClick={handleScrolltoTop}
                             style={{backgroundColor: 'transparent'}}
                             disableRipple={true}
                         >
                             <ExpandLessIcon className={classes.icon}/>
-                        </Button>:''
+                        </Button>
                     }
 
                 </Grid>
