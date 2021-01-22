@@ -3,6 +3,12 @@ import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import kinjoHeader from '../../public/kinjo/kinjo-header.png';
 import { LearnMore } from '../Public/LearnMore.js';
+import kinjo01 from '../../public/kinjo/kinjo01.png';
+import kinjo02 from '../../public/kinjo/kinjo02.png';
+import kinjo03 from '../../public/kinjo/kinjo03.png';
+import kinjo04 from '../../public/kinjo/kinjo04.png';
+import kinjo05 from '../../public/kinjo/kinjo05.png';
+import { Carousel } from '../Public/Carousel.js';
 
 export const Kinjo01 = () => {
     
@@ -138,6 +144,33 @@ export const Kinjo01 = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
+            <Grid container style={{marginTop:'5%'}}>
+
+                <Grid item xs={2}></Grid>
+
+                <Grid item xs={8}>
+
+                    <Grid container style={{}} spacing={5}>
+                        <Grid item xs={4}>
+                            <img src={kinjo01} style={{width:'100%'}}/>
+                            <span style={{paddingLeft:'3%'}}>Reserve the course</span>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <img src={kinjo02} style={{width:'100%'}}/>
+                            <span style={{paddingLeft:'3%'}}>Filter and favorite products</span>
+                        </Grid>
+                        <Grid item xs={4}>
+                            <img src={kinjo03} style={{width:'100%'}}/>
+                            <span style={{paddingLeft:'3%'}}>Customize the ring and add it to the cart</span>
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+
+                <Grid item xs={2}></Grid>
+
+            </Grid>
+
             <Grid container style={{marginTop:'8%'}}>
                 <Grid item xs={5}></Grid>
                 <Grid item xs={2} style={{textAlign:'center'}}>
@@ -174,6 +207,64 @@ export const Kinjo01 = () => {
                                 in the future.
                                 It is not only a guideline for the website, which could be easily applied to 
                                 the marketing material using widely across the different funnel.
+                            </span>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
+            <div>
+                <Carousel
+                    imgsrc={[kinjo04, kinjo05]}
+                    caption={[
+                        'Color usage',
+                        "Typography"
+                    ]}
+                />
+            </div>
+
+            <Grid container style={{marginTop:'8%'}}>
+                
+                <Grid item xs={5}></Grid>
+                <Grid item xs={2}>
+                    <h3 className={styles.reflection}>
+                        Reflection
+                    </h3>
+                </Grid>
+                <Grid item xs={5}></Grid>
+            
+            </Grid>
+
+            <Grid container style={{marginTop:'1%'}}>
+                <Grid item xs={5}></Grid>
+                <Grid item xs={2} style={{textAlign:'center'}}>
+                    <span className={styles.dotLine}>
+                        ·&nbsp;·&nbsp;·
+                    </span>
+                </Grid>
+                <Grid item xs={5}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'3%'}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container spacing={3} className={styles.content}>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightContent}>
+                                As a web designer working at a digital agency, the budget is 
+                                the critical condition of any project. I was lucky to be part 
+                                of the KINJO project with such a large scope. During production,
+                                I spent much time discussing with front-end developers and 
+                                find that there are still processes and designs we can improve.
+                                <br/><br/>
+                                For example, I did not think of interaction much before. Even 
+                                I had some references in hand, I did not organize them well 
+                                and only find them out while developers ask. So we tried FSM 
+                                (Finite-state machine) for the first time and noted other 
+                                details on Confluence. Developers also left their questions on 
+                                it for more discussion. Still not familiar with the working 
+                                process, but it was a good start at least.
                             </span>
                         </Grid>
                     </Grid>
