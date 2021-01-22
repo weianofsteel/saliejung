@@ -7,6 +7,8 @@ import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Kinjo01 } from '../../../component/Work/Kinjo01';
+import { Kinjo02 } from '../../../component/Work/Kinjo02';
+import { Kinjo03 } from '../../../component/Work/Kinjo03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
@@ -45,6 +47,14 @@ const Page = () => {
 
                     <div>
                         <Kinjo01/>
+                    </div>
+
+                    <div>
+                        <Kinjo02/>
+                    </div>
+
+                    <div>
+                        <Kinjo03/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>
