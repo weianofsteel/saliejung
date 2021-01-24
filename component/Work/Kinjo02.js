@@ -40,7 +40,7 @@ export const Kinjo02 = () => {
                     <Grid item xs={1} md={2}></Grid>
                     <Grid item xs={10} md={8} style={{textAlign:'center'}}>
                         <img src={kinjo06} style={{width:'100%'}}/>
-                        <span>
+                        <span className={styles.caption}>
                             There are their official websites previously, 2008 on the left, 
                             2011 on the right.
                         </span>
@@ -83,7 +83,7 @@ export const Kinjo02 = () => {
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10} style={{textAlign:'center'}}>
                         <img src={kinjo07} style={{width:'100%'}}/>
-                        <span>
+                        <span className={styles.caption}>
                             We spent lots of time discussing with the client about the new 
                             information architecture for the new website.
                         </span>
@@ -132,7 +132,7 @@ export const Kinjo02 = () => {
                     <Grid item xs={1} md={3}></Grid>
                     <Grid item xs={10} md={6} style={{textAlign:'center'}}>
                         <img src={kinjo08} style={{width:'100%'}}/>
-                        <span>
+                        <span className={styles.caption}>
                             We used Eagle (Left) to collect ideas and inspiration and shared 
                             our research notes on Confluence (Right).
                         </span>

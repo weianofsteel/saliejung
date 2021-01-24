@@ -19,10 +19,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/index.js"
     ],
-    "/Writings": [
+    "/Work/Kinjo": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Writings.js"
+      "static/chunks/pages/Work/Kinjo.js"
     ],
     "/_app": [
       "static/chunks/main.js",

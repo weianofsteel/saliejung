@@ -90,7 +90,7 @@ export const Kinjo03 = () => {
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10} style={{textAlign:'center'}}>
                         <img src={kinjo09} style={{width:'100%'}}/>
-                        <span>
+                        <span className={styles.caption}>
                             The flowchart was way more complicated initially. We simplified it 
                             due to technical constraints and project scope.
                         </span>
@@ -150,13 +150,13 @@ export const Kinjo03 = () => {
                     <Grid item xs={10} md={8}>
                         <Grid container spacing={5} style={{textAlign:'center'}}>
                             <Grid item xs={6}>
-                                <span>
+                                <span className={styles.caption}>
                                     Course Landing Page
                                 </span>
                                 <img src={kinjo10} style={{width:'100%'}}/>
                             </Grid>
                             <Grid item xs={6}>
-                                <span>
+                                <span className={styles.caption}>
                                     Single Course Page
                                 </span>
                                 <img src={kinjo11} style={{width:'100%'}}/>
@@ -269,7 +269,7 @@ export const Kinjo03 = () => {
                     <Grid item xs={1} md={3}></Grid>
                     <Grid item xs={10} md={6}>
                         <img src={kinjo15} style={{width:'100%'}}/>
-                        <span>
+                        <span className={styles.caption}>
                             I researched other design systems for reference, such as Material 
                             Design (Google), Carbon Design System (IBM), Lightning Design System 
                             (Salesforce). Eventually, we organized the symbols on Airtable (Left) 
@@ -306,7 +306,7 @@ export const Kinjo03 = () => {
                 <Grid container className={styles.content} style={{marginTop:'5%'}}>
                     <Grid item xs={false} md={3}></Grid>
                     <Grid item xs={12} md={6}>
-                        <span>
+                        <span className={styles.caption}>
                             The project had a pre-launch at the end of October 2018. Promise Rings with customization flow and buyer's guide will implement in the later phase.
                         </span>
                     </Grid>
