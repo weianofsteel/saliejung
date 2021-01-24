@@ -106,7 +106,7 @@ export const Process02 = () => {
                                     After confirming the flow, I put more effort 
                                     into the exploration of the selection process. 
                                     There are&nbsp; 
-                                    <span style={{fontWeight:700}}>
+                                    <span className={styles.boldContent}>
                                         flight segments, passenger selection, 
                                     seat legend, seat map, and the price update. 
                                     </span>&nbsp;

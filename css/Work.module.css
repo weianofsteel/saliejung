@@ -137,6 +137,11 @@
     color: #1F1F1F;
 }
 
+.boldContent {
+    letter-spacing: 0.08rem;
+    font-weight: 700;
+}
+
 .gallery1 {
     background-color: #F5F5F5;
 }
@@ -234,6 +239,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
+    letter-spacing: 0.08rem;
     color: #1F1F1F;
 }
 

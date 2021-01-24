@@ -61,7 +61,7 @@ export const Process01 = () => {
                                     from the suppliers. Designers started from benchmarking to understand 
                                     the fundamental functions of seat selection. Based on the feature 
                                     comparison, I noted down the 
-                                    <span style={{fontWeight:700}}>
+                                    <span className={styles.boldContent}>
                                         &nbsp;various scenarios, features, flow, chance for optimization, 
                                         and potential risks
                                     </span>
@@ -115,7 +115,7 @@ export const Process01 = () => {
                     <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
-                <Grid container style={{marginTop:'8%'}}>
+                <Grid container style={{marginTop:'4%'}}>
                 
                     <Grid item xs={1} md={3}></Grid>
                     

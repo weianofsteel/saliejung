@@ -213,13 +213,24 @@ export const AgodaFlights = () => {
                             />
                         </div>
                         <br/>
-                        <span className={styles.imgDescription}>
-                            Simple and slick to keep the users focus on decision making.
-                        </span>
                     </Grid>
                     <Grid item xs={false} md={2}></Grid>
                 </Grid>
             </div>
+
+            <Grid container style={{}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container spacing={3} className={styles.content}>
+                        <Grid item xs={12}>
+                            <span className={styles.imgDescription}>
+                                Simple and slick to keep the users focus on decision making.
+                            </span>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
 
             <Grid container style={{marginTop:'8%'}}>
                 
@@ -248,7 +259,7 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        <span style={{fontWeight: 700}}>Benchmarking helps (a lot) for introducing a new feature -</span> Especially for 
+                                        <span className={styles.boldContent}>Benchmarking helps (a lot) for introducing a new feature -</span> Especially for 
                                         the later progress, there are many little fine-tune needing a quick decision
                                         . When engineers were building it, I already shifted my focus to other 
                                         projects. It helps to recall the memory from a couple of screenshots and the 
@@ -265,7 +276,7 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        <span style={{fontWeight: 700}}>User interview to collect insights -</span> 
+                                        <span className={styles.boldContent}>User interview to collect insights -</span> 
                                         We rarely have the chance to conduct formal user 
                                         interviews every time. For such a complex new feature 
                                         like seat selection, it is undoubtedly helpful to 
@@ -284,7 +295,7 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        <span style={{fontWeight: 700}}>QA engineers, the hidden figure -</span> 
+                                        <span className={styles.boldContent}>QA engineers, the hidden figure -</span> 
                                         The most satisfying experience I have for this project
                                          is building a strong relationship with QA engineers. 
                                          Seat selection is a large-scale project with many 
@@ -308,7 +319,7 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        <span style={{fontWeight: 700}}>Ask for feedback from the engineers -</span> 
+                                        <span className={styles.boldContent}>Ask for feedback from the engineers -</span> 
                                         For a more 
                                         complex new feature, we need to design more feedback 
                                         to smooth the experience. We think about micro 
@@ -333,7 +344,7 @@ export const AgodaFlights = () => {
                                 </Grid>
                                 <Grid item xs={11}>
                                     <span className={styles.designHighlightContent}>
-                                        <span style={{fontWeight: 700}}>User testing for enhancement -</span> 
+                                        <span className={styles.boldContent}>User testing for enhancement -</span> 
                                         When it was close to the later stage of the project, 
                                         we started WFH due to COVID-19. Unfortunately, we 
                                         were not getting the chance to conduct the user 
