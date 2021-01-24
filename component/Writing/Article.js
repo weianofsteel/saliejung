@@ -67,6 +67,7 @@ export const Article = () => {
                                     <span className={hover==1?classes.titleOnHover:classes.title}>
                                         An exciting adventure for a new designer at Agoda
                                     </span>
+                                    <span>&ensp;</span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                                 </span>
                                 <br/>
@@ -96,6 +97,7 @@ export const Article = () => {
                                     <span className={hover==2?classes.titleOnHover:classes.title}>
                                         Mentoring the Next Generation of Behavioral Designers in Thailand
                                     </span>
+                                    <span>&ensp;</span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
                                 </span>
                                 <br/>
