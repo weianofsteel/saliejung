@@ -1,7 +1,7 @@
 import React from 'react';
 import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
-import Secure from '../../../component/Work/Secure.js';
+import Secure from '../../../component/Work/Agoda-flights/Secure.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js'; 
 import Grid from '@material-ui/core/Grid';

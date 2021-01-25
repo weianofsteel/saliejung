@@ -6,9 +6,9 @@ import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
-import { Kinjo01 } from '../../../component/Work/Kinjo01';
-import { Kinjo02 } from '../../../component/Work/Kinjo02';
-import { Kinjo03 } from '../../../component/Work/Kinjo03';
+import { Kinjo01 } from '../../../component/Work/Kinjo/Kinjo01';
+import { Kinjo02 } from '../../../component/Work/Kinjo/Kinjo02';
+import { Kinjo03 } from '../../../component/Work/Kinjo/Kinjo03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {

@@ -6,7 +6,7 @@ import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
-import { Vue01 } from '../../../component/Work/Vue01';
+import { Vue01 } from '../../../component/Work/Vue/Vue01';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
