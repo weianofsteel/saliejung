@@ -3,9 +3,9 @@ import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
 import kinjoHeader from '../../public/kinjo/kinjo-header.png';
 import { LearnMore } from '../Public/LearnMore.js';
-import kinjo01 from '../../public/kinjo/kinjo01.png';
-import kinjo02 from '../../public/kinjo/kinjo02.png';
-import kinjo03 from '../../public/kinjo/kinjo03.png';
+import kinjo01 from '../../public/kinjo/kinjo01.gif';
+import kinjo02 from '../../public/kinjo/kinjo02.gif';
+import kinjo03 from '../../public/kinjo/kinjo03.gif';
 import kinjo04 from '../../public/kinjo/kinjo04.png';
 import kinjo05 from '../../public/kinjo/kinjo05.png';
 import { Carousel } from '../Public/Carousel.js';
@@ -31,14 +31,6 @@ export const Kinjo01 = () => {
                     </div>
                 </Grid>     
                 <Grid item xs={3} md={5}></Grid>
-            </Grid>
-
-        
-            <Grid container>
-                <Grid item xs={3}></Grid>
-                <Grid item xs={6}>
-                </Grid>     
-                <Grid item xs={3}></Grid>
             </Grid>
 
             <Grid container>

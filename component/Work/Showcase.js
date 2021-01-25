@@ -185,7 +185,7 @@ export const Showcase = () => {
 
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12} md={7}>
-                    <Link href='/' underline='none'>
+                    <Link href='/Work/Vue' underline='none'>
                         <div 
                             className={box5===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox5On}

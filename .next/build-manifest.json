@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Work/Kinjo": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Work/Kinjo.js"
     ],
-    "/Work/Agoda-flights": [
+    "/Work/Vue": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Agoda-flights.js"
+      "static/chunks/pages/Work/Vue.js"
     ],
     "/_app": [
       "static/chunks/main.js",
