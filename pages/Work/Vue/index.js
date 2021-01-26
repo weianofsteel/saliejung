@@ -7,6 +7,8 @@ import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Vue01 } from '../../../component/Work/Vue/Vue01';
+import { Vue02 } from '../../../component/Work/Vue/Vue02';
+import { Vue03 } from '../../../component/Work/Vue/Vue03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
@@ -45,6 +47,14 @@ const Page = () => {
 
                     <div>
                         <Vue01/>
+                    </div>
+
+                    <div>
+                        <Vue02/>
+                    </div>
+
+                    <div>
+                        <Vue03/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>

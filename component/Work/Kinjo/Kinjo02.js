@@ -15,7 +15,7 @@ export const Kinjo02 = () => {
                 <Grid container style={{marginTop:'5%'}}>
                     <Grid item xs={2} md={3}></Grid>
                     <Grid item xs={8} md={6}>
-                        <Grid container spacing={3} className={styles.content} style={{marginTop:'8%'}}>
+                        <Grid container spacing={3} className={styles.content} style={{marginTop:'12%'}}>
                             <Grid item xs={12} style={{textAlign:'center'}}>
                                 <span className={styles.progressTitle1}>
                                     THE PROCESS / 01

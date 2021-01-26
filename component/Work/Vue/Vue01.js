@@ -172,13 +172,13 @@ export const Vue01 = () => {
 
             <Grid container style={{marginTop:'8%'}}>
                 
-                <Grid item xs={5}></Grid>
-                <Grid item xs={2}>
+                <Grid item xs={3} md={5}></Grid>
+                <Grid item xs={6} md={2}>
                     <h3 className={styles.reflection}>
                         Reflection
                     </h3>
                 </Grid>
-                <Grid item xs={5}></Grid>
+                <Grid item xs={3} md={5}></Grid>
             
             </Grid>
 
