@@ -7,6 +7,7 @@ import vue11 from '../../../public/vue/vue11.png';
 import vue12 from '../../../public/vue/vue12.png';
 import vue13 from '../../../public/vue/vue13.png';
 import dot from '../../../public/dot.png';
+import Link from '@material-ui/core/Link';
 
 export const Vue03 = () => {
     
@@ -125,15 +126,10 @@ export const Vue03 = () => {
 
                 <Grid container style={{marginTop:'4%'}}>
                     <Grid item xs={false} md={2}></Grid>
-                    <Grid item xs={12} md={8} style={{paddingLeft:'4%', paddingRight:'4%'}}>
-                        {/* <iframe 
-                            src="https://drive.google.com/file/d/1u9t552WOHiS-nq9ieZatEO758xiTON6c/view?usp=sharing"
-                            width="100%"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                            allowFullScreen
-                            frameBorder="0"
-                        >
-                        </iframe> */}
+                    <Grid item xs={12} md={8} style={{paddingLeft:'5%', paddingRight:'5%'}}>
+                        <video width='100%' controls autoplay="true">
+                            <source type="video/mp4" src='/video/vue.mp4'/>
+                        </video>
                     </Grid>
                     <Grid item xs={false} md={2}></Grid>
                 </Grid>
@@ -197,7 +193,9 @@ export const Vue03 = () => {
                         <Grid container spacing={3} className={styles.content}>
                             <Grid item xs={12}>
                                 <span className={styles.imgDescription}>
-                                    <br/>Take a look at the <a href="/" target="_blank" style={{color:'#1F1F1F'}}>media kit</a> if you are interested.
+                                    <br/>Take a look at the&nbsp; 
+                                    <Link href="/vue_media-kit_2018.pdf" target="_blank" className={styles.imgDescriptionLink} style={{color:'#8F8F8F'}}>media kit</Link> 
+                                    &nbsp;if you are interested.
                                 </span>
                             </Grid>
                         </Grid>
