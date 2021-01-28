@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
+import { LearnMore } from '../../Public/LearnMore.js';
 import gigbirdHeader from '../../../public/gigbird/gigbird-header.png';
 import gigbird01 from '../../../public/gigbird/gigbird01.png';
 import gigbird02 from '../../../public/gigbird/gigbird02.png';
@@ -132,24 +133,76 @@ export const Gigbird01 = () => {
             </Grid>
 
             <Grid container style={{marginTop:'2%',paddingLeft:'4%', paddingRight:'4%'}} spacing={1}>
-                    <Grid item xs={12} md={6} style={{paddingRight:'0.5rem'}}>
-                        <Grid container spacing={1}>
-                            <Grid item xs={12}>
-                                <img src={gigbird01} style={{width:'100%'}}/>
-                            </Grid>
-                            <Grid item xs={12}>
-                                <img src={gigbird03} style={{width:'100%'}}/>
-                            </Grid>
+                <Grid item xs={12} md={6} style={{paddingRight:'0.5rem'}}>
+                    <Grid container spacing={1}>
+                        <Grid item xs={12}>
+                            <img src={gigbird01} style={{width:'100%'}}/>
                         </Grid>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <Grid container>
-                            <Grid item xs={12}>
-                                <img src={gigbird02} style={{width:'100%'}}/>
-                            </Grid>
+                        <Grid item xs={12}>
+                            <img src={gigbird03} style={{width:'100%'}}/>
                         </Grid>
                     </Grid>
                 </Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container>
+                        <Grid item xs={12}>
+                            <img src={gigbird02} style={{width:'100%'}}/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'8%'}}>
+                
+                <Grid item xs={3} md={5}></Grid>
+                <Grid item xs={6} md={2}>
+                    <h3 className={styles.reflection}>
+                        Reflection
+                    </h3>
+                </Grid>
+                <Grid item xs={3} md={5}></Grid>
+            
+            </Grid>
+
+            <Grid container style={{marginTop:'1%'}}>
+                <Grid item xs={5}></Grid>
+                <Grid item xs={2} style={{textAlign:'center'}}>
+                    <span className={styles.dotLine}>
+                        ·&nbsp;·&nbsp;·
+                    </span>
+                </Grid>
+                <Grid item xs={5}></Grid>
+            </Grid> 
+
+            <Grid container style={{marginTop:'3%'}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <Grid container spacing={3} className={styles.content}>
+                        <Grid item xs={12}>
+                            <span className={styles.designHighlightContent}>
+                                Though it is not my first time designing and planning a product 
+                                from 0 to 1, I have more flexibility to do whatever I want in this 
+                                project. As the only designer, my job is not only to make the logo 
+                                or design layouts. I spent more time sharing and discussing my idea 
+                                with the team. Besides, I took this chance to practice my UX skills 
+                                and methods, learn by doing. Finally, we complete the app prototype. 
+                                Although, without backend resources to pull the database, it is not 
+                                ready to launch. The process we craft this product from scratch is 
+                                a valuable experience for me.
+                            </span>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
+            <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
+                <Grid item xs={2} md={4}></Grid>
+                <Grid item xs={8} md={4} style={{textAlign:'center'}}>
+                    <LearnMore scrollY={1800} />
+                </Grid>
+                <Grid item xs={2} md={4}></Grid>
+            </Grid>   
 
         </React.Fragment>
     )
