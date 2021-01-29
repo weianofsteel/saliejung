@@ -9,6 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 import { Gigbird01 } from '../../../component/Work/Gigbird/Gigbird01';
 import { Gigbird02 } from '../../../component/Work/Gigbird/Gigbird02';
+import { Gigbird03 } from '../../../component/Work/Gigbird/Gigbird03';
 
 const Page = () => {
 
@@ -50,6 +51,10 @@ const Page = () => {
 
                     <div>
                         <Gigbird02/>
+                    </div>
+
+                    <div>
+                        <Gigbird03/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>
