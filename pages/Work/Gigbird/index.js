@@ -8,6 +8,7 @@ import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 import { Gigbird01 } from '../../../component/Work/Gigbird/Gigbird01';
+import { Gigbird02 } from '../../../component/Work/Gigbird/Gigbird02';
 
 const Page = () => {
 
@@ -45,6 +46,10 @@ const Page = () => {
 
                     <div>
                         <Gigbird01/>
+                    </div>
+
+                    <div>
+                        <Gigbird02/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>
