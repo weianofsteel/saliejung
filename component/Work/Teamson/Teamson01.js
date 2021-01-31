@@ -28,6 +28,23 @@ export const Teamson01 = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
+            <Grid container style={{marginTop:'5%'}}>
+                <Grid item xs={false} md={3}></Grid>
+                <Grid item xs={12} md={6}>
+                    <p className={styles.article}>
+                        <span style={{fontWeight:700, letterSpacing:'0.08rem'}}>CONTEXT&nbsp;&nbsp;</span>
+                        Many events are happening during our daily life, you may see the 
+                        information from news, Facebook, or friends' posts. How to keep those 
+                        events on my calendar or somewhere? That's the problem coming up when 
+                        I haven't decided when to the event yet. The idea of a fully functional 
+                        event calendar came out of our minds.
+                        <br/><br/>
+                        <span style={{fontWeight:700, letterSpacing:'0.08rem'}}>CHALLENGE&nbsp;&nbsp;</span> 
+                    </p>
+                </Grid>     
+                <Grid item xs={false} md={3}></Grid>
+            </Grid>
+
         </React.Fragment>
     )
 }
