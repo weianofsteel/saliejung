@@ -226,7 +226,7 @@ export const Showcase = () => {
 
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Teamson' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box7===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox7On}

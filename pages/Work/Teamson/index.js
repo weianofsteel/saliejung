@@ -6,7 +6,7 @@ import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
-import { Teamson01 } from '../../../component/Work/Teason/Teamson01';
+import { Teamson01 } from '../../../component/Work/Teamson/Teamson01';
 // import { Kinjo02 } from '../../../component/Work/Kinjo/Kinjo02';
 // import { Kinjo03 } from '../../../component/Work/Kinjo/Kinjo03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
