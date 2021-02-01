@@ -26,25 +26,27 @@
 }
 
 .titleOnHover {
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
     font-weight: 700;
     font-family: 'Roboto';
     line-height: 20px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.5rem;
 }
 
 .title2OnHover {
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     font-weight: 400;
     font-family: 'Roboto Slab';
     line-height: 44px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 0;
 }
 
 /* ./component/Work/Showcase.js */
@@ -80,13 +82,13 @@
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .content {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .contentTitle {
@@ -129,10 +131,15 @@
 
 .designHighlightContent {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
     color: #1F1F1F;
+}
+
+.boldContent {
+    letter-spacing: 0.08rem;
+    font-weight: 700;
 }
 
 .gallery1 {
@@ -141,10 +148,17 @@
 
 .imgDescription {
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     color: #1F1F1F;
+}
+
+.imgDescriptionLink {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .reflection {
@@ -158,6 +172,7 @@
 
 .dotAlign {
     text-align: center;
+    padding-top: 0.25rem;
 }
 
 .scrollDown {
@@ -231,6 +246,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
+    letter-spacing: 0.08rem;
     color: #1F1F1F;
 }
 
@@ -303,8 +319,9 @@
     padding-top: 2%;
 }
 
-.flights01 {
-    margin-bottom: 0;
+.bannerImg {
+    margin-bottom: -0.3rem;
+    width: 100%
 }
 
 /* ./pages/Work/Agoda-flights/index.js */
@@ -335,3 +352,30 @@
 }
 
 /* ./component/Work/Design.js */
+
+/* ./component/Work/Kinjo */
+
+.caption {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #1F1F1F;
+}
+
+/* ./component/Work/Kinjo */
+
+/* ./component/Work/Vue */
+
+/* ./component/Work/Vue */
+
+/* ./component/Work/Gigbird */
+
+.gigbirdCaption {
+    color: #8F8F8F;
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* ./component/Work/Gigbird */

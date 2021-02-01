@@ -4,30 +4,55 @@ import styles from '../../css/Public.module.css';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    icon: {
+        fontSize:'1.5rem',
+        color:'#8F8F8F',
+        "&:hover":{
+            color:'#1F1F1F'
+        }
+    }
+});
 
 export const Carousel = (props) => {
     
-    const [carousel, setCarousel] = React.useState(1);
+    const classes = useStyles();
+    
+    const [carousel, setCarousel] = React.useState(0);
     
     const handleCarouselNext = () => {
-        setCarousel(2);
+        if(carousel < imgsrc.length - 1){
+            setCarousel(carousel + 1);
+        }else{
+            setCarousel(0);
+        }   
     }
 
     const handleCarouselLast = () => {
-        setCarousel(1);
+        if(carousel > 0){
+            setCarousel(carousel - 1);
+        }else{
+            setCarousel(imgsrc.length - 1);
+        }    
     }
+
+    const {
+        imgsrc,
+        caption
+    } = props;
     
     return(
         <React.Fragment>
 
-            {carousel == 1?
                 <div className={styles.carouselOuter}>
                     <Grid container style={{marginTop:'3%'}}>
                         <Grid item xs={false} md={2}></Grid>
                         <Grid item xs={12} md={8}>
-                            <div style={{backgroundColor:'white'}}>
+                            <div style={{backgroundColor:'#F5F5F5'}}>
                                 <img
-                                    src={props.img1}
+                                    src={imgsrc[carousel]}
                                     className={styles.carouselImg}
                                 />
                             </div>
@@ -35,67 +60,40 @@ export const Carousel = (props) => {
                         <Grid item xs={false} md={2}></Grid>
                     </Grid>
                 </div>
-            :''}
 
-            {carousel == 2?
-                <div className={styles.carouselOuter}>
-                    <Grid container style={{marginTop:'3%'}}>
-                        <Grid item xs={false} md={2}></Grid>
-                        <Grid item xs={12} md={8}>
-                            <div style={{backgroundColor:'white'}}>
-                                <img
-                                    src={props.img2}
-                                    className={styles.carouselImg}
-                                />
-                            </div>
-                        </Grid>
-
-                        <Grid item xs={false} md={2}></Grid>
-                    </Grid>
-                </div>
-            :''}
-
-            <Grid container className={styles.captionContainer}>
-                <Grid item xs={false} md={2}></Grid>
-                <Grid item xs={12} md={8}>
-                    <Grid container>
-                        <Grid item xs={3}>
-                            <IconButton
-                                onClick={handleCarouselLast}
-                                disabled={carousel==1?true:false}
-                            >
-                                <ArrowBackIcon style={{fontSize:'1.5rem'}}/>
-                            </IconButton>
-                        </Grid>
+                <Grid container className={styles.captionContainer} style={{marginTop:'1rem'}}>
+                    <Grid item xs={false} md={2}></Grid>
+                    <Grid item xs={12} md={8}>
+                        <Grid container>
+                            <Grid item xs={3}>
+                                <IconButton
+                                    onClick={handleCarouselLast}
+                                    style={{backgroundColor: 'transparent'}}
+                                    disableRipple={true}
+                                >
+                                    <ArrowBackIcon className={classes.icon}/>
+                                </IconButton>
+                            </Grid>
                             
-                        {carousel == 1?
-                            <Grid item xs={6} style={{marginTop:'1.5%'}}>
+                            <Grid item xs={6}>
                                 <span className={styles.imgDescription}>
-                                    {props.caption1}
+                                    {caption[carousel]}
                                 </span>
                             </Grid>
-                        :''}
 
-                        {carousel == 2?        
-                            <Grid item xs={6} style={{marginTop:'1.5%'}}>
-                                <span className={styles.imgDescription}>
-                                    {props.caption2}
-                                </span>
+                            <Grid item xs={3} style={{textAlign:'right'}}>
+                                <IconButton
+                                    onClick={handleCarouselNext}
+                                    style={{backgroundColor: 'transparent'}}
+                                    disableRipple={true}
+                                >
+                                    <ArrowForwardIcon className={classes.icon}/>
+                                </IconButton>
                             </Grid>
-                        :''}
-
-                        <Grid item xs={3} style={{textAlign:'right'}}>
-                            <IconButton
-                                onClick={handleCarouselNext}
-                                disabled={carousel==2?true:false}
-                            >
-                                <ArrowForwardIcon style={{fontSize:'1.5rem'}}/>
-                            </IconButton>
                         </Grid>
                     </Grid>
+                    <Grid item xs={false} md={2}></Grid>
                 </Grid>
-                <Grid item xs={false} md={2}></Grid>
-            </Grid>
 
         </React.Fragment>
     )

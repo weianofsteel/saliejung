@@ -4,6 +4,7 @@ import { Header } from '../../component/Public/Header.js';
 import { Footer } from '../../component/Public/Footer.js';
 import { Article } from '../../component/Writing/Article.js';
 import { Drawer } from '../../component/Public/Drawer.js';
+import { PageLoader } from '../../component/Public/PageLoader.js';
 
 const Writings = () => {
     
@@ -21,30 +22,31 @@ const Writings = () => {
         <React.Fragment>
             
             {drawer == false ?
-                <div style={{backgroundColor:"#F5F5F5"}}>
-                    <div style={{backgroundColor:"#E5E5E5", margin:0}}>
+        
+                <div style={{backgroundColor:"#F5F5F5", margin:0}}>
 
-                        <div>
-                            <Header
-                                handleDrawerOpen={handleDrawerOpen}
-                            /> 
-                        </div>
+                    <PageLoader/>
+                    
+                    <div>
+                        <Header
+                            handleDrawerOpen={handleDrawerOpen}
+                        /> 
+                    </div>
 
-                        <div className={styles.main} style={{overflow:'hidden'}}>
+                    <div className={styles.main} style={{overflow:'hidden'}}>
                             
-                            <span className={styles.title}>
-                                Writings
-                            </span>
+                        <span className={styles.title}>
+                            Writings
+                        </span>
 
-                            <Article/>
-
-                        </div>
-
-                        <div className={styles.footer}>
-                            <Footer/>
-                        </div>
+                        <Article/>
 
                     </div>
+  
+                    <div className={styles.footer}>
+                        <Footer/>
+                    </div>
+
                 </div>
             :''}
 

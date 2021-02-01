@@ -4,9 +4,8 @@ import Grid from '@material-ui/core/Grid';
 import { Header } from '../../component/Public/Header.js'; 
 import { Footer } from '../../component/Public/Footer.js';
 import { Aboutme } from '../../component/About/Aboutme.js';
-import { Gallery } from '../../component/About/Gallery.js';
-import { Experience } from '../../component/About/Experience.js';
 import { Drawer } from '../../component/Public/Drawer.js';
+import { PageLoader } from '../../component/Public/PageLoader.js';
 
 const About = () => {
 
@@ -25,6 +24,9 @@ const About = () => {
             
             {drawer == false ?
                 <div style={{backgroundColor:'#F5F5F5'}}>
+                    
+                    <PageLoader/>
+
                     <div>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}

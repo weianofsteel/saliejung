@@ -4,6 +4,7 @@ import { Header } from '../../component/Public/Header.js';
 import { Footer } from '../../component/Public/Footer.js';
 import { Showcase } from '../../component/Work/Showcase.js';  
 import { Drawer } from '../../component/Public/Drawer.js';
+import { PageLoader } from '../../component/Public/PageLoader.js';
 
 const Work = () => {
 
@@ -22,6 +23,9 @@ const Work = () => {
 
             {drawer == false ?
                 <React.Fragment>
+                    
+                    <PageLoader/>
+                    
                     <div>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}

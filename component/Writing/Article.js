@@ -12,10 +12,14 @@ const useStyles = makeStyles({
         color:'#1F1F1F', 
         fontFamily: 'Roboto Slab', 
         paddingBottom:'0.02rem', 
+        lineHight:'0.02rem'
+    },
+    titleOnHover: {
+        color:'#1F1F1F', 
+        fontFamily: 'Roboto Slab', 
+        paddingBottom:'0.02rem', 
         lineHight:'0.02rem',
-        "&:hover":{
-            borderBottom:'2px solid black'
-        }
+        borderBottom:'2px solid black'
     },
     titleBlock: {
         height:'18rem', 
@@ -28,6 +32,20 @@ export const Article = () => {
     
     const classes = useStyles();
 
+    const [hover, setHover] = React.useState(0);
+    
+    const handleHoverOn1 = () => {
+        setHover(1);
+    }
+
+    const handleHoverOn2 = () => {
+        setHover(2);
+    }
+
+    const handleHoverOff = () => {
+        setHover(0);
+    }
+
     return(
         <React.Fragment>
                 
@@ -35,53 +53,63 @@ export const Article = () => {
 
                 <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={3}>
                     <Grid item xs={12} md={5} className={styles.articleBlock}>
-                        <div className={classes.titleBlock}>
-                            <span>
-                                <Link
-                                    href='/Writing'
-                                    style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                    underline='none'
-                                >
-                                    <span className={classes.title}>
-                                        An exciting adventure for a new designer at Agoda&ensp;
+                        <Link
+                            href='https://careersatagoda.com/blog/new-designer-agoda-bangkok-relocation/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn1}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div className={classes.titleBlock}>
+                                <span>
+                                    <span className={hover==1?classes.titleOnHover:classes.title}>
+                                        An exciting adventure for a new designer at Agoda
                                     </span>
+                                    <span>&ensp;</span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                                </Link>
-                            </span>
-                            <br/>
-                            <span style={{fontSize:"16px",fontFamily:'Roboto'}}>December 2019</span>
-                        </div>
-                        <div>
-                            <img 
-                                src={writing01}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                                </span>
+                                <br/>
+                                <span style={{fontSize:"16px",fontFamily:'Roboto'}}>December 2019</span>
+                            </div>
+                            <div>
+                                <img 
+                                    src={writing01}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                     <Grid item xs={false}></Grid>
                     <Grid item xs={12} md={5} className={styles.articleBlock}>
-                        <div className={classes.titleBlock}>
-                            <span>
-                                <Link
-                                    href='/Writing'
-                                    style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                    underline='none'
-                                >
-                                    <span className={classes.title}>
-                                        Mentoring the Next Generation of Behavioral Designers in Thailand&ensp;
+                        <Link
+                            href='https://careersatagoda.com/blog/mentoring-behavioral-designers-thailand-agoda/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn2}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div className={classes.titleBlock}>
+                                <span>
+                                    <span className={hover==2?classes.titleOnHover:classes.title}>
+                                        Mentoring the Next Generation of Behavioral Designers in Thailand
                                     </span>
+                                    <span>&ensp;</span>
                                     <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                                </Link>
-                            </span>
-                            <br/>
-                            <span style={{fontSize:"16px",fontFamily:'Roboto'}}>August 2020</span>
-                        </div>
-                        <div>
-                            <img 
-                                src={writing02}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                                </span>
+                                <br/>
+                                <span style={{fontSize:"16px",fontFamily:'Roboto'}}>August 2020</span>
+                            </div>
+                            <div>
+                                <img 
+                                    src={writing02}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                 </Grid>
 

@@ -10,7 +10,8 @@ const useStyles = makeStyles({
         fontFamily:'Roboto',
         fontWeight:400,
         color:'#8F8F8F',
-        fontSize:'1.1rem',
+        fontSize:'1rem',
+        letterSpacing:'1px',
         "&:hover":{
             color:'black'
         }
@@ -36,7 +37,7 @@ export const Aboutme = () => {
                      constantly.<br/><br/>
                     In the past few years, I have delivered various designs for 
                     clients from leading tech companies, startups, and design 
-                    agencies. Currently, I am a Product Designer at&ensp; 
+                    agencies. Currently, I am a Product Designer at&nbsp; 
                      <Link href='https://saliejung.vercel.app/Work/Agoda-design' underline='none' className={classes.link}> 
                         Agoda
                      </Link>
@@ -50,7 +51,7 @@ export const Aboutme = () => {
                     Agoda design team.
                 </p>
                 <h2 className={styles.subtitle}>
-                    Before knowing design
+                    BEFORE KNOWING DESIGN
                 </h2>
                 <p className={styles.aboutme}>
                     I was born and raised in Taipei, Taiwan, dreaming of becoming 
@@ -104,7 +105,7 @@ export const Aboutme = () => {
                         Github
                     </Link>
                     <br/>
-                    or reach out by email - <Link underline='none' className={classes.link}>saliejung47@gmail.com</Link>
+                    or reach out by email - saliejung47@gmail.com
                </p>
             </div>
 

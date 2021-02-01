@@ -7,6 +7,12 @@ import IconButton from '@material-ui/core/IconButton';
 import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles({
+    main: {
+        height:'100vh', 
+        marginLeft:'6%', 
+        marginRight:'6%', 
+        paddingTop: "1rem"
+    },
     link: {
         fontFamily:'Roboto',
         fontWeight:400,
@@ -44,13 +50,16 @@ export const Drawer = (props) => {
 
     return(
         <React.Fragment>
-            <div style={{height:'100vh', marginLeft:'6%', marginRight:'6%', paddingTop: "10px"}}>
-            <Grid container>
-                <Grid item xs={4}>
+            <div className={classes.main}>
+            <Grid container spacing={2}>
+                <Grid item xs={2}>
                     <span className={styles.drawerTitle}>saliejung</span>
                 </Grid>
-                <Grid item xs={7}></Grid>            
-                <Grid item xs={1} style={{textAlign:'center'}}>
+                <Grid item xs={2}></Grid>
+                <Grid item xs={2}></Grid>    
+                <Grid item xs={2}></Grid>    
+                <Grid item xs={2} sm={3}></Grid>                
+                <Grid item xs={2} sm={1} style={{textAlign:'center', marginTop:'-0.5rem'}}>
                     <div>
                         <IconButton
                             onClick={handleDrawerClose}

@@ -14,8 +14,6 @@
 
 .main2 {
     background-color: #F5F5F5;
-    /* padding-left: 6%;
-    padding-right: 6%; */
 }
 
 .main3 {
@@ -41,35 +39,6 @@
 }
 
 /* ./pages/index.js */
-
-/* ./component/Home/Header.js */
-
-.title {
-    font-family: 'Roboto Slab';
-    font-size: 32px;
-}
-
-.drawerTitle {
-    font-family: 'Roboto Slab';
-    font-size: 32px;
-    color: white;
-}
-
-.menuBar {
-    display: inline;
-    text-align: right;
-}
-
-.link {
-    text-decoration: none; 
-}
-
-.drawerButton {
-    margin-top: 1.5rem;
-    width: 100%
-}
-
-/* ./component/Home/Header.js */
 
 /* ./component/Home/Banner.js */
 
@@ -109,25 +78,27 @@
 }
 
 .titleOnHover {
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
     font-weight: 700;
     font-family: 'Roboto';
     line-height: 20px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.5rem;
 }
 
 .title2OnHover {
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
     font-weight: 400;
     font-family: 'Roboto Slab';
     line-height: 44px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 0;
 }
 
 /* ./component/Home/Showcase.js */
@@ -139,13 +110,6 @@
     font-family: 'Roboto Slab';
     font-weight: 400;
     line-height: 5rem;
-}
-
-.writingsTitle2 {
-    font-size: 50px;
-    font-family: 'Roboto Slab';
-    font-weight: 400;
-    line-height: 70px;
 }
 
 .articleBlock {
@@ -189,26 +153,6 @@
     font-weight: 400;
     line-height: 2rem;
     text-align: center;
-}
-
-.galleryBlock1 {
-    background-color: rgb(255, 77, 77);
-    height: 350px
-}
-
-.galleryBlock2 {
-    background-color: rgb(255, 153, 102);
-    height: 350px
-}
-
-.galleryBlock3 {
-    background-color: rgb(255, 235, 153);
-    height: 350px
-}
-
-.galleryBlock4 {
-    background-color: rgb(179, 255, 179);
-    height: 350px
 }
 
 .funFactImg {

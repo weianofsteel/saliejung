@@ -7,8 +7,8 @@ import { Footer } from '../component/Public/Footer.js';
 import { Header } from '../component/Public/Header.js';
 import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
-import Button from '@material-ui/core/Button';
 import { Drawer } from '../component/Public/Drawer.js';
+import { PageLoader } from '../component/Public/PageLoader.js';
 
 const Index = () => {
 
@@ -29,6 +29,8 @@ const Index = () => {
                 <React.Fragment>
                 {/* title & menu */}
                     
+                <PageLoader/>
+                
                 <div>
                     <Header
                         handleDrawerOpen={handleDrawerOpen}

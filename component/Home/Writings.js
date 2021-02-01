@@ -13,17 +13,35 @@ const useStyles = makeStyles({
         color:'#1F1F1F', 
         fontFamily: 'Roboto Slab', 
         paddingBottom:'0.02rem', 
+        lineHight:'0.02rem'
+    },
+    titleOnHover: {
+        color:'#1F1F1F', 
+        fontFamily: 'Roboto Slab', 
+        paddingBottom:'0.02rem', 
         lineHight:'0.02rem',
-        "&:hover":{
-            borderBottom:'2px solid black'
-        }
+        borderBottom:'2px solid black'
     }
 });
 
 export const Writings = () => {
     
     const classes = useStyles();
+
+    const [hover, setHover] = React.useState(0);
     
+    const handleHoverOn1 = () => {
+        setHover(1);
+    }
+
+    const handleHoverOn2 = () => {
+        setHover(2);
+    }
+
+    const handleHoverOff = () => {
+        setHover(0);
+    }
+
     return(
         <React.Fragment>
             
@@ -48,55 +66,63 @@ export const Writings = () => {
                 <Grid container spacing={1} style={{paddingTop:"6%",wrap:'nowrap'}} spacing={8}>
                     <Grid item md={2}></Grid>
                     <Grid item md={4} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
-                        <div className={styles.articleContent}>
-                        <span>
-                            <Link
-                                href='/'
-                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                underline='none'
-                            >
-                                <span className={classes.title}>
+                        <Link
+                            href='https://careersatagoda.com/blog/new-designer-agoda-bangkok-relocation/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn1}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div className={styles.articleContent}>
+                            <span>
+                                <span className={hover==1?classes.titleOnHover:classes.title}>
                                     An exciting adventure for a new designer at Agoda
                                 </span>
                                 <span>&ensp;</span>
-                            </Link>
-                            <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                        </span>
-                        <br/>
-                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
-                        </div>
-                        <div className={styles.imageBlock}>
-                            <img 
-                                src={writing01}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                                <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                            </span>
+                            <br/>
+                            <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                            </div>
+                            <div className={styles.imageBlock}>
+                                <img 
+                                    src={writing01}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                 
                     <Grid item md={4} className={styles.articleBlock} style={{marginLeft:'1%',marginTop:'1%',paddingTop:20}}>
-                        <div className={styles.articleContent}>
-                        <span>
-                            <Link
-                                href='/'
-                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                underline='none'
-                            >
-                                <span className={classes.title}>
+                        <Link
+                            href='https://careersatagoda.com/blog/mentoring-behavioral-designers-thailand-agoda/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn2}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div className={styles.articleContent}>
+                            <span>
+                            <span className={hover==2?classes.titleOnHover:classes.title}>
                                     Mentoring the Next Generation of Behavioral Designers in Thailand
                                 </span>
                                 <span>&ensp;</span>
-                            </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                        </span>
-                        <br/>
-                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
-                        </div>
-                        <div className={styles.imageBlock}>
-                            <img 
-                                src={writing02}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                            </span>
+                            <br/>
+                            <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                            </div>
+                            <div className={styles.imageBlock}>
+                                <img 
+                                    src={writing02}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                     <Grid item md={2}></Grid>
                 </Grid>
@@ -106,56 +132,64 @@ export const Writings = () => {
                 <Grid container spacing={1} style={{paddingTop:"6%"}} spacing={2}>
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10} className={styles.articleBlock} style={{paddingTop:20}}>
-                        <div style={{height:'17rem'}}>
-                        <span>
-                            <Link
-                                href='/'
-                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                underline='none'
-                            >
-                                <span className={classes.title}>
-                                    An exciting adventure for a new designer at Agoda
+                        <Link
+                            href='https://careersatagoda.com/blog/new-designer-agoda-bangkok-relocation/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn1}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div style={{height:'17rem'}}>
+                            <span>
+                            <span className={hover==1?classes.titleOnHover:classes.title}>
+                                An exciting adventure for a new designer at Agoda
                                 </span>
                                 <span>&ensp;</span>
-                            </Link>
                             <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                        </span>
-                        <br/>
-                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
-                        </div>
-                        <div className={styles.imageBlock}>
-                            <img 
-                                src={writing01}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                            </span>
+                            <br/>
+                            <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>December 2019</span>
+                            </div>
+                            <div className={styles.imageBlock}>
+                                <img 
+                                    src={writing01}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                     <Grid item xs={1}></Grid>
                     <Grid item xs={1}></Grid>
                     <Grid item xs={10} className={styles.articleBlock} style={{marginTop:'1%',paddingTop:20}}>
-                        <div style={{height:'17rem'}}>
-                        <span>
-                            <Link
-                                href='/'
-                                style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
-                                underline='none'
-                            >
-                                <span className={classes.title}>
-                                    Mentoring the Next Generation of Behavioral Designers in Thailand
-                                </span>
-                                <span>&ensp;</span>
-                            </Link>
-                            <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
-                        </span>
-                        <br/>
-                        <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
-                        </div>
-                        <div className={styles.imageBlock}>
-                            <img 
-                                src={writing02}
-                                style={{width:'100%', height:'100%'}}
-                            />
-                        </div>
+                        <Link
+                            href='https://careersatagoda.com/blog/mentoring-behavioral-designers-thailand-agoda/'
+                            style={{color:'#1F1F1F', fontFamily: 'Roboto Slab'}}
+                            underline='none'
+                            target='_blank' 
+                            rel='noopener'
+                            onMouseEnter={handleHoverOn2}
+                            onMouseLeave={handleHoverOff}
+                        >
+                            <div style={{height:'17rem'}}>
+                            <span>
+                                    <span className={hover==2?classes.titleOnHover:classes.title}>
+                                        Mentoring the Next Generation of Behavioral Designers in Thailand
+                                    </span>
+                                    <span>&ensp;</span>
+                                <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-5px'}}/>
+                            </span>
+                            <br/>
+                            <span style={{fontSize:"16px",fontWeight:500,fontFamily:'Roboto'}}>August 2020</span>
+                            </div>
+                            <div className={styles.imageBlock}>
+                                <img 
+                                    src={writing02}
+                                    style={{width:'100%', height:'100%'}}
+                                />
+                            </div>
+                        </Link>
                     </Grid>
                     <Grid item xs={1}></Grid>
                 </Grid>

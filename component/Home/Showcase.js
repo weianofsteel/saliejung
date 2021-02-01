@@ -93,13 +93,15 @@ export const Showcase = () => {
                             onMouseEnter={handleBox1On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={agoda} className={box1===true?'':classes.img1} style={{marginTop:'10rem'}}/>
                             {box1===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-16rem'}}>2019/20 • Agoda Design</p>
+                                    <p className={styles.titleOnHover}>2019/20 • Agoda Design</p>
                                     <p className={styles.title2OnHover}>An exciting adventure in Bangkok and travel industry</p>
                                 </React.Fragment>
                             }
+                            {box1===true?
+                                <img src={agoda} className={box1===true?'':classes.img1} style={{marginTop:'10rem'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>
@@ -110,13 +112,15 @@ export const Showcase = () => {
                             onMouseEnter={handleBox2On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={showcase01} className={box2===true?'':classes.img1} style={{marginTop:'10rem'}}/>
                             {box2===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-28rem'}}>2020 • Agoda Flights • App Design</p>
+                                    <p className={styles.titleOnHover}>2020 • Agoda Flights • App Design</p>
                                     <p className={styles.title2OnHover}>Complete your journey with seat selection</p>
                                 </React.Fragment>
                             }
+                            {box2===true?
+                                <img src={showcase01} className={box2===true?'':classes.img1} style={{marginTop:'10rem'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>     
@@ -124,19 +128,21 @@ export const Showcase = () => {
             
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12} md={6}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Kinjo' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box3===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox3On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={showcase02} className={box3===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
                             {box3===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-24rem'}}>2017 • KINJO Jewelry • Web Design</p>
+                                    <p className={styles.titleOnHover}>2018 • KINJO Jewelry • Web Design</p>
                                     <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
                                 </React.Fragment>
                             }
+                            {box3===true?
+                                <img src={showcase02} className={box3===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>
@@ -147,13 +153,15 @@ export const Showcase = () => {
                             onMouseEnter={handleBox4On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={showcase03} className={box4===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
                             {box4===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-24rem'}}>2017 • KINJO Jewelry • Web Design</p>
-                                    <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
+                                    <p className={styles.titleOnHover}>2017 • MOXA • Web Design</p>
+                                    <p className={styles.title2OnHover}>Your Trusted Partner in Automation</p>
                                 </React.Fragment>
                             }
+                            {box4===true?
+                                <img src={showcase03} className={box4===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>     
@@ -161,36 +169,40 @@ export const Showcase = () => {
 
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12} md={7}>
-                    <Link href='/' underline='none'>
+                    <Link href='/Work/Vue' underline='none'>
                         <div 
                             className={box5===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox5On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={showcase04} className={box5===true?'':classes.img1} style={{marginTop:'5rem',height:'70%',width:'70%'}}/>
                             {box5===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-24rem'}}>2017 • KINJO Jewelry • Web Design</p>
-                                    <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
+                                    <p className={styles.titleOnHover}>2017 • VUE Movie Database • Web Design</p>
+                                    <p className={styles.title2OnHover}>IMDb for Asia, the biggest database for movie, celebrity and Netflix finder.</p>
                                 </React.Fragment>
                             }
+                            {box5===true?
+                                <img src={showcase04} className={box5===true?'':classes.img1} style={{marginTop:'5rem',height:'70%',width:'70%'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>
                 <Grid item xs={12} md={5}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Gigbird' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box6===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox6On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            <img src={showcase05} className={box6===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
                             {box6===true?'':
                                 <React.Fragment>
-                                    <p className={styles.titleOnHover} style={{marginTop:'-24rem'}}>2017 • KINJO Jewelry • Web Design</p>
-                                    <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
+                                    <p className={styles.titleOnHover}>2018 • Gig Bird Event • App Design</p>
+                                    <p className={styles.title2OnHover}>Celebrate every music event you enjoy with people</p>
                                 </React.Fragment>
                             }
+                            {box6===true?
+                                <img src={showcase05} className={box6===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                            :''}
                         </div>
                     </Link>
                 </Grid>     

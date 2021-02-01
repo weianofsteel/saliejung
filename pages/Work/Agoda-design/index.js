@@ -2,11 +2,12 @@ import React from 'react';
 import { Header } from '../../../component/Public/Header.js';
 import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
-import { AgodaDesign } from '../../../component/Work/AgodaDesign.js';
+import { AgodaDesign } from '../../../component/Work/Agoda-design/AgodaDesign.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
 import { BottomNavbar } from '../../../component/Public/BottomNavbar.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js';
 import Grid from '@material-ui/core/Grid';
+import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
 
@@ -25,6 +26,9 @@ const Page = () => {
 
             {drawer == false ?
                 <React.Fragment>
+                    
+                    <PageLoader/>
+                    
                     <div className={styles.header}>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}
