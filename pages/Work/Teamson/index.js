@@ -7,7 +7,11 @@ import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Teamson01 } from '../../../component/Work/Teamson/Teamson01';
+<<<<<<< HEAD
 // import { Kinjo02 } from '../../../component/Work/Kinjo/Kinjo02';
+=======
+import { Teamson02 } from '../../../component/Work/Teamson/Teamson02';
+>>>>>>> 9489dc1f8a02b48ee0d82638322d4402bf576692
 // import { Kinjo03 } from '../../../component/Work/Kinjo/Kinjo03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
@@ -48,12 +52,21 @@ const Page = () => {
                     <div>
                         <Teamson01/>
                     </div>
+<<<<<<< HEAD
 
                     {/* <div>
                         <Kinjo02/>
                     </div>
 
                     <div>
+=======
+                    
+                    <div>
+                        <Teamson02/>
+                    </div>
+
+                    {/* <div>
+>>>>>>> 9489dc1f8a02b48ee0d82638322d4402bf576692
                         <Kinjo03/>
                     </div> */}
 
