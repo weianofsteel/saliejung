@@ -18,13 +18,13 @@ export const Teamson01 = () => {
             </Grid>
             
             <Grid container style={{marginTop:"5%"}}>
-                <Grid item xs={3} md={5}></Grid>
-                <Grid item xs={6} md={2}>
+                <Grid item xs={3} md={4}></Grid>
+                <Grid item xs={6} md={4}>
                     <div className={styles.title2}>
                         Teamson Furniture  
                     </div>
                 </Grid>     
-                <Grid item xs={3} md={5}></Grid>
+                <Grid item xs={3} md={4}></Grid>
             </Grid>
 
             <Grid container>
