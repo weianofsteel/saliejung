@@ -147,7 +147,7 @@ export const Showcase = () => {
                     </Link>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Link href='/' underline='none' style={{textAlign:'center'}}>
+                    <Link href='/Work/Moxa' underline='none' style={{textAlign:'center'}}>
                         <div 
                             className={box4===true?classes.imgBox:classes.imgBoxOnHover}
                             onMouseEnter={handleBox4On}

@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
-import { LearnMore } from '../../Public/LearnMore.js';
 import teamson01 from '../../../public/teamson/teamson01.png';
 import teamson02 from '../../../public/teamson/teamson02.png';
 import teamson03 from '../../../public/teamson/teamson03.png';
