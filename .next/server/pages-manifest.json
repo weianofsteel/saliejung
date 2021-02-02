@@ -4,8 +4,12 @@
   "/_error": "pages/_error.js",
   "/Work/Teamson": "pages/Work/Teamson.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "/": "pages/index.js"
 =======
   "/About": "pages/About.js"
 >>>>>>> c7b619e61476d843a9852a25bf9b5c8998fa321b
+=======
+  "/Work/Vue": "pages/Work/Vue.js"
+>>>>>>> f115d655943074aac1bcfba7f436716571d5be99
 }

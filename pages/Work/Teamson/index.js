@@ -7,12 +7,8 @@ import { Scrollup } from '../../../component/Public/Scrollup.js';
 import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Teamson01 } from '../../../component/Work/Teamson/Teamson01';
-<<<<<<< HEAD
 import { Teamson02 } from '../../../component/Work/Teamson/Teamson02';
-=======
-// import { Kinjo02 } from '../../../component/Work/Kinjo/Kinjo02';
->>>>>>> c7b619e61476d843a9852a25bf9b5c8998fa321b
-// import { Kinjo03 } from '../../../component/Work/Kinjo/Kinjo03';
+import { Teamson03 } from '../../../component/Work/Teamson/Teamson03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
@@ -52,23 +48,14 @@ const Page = () => {
                     <div>
                         <Teamson01/>
                     </div>
-<<<<<<< HEAD
                     
                     <div>
                         <Teamson02/>
                     </div>
 
-                    {/* <div>
-=======
-
-                    {/* <div>
-                        <Kinjo02/>
-                    </div>
-
                     <div>
->>>>>>> c7b619e61476d843a9852a25bf9b5c8998fa321b
-                        <Kinjo03/>
-                    </div> */}
+                        <Teamson03/>
+                    </div>
 
                     <div style={{marginTop:'6%'}}>
                         <BottomNavbar/>    
