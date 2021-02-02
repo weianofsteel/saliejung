@@ -120,41 +120,35 @@ export const Process02 = () => {
                     <Grid item xs={1} md={3}></Grid>
                 </Grid>
 
-                <div style={{marginTop:'5%', marginLeft:'2%', marginRight:'2%'}}>
-                    <Grid container spacing={4}>
-                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
-                            <div className={styles.gallery1}>
-                                <img src={process07}/>
+                <div style={{marginTop:'5%'}}>
+                    <Grid container spacing={4} style={{paddingLeft:'7%', paddingRight:'7%'}}>
+                        <Grid item xs={6} lg={3}>
+                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                                <img src={process07} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
                                 Condensed legend makes the widest displaying on the map.
                             </span>    
                         </Grid>
-                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
-                            <div className={styles.gallery1}>
-                                <img
-                                    src={process08} 
-                                />
+                        <Grid item xs={6} lg={3}>
+                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                                <img src={process08} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
                                 Tab UI on the passenger selection might cause the problem for group travelers
                             </span>
                         </Grid>
-                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
-                            <div className={styles.gallery1}>
-                                <img
-                                    src={process09}
-                                />
+                        <Grid item xs={6} lg={3}>
+                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                                <img src={process09} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
                                 The different state of passenger selection button is hard to recognize at first glance.
                             </span>
                         </Grid>
-                        <Grid item xs={12} md={6} lg={3} style={{textAlign:'center'}}>
-                            <div className={styles.gallery1}>
-                                <img
-                                    src={process10}
-                                />
+                        <Grid item xs={6} lg={3}>
+                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                                <img src={process10} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
                                 Showing initial for the selected seating might not be familiar to non-English speaker countries.
