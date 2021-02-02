@@ -19,11 +19,6 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/Work/Teamson.js"
     ],
-    "/Work/Vue": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Vue.js"
-    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

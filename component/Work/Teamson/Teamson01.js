@@ -185,7 +185,7 @@ export const Teamson01 = () => {
             <Grid container style={{marginTop:'6%',marginBottom:'6%'}} className={styles.scrollDown}>
                 <Grid item xs={2} md={4}></Grid>
                 <Grid item xs={8} md={4} style={{textAlign:'center'}}>
-                    <LearnMore scrollY={1800} />
+                    <LearnMore scrollY={1600} />
                 </Grid>
                 <Grid item xs={2} md={4}></Grid>
             </Grid>

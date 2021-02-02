@@ -165,6 +165,8 @@ export const Teamson03 = () => {
                     <Grid item xs={2} md={3}></Grid>
                 </Grid>
 
+                <div style={{marginTop:'6%'}}>&nbsp;</div>
+
             </div>
 
         </React.Fragment>
