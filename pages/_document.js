@@ -7,7 +7,26 @@ class MyDocument extends Document {
     render(){
         return(
             <Html>
+                
                 <Head>
+                    
+                    {/* Google analytics */}
+                    <script
+                        async
+                        src="https://www.googletagmanager.com/gtag/js?id=UA-80550814-1" >
+                    </script>
+                    <script dangerouslySetInnerHTML={
+                        { __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+        
+                            gtag('config', 'UA-80550814-1');
+                        `}
+                    }>
+                    </script>
+                    {/* Google analytics */}
+
                     <link 
                         href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" 
                         rel="stylesheet">
@@ -30,10 +49,12 @@ class MyDocument extends Document {
                     </link>
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
                 </Head>
+                
                 <body>
                     <Main />
                     <NextScript />
                 </body>
+                
             </Html>
         )
     }
