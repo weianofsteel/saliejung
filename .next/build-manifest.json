@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work/Teamson": [
+    "/Work/Agoda-flights": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Teamson.js"
+      "static/chunks/pages/Work/Agoda-flights.js"
     ],
-    "/Work/Vue": [
+    "/Work/Moxa": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Vue.js"
+      "static/chunks/pages/Work/Moxa.js"
     ],
     "/_app": [
       "static/chunks/main.js",
