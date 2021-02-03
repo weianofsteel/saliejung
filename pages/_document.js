@@ -1,6 +1,7 @@
 import React from 'react';
 import { ServerStyleSheets } from '@material-ui/styles';
 import Document, {Html, Head, Main, NextScript} from 'next/document';
+// import Head from 'next/head';
 
 class MyDocument extends Document {
     
@@ -10,6 +11,8 @@ class MyDocument extends Document {
                 
                 <Head>
                     
+                    <link rel="shortcut icon" href="/titleIcon.png"/>
+
                     {/* Google analytics */}
                     <script
                         async
