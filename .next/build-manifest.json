@@ -14,15 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work/Agoda-flights": [
+    "/Work/Kinjo": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Agoda-flights.js"
-    ],
-    "/Work/Moxa": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Moxa.js"
+      "static/chunks/pages/Work/Kinjo.js"
     ],
     "/_app": [
       "static/chunks/main.js",
