@@ -50,8 +50,8 @@
 }
 
 .capImage {
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
 }
 
 @keyframes fadeIn {

@@ -53,7 +53,9 @@ export const Drawer = (props) => {
             <div className={classes.main}>
             <Grid container spacing={2}>
                 <Grid item xs={2}>
-                    <span className={styles.drawerTitle}>saliejung</span>
+                    <Link href='/' underline='none'>
+                        <span className={styles.drawerTitle}>saliejung</span>
+                    </Link>
                 </Grid>
                 <Grid item xs={2}></Grid>
                 <Grid item xs={2}></Grid>    
