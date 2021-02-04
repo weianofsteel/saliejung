@@ -1,28 +1,34 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../css/Work.module.css';
-import agoda from '../../public/agoda-logo.png';
 import Link from '@material-ui/core/Link';
 import showcase01 from '../../public/showcase/showcase01.png';
 import showcase02 from '../../public/showcase/showcase02.png';
 import showcase03 from '../../public/showcase/showcase03.png';
 import showcase04 from '../../public/showcase/showcase04.png';
 import showcase05 from '../../public/showcase/showcase05.png';
-import work07 from '../../public/work/work07.png';
-import work08 from '../../public/work/work08.png';
+import showcase06 from '../../public/showcase/showcase06.png';
+import showcase07 from '../../public/showcase/showcase07.png';
+import showcasecap01 from '../../public/showcase/showcasecap01.png';
+import showcasecap02 from '../../public/showcase/showcasecap02.png';
+import showcasecap03 from '../../public/showcase/showcasecap03.png';
+import showcasecap04 from '../../public/showcase/showcasecap04.png';
+import showcasecap05 from '../../public/showcase/showcasecap05.png';
+import showcasecap06 from '../../public/showcase/showcasecap06.png';
+import showcasecap07 from '../../public/showcase/showcasecap07.png';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     imgBox: {
         backgroundColor: '#F5F5F5',
-        height: '30rem',
+        height: '100%',
         width:'100%',
         overflow:'hidden'
     },
     imgBoxOnHover: {
         backgroundColor:'#1F1F1F',
         opacity:'100%',
-        height: '30rem',
+        height: '100%',
         width:'100%',
         overflow:'hidden',
         transition: '.4s ease-in-out'
@@ -32,6 +38,9 @@ const useStyles = makeStyles({
     },
     showcaseBlock: {
         marginTop: '0.3rem'
+    },
+    caption: {
+        transition: '.4s ease-in-out'
     }
 })
 
@@ -110,13 +119,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box1===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2019/20 • Agoda Design</p>
-                                    <p className={styles.title2OnHover}>An exciting adventure in Bangkok and travel industry</p>
-                                </React.Fragment>
+                                <img src={showcasecap01} className={box1===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box1===true?
-                                <img src={agoda} className={box1===true?'':classes.img1} style={{marginTop:'10rem'}}/>
+                                <img src={showcase01} className={box1===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -129,13 +135,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box2===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2020 • Agoda Flights • App Design</p>
-                                    <p className={styles.title2OnHover}>Complete your journey with seat selection</p>
-                                </React.Fragment>
+                                <img src={showcasecap02} className={box2===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box2===true?
-                                <img src={showcase01} className={box2===true?'':classes.img1} style={{marginTop:'10rem'}}/>
+                                <img src={showcase02} className={box2===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -151,13 +154,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box3===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2018 • KINJO Jewelry • Web Design</p>
-                                    <p className={styles.title2OnHover}>An e-commerce site brings a 12-year brand a new life</p>
-                                </React.Fragment>
+                                <img src={showcasecap03} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box3===true?
-                                <img src={showcase02} className={box3===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                                <img src={showcase03} className={box3===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -170,13 +170,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box4===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2017 • MOXA • Web Design</p>
-                                    <p className={styles.title2OnHover}>Your Trusted Partner in Automation</p>
-                                </React.Fragment>
+                                <img src={showcasecap04} className={box4===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box4===true?
-                                <img src={showcase03} className={box4===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                                <img src={showcase04} className={box4===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -192,13 +189,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box5===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2017 • VUE Movie Database • Web Design</p>
-                                    <p className={styles.title2OnHover}>IMDb for Asia, the biggest database for movie, celebrity and Netflix finder.</p>
-                                </React.Fragment>
+                                <img src={showcasecap05} className={box5===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box5===true?
-                                <img src={showcase04} className={box5===true?'':classes.img1} style={{marginTop:'5rem',height:'70%',width:'70%'}}/>
+                                <img src={showcase05} className={box5===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -211,13 +205,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box6===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2018 • Gig Bird Event • App Design</p>
-                                    <p className={styles.title2OnHover}>Celebrate every music event you enjoy with people</p>
-                                </React.Fragment>
+                                <img src={showcasecap06} className={box6===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box6===true?
-                                <img src={showcase05} className={box6===true?'':classes.img1} style={{marginTop:'4rem',height:'70%',width:'70%'}}/>
+                                <img src={showcase06} className={box6===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>
@@ -233,13 +224,10 @@ export const Showcase = () => {
                             onMouseLeave={handleMouseLeave}
                         >
                             {box7===true?'':
-                                <React.Fragment>
-                                    <p className={styles.titleOnHover}>2017 • Teamson Furniture • Web Design</p>
-                                    <p className={styles.title2OnHover}>Boost sales by digital rebranding</p>
-                                </React.Fragment>
+                                <img src={showcasecap07} className={box7===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                             {box7===true?
-                                <img src={work07} className={box7===true?'':classes.img1} style={{marginTop:'6rem',height:'55%',width:'55%'}}/>
+                                <img src={showcase07} className={box7===true?'':classes.img1} style={{width:'100%'}}/>
                             :''}
                         </div>
                     </Link>

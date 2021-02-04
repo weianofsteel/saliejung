@@ -49,6 +49,29 @@
     margin-top: 0;
 }
 
+.capImage {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
 /* ./component/Work/Showcase.js */
 
 /* ./component/Work/AgodaFlights.js */
