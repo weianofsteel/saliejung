@@ -14,6 +14,31 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/About": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/About.js"
+    ],
+    "/Work": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work.js"
+    ],
+    "/Work/Kinjo": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Kinjo.js"
+    ],
+    "/Work/Moxa": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Moxa.js"
+    ],
+    "/Work/Vue": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Vue.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

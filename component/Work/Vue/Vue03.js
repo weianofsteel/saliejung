@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
 import vue09 from '../../../public/vue/vue09.png';
@@ -8,8 +8,40 @@ import vue12 from '../../../public/vue/vue12.png';
 import vue13 from '../../../public/vue/vue13.png';
 import dot from '../../../public/dot.png';
 import Link from '@material-ui/core/Link';
+import handleViewport from 'react-in-viewport';
+
+const Block = (props) => {
+    
+    const { forwardedRef, visible } = props;
+
+    useEffect(()=>{
+        if(visible == true) {
+            forwardedRef.current.play();
+        } else {
+            forwardedRef.current.pause();
+        }
+    },[visible])
+
+    return(
+        <React.Fragment>
+            {visible == true ?
+                <video ref={forwardedRef} width='100%' controls autoPlay muted>
+                    <source type="video/mp4" src='/video/vue.mp4'/>
+                </video>
+            :
+                <video ref={forwardedRef} width='100%' controls>
+                    <source type="video/mp4" src='/video/vue.mp4'/>
+                </video>
+            }
+        </React.Fragment>
+    )
+}
+
+const ViewportBlock = handleViewport(Block);
 
 export const Vue03 = () => {
+
+    const [ visible, setVisible ] = React.useState(false);
     
     return(
         <React.Fragment>
@@ -127,9 +159,11 @@ export const Vue03 = () => {
                 <Grid container style={{marginTop:'4%'}}>
                     <Grid item xs={false} md={2}></Grid>
                     <Grid item xs={12} md={8} style={{paddingLeft:'5%', paddingRight:'5%'}}>
-                        <video width='100%' controls autoplay="true">
-                            <source type="video/mp4" src='/video/vue.mp4'/>
-                        </video>
+                        <ViewportBlock 
+                            onEnterViewport={()=>{setVisible(true);}}
+                            onLeaveViewport={()=>{setVisible(false);}}
+                            visible={visible}
+                        />
                     </Grid>
                     <Grid item xs={false} md={2}></Grid>
                 </Grid>

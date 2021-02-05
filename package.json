@@ -24,6 +24,7 @@
     "react-dom": "^16.13.1",
     "react-google-recaptcha": "^2.1.0",
     "react-google-recaptcha-v3": "^1.5.2",
+    "react-in-viewport": "^1.0.0-alpha.16",
     "react-top-loading-bar": "^2.0.1"
   }
 }
