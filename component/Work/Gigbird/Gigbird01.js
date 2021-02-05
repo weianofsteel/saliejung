@@ -11,13 +11,13 @@ export const Gigbird01 = () => {
     return(
         <React.Fragment>
 
-            <Grid container className={styles.img01}>
+            {/* <Grid container className={styles.img01}>
                 
                 <Grid item xs={12} style={{textAlign:'center'}}>
                     <img src={gigbirdHeader} className={styles.bannerImg}/>
                 </Grid>
                 
-            </Grid>
+            </Grid> */}
 
             <Grid container style={{marginTop:"5%"}}>
                 <Grid item xs={3} md={5}></Grid>

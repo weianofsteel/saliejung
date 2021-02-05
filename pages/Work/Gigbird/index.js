@@ -10,6 +10,7 @@ import { PageLoader } from '../../../component/Public/PageLoader.js';
 import { Gigbird01 } from '../../../component/Work/Gigbird/Gigbird01';
 import { Gigbird02 } from '../../../component/Work/Gigbird/Gigbird02';
 import { Gigbird03 } from '../../../component/Work/Gigbird/Gigbird03';
+import gigbirdHeader from '../../../public/gigbird/gigbird-header.png';
 
 const Page = () => {
 
@@ -37,6 +38,14 @@ const Page = () => {
                             handleDrawerOpen={handleDrawerOpen}
                         />
                     </div>
+
+                    <Grid container className={styles.img01}>
+                
+                        <Grid item xs={12} style={{textAlign:'center'}}>
+                            <img src={gigbirdHeader} className={styles.bannerImg}/>
+                        </Grid>
+                        
+                    </Grid>
 
                     <Grid container style={{top:'90%',position:'fixed'}}>
                         <Grid item xs={8} sm={9} md={9} lg={10} xl={10}></Grid>
