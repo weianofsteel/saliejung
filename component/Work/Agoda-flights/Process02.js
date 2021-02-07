@@ -97,7 +97,7 @@ export const Process02 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Deep dive into the details
+                                    Deep Dive into the Details
                                 </span>
                             </Grid>
 
@@ -123,7 +123,7 @@ export const Process02 = () => {
                 <div style={{marginTop:'5%'}}>
                     <Grid container spacing={4} style={{paddingLeft:'7%', paddingRight:'7%'}}>
                         <Grid item xs={6} lg={3}>
-                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                            <div className={styles.gallery1} style={{textAlign:'center', marginBottom:'1rem'}}>
                                 <img src={process07} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
@@ -131,7 +131,7 @@ export const Process02 = () => {
                             </span>    
                         </Grid>
                         <Grid item xs={6} lg={3}>
-                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                            <div className={styles.gallery1} style={{textAlign:'center', marginBottom:'1rem'}}>
                                 <img src={process08} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
@@ -139,7 +139,7 @@ export const Process02 = () => {
                             </span>
                         </Grid>
                         <Grid item xs={6} lg={3}>
-                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                            <div className={styles.gallery1} style={{textAlign:'center', marginBottom:'1rem'}}>
                                 <img src={process09} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>
@@ -147,7 +147,7 @@ export const Process02 = () => {
                             </span>
                         </Grid>
                         <Grid item xs={6} lg={3}>
-                            <div className={styles.gallery1} style={{textAlign:'center'}}>
+                            <div className={styles.gallery1} style={{textAlign:'center', marginBottom:'1rem'}}>
                                 <img src={process10} style={{width:'100%'}}/>
                             </div>
                             <span className={styles.imgDescription3}>

@@ -39,7 +39,7 @@ export const Kinjo02 = () => {
                 <Grid container style={{marginTop:'5%'}}>
                     <Grid item xs={1} md={2}></Grid>
                     <Grid item xs={10} md={8} style={{textAlign:'center'}}>
-                        <img src={kinjo06} style={{width:'100%'}}/>
+                        <img src={kinjo06} style={{width:'100%', marginBottom:'1rem'}}/>
                         <span className={styles.caption}>
                             There are their official websites previously, 2008 on the left, 
                             2011 on the right.

@@ -144,16 +144,16 @@ export const Kinjo01 = () => {
 
                     <Grid container style={{}} spacing={5}>
                         <Grid item xs={4}>
-                            <img src={kinjo01} style={{width:'100%'}}/>
-                            <span className={styles.caption} style={{paddingLeft:'3%'}}>Reserve the course</span>
+                            <img src={kinjo01} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <span className={styles.caption} style={{paddingLeft:'2%'}}>Reserve the course</span>
                         </Grid>
                         <Grid item xs={4}>
-                            <img src={kinjo02} style={{width:'100%'}}/>
-                            <span className={styles.caption} style={{paddingLeft:'3%'}}>Filter and favorite products</span>
+                            <img src={kinjo02} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <span className={styles.caption} style={{paddingLeft:'2%'}}>Filter and favorite products</span>
                         </Grid>
                         <Grid item xs={4}>
-                            <img src={kinjo03} style={{width:'100%'}}/>
-                            <span className={styles.caption} style={{paddingLeft:'3%'}}>Customize the ring and add it to the cart</span>
+                            <img src={kinjo03} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <span className={styles.caption} style={{paddingLeft:'2%'}}>Customize the ring and add it to the cart</span>
                         </Grid>
                     </Grid>
 

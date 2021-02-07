@@ -51,7 +51,7 @@ export const Process01 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Feature comparison to understand the industry standard
+                                    Feature Comparison to Understand the Industry Standard
                                 </span>
                             </Grid>
                             <Grid item xs={12}>
