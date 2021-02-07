@@ -198,19 +198,14 @@ export const Vue01 = () => {
                     <Grid container spacing={3} className={styles.content}>
                         <Grid item xs={12}>
                             <span className={styles.designHighlightContent}>
-                                As a web designer working at a digital agency, the budget is 
-                                the critical condition of any project. I was lucky to be part 
-                                of the KINJO project with such a large scope. During production,
-                                I spent much time discussing with front-end developers and 
-                                find that there are still processes and designs we can improve.
-                                <br/><br/>
-                                For example, I did not think of interaction much before. Even 
-                                I had some references in hand, I did not organize them well 
-                                and only find them out while developers ask. So we tried FSM 
-                                (Finite-state machine) for the first time and noted other 
-                                details on Confluence. Developers also left their questions on 
-                                it for more discussion. Still not familiar with the working 
-                                process, but it was a good start at least.
+                                It is lucky to build a product that you would use. Most of the time, 
+                                I think about how I want the perfect product to fulfill my needs. 
+                                Even sometimes I fall into cognition mistakes, the process was 
+                                enjoyable. Honestly, I wish I was more experienced as a designer to 
+                                have that opportunity to build a product from scratch. From 0 to 1, 
+                                it is hard to clarify what I learned and grew up along the journey 
+                                building VUE. The experience is valuable that not restricted by any 
+                                client. Just be creative and be the best you can.
                             </span>
                         </Grid>
                     </Grid>

@@ -9,6 +9,20 @@ import vue13 from '../../../public/vue/vue13.png';
 import dot from '../../../public/dot.png';
 import Link from '@material-ui/core/Link';
 import handleViewport from 'react-in-viewport';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'1rem',
+        letterSpacing:'1px',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});
 
 const Block = (props) => {
     
@@ -42,6 +56,8 @@ const ViewportBlock = handleViewport(Block);
 export const Vue03 = () => {
 
     const [ visible, setVisible ] = React.useState(false);
+
+    const classes = useStyles();
     
     return(
         <React.Fragment>
@@ -198,7 +214,11 @@ export const Vue03 = () => {
                                     Malaysia. For the first time, I researched to know more about 
                                     the digital experience in South Asia. Most of the online 
                                     experience is old-style and hard to use, except for some 
-                                    websites such as BookMyShow in India. We took the chance and 
+                                    websites such as&nbsp;
+                                    <Link href='https://in.bookmyshow.com/explore/home/mumbai' underline='none' className={classes.link}> 
+                                        BookMyShow  
+                                    </Link> 
+                                    &nbsp;in India. We took the chance and 
                                     cooperated with a local marketing company in Malaysia, which 
                                     started by translating VUE into Malay.
                                     <br/><br/>

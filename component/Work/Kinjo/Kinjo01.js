@@ -6,9 +6,9 @@ import { LearnMore } from '../../Public/LearnMore.js';
 import kinjo01 from '../../../public/kinjo/kinjo01.gif';
 import kinjo02 from '../../../public/kinjo/kinjo02.gif';
 import kinjo03 from '../../../public/kinjo/kinjo03.gif';
-import kinjo04 from '../../../public/kinjo/kinjo04.png';
-import kinjo05 from '../../../public/kinjo/kinjo05.png';
-import { Carousel } from '../../Public/Carousel.js';
+import kinjo04 from '../../../public/kinjo/kinjo04.jpg';
+import kinjo05 from '../../../public/kinjo/kinjo05.jpg';
+import { CarouselForKinjo } from '../../Public/CarouselForKinjo.js';
 
 export const Kinjo01 = () => {
     
@@ -136,30 +136,30 @@ export const Kinjo01 = () => {
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
 
-            <Grid container style={{marginTop:'5%'}}>
+            <Grid container style={{marginTop:'5%', paddingLeft:'1rem', paddingRight:'1rem'}}>
 
-                <Grid item xs={2}></Grid>
+                <Grid item xs={false} md={2}></Grid>
 
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
 
-                    <Grid container style={{}} spacing={5}>
+                    <Grid container spacing={5}>
                         <Grid item xs={4}>
-                            <img src={kinjo01} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <img src={kinjo01} className={styles.imgShadow}/>
                             <span className={styles.caption} style={{paddingLeft:'2%'}}>Reserve the course</span>
                         </Grid>
                         <Grid item xs={4}>
-                            <img src={kinjo02} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <img src={kinjo02} className={styles.imgShadow}/>
                             <span className={styles.caption} style={{paddingLeft:'2%'}}>Filter and favorite products</span>
                         </Grid>
                         <Grid item xs={4}>
-                            <img src={kinjo03} style={{width:'100%', marginBottom:'1rem'}}/>
+                            <img src={kinjo03} className={styles.imgShadow}/>
                             <span className={styles.caption} style={{paddingLeft:'2%'}}>Customize the ring and add it to the cart</span>
                         </Grid>
                     </Grid>
 
                 </Grid>
 
-                <Grid item xs={2}></Grid>
+                <Grid item xs={false} md={2}></Grid>
 
             </Grid>
 
@@ -207,7 +207,7 @@ export const Kinjo01 = () => {
             </Grid>
 
             <div>
-                <Carousel
+                <CarouselForKinjo
                     imgsrc={[kinjo04, kinjo05]}
                     caption={[
                         'Color usage',

@@ -4,8 +4,25 @@ import styles from '../../../css/Work.module.css';
 import kinjo06 from '../../../public/kinjo/kinjo06.png';
 import kinjo07 from '../../../public/kinjo/kinjo07.png';
 import kinjo08 from '../../../public/kinjo/kinjo08.png';
+import Link from '@material-ui/core/Link';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'1rem',
+        letterSpacing:'1px',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});  
 
 export const Kinjo02 = () => {
+
+    const classes = useStyles();
 
     return(
         <React.Fragment>
@@ -64,7 +81,11 @@ export const Kinjo02 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
-                                    Firstly, we used Similar Web to analyze the original 
+                                    Firstly, we used &nbsp;
+                                    <Link href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' underline='none' className={classes.link}> 
+                                        Similar Web 
+                                    </Link>
+                                    &nbsp;to analyze the original 
                                     website and we found that about 67% of visits were from 
                                     organic search, which means high brand awareness. However
                                     , customers can only get limited information from blogger 
@@ -117,7 +138,10 @@ export const Kinjo02 = () => {
                                     <br/><br/>
                                     We provided some selected design references to the client. 
                                     After discussion, we defined the design direction to focus 
-                                    on storytelling like the brand motto, A Memory to Remember. 
+                                    on&nbsp; 
+                                    <span style={{fontWeight:700}}>storytelling</span> 
+                                    &nbsp;like the brand motto,&nbsp;
+                                    <span style={{fontWeight:700}}>A Memory to Remember</span>. 
                                     From online experience to products and workshops, we would 
                                     like customers to feel the brand from the heart and keep it 
                                     as a beautiful memory in mind.
@@ -133,7 +157,11 @@ export const Kinjo02 = () => {
                     <Grid item xs={10} md={6} style={{textAlign:'center'}}>
                         <img src={kinjo08} style={{width:'100%'}}/>
                         <span className={styles.caption}>
-                            We used Eagle (Left) to collect ideas and inspiration and shared 
+                            We used&nbsp; 
+                            <Link href='https://en.eagle.cool/' underline='none' className={classes.link}> 
+                                Eagle (Left)
+                            </Link>
+                            &nbsp;to collect ideas and inspiration and shared 
                             our research notes on Confluence (Right).
                         </span>
                     </Grid>

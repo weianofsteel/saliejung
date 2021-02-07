@@ -9,6 +9,7 @@ import kinjo13 from '../../../public/kinjo/kinjo13.png';
 import kinjo14 from '../../../public/kinjo/kinjo14.png';
 import kinjo15 from '../../../public/kinjo/kinjo15.png';
 import { Carousel } from '../../Public/Carousel.js';
+import dot from '../../../public/dot.png';
 
 export const Kinjo03 = () => {
 
@@ -59,20 +60,61 @@ export const Kinjo03 = () => {
                                 <span className={styles.designHighlightContent}>
                                     By interviewed the client and some potential customers, we 
                                     concluded the user stories to multiple scenarios:
-                                    <ul>
-                                        <li>
-                                            I want to make two rings at once, so I reserve two courses for only one customer.
-                                        </li>
-                                        <li>
-                                            I want to send my friend to join a course as a gift. Can I pay for the workshop without confirming the date?
-                                        </li>
-                                        <li>
-                                            I am going to travel to Taiwan for five days. Unfortunately, there are no remaining seats. Can I call customer service to be on the waiting list?
-                                        </li>
-                                        <li>
-                                            If I only reserve the course, I do not have to fill out the address during checkout.
-                                        </li>
-                                    </ul>
+                                            
+                                    <Grid container style={{marginTop:'8%'}}>
+
+                                        <Grid item xs={12}>
+                                            <Grid container>
+                                                <Grid item xs={1} className={styles.dotAlign}>
+                                                    <img src={dot}/>
+                                                </Grid>
+                                                <Grid item xs={11}>
+                                                    <span className={styles.collectInsightContent}>
+                                                        I want to make two rings at once, so I reserve two courses for only one customer.                                                        </span>
+                                                        </Grid>
+                                                    </Grid>
+                                                </Grid>
+
+                                                <Grid item xs={12}>
+                                                    <Grid container>
+                                                        <Grid item xs={1} className={styles.dotAlign}>
+                                                            <img src={dot}/>
+                                                        </Grid>
+                                                        <Grid item xs={11}>
+                                                            <span className={styles.collectInsightContent}>
+                                                                I want to send my friend to join a course as a gift. Can I pay for the workshop without confirming the date?
+                                                            </span>
+                                                        </Grid>
+                                                    </Grid>
+                                                </Grid>
+
+                                                <Grid item xs={12}>
+                                                    <Grid container>
+                                                        <Grid item xs={1} className={styles.dotAlign}>
+                                                            <img src={dot}/>
+                                                        </Grid>
+                                                        <Grid item xs={11}>
+                                                            <span className={styles.collectInsightContent}>
+                                                                I am going to travel to Taiwan for five days. Unfortunately, there are no remaining seats. Can I call customer service to be on the waiting list?
+                                                            </span>
+                                                        </Grid>
+                                                    </Grid>
+                                                </Grid>
+
+                                                <Grid item xs={12}>
+                                                    <Grid container>
+                                                        <Grid item xs={1} className={styles.dotAlign}>
+                                                            <img src={dot}/>
+                                                        </Grid>
+                                                        <Grid item xs={11}>
+                                                            <span className={styles.collectInsightContent}>
+                                                                If I only reserve the course, I do not have to fill out the address during checkout.   
+                                                            </span>
+                                                        </Grid>
+                                                    </Grid>
+                                                </Grid>
+
+                                        </Grid>
                                     <br/><br/>
                                     However, the process and requirements are getting complicated. 
                                     It was necessary to simplify it and narrow down the scope. 
@@ -153,13 +195,13 @@ export const Kinjo03 = () => {
                                 <span className={styles.caption}>
                                     Course Landing Page
                                 </span>
-                                <img src={kinjo10} style={{width:'100%'}}/>
+                                <img src={kinjo10} style={{width:'100%',marginTop:'1rem'}}/>
                             </Grid>
                             <Grid item xs={6}>
                                 <span className={styles.caption}>
                                     Single Course Page
                                 </span>
-                                <img src={kinjo11} style={{width:'100%'}}/>
+                                <img src={kinjo11} style={{width:'100%',marginTop:'1rem'}}/>
                             </Grid>
                         </Grid>
                     </Grid>
@@ -269,7 +311,7 @@ export const Kinjo03 = () => {
                     <Grid item xs={1} md={3}></Grid>
                     <Grid item xs={10} md={6}>
                         <img src={kinjo15} style={{width:'100%'}}/>
-                        <span className={styles.caption}>
+                        <span className={styles.captionForKinjo}>
                             I researched other design systems for reference, such as Material 
                             Design (Google), Carbon Design System (IBM), Lightning Design System 
                             (Salesforce). Eventually, we organized the symbols on Airtable (Left) 

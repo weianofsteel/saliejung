@@ -20,6 +20,11 @@
     width: 100%;
 }
 
+.carouselImgForKinjo {
+    width: 100%;
+    box-shadow: rgb(0, 0, 0, 10%) 0px 2px 8px;
+}
+
 .captionContainer {
     padding-left: 4.5%;
     padding-right: 4.5%;

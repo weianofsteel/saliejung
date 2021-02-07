@@ -46,7 +46,7 @@ export const Process03 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Refine the details to close the gap
+                                    Refine the Details to Close the Gap
                                 </span>
                             </Grid>
 
@@ -106,7 +106,7 @@ export const Process03 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    More to be updated...
+                                    More to be Updated...
                                 </span>
                             </Grid>
 

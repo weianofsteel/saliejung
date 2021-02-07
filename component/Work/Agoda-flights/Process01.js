@@ -97,7 +97,7 @@ export const Process01 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    Collect insights from users
+                                    Collecting Insights from the Users
                                 </span>
                             </Grid>
 
