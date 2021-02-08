@@ -11,8 +11,6 @@ import moxaGif02 from '../../../public/gif/moxa02.gif';
 import moxaGif03 from '../../../public/gif/moxa03.gif';
 import moxaGif04 from '../../../public/gif/moxa04.gif';
 
-
-
 export const Moxa01 = () => {
     return(
         <React.Fragment>

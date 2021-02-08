@@ -8,6 +8,7 @@ import styles from '../../../css/Work.module.css';
 import Grid from '@material-ui/core/Grid';
 import { Moxa01 } from '../../../component/Work/Moxa/Moxa01';
 import { Moxa02 } from '../../../component/Work/Moxa/Moxa02';
+import { Moxa03 } from '../../../component/Work/Moxa/Moxa03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 
 const Page = () => {
@@ -50,6 +51,10 @@ const Page = () => {
 
                     <div>
                         <Moxa02/>
+                    </div>
+
+                    <div>
+                        <Moxa03/>
                     </div>
 
                     <div style={{marginTop:'6%'}}>
