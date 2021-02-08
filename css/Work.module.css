@@ -167,6 +167,7 @@
 
 .gallery1 {
     background-color: #F5F5F5;
+    box-shadow: rgb(0, 0, 0, 10%) 0px 2px 8px;
 }
 
 .imgDescription {
@@ -174,6 +175,14 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
+    color: #1F1F1F;
+}
+
+.imgDescription2 {
+    font-family: 'Roboto';
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
     color: #1F1F1F;
 }
 

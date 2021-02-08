@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/Work/Kinjo": "pages/Work/Kinjo.js",
-  "/Work/Vue": "pages/Work/Vue.js"
+  "/Work/Teamson": "pages/Work/Teamson.js",
+  "/Work/Gigbird": "pages/Work/Gigbird.js",
+  "/Work": "pages/Work.js",
+  "/Work/Moxa": "pages/Work/Moxa.js"
 }

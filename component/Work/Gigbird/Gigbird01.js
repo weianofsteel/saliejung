@@ -6,8 +6,26 @@ import gigbirdHeader from '../../../public/gigbird/gigbird-header.png';
 import gigbird01 from '../../../public/gigbird/gigbird01.png';
 import gigbird02 from '../../../public/gigbird/gigbird02.png';
 import gigbird03 from '../../../public/gigbird/gigbird03.png';
+import Link from '@material-ui/core/Link';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'0.85rem',
+        lineHeight: '20px',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});
 
 export const Gigbird01 = () => {
+
+    const classes = useStyles();
+
     return(
         <React.Fragment>
 
@@ -77,7 +95,11 @@ export const Gigbird01 = () => {
                             <span className={styles.contentTitle}>Team</span>
                             <br/>
                             <span className={styles.contentDetail}>
-                                Me (Design), Eve (Marketing), Vince (Development)
+                                Salie Chien (Design), Eve Chen (Marketing),&nbsp; 
+                                <Link href='https://www.vinceshao.com/works/gig-bird-music-calendar-app/' underline='none' className={classes.link}> 
+                                    Vince Shao
+                                </Link>
+                                (Development)
                             </span>
                         </Grid>
                         <Grid item xs={4}>

@@ -14,15 +14,25 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work/Kinjo": [
+    "/Work": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Kinjo.js"
+      "static/chunks/pages/Work.js"
     ],
-    "/Work/Vue": [
+    "/Work/Gigbird": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Vue.js"
+      "static/chunks/pages/Work/Gigbird.js"
+    ],
+    "/Work/Moxa": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Moxa.js"
+    ],
+    "/Work/Teamson": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Teamson.js"
     ],
     "/_app": [
       "static/chunks/main.js",

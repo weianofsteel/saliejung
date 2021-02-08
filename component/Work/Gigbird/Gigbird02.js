@@ -7,8 +7,26 @@ import gigbird05 from '../../../public/gigbird/gigbird05.png';
 import gigbird06 from '../../../public/gigbird/gigbird06.png';
 import gigbird07 from '../../../public/gigbird/gigbird07.png';
 import gigbird08 from '../../../public/gigbird/gigbird08.png';
+import Link from '@material-ui/core/Link';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'0.875rem',
+        lineHeight: '1.25rem',
+        paddingLeft:'2%',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});
 
 export const Gigbird02 = () => {
+
+    const classes = useStyles();
     
     return (
         <React.Fragment>
@@ -149,11 +167,15 @@ export const Gigbird02 = () => {
                         <Grid container style={{paddingLeft:'5%', paddingRight:'5%'}}>
                             <Grid item xs={12} md={6}>
                                 <img src={gigbird04} style={{width:'100%'}}/>
-                                <span className={styles.gigbirdCaption}>&nbsp;&nbsp;&nbsp;Genius</span>
+                                <Link href='https://genius.com/' underline='none' className={classes.link} style={{}}> 
+                                    Genius
+                                </Link>
                             </Grid>
                             <Grid item xs={12} md={6}>
                                 <img src={gigbird05} style={{width:'100%'}}/>
-                                <span className={styles.gigbirdCaption}>&nbsp;&nbsp;&nbsp;Eagle</span>
+                                <Link href='https://genius.com/' underline='none' className={classes.link}> 
+                                    Eagle
+                                </Link>
                             </Grid>
                         </Grid>
                     </Grid>

@@ -51,7 +51,7 @@ export const BottomNavbar = () => {
                                 </Grid>
                                 <Grid item xs={4} style={{textAlign:'center'}}>
                                     <span className={styles.link}>
-                                        <Link href="/Writing" underline='none' className={classes.link}>WRITINGS</Link>
+                                        <Link href="/Writings" underline='none' className={classes.link}>WRITINGS</Link>
                                     </span>
                                 </Grid>
                                 <Grid item xs={4} style={{textAlign:'right'}}>
@@ -77,7 +77,7 @@ export const BottomNavbar = () => {
                                 </Grid>
                                 <Grid item xs={4} style={{textAlign:'center'}}>
                                     <span className={styles.link}>
-                                        <Link href="/Writing" underline='none' className={classes.link2}>WRITINGS</Link>
+                                        <Link href="/Writings" underline='none' className={classes.link2}>WRITINGS</Link>
                                     </span>
                                 </Grid>
                                 <Grid item xs={4} style={{textAlign:'right'}}>

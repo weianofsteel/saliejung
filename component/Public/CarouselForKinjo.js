@@ -76,7 +76,7 @@ export const CarouselForKinjo = (props) => {
                             </Grid>
                             
                             <Grid item xs={6}>
-                                <span className={styles.imgDescription}>
+                                <span className={styles.imgDescription2}>
                                     {caption[carousel]}
                                 </span>
                             </Grid>

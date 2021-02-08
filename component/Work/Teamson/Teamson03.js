@@ -48,7 +48,7 @@ export const Teamson03 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightTitle}>
-                                    Sorts of Products with a Consist Style
+                                    Sorts of Products with a Consistent Style
                                 </span>
                             </Grid>
                             <Grid item xs={12}>
@@ -105,14 +105,14 @@ export const Teamson03 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
-                                    To solve the problem of hard search among hundreds of 
-                                    products, I worked hard on a better search experience. 
-                                    On the product list page, there are filters for product 
-                                    category and brand. Also, customers can sort products by 
-                                    price and name. On the single product page, there is 
-                                    sufficient information to know all the details, such as 
-                                    product specs, brand story, assembly instruction, and 
-                                    recommendations.
+                                    To improve the challenge of hard search among hundreds of 
+                                    products, I worked hard on a better search experience. On 
+                                    the product list page, there are filters for product category 
+                                    and brand. Also, customers can sort products by price and 
+                                    name. On the other hand, there is sufficient information 
+                                    to find the product specs, brand story, assembly instruction, 
+                                    and recommendations on the product detail page. The shopping 
+                                    experience becomes enjoyable with all the support.
                                 </span>
                             </Grid>
                         </Grid>
@@ -124,29 +124,29 @@ export const Teamson03 = () => {
                     <Grid item xs={6} md={3}>
                         <img src={teamson08} style={{width:'100%'}}/>
                         <br/><br/>
-                        <span className={styles.imgDescription}>
-                            &nbsp;Monthlys View
+                        <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
+                            Monthlys View
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson09} style={{width:'100%'}}/>
                         <br/><br/>
-                        <span className={styles.imgDescription}>
-                            &nbsp;Weekly View
+                        <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
+                            Weekly View
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson10} style={{width:'100%'}}/>
                         <br/><br/>
-                        <span className={styles.imgDescription}>
-                            &nbsp;Daily View
+                        <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
+                            Daily View
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson11} style={{width:'100%'}}/>
                         <br/><br/>
-                        <span className={styles.imgDescription}>
-                            &nbsp;Single Event
+                        <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
+                            Single Event
                         </span>
                     </Grid>
                 </Grid>

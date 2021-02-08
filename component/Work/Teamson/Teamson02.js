@@ -49,16 +49,16 @@ export const Teamson02 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightTitle}>
-                                    Movies are also Universal Languages
+                                    Figure out the Focus of the Project
                                 </span>
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
-                                    The client has a clear picture of the content 
-                                    for the new website, so we did not spend much 
-                                    time discussing the information structure. We 
-                                    just made the sitemap more complete with the 
-                                    sub-pages.
+                                    The client has a clear mind on the content for the new 
+                                    website. Therefore, we did not spend much time discussing 
+                                    the sitemap. We just made it more complete with the sub-pages. 
+                                    Speaking of the project scope, we estimate putting more effort 
+                                    into buyers' guide, brand pages, and membership management.
                                 </span>
                             </Grid>
                         </Grid>
