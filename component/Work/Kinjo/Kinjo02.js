@@ -13,7 +13,6 @@ const useStyles = makeStyles({
         fontWeight:400,
         color:'#8F8F8F',
         fontSize:'1rem',
-        letterSpacing:'1px',
         "&:hover":{
             color:'black'
         }
@@ -82,7 +81,12 @@ export const Kinjo02 = () => {
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
                                     Firstly, we used &nbsp;
-                                    <Link href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' underline='none' className={classes.link}> 
+                                    <Link 
+                                        href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' 
+                                        underline='none' 
+                                        className={classes.link}
+                                        target='_blank'
+                                    > 
                                         Similar Web 
                                     </Link>
                                     &nbsp;to analyze the original 
@@ -158,7 +162,12 @@ export const Kinjo02 = () => {
                         <img src={kinjo08} style={{width:'100%'}}/>
                         <span className={styles.caption}>
                             We used&nbsp; 
-                            <Link href='https://en.eagle.cool/' underline='none' className={classes.link}> 
+                            <Link 
+                                href='https://en.eagle.cool/' 
+                                underline='none' 
+                                className={classes.link}
+                                target='_blank'
+                            > 
                                 Eagle (Left)
                             </Link>
                             &nbsp;to collect ideas and inspiration and shared 

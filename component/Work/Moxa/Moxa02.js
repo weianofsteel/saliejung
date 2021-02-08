@@ -1,8 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
-import moxa01 from '../../../public/moxa/moxa01.png';
-import moxa02 from '../../../public/moxa/moxa02.jpg';
+import moxa03 from '../../../public/moxa/moxa03.png';
+import moxa04 from '../../../public/moxa/moxa04.png';
+import moxa05 from '../../../public/moxa/moxa05.png';
+import moxa06 from '../../../public/moxa/moxa06.png';
+import moxa07 from '../../../public/moxa/moxa07.png';
 import moxaGif01 from '../../../public/gif/moxa01.gif';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -13,7 +16,16 @@ const useStyles = makeStyles({
         fontWeight:400,
         color:'#8F8F8F',
         fontSize:'1rem',
-        letterSpacing:'1px',
+        "&:hover":{
+            color:'black'
+        }
+    },
+    linkCaption: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'0.875rem',
+        lineHeight:'1.25rem',
         "&:hover":{
             color:'black'
         }
@@ -80,6 +92,129 @@ export const Moxa02 = () => {
                                     website in the office for business purposes. Beyond that, 
                                     the new website will only focus on the English language. 
                                     It should be ready to face the global market.
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'4%'}} spacing={1}>
+
+                    <Grid item xs={1}></Grid>
+
+                    <Grid item xs={5}>
+                        <img src={moxa03} style={{width:'100%'}}/>
+                    </Grid>
+
+                    <Grid item xs={5}>
+                        <img src={moxa04} style={{width:'100%'}}/>
+                    </Grid>
+
+                    <Grid item xs={1}></Grid>
+
+                    <Grid item xs={1}></Grid>
+
+                    <Grid item xs={10} style={{marginTop:'-0.3rem'}}>
+                        <img src={moxa05} style={{width:'100%'}}/>
+                    </Grid>
+
+                    <Grid item xs={1}></Grid>
+
+                </Grid>
+
+                <Grid container style={{marginTop:'8%'}}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlight}>
+                                    COMPETITIVE ANALYSIS
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightTitle}>
+                                    Define the Look & Feel as an International Enterprise
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightContent}>
+                                    During the research phase, I checked many competitor websites 
+                                    like Cisco, Siemens & ABB. Their digital branding is not in a 
+                                    fancy or aesthetic style but focuses on the product and solution 
+                                    they offer. The most critical part is to explain their service 
+                                    clearly, which allows users easy to find their needs.
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'4%'}} spacing={2}>
+
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={5}>
+                        <img src={moxa06} style={{width:'100%'}}/>
+                    </Grid>
+                    <Grid item xs={5}>
+                        <img src={moxa07} style={{width:'100%'}}/>
+                    </Grid>
+                    <Grid item xs={1}></Grid>
+
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={5} style={{paddingLeft:'1%'}}>
+                        <span className={styles.imgDescription2}>
+                            <Link 
+                                href='https://www.siemens.com/global/en.html' 
+                                underline='none' 
+                                className={classes.linkCaption}
+                                target='_blank'
+                            > 
+                                Siemens
+                            </Link>
+                            &nbsp;is the largest industrial manufacturing company in Europe.
+                        </span>
+                    </Grid>
+                    <Grid item xs={5} style={{paddingLeft:'1%'}}>
+                        <span className={styles.imgDescription2}>
+                            <Link 
+                                href='https://www.cisco.com/c/en/us/index.html' 
+                                underline='none' 
+                                className={classes.linkCaption}
+                                target='_blank'
+                            > 
+                                Cisco
+                            </Link>
+                            &nbsp;develops, manufactures, and sells networking hardware and other high-technology services and products.
+                        </span>
+                    </Grid>
+                    <Grid item xs={1}></Grid>
+
+                </Grid>
+
+                <Grid container style={{marginTop:'8%'}}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlight}>
+                                    RESEARCH
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightTitle}>
+                                    Clarify the Function of the Website Fundamentally
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightContent}>
+                                    Every website starts from a site map, which is a clear picture 
+                                    to identify the project focus and analyze the scope. Moxa has 
+                                    six main parts, which also means six departments to define the 
+                                    angle and business purpose. Our mission is to integrate all the 
+                                    ideas and vision and deliver them into a consistent brand 
+                                    identity and user experience.
                                 </span>
                             </Grid>
                         </Grid>
