@@ -139,9 +139,9 @@ export const Kinjo02 = () => {
                                     We provided some selected design references to the client. 
                                     After discussion, we defined the design direction to focus 
                                     on&nbsp; 
-                                    <span style={{fontWeight:700}}>storytelling</span> 
+                                    <span className={styles.boldContent}>storytelling</span> 
                                     &nbsp;like the brand motto,&nbsp;
-                                    <span style={{fontWeight:700}}>A Memory to Remember</span>. 
+                                    <span className={styles.boldContent}>A Memory to Remember</span>. 
                                     From online experience to products and workshops, we would 
                                     like customers to feel the brand from the heart and keep it 
                                     as a beautiful memory in mind.
