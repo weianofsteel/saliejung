@@ -1,6 +1,7 @@
 import React from 'react';
 import { ServerStyleSheets } from '@material-ui/styles';
 import Document, {Html, Head, Main, NextScript} from 'next/document';
+import og from '../public/open-graph.jpg'
 
 class MyDocument extends Document {
     
@@ -11,6 +12,15 @@ class MyDocument extends Document {
                 <Head>
                     
                     <link rel="shortcut icon" href="/titleIcon.png"/>
+
+                    {/* <meta property="og:url" content="your url" /> */}
+                    <meta property="og:type" content="website" />
+                    {/* <meta property="og:title" content={photo?.title} /> */}
+                    <meta
+                        property="og:description"
+                        content="I am Salie, a product designer who strives to make people enjoy the digital world."
+                    />
+                    <meta property="og:image" content={og} />
 
                     {/* Google analytics */}
                     <script

@@ -1,6 +1,5 @@
 import '../css/main.css'
 import Head from 'next/head'
-import og from '../public/open-graph.jpg'
 
 const App = ({ Component, pageProps }) => {
     
@@ -8,9 +7,8 @@ const App = ({ Component, pageProps }) => {
         <React.Fragment>
 
             <Head>
+                
                 <title>Salie Chien | UX Designer</title>
-
-                <meta property="og:title" content={og} key="ogtitle" />
 
             </Head>
     
