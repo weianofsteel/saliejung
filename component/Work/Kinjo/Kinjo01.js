@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
-import kinjoHeader from '../../../public/kinjo/kinjo-header.png';
+import kinjoHeader from '../../../public/kinjo/kinjo-header.jpg';
 import { LearnMore } from '../../Public/LearnMore.js';
 import kinjo01 from '../../../public/kinjo/kinjo01.gif';
 import kinjo02 from '../../../public/kinjo/kinjo02.gif';

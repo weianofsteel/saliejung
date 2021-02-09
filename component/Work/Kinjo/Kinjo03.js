@@ -65,56 +65,56 @@ export const Kinjo03 = () => {
 
                                         <Grid item xs={12}>
                                             <Grid container>
-                                                <Grid item xs={1} className={styles.dotAlign}>
+                                                <Grid item xs={1} className={styles.dotAlignKinjo} style={{marginTop:'-0.2rem'}}>
                                                     <img src={dot}/>
                                                 </Grid>
                                                 <Grid item xs={11}>
                                                     <span className={styles.collectInsightContent}>
                                                         I want to make two rings at once, so I reserve two courses for only one customer.                                                        </span>
-                                                        </Grid>
-                                                    </Grid>
                                                 </Grid>
-
-                                                <Grid item xs={12}>
-                                                    <Grid container>
-                                                        <Grid item xs={1} className={styles.dotAlign}>
-                                                            <img src={dot}/>
-                                                        </Grid>
-                                                        <Grid item xs={11}>
-                                                            <span className={styles.collectInsightContent}>
-                                                                I want to send my friend to join a course as a gift. Can I pay for the workshop without confirming the date?
-                                                            </span>
-                                                        </Grid>
-                                                    </Grid>
-                                                </Grid>
-
-                                                <Grid item xs={12}>
-                                                    <Grid container>
-                                                        <Grid item xs={1} className={styles.dotAlign}>
-                                                            <img src={dot}/>
-                                                        </Grid>
-                                                        <Grid item xs={11}>
-                                                            <span className={styles.collectInsightContent}>
-                                                                I am going to travel to Taiwan for five days. Unfortunately, there are no remaining seats. Can I call customer service to be on the waiting list?
-                                                            </span>
-                                                        </Grid>
-                                                    </Grid>
-                                                </Grid>
-
-                                                <Grid item xs={12}>
-                                                    <Grid container>
-                                                        <Grid item xs={1} className={styles.dotAlign}>
-                                                            <img src={dot}/>
-                                                        </Grid>
-                                                        <Grid item xs={11}>
-                                                            <span className={styles.collectInsightContent}>
-                                                                If I only reserve the course, I do not have to fill out the address during checkout.   
-                                                            </span>
-                                                        </Grid>
-                                                    </Grid>
-                                                </Grid>
-
+                                            </Grid>
                                         </Grid>
+
+                                        <Grid item xs={12}>
+                                            <Grid container>
+                                                <Grid item xs={1} className={styles.dotAlignKinjo} style={{marginTop:'-0.2rem'}}>
+                                                    <img src={dot}/>
+                                                </Grid>
+                                                <Grid item xs={11}>
+                                                    <span className={styles.collectInsightContent}>
+                                                        I want to send my friend to join a course as a gift. Can I pay for the workshop without confirming the date?
+                                                    </span>
+                                                </Grid>
+                                            </Grid>
+                                        </Grid>
+
+                                        <Grid item xs={12}>
+                                            <Grid container>
+                                                <Grid item xs={1} className={styles.dotAlignKinjo} style={{marginTop:'-0.2rem'}}>
+                                                    <img src={dot}/>
+                                                </Grid>
+                                                <Grid item xs={11}>
+                                                    <span className={styles.collectInsightContent}>
+                                                        I am going to travel to Taiwan for five days. Unfortunately, there are no remaining seats. Can I call customer service to be on the waiting list?
+                                                    </span>
+                                                </Grid>
+                                            </Grid>
+                                        </Grid>
+
+                                        <Grid item xs={12}>
+                                            <Grid container>
+                                                <Grid item xs={1} className={styles.dotAlignKinjo} style={{marginTop:'-0.2rem'}}>
+                                                    <img src={dot}/>
+                                                </Grid>
+                                                <Grid item xs={11}>
+                                                    <span className={styles.collectInsightContent}>
+                                                        If I only reserve the course, I do not have to fill out the address during checkout.   
+                                                    </span>
+                                                </Grid>
+                                            </Grid>
+                                        </Grid>
+
+                                    </Grid>
                                     <br/><br/>
                                     However, the process and requirements are getting complicated. 
                                     It was necessary to simplify it and narrow down the scope. 
@@ -311,12 +311,12 @@ export const Kinjo03 = () => {
                     <Grid item xs={1} md={3}></Grid>
                     <Grid item xs={10} md={6}>
                         <img src={kinjo15} style={{width:'100%'}}/>
-                        <span className={styles.captionForKinjo}>
+                        <p className={styles.captionForKinjo}>
                             I researched other design systems for reference, such as Material 
                             Design (Google), Carbon Design System (IBM), Lightning Design System 
                             (Salesforce). Eventually, we organized the symbols on Airtable (Left) 
                             and took documentation on Confluence (Right).
-                        </span>
+                        </p>
                     </Grid>
                     <Grid item xs={1} md={3}></Grid>
                 </Grid>

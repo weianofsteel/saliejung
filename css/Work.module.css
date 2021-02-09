@@ -398,6 +398,8 @@
     font-weight: 400;
     line-height: 1.25rem;
     color: #1F1F1F;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .nextStep {
@@ -406,6 +408,10 @@
     font-weight: 400;
     line-height: 1.875rem;
     color: #1F1F1F;
+}
+
+.dotAlignKinjo {
+    text-align: center;
 }
 
 /* ./component/Work/Kinjo */
