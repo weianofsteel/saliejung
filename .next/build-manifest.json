@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/Work/Moxa": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/Work/Moxa.js"
+    ],
     "/Work/Teamson": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",

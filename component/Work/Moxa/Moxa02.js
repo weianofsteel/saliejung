@@ -6,7 +6,10 @@ import moxa04 from '../../../public/moxa/moxa04.png';
 import moxa05 from '../../../public/moxa/moxa05.png';
 import moxa06 from '../../../public/moxa/moxa06.png';
 import moxa07 from '../../../public/moxa/moxa07.png';
-import moxaGif01 from '../../../public/gif/moxa01.gif';
+import moxa08 from '../../../public/moxa/moxa08.png';
+import moxa09 from '../../../public/moxa/moxa09.jpg';
+import moxa10 from '../../../public/moxa/moxa10.jpg';
+import moxa11 from '../../../public/moxa/moxa11.jpg';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -220,6 +223,76 @@ export const Moxa02 = () => {
                         </Grid>
                     </Grid>
                     <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'4%'}}>
+                    <Grid item xs={1}></Grid>
+                    <Grid item xs={10}>
+                        <img src={moxa08} style={{width:'100%'}}/>
+                    </Grid>
+                    <Grid item xs={1}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'1%'}}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.imgDescription2}>
+                                    The site map
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'8%'}}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                        <Grid container spacing={3} className={styles.content}>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlight}>
+                                    DESIGN PROPOSAL & INTERVIEW
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightTitle}>
+                                    Reveal the Key Factor behind the curtain
+                                </span>
+                            </Grid>
+                            <Grid item xs={12}>
+                                <span className={styles.designHighlightContent}>
+                                    At the beginning of the design phase, we have half-day 
+                                    discussion sessions with some departments. It was a great 
+                                    chance to understand Moxa better with direct feedback. That 
+                                    was also our first time seeing the actual product that Moxa 
+                                    develops and produces, which is hard for a designer to imagine. 
+                                    I feel it's not a cold object but a functional helper to 
+                                    improve our life everywhere around us.
+                                </span>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+                <Grid container style={{marginTop:'2%'}}>
+                    <Grid item xs={1} md={2}></Grid>
+                    <Grid item xs={10} md={8}>
+                        <Grid container spacing={1}>
+                            <Grid item xs={4}>
+                                <img src={moxa09} style={{width:'100%',maxHeight:'80%'}}/>
+                            </Grid>
+                            <Grid item xs={4}>
+                                <img src={moxa10} style={{width:'100%',maxHeight:'80%'}}/>
+                            </Grid>
+                            <Grid item xs={4}>
+                                <img src={moxa11} style={{width:'100%',maxHeight:'80%'}}/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid item xs={1} md={2}></Grid>
                 </Grid>
 
             </div>
