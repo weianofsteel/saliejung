@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work/Kinjo": [
+    "/": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Kinjo.js"
+      "static/chunks/pages/index.js"
     ],
-    "/Work/Moxa": [
+    "/Work/Teamson": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Moxa.js"
+      "static/chunks/pages/Work/Teamson.js"
     ],
     "/_app": [
       "static/chunks/main.js",
@@ -33,6 +33,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
