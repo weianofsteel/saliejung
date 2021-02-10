@@ -17,7 +17,6 @@ const useStyles = makeStyles({
         fontWeight:400,
         color:'#8F8F8F',
         fontSize:'1rem',
-        letterSpacing:'1px',
         "&:hover":{
             color:'black'
         }
@@ -215,7 +214,12 @@ export const Vue03 = () => {
                                     the digital experience in South Asia. Most of the online 
                                     experience is old-style and hard to use, except for some 
                                     websites such as&nbsp;
-                                    <Link href='https://in.bookmyshow.com/explore/home/mumbai' underline='none' className={classes.link}> 
+                                    <Link 
+                                        href='https://in.bookmyshow.com/explore/home/mumbai' 
+                                        underline='none' 
+                                        className={classes.link}
+                                        target="_blank"
+                                    > 
                                         BookMyShow  
                                     </Link> 
                                     &nbsp;in India. We took the chance and 

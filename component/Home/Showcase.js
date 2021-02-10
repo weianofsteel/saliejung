@@ -99,12 +99,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox1On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box1===true?'':
-                                <img src={showcasecap01} className={box1===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box1===true?
                                 <img src={showcase01} className={box1===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap01} className={box1===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>
@@ -115,12 +114,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox2On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box2===true?'':
-                                <img src={showcasecap02} className={box2===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box2===true?
                                 <img src={showcase02} className={box2===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap02} className={box2===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>     
@@ -134,12 +132,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox3On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box3===true?'':
-                                <img src={showcasecap03} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box3===true?
                                 <img src={showcase03} className={box3===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap03} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>
@@ -150,12 +147,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox4On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box4===true?'':
-                                <img src={showcasecap04} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box4===true?
                                 <img src={showcase04} className={box4===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap04} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>     
@@ -169,12 +165,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox5On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box5===true?'':
-                                <img src={showcasecap05} className={box5===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box5===true?
                                 <img src={showcase05} className={box5===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap05} className={box5===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>
@@ -185,12 +180,11 @@ export const Showcase = () => {
                             onMouseEnter={handleBox6On}
                             onMouseLeave={handleMouseLeave}
                         >
-                            {box6===true?'':
-                                <img src={showcasecap06} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
                             {box6===true?
                                 <img src={showcase06} className={box6===true?'':classes.img1} style={{width:'100%'}}/>
-                            :''}
+                            :
+                                <img src={showcasecap06} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
                         </div>
                     </Link>
                 </Grid>     

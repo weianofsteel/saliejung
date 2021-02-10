@@ -96,7 +96,12 @@ export const Gigbird01 = () => {
                             <br/>
                             <span className={styles.contentDetail}>
                                 Salie Chien (Design), Eve Chen (Marketing),&nbsp; 
-                                <Link href='https://www.vinceshao.com/works/gig-bird-music-calendar-app/' underline='none' className={classes.link}> 
+                                <Link 
+                                    href='https://www.vinceshao.com/works/gig-bird-music-calendar-app/' 
+                                    underline='none' 
+                                    className={classes.link}
+                                    target="_blank"
+                                > 
                                     Vince Shao
                                 </Link>
                                 (Development)

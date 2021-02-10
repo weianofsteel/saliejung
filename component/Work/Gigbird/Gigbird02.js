@@ -167,13 +167,23 @@ export const Gigbird02 = () => {
                         <Grid container style={{paddingLeft:'5%', paddingRight:'5%'}}>
                             <Grid item xs={12} md={6}>
                                 <img src={gigbird04} style={{width:'100%'}}/>
-                                <Link href='https://genius.com/' underline='none' className={classes.link} style={{}}> 
+                                <Link 
+                                    href='https://genius.com/' 
+                                    underline='none' 
+                                    className={classes.link} 
+                                    target="_blank"
+                                > 
                                     Genius
                                 </Link>
                             </Grid>
                             <Grid item xs={12} md={6}>
                                 <img src={gigbird05} style={{width:'100%'}}/>
-                                <Link href='https://genius.com/' underline='none' className={classes.link}> 
+                                <Link 
+                                    href='https://genius.com/' 
+                                    underline='none' 
+                                    className={classes.link}
+                                    target="_blank"
+                                > 
                                     Eagle
                                 </Link>
                             </Grid>

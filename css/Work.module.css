@@ -49,7 +49,7 @@
     margin-top: 0;
 }
 
-.capImage {
+/* .capImage {
     animation: fadeIn ease 0.5s;
     -webkit-animation: fadeIn ease 0.5s;
 }
@@ -70,7 +70,7 @@
     to {
       opacity: 1;
     }
-}
+} */
 
 /* ./component/Work/Showcase.js */
 
