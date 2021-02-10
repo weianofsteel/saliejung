@@ -14,13 +14,13 @@ class MyDocument extends Document {
                     <link rel="shortcut icon" href="/titleIcon.png"/>
 
                     {/* <meta property="og:url" content="your url" /> */}
-                    <meta property="og:type" content="website" />
+                    {/* <meta property="og:type" content="website" /> */}
                     {/* <meta property="og:title" content={photo?.title} /> */}
-                    <meta
+                    {/* <meta
                         property="og:description"
                         content="I am Salie, a product designer who strives to make people enjoy the digital world."
                     />
-                    <meta property="og:image" content={og} />
+                    <meta property="og:image" content={og} /> */}
 
                     {/* Google analytics */}
                     <script
