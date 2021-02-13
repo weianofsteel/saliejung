@@ -30,7 +30,7 @@ const Page = () => {
                 description="Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here."
                 openGraph={{
                     url: 'https://saliejung.com/Work/Agoda-design',
-                    title: 'Agoda-design',
+                    title: 'Agoda Design | Salie Chien — Product Designer',
                     description: 'Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here.',
                     images: [
                       {
