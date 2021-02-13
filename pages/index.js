@@ -9,6 +9,7 @@ import Funfacts from '../component/Home/Funfacts.js';
 import styles from '../css/Home.module.css';
 import { Drawer } from '../component/Public/Drawer.js';
 import { PageLoader } from '../component/Public/PageLoader.js';
+import { NextSeo } from 'next-seo';
 
 const Index = () => {
 
@@ -25,6 +26,25 @@ const Index = () => {
     return(
         <React.Fragment>
         
+            <NextSeo
+                title="Salie Chien — Product Designer | Portfolio"
+                description="Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing."
+                openGraph={{
+                    url: 'https://saliejung.com',
+                    title: 'Agoda-design',
+                    description: 'Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing.',
+                    images: [
+                      {
+                        url: '/open-graph.jpg',
+                        width: 800,
+                        height: 600,
+                        alt: 'Salie Chien — Product Designer',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                 {/* title & menu */}

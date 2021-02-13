@@ -8,7 +8,7 @@ const App = ({ Component, pageProps }) => {
 
             <Head>
                 
-                <title>Salie Chien | UX Designer</title>
+                <title>Salie Chien | Product Designer</title>
 
             </Head>
     
