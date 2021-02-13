@@ -10,6 +10,7 @@ import { Teamson01 } from '../../../component/Work/Teamson/Teamson01';
 import { Teamson02 } from '../../../component/Work/Teamson/Teamson02';
 import { Teamson03 } from '../../../component/Work/Teamson/Teamson03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
+import { NextSeo } from 'next-seo';
 
 const Page = () => {
 
@@ -27,6 +28,25 @@ const Page = () => {
 
         <React.Fragment>
 
+            <NextSeo
+                title="Teamson Furniture | Salie Chien — Product Designer"
+                description="As a famous design furniture brand based in the U.S.A, Teamson has a great market portion on Amazon and Wayfair since 1997. To launch an ambitious new online experience, they decided to combine all of their brands by meeting their 10th anniversary."
+                openGraph={{
+                    url: 'https://saliejung.com/Work/Teamson',
+                    title: 'Teamson Furniture | Salie Chien — Product Designer',
+                    description: 'As a famous design furniture brand based in the U.S.A, Teamson has a great market portion on Amazon and Wayfair since 1997. To launch an ambitious new online experience, they decided to combine all of their brands by meeting their 10th anniversary.',
+                    images: [
+                      {
+                        url: '/teamson/teamson-header.png',
+                        width: 800,
+                        height: 600,
+                        alt: 'Teamson Furniture',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                     

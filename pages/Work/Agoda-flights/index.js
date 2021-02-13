@@ -6,6 +6,7 @@ import { Drawer } from '../../../component/Public/Drawer.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js'; 
 import Grid from '@material-ui/core/Grid';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
+import { NextSeo } from 'next-seo';
 
 const Page = () => {
 
@@ -22,6 +23,25 @@ const Page = () => {
     return(
         <React.Fragment>
 
+            <NextSeo
+                title="Agoda Flights | Salie Chien — Product Designer"
+                description="Seat selection is one of the core features for Agoda Flights. Not to mention that it is a sophisticated project, we also have a high dependency on the supplier to define the scope and confirm the data they could provide. Therefore, we launched the feature with the free selection that certainly reduces the risk of implementation."
+                openGraph={{
+                    url: 'https://saliejung.com/Work/Agoda-flights',
+                    title: 'Agoda Flights | Salie Chien — Product Designer',
+                    description: 'Seat selection is one of the core features for Agoda Flights. Not to mention that it is a sophisticated project, we also have a high dependency on the supplier to define the scope and confirm the data they could provide. Therefore, we launched the feature with the free selection that certainly reduces the risk of implementation.',
+                    images: [
+                      {
+                        url: '/agoda-flights/flight-header.png',
+                        width: 800,
+                        height: 600,
+                        alt: 'Agoda Flights',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                     

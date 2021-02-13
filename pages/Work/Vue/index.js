@@ -10,6 +10,7 @@ import { Vue01 } from '../../../component/Work/Vue/Vue01';
 import { Vue02 } from '../../../component/Work/Vue/Vue02';
 import { Vue03 } from '../../../component/Work/Vue/Vue03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
+import { NextSeo } from 'next-seo';
 
 const Page = () => {
 
@@ -27,6 +28,25 @@ const Page = () => {
 
         <React.Fragment>
 
+            <NextSeo
+                title="VUE Movie Database | Salie Chien — Product Designer"
+                description="As a product based in Taiwan, the object turns out to curate the largest movie database in Mandarin, the IMDb in Asia. We also aim to create a better UI & UX design comparing to IMDb 90s style."
+                openGraph={{
+                    url: 'https://saliejung.com/Work/Vue',
+                    title: 'VUE Movie Database | Salie Chien — Product Designer',
+                    description: "As a product based in Taiwan, the object turns out to curate the largest movie database in Mandarin, the IMDb in Asia. We also aim to create a better UI & UX design comparing to IMDb 90s style.",
+                    images: [
+                      {
+                        url: '/vue/vue-header.png',
+                        width: 800,
+                        height: 600,
+                        alt: 'VUE Movie Database',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                     

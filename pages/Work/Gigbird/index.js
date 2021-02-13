@@ -11,6 +11,7 @@ import { Gigbird01 } from '../../../component/Work/Gigbird/Gigbird01';
 import { Gigbird02 } from '../../../component/Work/Gigbird/Gigbird02';
 import { Gigbird03 } from '../../../component/Work/Gigbird/Gigbird03';
 import gigbirdHeader from '../../../public/gigbird/gigbird-header.png';
+import { NextSeo } from 'next-seo';
 
 const Page = () => {
 
@@ -28,6 +29,25 @@ const Page = () => {
 
         <React.Fragment>
 
+            <NextSeo
+                title="Gig Bird | Salie Chien — Product Designer"
+                description="Gig Bird is a music event calendar iOS app in Taiwan. As the lead designer, my job is not only to make the logo or design layouts. I spent more time sharing and discussing my idea with the team. Besides, I took this chance to practice my UX skills and methods, learn by doing."
+                openGraph={{
+                    url: 'https://saliejung.com/Work/Gigbird',
+                    title: 'Gig Bird | Salie Chien — Product Designer',
+                    description: 'Gig Bird is a music event calendar iOS app in Taiwan. As the lead designer, my job is not only to make the logo or design layouts. I spent more time sharing and discussing my idea with the team. Besides, I took this chance to practice my UX skills and methods, learn by doing.',
+                    images: [
+                      {
+                        url: '/gigbird/gigbird-header.png',
+                        width: 800,
+                        height: 600,
+                        alt: 'Gig Bird',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                     

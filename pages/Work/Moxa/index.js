@@ -10,6 +10,7 @@ import { Moxa01 } from '../../../component/Work/Moxa/Moxa01';
 import { Moxa02 } from '../../../component/Work/Moxa/Moxa02';
 import { Moxa03 } from '../../../component/Work/Moxa/Moxa03';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
+import { NextSeo } from 'next-seo';
 
 const Page = () => {
 
@@ -27,6 +28,25 @@ const Page = () => {
 
         <React.Fragment>
 
+            <NextSeo
+                title="MOXA Technologies | Salie Chien — Product Designer"
+                description="Founded in Taiwan for more than 30 years, Moxa is a leading provider of industrial networking to help customers enable connectivity for the IIoT. The goal for this project is to revamp the original website, integrating all the information, products, and PR content. We aim to give the brand a new digital image with consistent language and improve the experience to fulfill customers' needs to increase the conversion rate."
+                openGraph={{
+                    url: 'https://saliejung.com/Work/Moxa',
+                    title: 'MOXA Technologies | Salie Chien — Product Designer',
+                    description: "Founded in Taiwan for more than 30 years, Moxa is a leading provider of industrial networking to help customers enable connectivity for the IIoT. The goal for this project is to revamp the original website, integrating all the information, products, and PR content. We aim to give the brand a new digital image with consistent language and improve the experience to fulfill customers' needs to increase the conversion rate.",
+                    images: [
+                      {
+                        url: '/moxa/moxa-header.png',
+                        width: 800,
+                        height: 600,
+                        alt: 'MOXA Technologies',
+                      }
+                    ],
+                    site_name: 'Salie Chien — Product Designer',
+                  }}
+            />
+            
             {drawer == false ?
                 <React.Fragment>
                     
