@@ -38,7 +38,7 @@ const Page = () => {
                         alt: 'Agoda Flights',
                       }
                     ],
-                    site_name: 'Salie Chien — Product Designer',
+                    site_name: 'Agoda Flights | Salie Chien — Product Designer',
                   }}
             />
             
