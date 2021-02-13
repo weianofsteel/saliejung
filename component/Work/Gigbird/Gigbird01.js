@@ -104,7 +104,7 @@ export const Gigbird01 = () => {
                                 > 
                                     Vince Shao
                                 </Link>
-                                (Development)
+                                &nbsp;(Development)
                             </span>
                         </Grid>
                         <Grid item xs={4}>

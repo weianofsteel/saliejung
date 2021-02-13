@@ -12,7 +12,7 @@ const useStyles = makeStyles({
         fontFamily:'Roboto',
         fontWeight:400,
         color:'#8F8F8F',
-        fontSize:'1rem',
+        fontSize:'1.1rem',
         "&:hover":{
             color:'black'
         }
@@ -80,7 +80,7 @@ export const Kinjo02 = () => {
                             </Grid>
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
-                                    Firstly, we used &nbsp;
+                                    Firstly, we used&nbsp;
                                     <Link 
                                         href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' 
                                         underline='none' 

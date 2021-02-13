@@ -70,11 +70,12 @@ export const Kinjo03 = () => {
                                                 </Grid>
                                                 <Grid item xs={11}>
                                                     <span className={styles.collectInsightContent}>
-                                                        I want to make two rings at once, so I reserve two courses for only one customer.                                                        </span>
+                                                        I want to make two rings at once, so I reserve two courses for only one customer.                                                        
+                                                    </span>
+                                                    <br/><br/>
                                                 </Grid>
                                             </Grid>
                                         </Grid>
-
                                         <Grid item xs={12}>
                                             <Grid container>
                                                 <Grid item xs={1} className={styles.dotAlignKinjo} style={{marginTop:'-0.2rem'}}>
@@ -84,6 +85,7 @@ export const Kinjo03 = () => {
                                                     <span className={styles.collectInsightContent}>
                                                         I want to send my friend to join a course as a gift. Can I pay for the workshop without confirming the date?
                                                     </span>
+                                                    ]<br/><br/>
                                                 </Grid>
                                             </Grid>
                                         </Grid>
@@ -97,6 +99,7 @@ export const Kinjo03 = () => {
                                                     <span className={styles.collectInsightContent}>
                                                         I am going to travel to Taiwan for five days. Unfortunately, there are no remaining seats. Can I call customer service to be on the waiting list?
                                                     </span>
+                                                    <br/><br/>
                                                 </Grid>
                                             </Grid>
                                         </Grid>

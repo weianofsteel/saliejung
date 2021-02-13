@@ -125,28 +125,28 @@ export const Teamson03 = () => {
                         <img src={teamson08} style={{width:'100%'}}/>
                         <br/>
                         <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
-                            Monthlys View
+                            Product Detail Page
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson09} style={{width:'100%'}}/>
                         <br/>
                         <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
-                            Weekly View
+                            Product Category & Filters
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson10} style={{width:'100%'}}/>
                         <br/>
                         <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
-                            Daily View
+                            Shopping Cart
                         </span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={teamson11} style={{width:'100%'}}/>
                         <br/>
                         <span className={styles.imgDescription2} style={{paddingLeft:'3%'}}>
-                            Single Event
+                            Recommendations
                         </span>
                     </Grid>
                 </Grid>

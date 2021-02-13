@@ -179,7 +179,7 @@ export const Gigbird02 = () => {
                             <Grid item xs={12} md={6}>
                                 <img src={gigbird05} style={{width:'100%'}}/>
                                 <Link 
-                                    href='https://genius.com/' 
+                                    href='https://eagle.cool/' 
                                     underline='none' 
                                     className={classes.link}
                                     target="_blank"
