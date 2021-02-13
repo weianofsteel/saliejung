@@ -18,7 +18,7 @@ const useStyles = makeStyles({
         fontFamily:'Roboto',
         fontWeight:400,
         color:'#8F8F8F',
-        fontSize:'1rem',
+        fontSize:'1.1rem',
         "&:hover":{
             color:'black'
         }
@@ -85,7 +85,12 @@ export const Moxa02 = () => {
                             <Grid item xs={12}>
                                 <span className={styles.designHighlightContent}>
                                     During the kickoff, we used an online tool,&nbsp; 
-                                    <Link href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' underline='none' className={classes.link}> 
+                                    <Link 
+                                        href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' 
+                                        underline='none' 
+                                        className={classes.link}
+                                        target='_blank'
+                                    > 
                                         Similar Web 
                                     </Link>
                                     , to analyze the original website. We found out over 70% of 

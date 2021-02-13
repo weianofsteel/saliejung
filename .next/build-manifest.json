@@ -19,10 +19,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/Work/Kinjo.js"
     ],
-    "/Work/Teamson": [
+    "/Work/Moxa": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Teamson.js"
+      "static/chunks/pages/Work/Moxa.js"
     ],
     "/_app": [
       "static/chunks/main.js",

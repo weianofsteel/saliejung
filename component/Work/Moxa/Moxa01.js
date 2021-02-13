@@ -10,8 +10,25 @@ import moxaGif01 from '../../../public/gif/moxa01.gif';
 import moxaGif02 from '../../../public/gif/moxa02.gif';
 import moxaGif03 from '../../../public/gif/moxa03.gif';
 import moxaGif04 from '../../../public/gif/moxa04.gif';
+import { makeStyles } from '@material-ui/core/styles';
+import Link from '@material-ui/core/Link';
+
+const useStyles = makeStyles({
+    link: {
+        fontFamily:'Roboto',
+        fontWeight:400,
+        color:'#8F8F8F',
+        fontSize:'1.1rem',
+        "&:hover":{
+            color:'black'
+        }
+    }
+});  
 
 export const Moxa01 = () => {
+    
+    const classes = useStyles();
+
     return(
         <React.Fragment>
 
@@ -49,11 +66,29 @@ export const Moxa01 = () => {
                 <Grid item xs={12} md={6}>
                     <p className={styles.article}>
                         <span className={styles.boldContent}>CONTEXT&nbsp;&nbsp;</span>
-                        Founded in Taiwan for more than 30 years, Moxa is a leading 
+                        Founded in Taiwan for more than 30 years,&nbsp; 
+                        <Link 
+                            href='https://www.moxa.com/en/' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            Moxa 
+                        </Link> 
+                        &nbsp;is a leading 
                         provider of industrial networking, computing, and automation 
                         solutions to help customers enable connectivity for the Industrial 
                         Internet of Technology (IIoT). Before this project, we had worked on 
-                        some campaign landing page for Moxa. This time, they want to achieve 
+                        some campaign landing page for&nbsp; 
+                        <Link 
+                            href='https://www.moxa.com/en/' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            Moxa 
+                        </Link>
+                        . This time, they want to achieve 
                         a greater goal - revamping the original official website, integrating 
                         all the information, products, and PR contents on the new site. We aim 
                         to give the brand a new digital image with consistent language across 
@@ -61,8 +96,46 @@ export const Moxa01 = () => {
                         increase the conversion rate. 
                         <br/><br/>
                         <span className={styles.boldContent}>CHALLENGE&nbsp;&nbsp;</span>
-                        You can tell by the product line that Moxa is a big corporation 
-                        like Siemens, Cisco, or HPE. It certainly took more time to 
+                        You can tell by the product line that&nbsp; 
+                        <Link 
+                            href='https://www.moxa.com/en/' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            Moxa 
+                        </Link> 
+                        &nbsp;is a big corporation 
+                        like&nbsp;
+                        <Link 
+                            href='https://www.siemens.com/global/en.html' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            Siemens 
+                        </Link> 
+                        ,&nbsp; 
+                        <Link 
+                            href='https://www.cisco.com/c/en/us/index.html' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            Cisco 
+                        </Link>
+                        , 
+                        or&nbsp;
+                        <Link 
+                            href='https://www.hpe.com/us/en/home.html' 
+                            underline='none' 
+                            className={classes.link}
+                            target='_blank'
+                        > 
+                            HPE 
+                        </Link>
+                        . 
+                        It certainly took more time to 
                         communicate with different sectors. We even need to have final 
                         confirmation of the homepage design from the senior management. 
                         That's the main reason why it took more than a year for the 
