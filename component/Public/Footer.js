@@ -42,7 +42,7 @@ export const Footer = () => {
                 </Grid>
                 <Grid item xs={12} md={5}>
                     <div className={styles.footerLeftTitle}>
-                        Open to new opportunities
+                        OPEN TO NEW OPPORTUNITIES
                     </div>
                     <span className={styles.footerLeftContent}>
                         saliejung47@gmail.com
@@ -75,7 +75,7 @@ export const Footer = () => {
             <Grid container spacing={1} className={styles.footerBlock2}>
                 <Grid item xs={12}>
                     <span className={styles.copyright}>
-                        Designed by Chien ShengJung © 2020 all rights reserve 
+                        Designed by Chien ShengJung © 2021 all rights reserve 
                     </span>
                 </Grid>
                 <Grid item xs={12}>
