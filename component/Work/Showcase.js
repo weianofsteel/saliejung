@@ -9,6 +9,7 @@ import showcase04 from '../../public/showcase/showcase04.png';
 import showcase05 from '../../public/showcase/showcase05.png';
 import showcase06 from '../../public/showcase/showcase06.png';
 import showcase07 from '../../public/showcase/showcase07.png';
+import showcase08 from '../../public/showcase/showcase08.jpg';
 import showcasecap01 from '../../public/showcase/showcasecap01.png';
 import showcasecap02 from '../../public/showcase/showcasecap02.png';
 import showcasecap03 from '../../public/showcase/showcasecap03.png';
@@ -16,7 +17,9 @@ import showcasecap04 from '../../public/showcase/showcasecap04.png';
 import showcasecap05 from '../../public/showcase/showcasecap05.png';
 import showcasecap06 from '../../public/showcase/showcasecap06.png';
 import showcasecap07 from '../../public/showcase/showcasecap07.png';
+import showcasecap08 from '../../public/showcase/showcasecap08.jpg';
 import { makeStyles } from '@material-ui/core/styles';
+import Hidden from '@material-ui/core/Hidden';
 
 const useStyles = makeStyles({
     imgBox: {
@@ -203,21 +206,41 @@ export const Showcase = () => {
             </Grid>
 
             <Grid container className={classes.showcaseBlock} spacing={1}>
-                <Grid item xs={12}>
-                    <Link href='/Work/Teamson' underline='none' style={{textAlign:'center'}}>
-                        <div 
-                            className={box7===true?classes.imgBox:classes.imgBoxOnHover}
-                            onMouseEnter={handleBox7On}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            {box7===true?
-                                <img src={showcase07} className={box7===true?'':classes.img1} style={{width:'100%'}}/>
-                            :
-                                <img src={showcasecap07} className={box7===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
-                        </div>
-                    </Link>
-                </Grid>
+                <Hidden smDown>
+                    <Grid item xs={12}>
+                        <Link href='/Work/Teamson' underline='none' style={{textAlign:'center'}}>
+                            <div 
+                                className={box7===true?classes.imgBox:classes.imgBoxOnHover}
+                                onMouseEnter={handleBox7On}
+                                onMouseLeave={handleMouseLeave}
+                            >
+                                {box7===true?
+                                    <img src={showcase07} className={box7===true?'':classes.img1} style={{width:'100%'}}/>
+                                :
+                                    <img src={showcasecap07} className={box7===false?styles.capImage:''} style={{width:'100%'}}/>
+                                }
+                            </div>
+                        </Link>
+                    </Grid>
+                </Hidden>
+
+                <Hidden mdUp>
+                    <Grid item xs={12}>
+                        <Link href='/Work/Teamson' underline='none' style={{textAlign:'center'}}>
+                            <div 
+                                className={box7===true?classes.imgBox:classes.imgBoxOnHover}
+                                onMouseEnter={handleBox7On}
+                                onMouseLeave={handleMouseLeave}
+                            >
+                                {box7===true?
+                                    <img src={showcase08} className={box7===true?'':classes.img1} style={{width:'100%'}}/>
+                                :
+                                    <img src={showcasecap08} className={box7===false?styles.capImage:''} style={{width:'100%'}}/>
+                                }
+                            </div>
+                        </Link>
+                    </Grid>       
+                </Hidden>
                
             </Grid>
 
