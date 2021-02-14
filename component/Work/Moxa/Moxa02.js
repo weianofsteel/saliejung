@@ -86,7 +86,7 @@ export const Moxa02 = () => {
                                 <span className={styles.designHighlightContent}>
                                     During the kickoff, we used an online tool,&nbsp; 
                                     <Link 
-                                        href='https://pro.similarweb.com/#/companyresearch/websiteanalysis/overview/website-performance/kinjo.co/*/764/2020.01-2020.03?webSource=Total' 
+                                        href='https://pro.similarweb.com/#/website/worldwide-overview/moxa.com/*/999/2020.10-2020.12?webSource=Total' 
                                         underline='none' 
                                         className={classes.link}
                                         target='_blank'
