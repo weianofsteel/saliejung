@@ -1,12 +1,13 @@
 import React from 'react';
+import { Header } from '../../../component/Public/Header.js';
 import { Footer } from '../../../component/Public/Footer.js';
 import styles from '../../../css/Work.module.css';
-import Secure from '../../../component/Work/Agoda-flights/Secure.js';
 import { Drawer } from '../../../component/Public/Drawer.js';
 import { Scrollup } from '../../../component/Public/Scrollup.js'; 
 import Grid from '@material-ui/core/Grid';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 import { NextSeo } from 'next-seo';
+import { AgodaFlights } from '../../../component/Work/Agoda-flights/AgodaFlights.js';
 
 const Page = () => {
 
@@ -47,8 +48,8 @@ const Page = () => {
                     
                     <PageLoader/>
                     
-                    <div>
-                        <Secure
+                    <div className={styles.header}>
+                        <Header
                             handleDrawerOpen={handleDrawerOpen}
                         />
                     </div>
@@ -59,6 +60,10 @@ const Page = () => {
                             <Scrollup/>
                         </Grid>
                     </Grid>
+
+                    <div>
+                        <AgodaFlights/>
+                    </div>
 
                     <div className={styles.footer}>
                         <Footer/>

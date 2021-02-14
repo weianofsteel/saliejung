@@ -106,14 +106,15 @@ export const Process03 = () => {
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisTitle2}>
-                                    More to be Updated...
+                                    Introduce the Core Flight Feature to Customers
                                 </span>
                             </Grid>
 
                             <Grid item xs={12}>
                                 <span className={styles.competitiveAnalysisContent}>
-                                    The project is still implementing, performance result will be updated 
-                                    afterward.
+                                    After we launched the feature for A/B testing, over 16K users have interacted with it within one week. And we still look for more suppliers to join to offer more options. Although we reached a few people, we found only 5.02% of the users complete the flow for selecting seats. One assumption is that we place the "done" the CTA to finish the flow to the last segment on purpose. We force users to go through all the flight segments to increase the touchpoint that says some people might ignore it and fail to select the seats. Another assumption is that most of our bookings are domestic and low-cost carriers now. The need to choose seats are not crucial to customers.
+                                    <br/><br/><br/>
+                                    *Due to confidential restriction, please reach out for more details.
                                 </span>
                             </Grid>
                         </Grid>
