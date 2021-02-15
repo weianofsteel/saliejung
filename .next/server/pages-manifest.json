@@ -3,5 +3,8 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/Work": "pages/Work.js",
-  "/Work/Agoda-design": "pages/Work/Agoda-design.js"
+  "/Work/Agoda-design": "pages/Work/Agoda-design.js",
+  "/Work/Agoda-flights-save-passenger": "pages/Work/Agoda-flights-save-passenger.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/": "pages/index.js"
 }

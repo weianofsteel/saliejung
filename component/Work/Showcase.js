@@ -10,6 +10,8 @@ import showcase05 from '../../public/showcase/showcase05.png';
 import showcase06 from '../../public/showcase/showcase06.png';
 import showcase07 from '../../public/showcase/showcase07.png';
 import showcase08 from '../../public/showcase/showcase08.jpg';
+import showcase09 from '../../public/showcase/showcase09.jpg';
+import showcase10 from '../../public/showcase/showcase10.jpg';
 import showcasecap01 from '../../public/showcase/showcasecap01.png';
 import showcasecap02 from '../../public/showcase/showcasecap02.png';
 import showcasecap03 from '../../public/showcase/showcasecap03.png';
@@ -18,6 +20,8 @@ import showcasecap05 from '../../public/showcase/showcasecap05.png';
 import showcasecap06 from '../../public/showcase/showcasecap06.png';
 import showcasecap07 from '../../public/showcase/showcasecap07.png';
 import showcasecap08 from '../../public/showcase/showcasecap08.jpg';
+import showcasecap09 from '../../public/showcase/showcasecap09.jpg';
+import showcasecap10 from '../../public/showcase/showcasecap10.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 import Hidden from '@material-ui/core/Hidden';
 
@@ -65,6 +69,8 @@ export const Showcase = () => {
 
     const [ box7, setBox7] = React.useState(true);
 
+    const [ box8, setBox8] = React.useState(true);
+
     const handleBox1On = () => {
         setBox1(false);
     }
@@ -93,6 +99,10 @@ export const Showcase = () => {
         setBox7(false);
     }
 
+    const handleBox8On = () => {
+        setBox8(false);
+    }
+
     const handleMouseLeave = () => {
         setBox1(true);
         setBox2(true);
@@ -101,6 +111,7 @@ export const Showcase = () => {
         setBox5(true);
         setBox6(true);
         setBox7(true);
+        setBox8(true);
     }
     
     return(
@@ -133,6 +144,39 @@ export const Showcase = () => {
                                 <img src={showcase02} className={box2===true?'':classes.img1} style={{width:'100%'}}/>
                             :
                                 <img src={showcasecap02} className={box2===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
+                        </div>
+                    </Link>
+                </Grid>     
+            </Grid>
+
+            <Grid container className={classes.showcaseBlock} spacing={1}>
+                <Grid item xs={12} md={7}>
+                    <Link href='/Work/Agoda-product-marketing' underline='none'>
+                        <div 
+                            className={box8===true?classes.imgBox:classes.imgBoxOnHover}
+                            onMouseEnter={handleBox8On}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            {box8===true?
+                                <img src={showcase09} className={box8===true?'':classes.img1} style={{width:'100%'}}/>
+                            :
+                                <img src={showcasecap09} className={box8===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
+                        </div>
+                    </Link>
+                </Grid>
+                <Grid item xs={12} md={5}>
+                    <Link href='/Work/Agoda-flights-save-passenger' underline='none' style={{textAlign:'center'}}>
+                        <div 
+                            className={box6===true?classes.imgBox:classes.imgBoxOnHover}
+                            onMouseEnter={handleBox6On}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            {box6===true?
+                                <img src={showcase10} className={box6===true?'':classes.img1} style={{width:'100%'}}/>
+                            :
+                                <img src={showcasecap10} className={box6===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                         </div>
                     </Link>

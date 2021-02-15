@@ -5,14 +5,14 @@ import showcase01 from '../../public/showcase/showcase01.png';
 import showcase02 from '../../public/showcase/showcase02.png';
 import showcase03 from '../../public/showcase/showcase03.png';
 import showcase04 from '../../public/showcase/showcase04.png';
-import showcase05 from '../../public/showcase/showcase05.png';
-import showcase06 from '../../public/showcase/showcase06.png';
+import showcase09 from '../../public/showcase/showcase09.jpg';
+import showcase10 from '../../public/showcase/showcase10.jpg';
 import showcasecap01 from '../../public/showcase/showcasecap01.png';
 import showcasecap02 from '../../public/showcase/showcasecap02.png';
 import showcasecap03 from '../../public/showcase/showcasecap03.png';
 import showcasecap04 from '../../public/showcase/showcasecap04.png';
-import showcasecap05 from '../../public/showcase/showcasecap05.png';
-import showcasecap06 from '../../public/showcase/showcasecap06.png';
+import showcasecap09 from '../../public/showcase/showcasecap09.jpg';
+import showcasecap10 from '../../public/showcase/showcasecap10.jpg';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -123,6 +123,39 @@ export const Showcase = () => {
                     </Link>
                 </Grid>     
             </Grid>
+
+            <Grid container className={classes.showcaseBlock} spacing={1}>
+                <Grid item xs={12} md={7}>
+                    <Link href='/Work/Agoda-product-marketing' underline='none'>
+                        <div 
+                            className={box5===true?classes.imgBox:classes.imgBoxOnHover}
+                            onMouseEnter={handleBox5On}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            {box5===true?
+                                <img src={showcase09} className={box5===true?'':classes.img1} style={{width:'100%'}}/>
+                            :
+                                <img src={showcasecap09} className={box5===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
+                        </div>
+                    </Link>
+                </Grid>
+                <Grid item xs={12} md={5}>
+                    <Link href='/Work/Agoda-flights-save-passenger' underline='none' style={{textAlign:'center'}}>
+                        <div 
+                            className={box6===true?classes.imgBox:classes.imgBoxOnHover}
+                            onMouseEnter={handleBox6On}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            {box6===true?
+                                <img src={showcase10} className={box6===true?'':classes.img1} style={{width:'100%'}}/>
+                            :
+                                <img src={showcasecap10} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
+                            }
+                        </div>
+                    </Link>
+                </Grid>     
+            </Grid>
             
             <Grid container className={classes.showcaseBlock} spacing={1}>
                 <Grid item xs={12} md={6}>
@@ -151,39 +184,6 @@ export const Showcase = () => {
                                 <img src={showcase04} className={box4===true?'':classes.img1} style={{width:'100%'}}/>
                             :
                                 <img src={showcasecap04} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
-                        </div>
-                    </Link>
-                </Grid>     
-            </Grid>
-
-            <Grid container className={classes.showcaseBlock} spacing={1}>
-                <Grid item xs={12} md={7}>
-                    <Link href='/Work/Vue' underline='none'>
-                        <div 
-                            className={box5===true?classes.imgBox:classes.imgBoxOnHover}
-                            onMouseEnter={handleBox5On}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            {box5===true?
-                                <img src={showcase05} className={box5===true?'':classes.img1} style={{width:'100%'}}/>
-                            :
-                                <img src={showcasecap05} className={box5===false?styles.capImage:''} style={{width:'100%'}}/>
-                            }
-                        </div>
-                    </Link>
-                </Grid>
-                <Grid item xs={12} md={5}>
-                    <Link href='/Work/Gigbird' underline='none' style={{textAlign:'center'}}>
-                        <div 
-                            className={box6===true?classes.imgBox:classes.imgBoxOnHover}
-                            onMouseEnter={handleBox6On}
-                            onMouseLeave={handleMouseLeave}
-                        >
-                            {box6===true?
-                                <img src={showcase06} className={box6===true?'':classes.img1} style={{width:'100%'}}/>
-                            :
-                                <img src={showcasecap06} className={box3===false?styles.capImage:''} style={{width:'100%'}}/>
                             }
                         </div>
                     </Link>
