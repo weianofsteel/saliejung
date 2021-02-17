@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Work/Agoda-design": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Work/Agoda-design.js"
     ],
-    "/About": [
+    "/Work/Agoda-product-marketing": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/About.js"
+      "static/chunks/pages/Work/Agoda-product-marketing.js"
     ],
     "/_app": [
       "static/chunks/main.js",
@@ -33,11 +33,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []

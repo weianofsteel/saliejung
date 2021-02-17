@@ -99,7 +99,7 @@ export const Header = (props) => {
                                 </Link>
                             </span>
                             <span className={styles.link}>
-                                <Link href='./SalieChien_Resume.pdf' target='_blank' rel='noopener' underline='none' className={classes.link}>
+                                <Link href='/SalieChien_Resume.pdf' target='_blank' rel='noopener' underline='none' className={classes.link}>
                                     RESUME
                                 </Link>
                             </span>

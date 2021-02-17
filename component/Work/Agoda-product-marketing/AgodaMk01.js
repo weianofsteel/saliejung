@@ -2,6 +2,10 @@ import React, { useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
 import styles from '../../../css/Work.module.css';
 import agodaMkHeader from '../../../public/agodaMk/agodaMk-header.jpg';
+import { Carousel } from '../../Public/Carousel.js';
+import mk01 from '../../../public/gif/mk01.gif';
+import mk02 from '../../../public/gif/mk02.gif';
+import LockIcon from '@material-ui/icons/Lock';
 
 export const AgodaMk01 = () => {
 
@@ -18,13 +22,13 @@ export const AgodaMk01 = () => {
             </Grid>
 
             <Grid container style={{marginTop:"5%"}}>
-                <Grid item xs={3} md={5}></Grid>
-                <Grid item xs={6} md={2}>
+                <Grid item xs={1} md={4}></Grid>
+                <Grid item xs={10} md={4}>
                     <div className={styles.title2}>
                         Agoda Product Marketing    
                     </div>
                 </Grid>     
-                <Grid item xs={3} md={5}></Grid>
+                <Grid item xs={1} md={4}></Grid>
             </Grid>
 
             <Grid container>
@@ -77,6 +81,32 @@ export const AgodaMk01 = () => {
                 </Grid>     
                 <Grid item xs={false} md={3}></Grid>
             </Grid>
+
+            <div className={styles.progressMain} style={{padding:'4%'}}>
+                
+                <Carousel
+                    imgsrc={[mk01, mk02]}
+                    caption={[
+                        'The final direction we delivered.',
+                        "The prototype we went through during usability testing."
+                    ]}
+                />
+
+                <Grid container style={{marginTop:'5%'}}>
+                    <Grid item xs={false} md={3}></Grid>
+                    <Grid item xs={12} md={6}>
+                    <div style={{backgroundColor:'white', color:'black', padding:'0.5rem'}}>
+                        
+                        <LockIcon style={{marginTop:'1rem', marginLeft:'0.7rem'}}/>
+                        <p className={styles.articleMK} style={{marginTop:'-1.6rem', marginLeft:'2.2rem'}}>
+                            I’m able to share more details about the project privately.
+                        </p> 
+                    </div>
+                    </Grid>
+                    <Grid item xs={false} md={3}></Grid>
+                </Grid>
+
+            </div>
 
         </React.Fragment>
     )
