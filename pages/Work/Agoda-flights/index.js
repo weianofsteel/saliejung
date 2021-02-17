@@ -8,6 +8,7 @@ import Grid from '@material-ui/core/Grid';
 import { PageLoader } from '../../../component/Public/PageLoader.js';
 import { NextSeo } from 'next-seo';
 import { AgodaFlights } from '../../../component/Work/Agoda-flights/AgodaFlights.js';
+import Secure from '../../../component/Work/Agoda-flights/Secure';
 
 const Page = () => {
 
@@ -48,11 +49,11 @@ const Page = () => {
                     
                     <PageLoader/>
                     
-                    <div className={styles.header}>
+                    {/* <div className={styles.header}>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}
                         />
-                    </div>
+                    </div> */}
 
                     <Grid container style={{top:'90%',position:'fixed'}}>
                         <Grid item xs={8} sm={9} md={9} lg={10} xl={10}></Grid>
@@ -61,8 +62,12 @@ const Page = () => {
                         </Grid>
                     </Grid>
 
-                    <div>
+                    {/* <div>
                         <AgodaFlights/>
+                    </div> */}
+
+                    <div>
+                        <Secure/>
                     </div>
 
                     <div className={styles.footer}>
