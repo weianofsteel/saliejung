@@ -112,7 +112,12 @@ export const Aboutme = () => {
             <br/><br/>
 
             <div style={{marginTop:'5%'}}>
-                <Link underline='none' className={classes.link}>
+                <Link 
+                    underline='none' 
+                    className={classes.link}
+                    target='_blank'
+                    href='./SalieChien_Resume.pdf'
+                >
                     VIEW RESUME <OpenInNewIcon style={{fontSize:'inherit',marginBottom:'-0.2rem'}}/>
                 </Link>
             </div>

@@ -19,10 +19,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/index.js"
     ],
-    "/Work/Agoda-flights": [
+    "/About": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Agoda-flights.js"
+      "static/chunks/pages/About.js"
     ],
     "/_app": [
       "static/chunks/main.js",
@@ -33,6 +33,11 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
     ]
   },
   "ampFirstPages": []
