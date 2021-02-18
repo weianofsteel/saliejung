@@ -95,9 +95,9 @@ export const AgodaMk01 = () => {
                 <Grid container style={{marginTop:'5%'}}>
                     <Grid item xs={false} md={3}></Grid>
                     <Grid item xs={12} md={6}>
-                    <div style={{backgroundColor:'white', color:'black', padding:'0.5rem'}}>
+                    <div style={{backgroundColor:'white', color:'black', padding:'0.2rem'}}>
                         
-                        <LockIcon style={{marginTop:'1rem', marginLeft:'0.7rem'}}/>
+                        <LockIcon style={{marginTop:'1rem', marginLeft:'0.4rem'}}/>
                         <p className={styles.articleMK} style={{marginTop:'-1.6rem', marginLeft:'2.2rem'}}>
                             I’m able to share more details about the project privately.
                         </p> 
