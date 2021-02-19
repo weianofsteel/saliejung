@@ -14,10 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Work/Agoda-flights-save-passenger": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Work/Agoda-flights-save-passenger.js"
     ],
     "/Work/Agoda-product-marketing": [
       "static/chunks/main.js",
