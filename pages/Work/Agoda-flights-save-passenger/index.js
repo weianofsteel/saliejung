@@ -26,12 +26,12 @@ const Page = () => {
         <React.Fragment>
 
             <NextSeo
-                title="Agoda Flights | Salie Chien — Product Designer"
-                description="Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here."
+                title="Agoda Flights - Save Passenger Info | Salie Chien — Product Designer"
+                description="We found the drop off rate is higher than the accommodation side in the booking process. We assumed that the passenger details form might be the reason. Customers need to fill the form every time they come back since we don’t save anything in the account for later use."
                 openGraph={{
                     url: 'https://saliejung.com/Work/Agoda-flights-save-passenger',
-                    title: 'Agoda Flights | Salie Chien — Product Designer',
-                    description: 'Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here.',
+                    title: 'Agoda Flights - Save Passenger Info | Salie Chien — Product Designer',
+                    description: 'We found the drop off rate is higher than the accommodation side in the booking process. We assumed that the passenger details form might be the reason. Customers need to fill the form every time they come back since we don’t save anything in the account for later use.',
                     images: [
                       {
                         url: '/agoda-flights-save-passenger/agodaFlightsSavePassenger-header.jpg',

@@ -10,7 +10,7 @@ class MyDocument extends Document {
                 
                 <Head>
                     
-                    <link rel="shortcut icon" href="/titleIcon.png"/>
+                    <link rel="shortcut icon" href="/woman.png"/>
 
                     {/* Google analytics */}
                     <script

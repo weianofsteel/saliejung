@@ -2,5 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/Work/Agoda-product-marketing": "pages/Work/Agoda-product-marketing.js"
+  "/Work/Agoda-product-marketing": "pages/Work/Agoda-product-marketing.js",
+  "/": "pages/index.js"
 }
