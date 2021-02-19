@@ -26,12 +26,12 @@ const Page = () => {
         <React.Fragment>
 
             <NextSeo
-                title="Agoda Product Marketing | Salie Chien — Product Designer"
-                description="Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here."
+                title="Agoda Product Marketing - Secret Deals | Salie Chien — Product Designer"
+                description="This project is an enhancement project based on an existing feature, which we offer a super valuable offer without identifying the hotel name and room details. With the new deal with some hotels, we can display more information to help customers decide, and expect having more bookings."
                 openGraph={{
                     url: 'https://saliejung.com/Work/Agoda-product-marketing',
-                    title: 'Agoda Product Marketing | Salie Chien — Product Designer',
-                    description: 'Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here.',
+                    title: 'Agoda Product Marketing - Secret Deals | Salie Chien — Product Designer',
+                    description: 'This project is an enhancement project based on an existing feature, which we offer a super valuable offer without identifying the hotel name and room details. With the new deal with some hotels, we can display more information to help customers decide, and expect having more bookings.',
                     images: [
                       {
                         url: '/agodaMk/agodaMk-header.jpg',
