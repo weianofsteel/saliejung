@@ -10,7 +10,7 @@ class MyDocument extends Document {
                 
                 <Head>
                     
-                    <link rel="shortcut icon" href="/paint-palette.png"/>
+                    <link rel="shortcut icon" href="/icon.png"/>
 
                     {/* Google analytics */}
                     <script
