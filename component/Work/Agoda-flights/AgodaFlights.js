@@ -301,12 +301,7 @@ export const AgodaFlights = () => {
                                          Seat selection is a large-scale project with many 
                                          industry knowledge, business goal, and development 
                                          restriction to consider. I was grateful for the QA 
-                                         engineers being a trusting member of the team. The most 
-                                         satisfying experience I have for this project is building 
-                                         a strong relationship with QA engineers. Seat selection is 
-                                         a large-scale project with many industry knowledge, business 
-                                         goal, and development restriction to consider. I was grateful 
-                                         for the QA engineers being a trusting member of the team.
+                                         engineers being a trusting member of the team.
                                     </span>
                                 </Grid>
                             </Grid>
