@@ -14,15 +14,15 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Work/Agoda-design": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Work/Agoda-design.js"
     ],
-    "/Work/Agoda-flights": [
+    "/Work/Gigbird": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Agoda-flights.js"
+      "static/chunks/pages/Work/Gigbird.js"
     ],
     "/_app": [
       "static/chunks/main.js",

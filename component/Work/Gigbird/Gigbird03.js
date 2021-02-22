@@ -117,19 +117,19 @@ export const Gigbird03 = () => {
                 <Grid container style={{marginTop:'4%', paddingLeft:'6%', paddingRight:'6%'}} spacing={2}>
                     <Grid item xs={6} md={3}>
                         <img src={gigbird09} style={{width:'100%'}}/>
-                        <span className={styles.imgDescription}>&nbsp;Monthlys View</span>
+                        <span className={styles.imgDescription} style={{marginLeft:'0.6rem'}}>Monthlys View</span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={gigbird10} style={{width:'100%'}}/>
-                        <span className={styles.imgDescription}>&nbsp;Weekly View</span>
+                        <span className={styles.imgDescription} style={{marginLeft:'0.6rem'}}>Weekly View</span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={gigbird11} style={{width:'100%'}}/>
-                        <span className={styles.imgDescription}>&nbsp;Daily View</span>
+                        <span className={styles.imgDescription} style={{marginLeft:'0.6rem'}}>Daily View</span>
                     </Grid>
                     <Grid item xs={6} md={3}>
                         <img src={gigbird12} style={{width:'100%'}}/>
-                        <span className={styles.imgDescription}>&nbsp;Single Event</span>
+                        <span className={styles.imgDescription} style={{marginLeft:'0.6rem'}}>Single Event</span>
                     </Grid>
                 </Grid>
 
