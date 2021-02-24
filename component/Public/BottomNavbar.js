@@ -27,6 +27,17 @@ const useStyles = makeStyles({
         "&:hover":{
             color:'#8F8F8F'
         }
+    },
+    link3: {
+        fontFamily:'Roboto Slab',
+        fontWeight:400,
+        letterSpacing:'1px',
+        color:'black',
+        fontSize:'1rem',
+        lineHeight:'1.5rem',
+        "&:hover":{
+            color:'#8F8F8F'
+        }
     }
 });
 
@@ -65,7 +76,7 @@ export const BottomNavbar = () => {
                     </Grid>
                 </Hidden>
 
-                <Hidden lgUp>
+                <Hidden lgUp xsDown>
                     <Grid container spacing={1}>
                         <Grid item xs={false} sm={2}></Grid>
                         <Grid item xs={12} sm={8}>
@@ -88,6 +99,32 @@ export const BottomNavbar = () => {
                             </Grid>
                         </Grid>
                         <Grid item xs={false} sm={2}></Grid>
+                    </Grid>
+                </Hidden>
+
+                <Hidden smUp>
+                    <Grid container spacing={1}>
+                        <Grid item xs={false}></Grid>
+                        <Grid item xs={12}>
+                            <Grid container spacing={1}>
+                                <Grid item xs={4} style={{textAlign:'left'}}>
+                                    <span className={styles.link}>
+                                        <Link href="/Work" underline='none' className={classes.link3}>WORK</Link>
+                                    </span>
+                                </Grid>
+                                <Grid item xs={4} style={{textAlign:'center'}}>
+                                    <span className={styles.link}>
+                                        <Link href="/Writings" underline='none' className={classes.link3}>WRITINGS</Link>
+                                    </span>
+                                </Grid>
+                                <Grid item xs={4} style={{textAlign:'right'}}>
+                                    <span className={styles.link}>
+                                        <Link href="/About" underline='none' className={classes.link3}>ABOUT</Link>
+                                    </span>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item xs={false}></Grid>
                     </Grid>
                 </Hidden>
 

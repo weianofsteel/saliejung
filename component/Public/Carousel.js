@@ -27,7 +27,7 @@ export const Carousel = (props) => {
             setCarousel(carousel + 1);
         }else{
             setCarousel(0);
-        }   
+        }    
     }
 
     const handleCarouselLast = () => {
