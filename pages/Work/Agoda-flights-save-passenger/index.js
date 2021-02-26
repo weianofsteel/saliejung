@@ -34,7 +34,7 @@ const Page = () => {
                     description: 'We found the drop off rate is higher than the accommodation side in the booking process. We assumed that the passenger details form might be the reason. Customers need to fill the form every time they come back since we don’t save anything in the account for later use.',
                     images: [
                       {
-                        url: '/agoda-flights-save-passenger/agodaFlightsSavePassenger-header.jpg',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/agoda-flights-save-passenger/agodaFlightsSavePassenger-header.jpg',
                         width: 800,
                         height: 600,
                         alt: 'Agoda Flights',

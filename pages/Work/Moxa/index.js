@@ -37,7 +37,7 @@ const Page = () => {
                     description: "Founded in Taiwan for more than 30 years, Moxa is a leading provider of industrial networking to help customers enable connectivity for the IIoT. The goal for this project is to revamp the original website, integrating all the information, products, and PR content. We aim to give the brand a new digital image with consistent language and improve the experience to fulfill customers' needs to increase the conversion rate.",
                     images: [
                       {
-                        url: '/moxa/moxa-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/moxa/moxa-header.png',
                         width: 800,
                         height: 600,
                         alt: 'MOXA Technologies',

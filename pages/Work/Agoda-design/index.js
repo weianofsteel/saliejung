@@ -34,7 +34,7 @@ const Page = () => {
                     description: 'Joined the Agoda Design team is not only a career path but also a life-changing experience for me. The opportunities to work with people from many different cultures is challenging but engaging. Other than that, I want to share some memorable stories when I worked here.',
                     images: [
                       {
-                        url: '/agoda-design/design-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/agoda-design/design-header.png',
                         width: 800,
                         height: 600,
                         alt: 'Agoda-design',

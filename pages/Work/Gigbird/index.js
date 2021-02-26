@@ -38,7 +38,7 @@ const Page = () => {
                     description: 'Gig Bird is a music event calendar iOS app in Taiwan. As the lead designer, my job is not only to make the logo or design layouts. I spent more time sharing and discussing my idea with the team. Besides, I took this chance to practice my UX skills and methods, learn by doing.',
                     images: [
                       {
-                        url: '/gigbird/gigbird-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/gigbird/gigbird-header.png',
                         width: 800,
                         height: 600,
                         alt: 'Gig Bird',

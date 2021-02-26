@@ -37,7 +37,7 @@ const Page = () => {
                     description: 'With a 12-year history, KINJO is the top metalworking & workshop brand in Taiwan. The goal of this project is to build an e-commerce site. To collect customer data, manage orders, and reserve workshop online. Also, reshape their digital branding to improve the efficiency of their marketing strategy and sales.',
                     images: [
                       {
-                        url: '/kinjo/kinjo-header.jpg',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/kinjo/kinjo-header.jpg',
                         width: 800,
                         height: 600,
                         alt: 'KINJO Jewelry',

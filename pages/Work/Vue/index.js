@@ -37,7 +37,7 @@ const Page = () => {
                     description: "As a product based in Taiwan, the object turns out to curate the largest movie database in Mandarin, the IMDb in Asia. We also aim to create a better UI & UX design comparing to IMDb 90s style.",
                     images: [
                       {
-                        url: '/vue/vue-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/vue/vue-header.png',
                         width: 800,
                         height: 600,
                         alt: 'VUE Movie Database',

@@ -34,7 +34,7 @@ const Page = () => {
                     description: 'This project is an enhancement project based on an existing feature, which we offer a super valuable offer without identifying the hotel name and room details. With the new deal with some hotels, we can display more information to help customers decide, and expect having more bookings.',
                     images: [
                       {
-                        url: '/agodaMk/agodaMk-header.jpg',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/agodaMk/agodaMk-header.jpg',
                         width: 800,
                         height: 600,
                         alt: 'Agoda-product-marketing',

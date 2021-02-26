@@ -37,7 +37,7 @@ const Page = () => {
                     description: 'As a famous design furniture brand based in the U.S.A, Teamson has a great market portion on Amazon and Wayfair since 1997. To launch an ambitious new online experience, they decided to combine all of their brands by meeting their 10th anniversary.',
                     images: [
                       {
-                        url: '/teamson/teamson-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/teamson/teamson-header.png',
                         width: 800,
                         height: 600,
                         alt: 'Teamson Furniture',

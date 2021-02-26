@@ -34,7 +34,7 @@ const Page = () => {
                     description: 'Seat selection is one of the core features for Agoda Flights. Not to mention that it is a sophisticated project, we also have a high dependency on the supplier to define the scope and confirm the data they could provide. Therefore, we launched the feature with the free selection that certainly reduces the risk of implementation.',
                     images: [
                       {
-                        url: '/agoda-flights/flight-header.png',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/agoda-flights/flight-header.png',
                         width: 800,
                         height: 600,
                         alt: 'Agoda Flights',
