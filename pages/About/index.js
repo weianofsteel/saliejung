@@ -7,6 +7,8 @@ import { Aboutme } from '../../component/About/Aboutme.js';
 import { Drawer } from '../../component/Public/Drawer.js';
 import { PageLoader } from '../../component/Public/PageLoader.js';
 import { NextSeo } from 'next-seo';
+import Head from 'next/head'
+import openGraph from '../../public/open-graph.jpg';
 
 const About = () => {
 
@@ -23,7 +25,15 @@ const About = () => {
     return(
         <React.Fragment>
 
-            <NextSeo
+            <Head>
+                <meta property="og:url" content={'https://saliejung.com/About'} key="ogurl" />
+                <meta property="og:image" content={openGraph} key="ogimage" />
+                <meta property="og:site_name" content={'Salie Chien — Product Designer'} key="ogsitename" />
+                <meta property="og:title" content={"About | Salie Chien — Product Designer"} key="ogtitle" />
+                <meta property="og:description" content={"Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing."} key="ogdesc" />
+            </Head>
+            
+            {/* <NextSeo
                 title="About | Salie Chien — Product Designer"
                 description="Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing."
                 openGraph={{
@@ -40,7 +50,7 @@ const About = () => {
                     ],
                     site_name: 'Salie Chien — Product Designer',
                   }}
-            />
+            /> */}
             
             {drawer == false ?
                 <div style={{backgroundColor:'#F5F5F5'}}>
