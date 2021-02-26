@@ -35,7 +35,7 @@ const Page = () => {
                 openGraph={{
                     url: 'https://saliejung.com/Work/Gigbird',
                     title: 'Gig Bird | Salie Chien — Product Designer',
-                    description: 'Gig Bird is a music event calendar iOS app in Taiwan. As the lead designer, my job is not only to make the logo or design layouts. I spent more time sharing and discussing my idea with the team. Besides, I took this chance to practice my UX skills and methods, learn by doing.',
+                    description: 'Gig Bird is a music event calendar iOS app in Taiwan. As the lead designer, my job is not only to make the logo or design layouts. Besides, I took this chance to practice my UX skills and methods, learn by doing.',
                     images: [
                       {
                         url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/gigbird/gigbird-header.png',
