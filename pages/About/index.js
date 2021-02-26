@@ -7,7 +7,6 @@ import { Aboutme } from '../../component/About/Aboutme.js';
 import { Drawer } from '../../component/Public/Drawer.js';
 import { PageLoader } from '../../component/Public/PageLoader.js';
 import { NextSeo } from 'next-seo';
-import Head from 'next/head'
 
 const About = () => {
 

@@ -31,7 +31,7 @@ const Writings = () => {
                     description: 'Before becoming a designer, I was a social media editor that have created hundreds of articles. Now I still enjoy writing about my experience as an expat, designer, and observer. Follow me on Medium to check more updates.',
                     images: [
                       {
-                        url: '/open-graph.jpg',
+                        url: 'https://raw.githubusercontent.com/weianofsteel/saliejung/master/public/open-graph.jpg',
                         width: 800,
                         height: 600,
                         alt: 'Salie Chien — Product Designer',
