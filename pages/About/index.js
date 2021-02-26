@@ -24,18 +24,19 @@ const About = () => {
     return(
         <React.Fragment>
 
-            <Head>
+            {/* <Head>
                 <meta property="og:url" content={'https://saliejung.com/About'} key="ogurl" />
                 <meta property="og:image" content={'https://github.com/weianofsteel/saliejung/blob/master/public/open-graph.jpg'} key="ogimage" />
                 <meta property="og:site_name" content={'Salie Chien — Product Designer'} key="ogsitename" />
                 <meta property="og:title" content={"About2 | Salie Chien — Product Designer"} key="ogtitle" />
                 <meta property="og:description" content={"Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing."} key="ogdesc" />
-            </Head>
+            </Head> */}
             
-            {/* <NextSeo
+            <NextSeo
                 title="About | Salie Chien — Product Designer"
                 description="Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing."
                 openGraph={{
+                    type: 'website',
                     url: 'https://saliejung.com/About',
                     title: 'About | Salie Chien — Product Designer',
                     description: 'Salie Chien is a product designer currently working at Agoda based in Bangkok. She has created digital products since 2016, striving to make people enjoy the digital world through memorable, useful, and friendly experiences. She worked on Agoda Flights for the next level and curating a better experience for Product Marketing.',
@@ -49,7 +50,7 @@ const About = () => {
                     ],
                     site_name: 'Salie Chien — Product Designer',
                   }}
-            /> */}
+            />
             
             {drawer == false ?
                 <div style={{backgroundColor:'#F5F5F5'}}>
