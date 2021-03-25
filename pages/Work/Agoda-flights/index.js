@@ -49,11 +49,11 @@ const Page = () => {
                     
                     <PageLoader/>
                     
-                    {/* <div className={styles.header}>
+                    <div className={styles.header}>
                         <Header
                             handleDrawerOpen={handleDrawerOpen}
                         />
-                    </div> */}
+                    </div>
 
                     <Grid container style={{top:'90%',position:'fixed'}}>
                         <Grid item xs={8} sm={9} md={9} lg={10} xl={10}></Grid>
@@ -62,12 +62,8 @@ const Page = () => {
                         </Grid>
                     </Grid>
 
-                    {/* <div>
-                        <AgodaFlights/>
-                    </div> */}
-
                     <div>
-                        <Secure/>
+                        <AgodaFlights/>
                     </div>
 
                     <div className={styles.footer}>
