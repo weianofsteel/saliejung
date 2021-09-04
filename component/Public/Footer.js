@@ -86,6 +86,7 @@ export const Footer = () => {
                             target='_blank'
                             underline='none' 
                             className={classes.copyright}
+                            rel='noopener'
                         >
                             &nbsp;Wang WeiAn
                         </Link>
