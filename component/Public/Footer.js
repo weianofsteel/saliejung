@@ -80,7 +80,15 @@ export const Footer = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <span className={styles.copyright}>
-                        Developed by <Link underline='none' className={classes.copyright}>Wang WeiAn</Link>
+                        Developed by 
+                        <Link
+                            href='https://weianofsteel.com/' 
+                            target='_blank'
+                            underline='none' 
+                            className={classes.copyright}
+                        >
+                            &nbsp;Wang WeiAn
+                        </Link>
                     </span>
                 </Grid>
             </Grid>

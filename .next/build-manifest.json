@@ -14,15 +14,10 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
-    "/Work": [
+    "/": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/Work.js"
-    ],
-    "/Work/Agoda-design": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/Work/Agoda-design.js"
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
       "static/chunks/main.js",
